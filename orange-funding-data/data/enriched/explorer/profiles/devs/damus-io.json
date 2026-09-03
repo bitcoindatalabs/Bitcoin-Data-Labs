@@ -1,0 +1,15 @@
+{
+  "type": "developer",
+  "name": "William Casarin",
+  "github": "damus-io",
+  "notes": "",
+  "description": "A nostr client for iOS with Lightning zaps, relay transparency, and web-of-trust filtering.",
+  "grants": [
+    {
+      "sponsor": "OpenSats",
+      "project": "Damus",
+      "start_date": "2023-04",
+      "end_date": null
+    }
+  ]
+}

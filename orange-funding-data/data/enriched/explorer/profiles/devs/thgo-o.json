@@ -1,0 +1,42 @@
+{
+  "type": "developer",
+  "name": "thgO-O",
+  "github": "thgO-O",
+  "notes": "",
+  "description": null,
+  "grants": [
+    {
+      "sponsor": "Vinteum",
+      "project": "BtcPayServer",
+      "start_date": null,
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 16,
+    "layers_active": [
+      "Ecosystem Tooling"
+    ],
+    "languages": {
+      "C#": 346.5
+    },
+    "top_repos": [
+      {
+        "github_login": "thgO-O",
+        "repo_name": "btcpayserver/btcpayserver",
+        "push_events": 49,
+        "pr_events": 7,
+        "review_events": 8,
+        "issue_events": 11,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2025-03-17T17:12:19+00:00",
+        "last_activity": "2026-07-11T15:16:32+00:00",
+        "layer": "Ecosystem Tooling",
+        "contribution_score": 346.5,
+        "display_metric": 7,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

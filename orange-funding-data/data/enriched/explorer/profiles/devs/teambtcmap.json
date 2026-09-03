@@ -1,0 +1,15 @@
+{
+  "type": "developer",
+  "name": "BTC Map",
+  "github": "teambtcmap",
+  "notes": "",
+  "description": "",
+  "grants": [
+    {
+      "sponsor": "Spiral (Block/Square)",
+      "project": "Bitcoin Ecosystem",
+      "start_date": "Jan 2026",
+      "end_date": null
+    }
+  ]
+}

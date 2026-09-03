@@ -1,0 +1,3642 @@
+{
+  "nodes": [
+    {
+      "name": "Doc Sharp"
+    },
+    {
+      "name": "Chris Belcher"
+    },
+    {
+      "name": "stratospher"
+    },
+    {
+      "name": "Bruno Garcia"
+    },
+    {
+      "name": "Kelvin Isievwore"
+    },
+    {
+      "name": "utreexod"
+    },
+    {
+      "name": "Vinteum"
+    },
+    {
+      "name": "Shehu Muhammad Aliyu"
+    },
+    {
+      "name": "Octavio Lucca"
+    },
+    {
+      "name": "Splicing"
+    },
+    {
+      "name": "Bitcoin Babies"
+    },
+    {
+      "name": "Leon Johnson"
+    },
+    {
+      "name": "Frankline Omondi"
+    },
+    {
+      "name": "Sjors Provoost"
+    },
+    {
+      "name": "Brad Stachurski"
+    },
+    {
+      "name": "Bitcoin Zavior"
+    },
+    {
+      "name": "Bitcoin Ecosystem"
+    },
+    {
+      "name": "Bitmex"
+    },
+    {
+      "name": "Fabian Jahr"
+    },
+    {
+      "name": "Daniel Nordh"
+    },
+    {
+      "name": "Caio Ueda Sampaio (K-YU)"
+    },
+    {
+      "name": "Rajarshi Maitra"
+    },
+    {
+      "name": "Mit_Dci"
+    },
+    {
+      "name": "Krux"
+    },
+    {
+      "name": "Bitcoin Design Foundation"
+    },
+    {
+      "name": "Evan Lin"
+    },
+    {
+      "name": "GrapheneOS"
+    },
+    {
+      "name": "Bitaxe"
+    },
+    {
+      "name": "African UX Bitcoin Bootcamp"
+    },
+    {
+      "name": "Peter Tyonum"
+    },
+    {
+      "name": "Bitcoin for Fairness"
+    },
+    {
+      "name": "rust-bitcoin"
+    },
+    {
+      "name": "Ava Chow"
+    },
+    {
+      "name": "Ojok Emmanuel Nsubuga"
+    },
+    {
+      "name": "Alex Gleason"
+    },
+    {
+      "name": "Payjoin Dev Kit"
+    },
+    {
+      "name": "Damus"
+    },
+    {
+      "name": "Wladimir van der Laan"
+    },
+    {
+      "name": "Zapstore"
+    },
+    {
+      "name": "Thorbj\u00f8rn K\u00f6nig"
+    },
+    {
+      "name": "Uqlidi"
+    },
+    {
+      "name": "OpenCash Association"
+    },
+    {
+      "name": "Maurice Poirrier"
+    },
+    {
+      "name": "Matt Corallo"
+    },
+    {
+      "name": "Duncan Dean"
+    },
+    {
+      "name": "Abdullahi Yunus"
+    },
+    {
+      "name": "Cove"
+    },
+    {
+      "name": "Marco De Leon"
+    },
+    {
+      "name": "Michael Ariwaodo"
+    },
+    {
+      "name": "bitcoinfuzz"
+    },
+    {
+      "name": "Odudex and Tadeubas"
+    },
+    {
+      "name": "nym21"
+    },
+    {
+      "name": "Abiodun Awoyemi"
+    },
+    {
+      "name": "Spiral"
+    },
+    {
+      "name": "Josiah Baker"
+    },
+    {
+      "name": "Sulaiman Aminu Barkindo"
+    },
+    {
+      "name": "Andrei"
+    },
+    {
+      "name": "Soapbox"
+    },
+    {
+      "name": "Stable Channels"
+    },
+    {
+      "name": "hzrd149"
+    },
+    {
+      "name": "Pins"
+    },
+    {
+      "name": "Martin Saposnic"
+    },
+    {
+      "name": "Johns Beharry"
+    },
+    {
+      "name": "Ademan"
+    },
+    {
+      "name": "Stefan Hanreich"
+    },
+    {
+      "name": "Stephen DeLorme"
+    },
+    {
+      "name": "BTC Map"
+    },
+    {
+      "name": "Chuks Agbakuru"
+    },
+    {
+      "name": "Sean Giligan"
+    },
+    {
+      "name": "CoinSwap"
+    },
+    {
+      "name": "Cody Tseng"
+    },
+    {
+      "name": "Adi Shankara"
+    },
+    {
+      "name": "Vinicius Cestari"
+    },
+    {
+      "name": "Johannes Hofmann"
+    },
+    {
+      "name": "Blitz Wallet"
+    },
+    {
+      "name": "African Bitcoiners"
+    },
+    {
+      "name": "LDK"
+    },
+    {
+      "name": "Anthony Milton"
+    },
+    {
+      "name": "John Newbery"
+    },
+    {
+      "name": "Baltic Honeybadger"
+    },
+    {
+      "name": "Jesse Posner"
+    },
+    {
+      "name": "Cory Fields"
+    },
+    {
+      "name": "Nick Johnson"
+    },
+    {
+      "name": "Alexander Wiederin"
+    },
+    {
+      "name": "Jason A. Donenfeld"
+    },
+    {
+      "name": "Uchi Uchibeke"
+    },
+    {
+      "name": "cygnet3"
+    },
+    {
+      "name": "Ben Woosley"
+    },
+    {
+      "name": "Eugene Siegel"
+    },
+    {
+      "name": "Jemimah Nagasha"
+    },
+    {
+      "name": "Jumble"
+    },
+    {
+      "name": "Tadge Dryja"
+    },
+    {
+      "name": "GrapheneOS Foundation"
+    },
+    {
+      "name": "Franzap"
+    },
+    {
+      "name": "Bitcoin Atlantis"
+    },
+    {
+      "name": "Justin Moellar"
+    },
+    {
+      "name": "Stratum V2"
+    },
+    {
+      "name": "skot"
+    },
+    {
+      "name": "Andrew Toth"
+    },
+    {
+      "name": "Blockstream"
+    },
+    {
+      "name": "Mostro"
+    },
+    {
+      "name": "Bitshala"
+    },
+    {
+      "name": "Floresta"
+    },
+    {
+      "name": "Amber"
+    },
+    {
+      "name": "Jamal Errakibi"
+    },
+    {
+      "name": "NDK"
+    },
+    {
+      "name": "Allocz"
+    },
+    {
+      "name": "Lloyd Fournier"
+    },
+    {
+      "name": "Antoine Poinsot"
+    },
+    {
+      "name": "Area Bitcoin"
+    },
+    {
+      "name": "Victor Andr\u00e9"
+    },
+    {
+      "name": "Okjodom"
+    },
+    {
+      "name": "Anita Posch"
+    },
+    {
+      "name": "Hardcore_Fund"
+    },
+    {
+      "name": "Peer Observer"
+    },
+    {
+      "name": "Btrust"
+    },
+    {
+      "name": "PabloF7z"
+    },
+    {
+      "name": "256 Foundation"
+    },
+    {
+      "name": "Agora"
+    },
+    {
+      "name": "Secure Fountain Codes"
+    },
+    {
+      "name": "Ben Allen"
+    },
+    {
+      "name": "Hrf"
+    },
+    {
+      "name": "Luke Dashjr"
+    },
+    {
+      "name": "Rob Netzke"
+    },
+    {
+      "name": "Ryan Ofsky"
+    },
+    {
+      "name": "Steve Myers"
+    },
+    {
+      "name": "P2Pool V2"
+    },
+    {
+      "name": "Tobechi Chukwuleta"
+    },
+    {
+      "name": "John Osezele"
+    },
+    {
+      "name": "Africa Bitcoin Institute (ABI)"
+    },
+    {
+      "name": "Justin Moon"
+    },
+    {
+      "name": "Victor Chabunda"
+    },
+    {
+      "name": "thesimplekid"
+    },
+    {
+      "name": "0xb10c"
+    },
+    {
+      "name": "Mujina"
+    },
+    {
+      "name": "Martin Zumsande"
+    },
+    {
+      "name": "LND"
+    },
+    {
+      "name": "Yan"
+    },
+    {
+      "name": "water783"
+    },
+    {
+      "name": "Hao Xu"
+    },
+    {
+      "name": "Maggie Valentine"
+    },
+    {
+      "name": "Blixt Wallet"
+    },
+    {
+      "name": "ASmap"
+    },
+    {
+      "name": "Itoro Ukpong"
+    },
+    {
+      "name": "Alekos Filini"
+    },
+    {
+      "name": "Matthew Ramsden"
+    },
+    {
+      "name": "Tankred Hase"
+    },
+    {
+      "name": "Marathon"
+    },
+    {
+      "name": "libbitcoin"
+    },
+    {
+      "name": "Blake Kaufman"
+    },
+    {
+      "name": "Jerry Ochieng Anyumba"
+    },
+    {
+      "name": "Nishant Bansal"
+    },
+    {
+      "name": "Ruben Somsen"
+    },
+    {
+      "name": "Raj Maitra"
+    },
+    {
+      "name": "Alyssa Hertig"
+    },
+    {
+      "name": "Leonardo Lima"
+    },
+    {
+      "name": "Gloria Zhao"
+    },
+    {
+      "name": "Carl Dong"
+    },
+    {
+      "name": "ngit"
+    },
+    {
+      "name": "Dana Wallet"
+    },
+    {
+      "name": "Bitcoin Design"
+    },
+    {
+      "name": "John Moffett"
+    },
+    {
+      "name": "Amiti Uttarwar"
+    },
+    {
+      "name": "Dan Gould"
+    },
+    {
+      "name": "plebhash"
+    },
+    {
+      "name": "Vladimir Fomene"
+    },
+    {
+      "name": "Larry Ruane"
+    },
+    {
+      "name": "Austin Kelsay and cmdruid"
+    },
+    {
+      "name": "LDK Developers"
+    },
+    {
+      "name": "Minibits"
+    },
+    {
+      "name": "Larry McCay"
+    },
+    {
+      "name": "William Casarin"
+    },
+    {
+      "name": "thgO-O"
+    },
+    {
+      "name": "Maelstrom"
+    },
+    {
+      "name": "Vitor Pamplona"
+    },
+    {
+      "name": "Jon Atack"
+    },
+    {
+      "name": "Josh Kitman"
+    },
+    {
+      "name": "Coinbase"
+    },
+    {
+      "name": "Dongjia Zhang"
+    },
+    {
+      "name": "Chaincode"
+    },
+    {
+      "name": "Africa Bitcoin Conference"
+    },
+    {
+      "name": "BIP324"
+    },
+    {
+      "name": "ZeroSync"
+    },
+    {
+      "name": "Banxaas"
+    },
+    {
+      "name": "rust-bitcoin Maintainers"
+    },
+    {
+      "name": "Michael Goldstein"
+    },
+    {
+      "name": "ZmnSCPxj"
+    },
+    {
+      "name": "gitgab"
+    },
+    {
+      "name": "Sergi Delgado Segura"
+    },
+    {
+      "name": "Yankho Ngolleka"
+    },
+    {
+      "name": "Yuvraj Chiplunkar"
+    },
+    {
+      "name": "Hennadii Stepanov"
+    },
+    {
+      "name": "siv2r"
+    },
+    {
+      "name": "Okcoin"
+    },
+    {
+      "name": "Abhijay Jain"
+    },
+    {
+      "name": "pmienk"
+    },
+    {
+      "name": "ContextVM contributors"
+    },
+    {
+      "name": "crodas"
+    },
+    {
+      "name": "Christoph Ono"
+    },
+    {
+      "name": "Renato Britto (satsfy)"
+    },
+    {
+      "name": "Jeremy Rubin"
+    },
+    {
+      "name": "Davidson Souza"
+    },
+    {
+      "name": "Dave Harding"
+    },
+    {
+      "name": "conduition"
+    },
+    {
+      "name": "Mark Erhardt"
+    },
+    {
+      "name": "bc1cindy"
+    },
+    {
+      "name": "Sonkeng Maldini"
+    },
+    {
+      "name": "Christian Decker"
+    },
+    {
+      "name": "Jo\u00e3o Barbosa"
+    },
+    {
+      "name": "BTCPay Server"
+    },
+    {
+      "name": "Bitcoin Core Developers"
+    },
+    {
+      "name": "Dhruv Mehta"
+    },
+    {
+      "name": "Base58 Bitcoin LARP"
+    },
+    {
+      "name": "Cashu Dev Kit"
+    },
+    {
+      "name": "Jonas Schnelli"
+    },
+    {
+      "name": "Stable Channels contributors"
+    },
+    {
+      "name": "Lucas Lima"
+    },
+    {
+      "name": "Routstr contributors"
+    },
+    {
+      "name": "Austin Krauss"
+    },
+    {
+      "name": "Antoine Riard"
+    },
+    {
+      "name": "Isaque Franklin"
+    },
+    {
+      "name": "Francisco Calder\u00f3n"
+    },
+    {
+      "name": "Gleb Naumenko"
+    },
+    {
+      "name": "John Cantrell"
+    },
+    {
+      "name": "Bob McElrath"
+    },
+    {
+      "name": "OpenCash"
+    },
+    {
+      "name": "Will Clark"
+    },
+    {
+      "name": "Brandon Odiwuor"
+    },
+    {
+      "name": "ASmap Contributors"
+    },
+    {
+      "name": "fiatjaf"
+    },
+    {
+      "name": "Carla Kirk-Cohen"
+    },
+    {
+      "name": "Mempool"
+    },
+    {
+      "name": "Applesauce"
+    },
+    {
+      "name": "BDK Foundation"
+    },
+    {
+      "name": "Niklas G\u00f6gge"
+    },
+    {
+      "name": "Suhas Daftuar"
+    },
+    {
+      "name": "devrandom and contributors"
+    },
+    {
+      "name": "Africa Free Routing Lightning Developer Bootcamp"
+    },
+    {
+      "name": "Johnny Santos"
+    },
+    {
+      "name": "Joschisan"
+    },
+    {
+      "name": "rkrux"
+    },
+    {
+      "name": "The Tor Project"
+    },
+    {
+      "name": "Esraa"
+    },
+    {
+      "name": "Greg Sanders"
+    },
+    {
+      "name": "Lightning Network"
+    },
+    {
+      "name": "Erick Cestari"
+    },
+    {
+      "name": "StratumV2"
+    },
+    {
+      "name": "Leo Nash"
+    },
+    {
+      "name": "Ifeanyichukwu Amajuoyi"
+    },
+    {
+      "name": "Shammah Agwor"
+    },
+    {
+      "name": "Coracle"
+    },
+    {
+      "name": "Dusty Daemon"
+    },
+    {
+      "name": "Bitcoin Benin"
+    },
+    {
+      "name": "Sebastian Kung"
+    },
+    {
+      "name": "Bitcoinfuzz / Smite"
+    },
+    {
+      "name": "nak"
+    },
+    {
+      "name": "Michael Ford"
+    },
+    {
+      "name": "2140"
+    },
+    {
+      "name": "WireGuard"
+    },
+    {
+      "name": "Greenart7c3"
+    },
+    {
+      "name": "BtcPayServer"
+    },
+    {
+      "name": "BTCPay Server Foundation"
+    },
+    {
+      "name": "Anthony Towns"
+    },
+    {
+      "name": "Pieter Wuille"
+    },
+    {
+      "name": "Chris G."
+    },
+    {
+      "name": "LNbits"
+    },
+    {
+      "name": "Vincenzo Palazzo"
+    },
+    {
+      "name": "Riccardo Casatta"
+    },
+    {
+      "name": "Opensats"
+    },
+    {
+      "name": "0xchat"
+    },
+    {
+      "name": "macgyver"
+    },
+    {
+      "name": "Misovan"
+    },
+    {
+      "name": "Satoshi Nakamoto Institute"
+    },
+    {
+      "name": "Vasil Dimov"
+    },
+    {
+      "name": "Routstr"
+    },
+    {
+      "name": "Rachel Rybarcyzk"
+    },
+    {
+      "name": "Jayr Motta"
+    },
+    {
+      "name": "Frostr"
+    },
+    {
+      "name": "Arabic HODL"
+    },
+    {
+      "name": "Conor Okus"
+    },
+    {
+      "name": "Enigbe Ochekliye"
+    },
+    {
+      "name": "Hampus Sj\u00f6berg"
+    },
+    {
+      "name": "Matt Morehouse"
+    },
+    {
+      "name": "Studying Bitcoin cryptography"
+    },
+    {
+      "name": "Calvin Kim"
+    },
+    {
+      "name": "Lightning Dev Kit"
+    },
+    {
+      "name": "Rita Anene"
+    },
+    {
+      "name": "Validating Lightning Signer"
+    },
+    {
+      "name": "thunderbiscuit"
+    },
+    {
+      "name": "Weikeng Chen"
+    },
+    {
+      "name": "Wallet Scrutiny"
+    },
+    {
+      "name": "Bitcoin Dev Kit"
+    },
+    {
+      "name": "Bitcoin Core"
+    },
+    {
+      "name": "Amethyst"
+    },
+    {
+      "name": "Sebastian Falbesoner"
+    },
+    {
+      "name": "spacebear21"
+    },
+    {
+      "name": "Oyindamola Oladapo"
+    },
+    {
+      "name": "Praveen Perera"
+    },
+    {
+      "name": "Summer of Bitcoin"
+    },
+    {
+      "name": "Daniel Pfeifer"
+    },
+    {
+      "name": "LNbits Contributors"
+    },
+    {
+      "name": "Pavlenex"
+    },
+    {
+      "name": "Localhost_Research"
+    },
+    {
+      "name": "Abubakar Sadiq Ismail"
+    },
+    {
+      "name": "Oghenovo Usiwoma"
+    },
+    {
+      "name": "Brink"
+    },
+    {
+      "name": "AmityAge"
+    },
+    {
+      "name": "Fi3"
+    },
+    {
+      "name": "btcd"
+    },
+    {
+      "name": "Mogashni"
+    },
+    {
+      "name": "Hodlbod"
+    },
+    {
+      "name": "m4ycon"
+    },
+    {
+      "name": "ContextVM"
+    },
+    {
+      "name": "Bitcoin Research Kit"
+    },
+    {
+      "name": "Michael Haase"
+    },
+    {
+      "name": "Jamaal Montasser"
+    },
+    {
+      "name": "Daniela Brozzoni"
+    },
+    {
+      "name": "Marco Falke"
+    },
+    {
+      "name": "DanConwayDev"
+    },
+    {
+      "name": "Bitcoin Core Graphical User Interface"
+    },
+    {
+      "name": "Matias Furszyfer"
+    },
+    {
+      "name": "l0rinc"
+    }
+  ],
+  "links": [
+    {
+      "source": "Brink",
+      "target": "Gloria Zhao",
+      "value": 1
+    },
+    {
+      "source": "Gloria Zhao",
+      "target": "Bitcoin Core",
+      "value": 2
+    },
+    {
+      "source": "Spiral",
+      "target": "Gloria Zhao",
+      "value": 1
+    },
+    {
+      "source": "Localhost_Research",
+      "target": "Ava Chow",
+      "value": 1
+    },
+    {
+      "source": "Ava Chow",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Chaincode",
+      "target": "Pieter Wuille",
+      "value": 1
+    },
+    {
+      "source": "Pieter Wuille",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Chaincode",
+      "target": "Suhas Daftuar",
+      "value": 1
+    },
+    {
+      "source": "Suhas Daftuar",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "John Newbery",
+      "value": 1
+    },
+    {
+      "source": "John Newbery",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Chaincode",
+      "target": "Marco Falke",
+      "value": 1
+    },
+    {
+      "source": "Marco Falke",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Mit_Dci",
+      "target": "Wladimir van der Laan",
+      "value": 1
+    },
+    {
+      "source": "Wladimir van der Laan",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Mit_Dci",
+      "target": "Cory Fields",
+      "value": 1
+    },
+    {
+      "source": "Cory Fields",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Matt Corallo",
+      "value": 1
+    },
+    {
+      "source": "Matt Corallo",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "Michael Ford",
+      "value": 1
+    },
+    {
+      "source": "Michael Ford",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "Hennadii Stepanov",
+      "value": 1
+    },
+    {
+      "source": "Hennadii Stepanov",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Chaincode",
+      "target": "Ryan Ofsky",
+      "value": 1
+    },
+    {
+      "source": "Ryan Ofsky",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Sjors Provoost",
+      "value": 1
+    },
+    {
+      "source": "Sjors Provoost",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Chaincode",
+      "target": "Antoine Poinsot",
+      "value": 1
+    },
+    {
+      "source": "Antoine Poinsot",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "Sebastian Falbesoner",
+      "value": 1
+    },
+    {
+      "source": "Sebastian Falbesoner",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "Fabian Jahr",
+      "value": 1
+    },
+    {
+      "source": "Fabian Jahr",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Jon Atack",
+      "value": 1
+    },
+    {
+      "source": "Jon Atack",
+      "target": "Bitcoin Core",
+      "value": 2
+    },
+    {
+      "source": "Spiral",
+      "target": "Jon Atack",
+      "value": 1
+    },
+    {
+      "source": "Chaincode",
+      "target": "Antoine Riard",
+      "value": 1
+    },
+    {
+      "source": "Antoine Riard",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Bitmex",
+      "target": "Greg Sanders",
+      "value": 1
+    },
+    {
+      "source": "Greg Sanders",
+      "target": "Bitcoin Core",
+      "value": 3
+    },
+    {
+      "source": "Blockstream",
+      "target": "Greg Sanders",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Greg Sanders",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Sebastian Kung",
+      "value": 1
+    },
+    {
+      "source": "Sebastian Kung",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Blockstream",
+      "target": "Carl Dong",
+      "value": 1
+    },
+    {
+      "source": "Carl Dong",
+      "target": "Bitcoin Ecosystem",
+      "value": 2
+    },
+    {
+      "source": "Chaincode",
+      "target": "Carl Dong",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Luke Dashjr",
+      "value": 1
+    },
+    {
+      "source": "Luke Dashjr",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "Vasil Dimov",
+      "value": 1
+    },
+    {
+      "source": "Vasil Dimov",
+      "target": "Bitcoin Core",
+      "value": 2
+    },
+    {
+      "source": "Spiral",
+      "target": "Vasil Dimov",
+      "value": 1
+    },
+    {
+      "source": "Chaincode",
+      "target": "Matias Furszyfer",
+      "value": 1
+    },
+    {
+      "source": "Matias Furszyfer",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Chaincode",
+      "target": "Martin Zumsande",
+      "value": 1
+    },
+    {
+      "source": "Martin Zumsande",
+      "target": "Bitcoin Core",
+      "value": 2
+    },
+    {
+      "source": "Brink",
+      "target": "Martin Zumsande",
+      "value": 1
+    },
+    {
+      "source": "Chaincode",
+      "target": "Sergi Delgado Segura",
+      "value": 1
+    },
+    {
+      "source": "Sergi Delgado Segura",
+      "target": "Bitcoin Core",
+      "value": 3
+    },
+    {
+      "source": "Spiral",
+      "target": "Sergi Delgado Segura",
+      "value": 1
+    },
+    {
+      "source": "2140",
+      "target": "Sergi Delgado Segura",
+      "value": 1
+    },
+    {
+      "source": "Vinteum",
+      "target": "Bruno Garcia",
+      "value": 1
+    },
+    {
+      "source": "Bruno Garcia",
+      "target": "Bitcoin Core",
+      "value": 3
+    },
+    {
+      "source": "Opensats",
+      "target": "Bruno Garcia",
+      "value": 2
+    },
+    {
+      "source": "Brink",
+      "target": "Bruno Garcia",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Andrew Toth",
+      "value": 1
+    },
+    {
+      "source": "Andrew Toth",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Brad Stachurski",
+      "value": 1
+    },
+    {
+      "source": "Brad Stachurski",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Anthony Towns",
+      "value": 1
+    },
+    {
+      "source": "Anthony Towns",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "Niklas G\u00f6gge",
+      "value": 1
+    },
+    {
+      "source": "Niklas G\u00f6gge",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "Stefan Hanreich",
+      "value": 1
+    },
+    {
+      "source": "Stefan Hanreich",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "0xb10c",
+      "value": 1
+    },
+    {
+      "source": "0xb10c",
+      "target": "Bitcoin Core",
+      "value": 3
+    },
+    {
+      "source": "Hrf",
+      "target": "0xb10c",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "0xb10c",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "Larry Ruane",
+      "value": 1
+    },
+    {
+      "source": "Larry Ruane",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "Yuvraj Chiplunkar",
+      "value": 1
+    },
+    {
+      "source": "Yuvraj Chiplunkar",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Josiah Baker",
+      "value": 1
+    },
+    {
+      "source": "Josiah Baker",
+      "target": "Bitcoin Core",
+      "value": 2
+    },
+    {
+      "source": "2140",
+      "target": "Josiah Baker",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Daniela Brozzoni",
+      "value": 1
+    },
+    {
+      "source": "Daniela Brozzoni",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Localhost_Research",
+      "target": "Mark Erhardt",
+      "value": 1
+    },
+    {
+      "source": "Mark Erhardt",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Will Clark",
+      "value": 1
+    },
+    {
+      "source": "Will Clark",
+      "target": "Bitcoin Core",
+      "value": 2
+    },
+    {
+      "source": "Spiral",
+      "target": "Will Clark",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Brandon Odiwuor",
+      "value": 1
+    },
+    {
+      "source": "Brandon Odiwuor",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "ZmnSCPxj",
+      "value": 1
+    },
+    {
+      "source": "ZmnSCPxj",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Coinbase",
+      "target": "Jo\u00e3o Barbosa",
+      "value": 1
+    },
+    {
+      "source": "Jo\u00e3o Barbosa",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Okcoin",
+      "target": "Amiti Uttarwar",
+      "value": 1
+    },
+    {
+      "source": "Amiti Uttarwar",
+      "target": "Bitcoin Ecosystem",
+      "value": 2
+    },
+    {
+      "source": "Spiral",
+      "target": "Amiti Uttarwar",
+      "value": 1
+    },
+    {
+      "source": "Hardcore_Fund",
+      "target": "Ben Woosley",
+      "value": 1
+    },
+    {
+      "source": "Ben Woosley",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Hrf",
+      "target": "Chris Belcher",
+      "value": 1
+    },
+    {
+      "source": "Chris Belcher",
+      "target": "Bitcoin Ecosystem",
+      "value": 2
+    },
+    {
+      "source": "Spiral",
+      "target": "Chris Belcher",
+      "value": 1
+    },
+    {
+      "source": "Bitmex",
+      "target": "Jeremy Rubin",
+      "value": 1
+    },
+    {
+      "source": "Jeremy Rubin",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Bitmex",
+      "target": "Gleb Naumenko",
+      "value": 1
+    },
+    {
+      "source": "Gleb Naumenko",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Marathon",
+      "target": "Jonas Schnelli",
+      "value": 1
+    },
+    {
+      "source": "Jonas Schnelli",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Bitmex",
+      "target": "Calvin Kim",
+      "value": 1
+    },
+    {
+      "source": "Calvin Kim",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Maelstrom",
+      "target": "rkrux",
+      "value": 1
+    },
+    {
+      "source": "rkrux",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Maelstrom",
+      "target": "Ben Allen",
+      "value": 1
+    },
+    {
+      "source": "Ben Allen",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Maelstrom",
+      "target": "macgyver",
+      "value": 1
+    },
+    {
+      "source": "macgyver",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Maelstrom",
+      "target": "stratospher",
+      "value": 1
+    },
+    {
+      "source": "stratospher",
+      "target": "Bitcoin Core",
+      "value": 2
+    },
+    {
+      "source": "Brink",
+      "target": "stratospher",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "Christian Decker",
+      "value": 1
+    },
+    {
+      "source": "Christian Decker",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "Eugene Siegel",
+      "value": 1
+    },
+    {
+      "source": "Eugene Siegel",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "Marco De Leon",
+      "value": 1
+    },
+    {
+      "source": "Marco De Leon",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "conduition",
+      "value": 1
+    },
+    {
+      "source": "conduition",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "Jesse Posner",
+      "value": 1
+    },
+    {
+      "source": "Jesse Posner",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "Carla Kirk-Cohen",
+      "value": 1
+    },
+    {
+      "source": "Carla Kirk-Cohen",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "Tadge Dryja",
+      "value": 1
+    },
+    {
+      "source": "Tadge Dryja",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "Alekos Filini",
+      "value": 1
+    },
+    {
+      "source": "Alekos Filini",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "Vincenzo Palazzo",
+      "value": 1
+    },
+    {
+      "source": "Vincenzo Palazzo",
+      "target": "Bitcoin Core",
+      "value": 2
+    },
+    {
+      "source": "Spiral",
+      "target": "Vincenzo Palazzo",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "Dave Harding",
+      "value": 1
+    },
+    {
+      "source": "Dave Harding",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Brink",
+      "target": "Dongjia Zhang",
+      "value": 1
+    },
+    {
+      "source": "Dongjia Zhang",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Jemimah Nagasha",
+      "value": 1
+    },
+    {
+      "source": "Jemimah Nagasha",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Oyindamola Oladapo",
+      "value": 1
+    },
+    {
+      "source": "Oyindamola Oladapo",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Yankho Ngolleka",
+      "value": 1
+    },
+    {
+      "source": "Yankho Ngolleka",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Victor Chabunda",
+      "value": 1
+    },
+    {
+      "source": "Victor Chabunda",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "John Osezele",
+      "value": 1
+    },
+    {
+      "source": "John Osezele",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Frankline Omondi",
+      "value": 1
+    },
+    {
+      "source": "Frankline Omondi",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Michael Ariwaodo",
+      "value": 1
+    },
+    {
+      "source": "Michael Ariwaodo",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Sonkeng Maldini",
+      "value": 1
+    },
+    {
+      "source": "Sonkeng Maldini",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Shehu Muhammad Aliyu",
+      "value": 1
+    },
+    {
+      "source": "Shehu Muhammad Aliyu",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Ifeanyichukwu Amajuoyi",
+      "value": 1
+    },
+    {
+      "source": "Ifeanyichukwu Amajuoyi",
+      "target": "Lightning Network",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Uqlidi",
+      "value": 1
+    },
+    {
+      "source": "Uqlidi",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Shammah Agwor",
+      "value": 1
+    },
+    {
+      "source": "Shammah Agwor",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Rita Anene",
+      "value": 1
+    },
+    {
+      "source": "Rita Anene",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Chuks Agbakuru",
+      "value": 1
+    },
+    {
+      "source": "Chuks Agbakuru",
+      "target": "Lightning Network",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Itoro Ukpong",
+      "value": 1
+    },
+    {
+      "source": "Itoro Ukpong",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Abdullahi Yunus",
+      "value": 1
+    },
+    {
+      "source": "Abdullahi Yunus",
+      "target": "Lightning Network",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Sulaiman Aminu Barkindo",
+      "value": 1
+    },
+    {
+      "source": "Sulaiman Aminu Barkindo",
+      "target": "Lightning Network",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Peter Tyonum",
+      "value": 1
+    },
+    {
+      "source": "Peter Tyonum",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Enigbe Ochekliye",
+      "value": 1
+    },
+    {
+      "source": "Enigbe Ochekliye",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Tobechi Chukwuleta",
+      "value": 1
+    },
+    {
+      "source": "Tobechi Chukwuleta",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Kelvin Isievwore",
+      "value": 1
+    },
+    {
+      "source": "Kelvin Isievwore",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Abubakar Sadiq Ismail",
+      "value": 1
+    },
+    {
+      "source": "Abubakar Sadiq Ismail",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Oghenovo Usiwoma",
+      "value": 1
+    },
+    {
+      "source": "Oghenovo Usiwoma",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Jamal Errakibi",
+      "value": 1
+    },
+    {
+      "source": "Jamal Errakibi",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Ojok Emmanuel Nsubuga",
+      "value": 1
+    },
+    {
+      "source": "Ojok Emmanuel Nsubuga",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Abiodun Awoyemi",
+      "value": 1
+    },
+    {
+      "source": "Abiodun Awoyemi",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Duncan Dean",
+      "value": 1
+    },
+    {
+      "source": "Duncan Dean",
+      "target": "Lightning Network",
+      "value": 1
+    },
+    {
+      "source": "Btrust",
+      "target": "Vladimir Fomene",
+      "value": 1
+    },
+    {
+      "source": "Vladimir Fomene",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "devrandom and contributors",
+      "value": 1
+    },
+    {
+      "source": "devrandom and contributors",
+      "target": "Validating Lightning Signer",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Praveen Perera",
+      "value": 1
+    },
+    {
+      "source": "Praveen Perera",
+      "target": "Cove",
+      "value": 1
+    },
+    {
+      "source": "Bruno Garcia",
+      "target": "bitcoinfuzz",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Austin Kelsay and cmdruid",
+      "value": 1
+    },
+    {
+      "source": "Austin Kelsay and cmdruid",
+      "target": "Frostr",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "rust-bitcoin Maintainers",
+      "value": 1
+    },
+    {
+      "source": "rust-bitcoin Maintainers",
+      "target": "rust-bitcoin",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Adi Shankara",
+      "value": 1
+    },
+    {
+      "source": "Adi Shankara",
+      "target": "Summer of Bitcoin",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "PabloF7z",
+      "value": 1
+    },
+    {
+      "source": "PabloF7z",
+      "target": "NDK",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Misovan",
+      "value": 1
+    },
+    {
+      "source": "Misovan",
+      "target": "Minibits",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Davidson Souza",
+      "value": 1
+    },
+    {
+      "source": "Davidson Souza",
+      "target": "Floresta",
+      "value": 2
+    },
+    {
+      "source": "Opensats",
+      "target": "Greenart7c3",
+      "value": 1
+    },
+    {
+      "source": "Greenart7c3",
+      "target": "Amber",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "LDK Developers",
+      "value": 1
+    },
+    {
+      "source": "LDK Developers",
+      "target": "LDK",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "BTCPay Server Foundation",
+      "value": 1
+    },
+    {
+      "source": "BTCPay Server Foundation",
+      "target": "BTCPay Server",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "BTCPay Server Foundation",
+      "value": 1
+    },
+    {
+      "source": "BTCPay Server Foundation",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Cody Tseng",
+      "value": 1
+    },
+    {
+      "source": "Cody Tseng",
+      "target": "Jumble",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "DanConwayDev",
+      "value": 1
+    },
+    {
+      "source": "DanConwayDev",
+      "target": "ngit",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Dan Gould",
+      "value": 1
+    },
+    {
+      "source": "Dan Gould",
+      "target": "Payjoin Dev Kit",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Bitcoin Core Developers",
+      "value": 1
+    },
+    {
+      "source": "Bitcoin Core Developers",
+      "target": "Bitcoin Core",
+      "value": 2
+    },
+    {
+      "source": "Hrf",
+      "target": "Bitcoin Core Developers",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Michael Goldstein",
+      "value": 1
+    },
+    {
+      "source": "Michael Goldstein",
+      "target": "Satoshi Nakamoto Institute",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "ASmap Contributors",
+      "value": 1
+    },
+    {
+      "source": "ASmap Contributors",
+      "target": "ASmap",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Routstr contributors",
+      "value": 1
+    },
+    {
+      "source": "Routstr contributors",
+      "target": "Routstr",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Stable Channels contributors",
+      "value": 1
+    },
+    {
+      "source": "Stable Channels contributors",
+      "target": "Stable Channels",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Hodlbod",
+      "value": 1
+    },
+    {
+      "source": "Hodlbod",
+      "target": "Coracle",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Christoph Ono",
+      "value": 1
+    },
+    {
+      "source": "Christoph Ono",
+      "target": "Bitcoin Design",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Odudex and Tadeubas",
+      "value": 1
+    },
+    {
+      "source": "Odudex and Tadeubas",
+      "target": "Krux",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Blake Kaufman",
+      "value": 1
+    },
+    {
+      "source": "Blake Kaufman",
+      "target": "Blitz Wallet",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "skot",
+      "value": 1
+    },
+    {
+      "source": "skot",
+      "target": "Bitaxe",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "cygnet3",
+      "value": 1
+    },
+    {
+      "source": "cygnet3",
+      "target": "Dana Wallet",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "OpenCash Association",
+      "value": 1
+    },
+    {
+      "source": "OpenCash Association",
+      "target": "OpenCash",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "nym21",
+      "value": 1
+    },
+    {
+      "source": "nym21",
+      "target": "Bitcoin Research Kit",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "thesimplekid",
+      "value": 1
+    },
+    {
+      "source": "thesimplekid",
+      "target": "Cashu Dev Kit",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "pmienk",
+      "value": 1
+    },
+    {
+      "source": "pmienk",
+      "target": "libbitcoin",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "fiatjaf",
+      "value": 1
+    },
+    {
+      "source": "fiatjaf",
+      "target": "nak",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Franzap",
+      "value": 1
+    },
+    {
+      "source": "Franzap",
+      "target": "Zapstore",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Alex Gleason",
+      "value": 1
+    },
+    {
+      "source": "Alex Gleason",
+      "target": "Soapbox",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "ContextVM contributors",
+      "value": 1
+    },
+    {
+      "source": "ContextVM contributors",
+      "target": "ContextVM",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Vitor Pamplona",
+      "value": 1
+    },
+    {
+      "source": "Vitor Pamplona",
+      "target": "Amethyst",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Jason A. Donenfeld",
+      "value": 1
+    },
+    {
+      "source": "Jason A. Donenfeld",
+      "target": "WireGuard",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Dusty Daemon",
+      "value": 1
+    },
+    {
+      "source": "Dusty Daemon",
+      "target": "Splicing",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Calvin Kim",
+      "value": 1
+    },
+    {
+      "source": "Calvin Kim",
+      "target": "utreexod",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Rajarshi Maitra",
+      "value": 1
+    },
+    {
+      "source": "Rajarshi Maitra",
+      "target": "Bitshala",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Francisco Calder\u00f3n",
+      "value": 1
+    },
+    {
+      "source": "Francisco Calder\u00f3n",
+      "target": "Mostro",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "water783",
+      "value": 1
+    },
+    {
+      "source": "water783",
+      "target": "0xchat",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "William Casarin",
+      "value": 1
+    },
+    {
+      "source": "William Casarin",
+      "target": "Damus",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "hzrd149",
+      "value": 1
+    },
+    {
+      "source": "hzrd149",
+      "target": "Applesauce",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "Hampus Sj\u00f6berg",
+      "value": 1
+    },
+    {
+      "source": "Hampus Sj\u00f6berg",
+      "target": "Blixt Wallet",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "BDK Foundation",
+      "value": 1
+    },
+    {
+      "source": "BDK Foundation",
+      "target": "Bitcoin Dev Kit",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "LNbits Contributors",
+      "value": 1
+    },
+    {
+      "source": "LNbits Contributors",
+      "target": "LNbits",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "GrapheneOS Foundation",
+      "value": 1
+    },
+    {
+      "source": "GrapheneOS Foundation",
+      "target": "GrapheneOS",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "StratumV2",
+      "value": 1
+    },
+    {
+      "source": "StratumV2",
+      "target": "Stratum V2",
+      "value": 1
+    },
+    {
+      "source": "Opensats",
+      "target": "The Tor Project",
+      "value": 1
+    },
+    {
+      "source": "The Tor Project",
+      "target": "The Tor Project",
+      "value": 1
+    },
+    {
+      "source": "Hrf",
+      "target": "0xchat",
+      "value": 1
+    },
+    {
+      "source": "0xchat",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Hrf",
+      "target": "256 Foundation",
+      "value": 1
+    },
+    {
+      "source": "256 Foundation",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Hrf",
+      "target": "Africa Bitcoin Conference",
+      "value": 1
+    },
+    {
+      "source": "Africa Bitcoin Conference",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Hrf",
+      "target": "Africa Bitcoin Institute (ABI)",
+      "value": 1
+    },
+    {
+      "source": "Africa Bitcoin Institute (ABI)",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Hrf",
+      "target": "Africa Free Routing Lightning Developer Bootcamp",
+      "value": 1
+    },
+    {
+      "source": "Africa Free Routing Lightning Developer Bootcamp",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Hrf",
+      "target": "African Bitcoiners",
+      "value": 1
+    },
+    {
+      "source": "African Bitcoiners",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Hrf",
+      "target": "African UX Bitcoin Bootcamp",
+      "value": 1
+    },
+    {
+      "source": "African UX Bitcoin Bootcamp",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Hrf",
+      "target": "Agora",
+      "value": 1
+    },
+    {
+      "source": "Agora",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Hrf",
+      "target": "AmityAge",
+      "value": 1
+    },
+    {
+      "source": "AmityAge",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Hrf",
+      "target": "Anita Posch",
+      "value": 1
+    },
+    {
+      "source": "Anita Posch",
+      "target": "Bitcoin for Fairness",
+      "value": 1
+    },
+    {
+      "source": "Hrf",
+      "target": "Arabic HODL",
+      "value": 1
+    },
+    {
+      "source": "Arabic HODL",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Hrf",
+      "target": "Area Bitcoin",
+      "value": 1
+    },
+    {
+      "source": "Area Bitcoin",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Hrf",
+      "target": "Baltic Honeybadger",
+      "value": 1
+    },
+    {
+      "source": "Baltic Honeybadger",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Hrf",
+      "target": "Banxaas",
+      "value": 1
+    },
+    {
+      "source": "Banxaas",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Hrf",
+      "target": "Base58 Bitcoin LARP",
+      "value": 1
+    },
+    {
+      "source": "Base58 Bitcoin LARP",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Hrf",
+      "target": "Bitcoin Atlantis",
+      "value": 1
+    },
+    {
+      "source": "Bitcoin Atlantis",
+      "target": "Bitcoin Atlantis",
+      "value": 1
+    },
+    {
+      "source": "Hrf",
+      "target": "Bitcoin Babies",
+      "value": 1
+    },
+    {
+      "source": "Bitcoin Babies",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Hrf",
+      "target": "Bitcoin Benin",
+      "value": 1
+    },
+    {
+      "source": "Bitcoin Benin",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Hrf",
+      "target": "Bitcoin Core Graphical User Interface",
+      "value": 1
+    },
+    {
+      "source": "Bitcoin Core Graphical User Interface",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Weikeng Chen",
+      "value": 1
+    },
+    {
+      "source": "Weikeng Chen",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Abhijay Jain",
+      "value": 1
+    },
+    {
+      "source": "Abhijay Jain",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Larry McCay",
+      "value": 1
+    },
+    {
+      "source": "Larry McCay",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Uchi Uchibeke",
+      "value": 1
+    },
+    {
+      "source": "Uchi Uchibeke",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Nishant Bansal",
+      "value": 1
+    },
+    {
+      "source": "Nishant Bansal",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "gitgab",
+      "value": 1
+    },
+    {
+      "source": "gitgab",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Anthony Milton",
+      "value": 1
+    },
+    {
+      "source": "Anthony Milton",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Jerry Ochieng Anyumba",
+      "value": 1
+    },
+    {
+      "source": "Jerry Ochieng Anyumba",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "BTC Map",
+      "value": 1
+    },
+    {
+      "source": "BTC Map",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Daniel Pfeifer",
+      "value": 1
+    },
+    {
+      "source": "Daniel Pfeifer",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Alexander Wiederin",
+      "value": 1
+    },
+    {
+      "source": "Alexander Wiederin",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Hao Xu",
+      "value": 1
+    },
+    {
+      "source": "Hao Xu",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Ademan",
+      "value": 1
+    },
+    {
+      "source": "Ademan",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Martin Saposnic",
+      "value": 1
+    },
+    {
+      "source": "Martin Saposnic",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "CoinSwap",
+      "value": 1
+    },
+    {
+      "source": "CoinSwap",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "crodas",
+      "value": 1
+    },
+    {
+      "source": "crodas",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Andrei",
+      "value": 1
+    },
+    {
+      "source": "Andrei",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Maurice Poirrier",
+      "value": 1
+    },
+    {
+      "source": "Maurice Poirrier",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "l0rinc",
+      "value": 1
+    },
+    {
+      "source": "l0rinc",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Rob Netzke",
+      "value": 1
+    },
+    {
+      "source": "Rob Netzke",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Bob McElrath",
+      "value": 1
+    },
+    {
+      "source": "Bob McElrath",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Leo Nash",
+      "value": 1
+    },
+    {
+      "source": "Leo Nash",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Rachel Rybarcyzk",
+      "value": 1
+    },
+    {
+      "source": "Rachel Rybarcyzk",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Austin Krauss",
+      "value": 1
+    },
+    {
+      "source": "Austin Krauss",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "spacebear21",
+      "value": 1
+    },
+    {
+      "source": "spacebear21",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Nick Johnson",
+      "value": 1
+    },
+    {
+      "source": "Nick Johnson",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "thesimplekid",
+      "value": 1
+    },
+    {
+      "source": "thesimplekid",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "siv2r",
+      "value": 1
+    },
+    {
+      "source": "siv2r",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Sean Giligan",
+      "value": 1
+    },
+    {
+      "source": "Sean Giligan",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "BDK Foundation",
+      "value": 1
+    },
+    {
+      "source": "BDK Foundation",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "plebhash",
+      "value": 1
+    },
+    {
+      "source": "plebhash",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Vinteum",
+      "target": "plebhash",
+      "value": 1
+    },
+    {
+      "source": "plebhash",
+      "target": "Stratum V2",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Dan Gould",
+      "value": 1
+    },
+    {
+      "source": "Dan Gould",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Esraa",
+      "value": 1
+    },
+    {
+      "source": "Esraa",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Bitcoin Design Foundation",
+      "value": 1
+    },
+    {
+      "source": "Bitcoin Design Foundation",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Joschisan",
+      "value": 1
+    },
+    {
+      "source": "Joschisan",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "ZeroSync",
+      "value": 1
+    },
+    {
+      "source": "ZeroSync",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Michael Haase",
+      "value": 1
+    },
+    {
+      "source": "Michael Haase",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Alyssa Hertig",
+      "value": 1
+    },
+    {
+      "source": "Alyssa Hertig",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Matthew Ramsden",
+      "value": 1
+    },
+    {
+      "source": "Matthew Ramsden",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "John Moffett",
+      "value": 1
+    },
+    {
+      "source": "John Moffett",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Matt Morehouse",
+      "value": 1
+    },
+    {
+      "source": "Matt Morehouse",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Okjodom",
+      "value": 1
+    },
+    {
+      "source": "Okjodom",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Evan Lin",
+      "value": 1
+    },
+    {
+      "source": "Evan Lin",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Justin Moellar",
+      "value": 1
+    },
+    {
+      "source": "Justin Moellar",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Wallet Scrutiny",
+      "value": 1
+    },
+    {
+      "source": "Wallet Scrutiny",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Josh Kitman",
+      "value": 1
+    },
+    {
+      "source": "Josh Kitman",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Johannes Hofmann",
+      "value": 1
+    },
+    {
+      "source": "Johannes Hofmann",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Ruben Somsen",
+      "value": 1
+    },
+    {
+      "source": "Ruben Somsen",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Mogashni",
+      "value": 1
+    },
+    {
+      "source": "Mogashni",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Bitcoin Zavior",
+      "value": 1
+    },
+    {
+      "source": "Bitcoin Zavior",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "thunderbiscuit",
+      "value": 1
+    },
+    {
+      "source": "thunderbiscuit",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Doc Sharp",
+      "value": 1
+    },
+    {
+      "source": "Doc Sharp",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "John Cantrell",
+      "value": 1
+    },
+    {
+      "source": "John Cantrell",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Stephen DeLorme",
+      "value": 1
+    },
+    {
+      "source": "Stephen DeLorme",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Summer of Bitcoin",
+      "value": 1
+    },
+    {
+      "source": "Summer of Bitcoin",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Dhruv Mehta",
+      "value": 1
+    },
+    {
+      "source": "Dhruv Mehta",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Raj Maitra",
+      "value": 1
+    },
+    {
+      "source": "Raj Maitra",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Mempool",
+      "value": 1
+    },
+    {
+      "source": "Mempool",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Pavlenex",
+      "value": 1
+    },
+    {
+      "source": "Pavlenex",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Fi3",
+      "value": 1
+    },
+    {
+      "source": "Fi3",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Leon Johnson",
+      "value": 1
+    },
+    {
+      "source": "Leon Johnson",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Riccardo Casatta",
+      "value": 1
+    },
+    {
+      "source": "Riccardo Casatta",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Maggie Valentine",
+      "value": 1
+    },
+    {
+      "source": "Maggie Valentine",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Conor Okus",
+      "value": 1
+    },
+    {
+      "source": "Conor Okus",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Jamaal Montasser",
+      "value": 1
+    },
+    {
+      "source": "Jamaal Montasser",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Johns Beharry",
+      "value": 1
+    },
+    {
+      "source": "Johns Beharry",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Daniel Nordh",
+      "value": 1
+    },
+    {
+      "source": "Daniel Nordh",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Thorbj\u00f8rn K\u00f6nig",
+      "value": 1
+    },
+    {
+      "source": "Thorbj\u00f8rn K\u00f6nig",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Lloyd Fournier",
+      "value": 1
+    },
+    {
+      "source": "Lloyd Fournier",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Steve Myers",
+      "value": 1
+    },
+    {
+      "source": "Steve Myers",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Validating Lightning Signer",
+      "value": 1
+    },
+    {
+      "source": "Validating Lightning Signer",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Christoph Ono",
+      "value": 1
+    },
+    {
+      "source": "Christoph Ono",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Justin Moon",
+      "value": 1
+    },
+    {
+      "source": "Justin Moon",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Tankred Hase",
+      "value": 1
+    },
+    {
+      "source": "Tankred Hase",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Lightning Dev Kit",
+      "value": 1
+    },
+    {
+      "source": "Lightning Dev Kit",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Bitcoin Core",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Spiral",
+      "target": "Bitcoin Design",
+      "value": 1
+    },
+    {
+      "source": "Bitcoin Design",
+      "target": "Bitcoin Ecosystem",
+      "value": 1
+    },
+    {
+      "source": "Vinteum",
+      "target": "Leonardo Lima",
+      "value": 1
+    },
+    {
+      "source": "Leonardo Lima",
+      "target": "Bitcoin Dev Kit",
+      "value": 1
+    },
+    {
+      "source": "Vinteum",
+      "target": "Davidson Souza",
+      "value": 1
+    },
+    {
+      "source": "Vinteum",
+      "target": "Pins",
+      "value": 1
+    },
+    {
+      "source": "Pins",
+      "target": "LND",
+      "value": 1
+    },
+    {
+      "source": "Vinteum",
+      "target": "Chris G.",
+      "value": 1
+    },
+    {
+      "source": "Chris G.",
+      "target": "Floresta",
+      "value": 1
+    },
+    {
+      "source": "Vinteum",
+      "target": "Johnny Santos",
+      "value": 1
+    },
+    {
+      "source": "Johnny Santos",
+      "target": "P2Pool V2",
+      "value": 1
+    },
+    {
+      "source": "Vinteum",
+      "target": "Erick Cestari",
+      "value": 1
+    },
+    {
+      "source": "Erick Cestari",
+      "target": "Bitcoinfuzz / Smite",
+      "value": 1
+    },
+    {
+      "source": "Vinteum",
+      "target": "thgO-O",
+      "value": 1
+    },
+    {
+      "source": "thgO-O",
+      "target": "BtcPayServer",
+      "value": 1
+    },
+    {
+      "source": "Vinteum",
+      "target": "Vinicius Cestari",
+      "value": 1
+    },
+    {
+      "source": "Vinicius Cestari",
+      "target": "Bitcoin Core",
+      "value": 1
+    },
+    {
+      "source": "Vinteum",
+      "target": "bc1cindy",
+      "value": 1
+    },
+    {
+      "source": "bc1cindy",
+      "target": "Payjoin Dev Kit",
+      "value": 1
+    },
+    {
+      "source": "Vinteum",
+      "target": "Caio Ueda Sampaio (K-YU)",
+      "value": 1
+    },
+    {
+      "source": "Caio Ueda Sampaio (K-YU)",
+      "target": "bitcoinfuzz",
+      "value": 1
+    },
+    {
+      "source": "Vinteum",
+      "target": "Allocz",
+      "value": 1
+    },
+    {
+      "source": "Allocz",
+      "target": "btcd",
+      "value": 1
+    },
+    {
+      "source": "Vinteum",
+      "target": "Octavio Lucca",
+      "value": 1
+    },
+    {
+      "source": "Octavio Lucca",
+      "target": "Peer Observer",
+      "value": 1
+    },
+    {
+      "source": "Vinteum",
+      "target": "Victor Andr\u00e9",
+      "value": 1
+    },
+    {
+      "source": "Victor Andr\u00e9",
+      "target": "BIP324",
+      "value": 1
+    },
+    {
+      "source": "Vinteum",
+      "target": "Isaque Franklin",
+      "value": 1
+    },
+    {
+      "source": "Isaque Franklin",
+      "target": "Studying Bitcoin cryptography",
+      "value": 1
+    },
+    {
+      "source": "Vinteum",
+      "target": "Lucas Lima",
+      "value": 1
+    },
+    {
+      "source": "Lucas Lima",
+      "target": "Secure Fountain Codes",
+      "value": 1
+    },
+    {
+      "source": "Vinteum",
+      "target": "Renato Britto (satsfy)",
+      "value": 1
+    },
+    {
+      "source": "Renato Britto (satsfy)",
+      "target": "rust-bitcoin",
+      "value": 1
+    },
+    {
+      "source": "Vinteum",
+      "target": "m4ycon",
+      "value": 1
+    },
+    {
+      "source": "m4ycon",
+      "target": "Peer Observer",
+      "value": 1
+    },
+    {
+      "source": "Vinteum",
+      "target": "Jayr Motta",
+      "value": 1
+    },
+    {
+      "source": "Jayr Motta",
+      "target": "Mujina",
+      "value": 1
+    },
+    {
+      "source": "Vinteum",
+      "target": "Yan",
+      "value": 1
+    },
+    {
+      "source": "Yan",
+      "target": "Bitcoin Dev Kit",
+      "value": 1
+    }
+  ]
+}

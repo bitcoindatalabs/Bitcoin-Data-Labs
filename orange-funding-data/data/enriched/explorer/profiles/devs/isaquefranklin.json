@@ -1,0 +1,42 @@
+{
+  "type": "developer",
+  "name": "Isaque Franklin",
+  "github": "IsaqueFranklin",
+  "notes": "",
+  "description": null,
+  "grants": [
+    {
+      "sponsor": "Vinteum",
+      "project": "Studying Bitcoin cryptography",
+      "start_date": null,
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 28,
+    "layers_active": [
+      "Core & Protocol"
+    ],
+    "languages": {
+      "Wikitext": 3.5
+    },
+    "top_repos": [
+      {
+        "github_login": "IsaqueFranklin",
+        "repo_name": "bitcoin/bips",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 1,
+        "star_events": 1,
+        "fork_events": 0,
+        "first_activity": "2024-02-19T00:34:07+00:00",
+        "last_activity": "2026-06-03T01:09:46+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 3.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

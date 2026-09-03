@@ -1,0 +1,75 @@
+{
+  "type": "developer",
+  "name": "Russell O'Connor",
+  "github": "roconnor",
+  "notes": "Researcher",
+  "description": "",
+  "grants": [
+    {
+      "sponsor": "Blockstream",
+      "project": "Bitcoin Ecosystem",
+      "start_date": null,
+      "end_date": "historical"
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 65,
+    "layers_active": [
+      "Core & Protocol"
+    ],
+    "languages": {
+      "C++": 2.5,
+      "Wikitext": 91.5
+    },
+    "top_repos": [
+      {
+        "github_login": "roconnor",
+        "repo_name": "bitcoin/bips",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 21,
+        "issue_events": 2,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2025-11-24T17:18:26+00:00",
+        "last_activity": "2025-12-15T19:40:08+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 89.0,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "roconnor",
+        "repo_name": "bitcoin/bitcoin",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2025-11-25T17:56:44+00:00",
+        "last_activity": "2025-11-25T17:56:44+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 2.5,
+        "display_metric": 5,
+        "metric_label": "commits"
+      },
+      {
+        "github_login": "roconnor",
+        "repo_name": "sipa/bips",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2020-07-18T22:00:43+00:00",
+        "last_activity": "2020-07-18T22:00:43+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 2.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "project",
+  "name": "ContextVM",
+  "developers": [
+    "ContextVM"
+  ],
+  "sponsors": [
+    "OpenSats"
+  ],
+  "eco_data": {
+    "layer": "Sidechains & L2s",
+    "description": "A project exploring Bitcoin-based virtual machines.",
+    "website": "",
+    "github": "",
+    "top_repos": [],
+    "aggregate_metrics": null,
+    "top_contributors": []
+  }
+}

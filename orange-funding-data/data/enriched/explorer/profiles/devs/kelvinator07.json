@@ -1,0 +1,144 @@
+{
+  "type": "developer",
+  "name": "Kelvin Isievwore",
+  "github": "kelvinator07",
+  "notes": "",
+  "description": "",
+  "grants": [
+    {
+      "sponsor": "Btrust",
+      "project": "Bitcoin Ecosystem",
+      "start_date": null,
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 52,
+    "layers_active": [
+      "Core & Protocol",
+      "Ecosystem Tooling",
+      "Lightning Network"
+    ],
+    "languages": {
+      "Java": 5446.5,
+      "TypeScript": 430.0,
+      "HTML": 226.0,
+      "Rust": 6.0,
+      "C++": 6.5
+    },
+    "top_repos": [
+      {
+        "github_login": "kelvinator07",
+        "repo_name": "rsksmart/rskj",
+        "push_events": 103,
+        "pr_events": 37,
+        "review_events": 495,
+        "issue_events": 21,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2021-03-15T16:05:55+00:00",
+        "last_activity": "2023-10-20T15:38:14+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 2771.0,
+        "display_metric": 37,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "kelvinator07",
+        "repo_name": "rsksmart/powpeg-node",
+        "push_events": 189,
+        "pr_events": 61,
+        "review_events": 322,
+        "issue_events": 30,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2021-03-15T16:06:16+00:00",
+        "last_activity": "2023-10-12T16:24:13+00:00",
+        "layer": "Ecosystem Tooling",
+        "contribution_score": 2675.5,
+        "display_metric": 61,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "kelvinator07",
+        "repo_name": "jamaljsr/polar",
+        "push_events": 0,
+        "pr_events": 10,
+        "review_events": 73,
+        "issue_events": 29,
+        "star_events": 0,
+        "fork_events": 2,
+        "first_activity": "2023-12-18T12:27:30+00:00",
+        "last_activity": "2025-07-31T22:10:57+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 427.5,
+        "display_metric": 10,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "kelvinator07",
+        "repo_name": "rsksmart/RSKIPs",
+        "push_events": 8,
+        "pr_events": 1,
+        "review_events": 45,
+        "issue_events": 0,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2022-03-15T16:42:25+00:00",
+        "last_activity": "2023-06-08T10:52:04+00:00",
+        "layer": "Ecosystem Tooling",
+        "contribution_score": 226.0,
+        "display_metric": 1,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "kelvinator07",
+        "repo_name": "bitcoin/bitcoin",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 2,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2024-12-28T02:56:13+00:00",
+        "last_activity": "2025-01-02T10:38:18+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 6.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "kelvinator07",
+        "repo_name": "bitcoin-dev-project/sim-ln",
+        "push_events": 0,
+        "pr_events": 1,
+        "review_events": 0,
+        "issue_events": 0,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2024-10-09T10:29:09+00:00",
+        "last_activity": "2024-10-09T10:29:09+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 6.0,
+        "display_metric": 1,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "kelvinator07",
+        "repo_name": "bitpay/bitcore",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2025-06-11T16:28:32+00:00",
+        "last_activity": "2025-06-11T16:28:32+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 2.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

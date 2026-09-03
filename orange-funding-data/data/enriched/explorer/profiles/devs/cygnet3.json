@@ -1,0 +1,126 @@
+{
+  "type": "developer",
+  "name": "cygnet3",
+  "github": "cygnet3",
+  "notes": "",
+  "description": "A mobile Bitcoin wallet built around silent payments, BIP353 addresses, and local scanning for private on-chain receiving.",
+  "grants": [
+    {
+      "sponsor": "OpenSats",
+      "project": "Dana Wallet",
+      "start_date": "2026-05",
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 31,
+    "layers_active": [
+      "Core & Protocol",
+      "Ecosystem Tooling"
+    ],
+    "languages": {
+      "C++": 5.0,
+      "Python": 2.5,
+      "Rust": 2003.5,
+      "Wikitext": 8.0
+    },
+    "top_repos": [
+      {
+        "github_login": "cygnet3",
+        "repo_name": "cygnet3/rust-silentpayments",
+        "push_events": 202,
+        "pr_events": 109,
+        "review_events": 33,
+        "issue_events": 80,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2023-07-23T12:16:19+00:00",
+        "last_activity": "2026-02-26T13:51:42+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 1996.0,
+        "display_metric": 109,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "cygnet3",
+        "repo_name": "bitcoin/bips",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 2,
+        "issue_events": 0,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2023-08-07T22:16:58+00:00",
+        "last_activity": "2023-08-07T22:16:59+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 8.0,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "cygnet3",
+        "repo_name": "bitcoin/bitcoin",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 2,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2024-03-11T11:43:44+00:00",
+        "last_activity": "2024-05-02T13:49:43+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 5.0,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "cygnet3",
+        "repo_name": "bitcoindevkit/bdk",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2023-08-15T21:36:29+00:00",
+        "last_activity": "2024-06-03T10:50:47+00:00",
+        "layer": "Ecosystem Tooling",
+        "contribution_score": 4.0,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "cygnet3",
+        "repo_name": "rust-bitcoin/rust-bitcoin",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 1,
+        "star_events": 1,
+        "fork_events": 0,
+        "first_activity": "2023-07-24T17:53:43+00:00",
+        "last_activity": "2026-02-20T12:43:23+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 3.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "cygnet3",
+        "repo_name": "spesmilo/electrum",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2024-01-24T11:13:41+00:00",
+        "last_activity": "2024-01-24T11:13:41+00:00",
+        "layer": "Ecosystem Tooling",
+        "contribution_score": 2.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

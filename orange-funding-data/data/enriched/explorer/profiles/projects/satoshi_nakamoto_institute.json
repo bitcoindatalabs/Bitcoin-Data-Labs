@@ -1,0 +1,19 @@
+{
+  "type": "project",
+  "name": "Satoshi Nakamoto Institute",
+  "developers": [
+    "NakamotoInstitute"
+  ],
+  "sponsors": [
+    "OpenSats"
+  ],
+  "eco_data": {
+    "layer": "Developer Education",
+    "description": "A repository of Bitcoin's intellectual history and writings.",
+    "website": "https://nakamotoinstitute.org",
+    "github": "",
+    "top_repos": [],
+    "aggregate_metrics": null,
+    "top_contributors": []
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "type": "developer",
+  "name": "Tankred Hase",
+  "github": "tanx",
+  "notes": "",
+  "description": "",
+  "grants": [
+    {
+      "sponsor": "Spiral (Block/Square)",
+      "project": "Bitcoin Ecosystem",
+      "start_date": "Mar 2020",
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 52,
+    "layers_active": [
+      "Lightning Network"
+    ],
+    "languages": {
+      "Go": 12.5,
+      "JavaScript": 15426.0,
+      "TypeScript": 93.5,
+      "Scala": 2.5
+    },
+    "top_repos": [
+      {
+        "github_login": "tanx",
+        "repo_name": "lightninglabs/lightning-app",
+        "push_events": 1405,
+        "pr_events": 525,
+        "review_events": 456,
+        "issue_events": 1369,
+        "star_events": 0,
+        "fork_events": 3,
+        "first_activity": "2018-01-26T16:47:47+00:00",
+        "last_activity": "2020-03-08T06:56:09+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 15426.0,
+        "display_metric": 525,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "tanx",
+        "repo_name": "BlueWallet/BlueWallet",
+        "push_events": 0,
+        "pr_events": 2,
+        "review_events": 11,
+        "issue_events": 14,
+        "star_events": 1,
+        "fork_events": 1,
+        "first_activity": "2018-10-05T09:57:01+00:00",
+        "last_activity": "2022-05-16T08:43:50+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 93.5,
+        "display_metric": 2,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "tanx",
+        "repo_name": "lightningnetwork/lnd",
+        "push_events": 0,
+        "pr_events": 1,
+        "review_events": 0,
+        "issue_events": 1,
+        "star_events": 1,
+        "fork_events": 2,
+        "first_activity": "2018-07-06T21:14:34+00:00",
+        "last_activity": "2019-08-26T16:47:37+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 12.5,
+        "display_metric": 1,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "tanx",
+        "repo_name": "ACINQ/eclair",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2018-07-10T13:35:05+00:00",
+        "last_activity": "2018-07-10T13:35:05+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 2.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

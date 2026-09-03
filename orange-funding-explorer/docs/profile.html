@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile | Ecosystem Funding Explorer</title>
+    
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Core Styles -->
+    <link rel="stylesheet" href="https://bitcoindatalabs.org/styles/styles.css">
+    <link rel="stylesheet" href="styles/style.css">
+    
+    <!-- ECharts -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://bitcoindatalabs.org/favicon.png">
+</head>
+<body class="has-fixed-header">
+    <div id="main-container">
+        <div id="header"></div>
+
+        <div id="app-content" class="container">
+            <div style="margin: 24px 0;">
+                <a href="#" id="back-link" style="color: var(--text-secondary); text-decoration: none; font-weight: 500; transition: color 0.2s;">
+                    <i class="fas fa-arrow-left"></i> Back to Roster
+                </a>
+            </div>
+            
+            <div id="profile-loading" style="text-align: center; padding: 100px 0;">
+                <i class="fas fa-circle-notch fa-spin fa-2x" style="color: var(--primary);"></i>
+                <p style="margin-top: 16px; color: var(--text-secondary);">Loading Profile...</p>
+            </div>
+            
+            <div id="profile-not-found" style="display: none; text-align: center; padding: 100px 0;">
+                <h2>Profile Not Found</h2>
+                <p style="color: var(--text-secondary);">We couldn't find a profile for the requested ID.</p>
+            </div>
+
+            <!-- Profile Content -->
+            <div id="profile-content" style="display: none;">
+                
+                <!-- Hero Section -->
+                <div class="card" style="padding: 40px; margin-bottom: 24px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 16px;">
+                    <div id="profile-avatar" style="width: 100px; height: 100px; border-radius: 50%; background: var(--bg-color); display: flex; align-items: center; justify-content: center; font-size: 40px; color: var(--text-secondary); overflow: hidden;">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div>
+                        <h1 id="profile-name" style="margin: 0 0 8px 0; font-size: 2.2rem;">Name</h1>
+                        <div id="profile-badges" style="display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-bottom: 16px;">
+                            <!-- Badges injected here -->
+                        </div>
+                        <p id="profile-description" style="color: var(--text-secondary); max-width: 600px; margin: 0 auto; line-height: 1.5;"></p>
+                    </div>
+                    <div id="profile-links" style="display: flex; gap: 16px;">
+                        <!-- Links injected here -->
+                    </div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 24px; margin-bottom: 40px;">
+                    
+                    <!-- Left Column -->
+                    <div class="card" style="padding: 24px;">
+                        <h3 id="profile-col1-title" style="margin-top: 0; border-bottom: 1px solid var(--border-color); padding-bottom: 12px; margin-bottom: 16px;">
+                            <i class="fas fa-hand-holding-usd" style="color: var(--primary); margin-right: 8px;"></i> Funding
+                        </h3>
+                        <div id="profile-col1-content" style="display: flex; flex-direction: column; gap: 16px;">
+                            <!-- Items injected here -->
+                        </div>
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="card" style="padding: 24px;" id="profile-eco-card">
+                        <h3 id="profile-col2-title" style="margin-top: 0; border-bottom: 1px solid var(--border-color); padding-bottom: 12px; margin-bottom: 16px;">
+                            <i class="fas fa-code-branch" style="color: var(--primary); margin-right: 8px;"></i> Activity
+                        </h3>
+                        <div id="profile-eco-stats" style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px;">
+                            <!-- Stats injected here -->
+                        </div>
+                        <h4 id="profile-col2-subtitle" style="margin: 0 0 12px 0; font-size: 0.95rem; color: var(--text-secondary);">Top Repositories</h4>
+                        <div id="profile-col2-content" style="display: flex; flex-direction: column; gap: 12px;">
+                            <!-- Repos injected here -->
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+
+        <div id="footer"></div>
+    </div>
+
+    <!-- Bitcoin Data Labs App Components -->
+    <script src="https://bitcoindatalabs.org/components/app-components.js"></script>
+    <script src="js/app-config.js"></script>
+    <script src="js/profile.js"></script>
+</body>
+</html>

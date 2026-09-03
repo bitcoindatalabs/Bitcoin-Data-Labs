@@ -1,0 +1,59 @@
+{
+  "type": "developer",
+  "name": "Victor Chabunda",
+  "github": "chavic",
+  "notes": "",
+  "description": "Chabunda, also known as Chavic, is a developer based in Zambia with nearly a decade of experience building software across multiple platforms. He is the author of UniFFI\u2011Dart and a contributor to the rust\u2011payjoin project, where his work focuses on improving developer experience through cross\u2011language bindings and tooling.",
+  "grants": [
+    {
+      "sponsor": "Btrust",
+      "project": "Bitcoin Ecosystem",
+      "start_date": null,
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 11,
+    "layers_active": [
+      "Ecash / Privacy",
+      "Core & Protocol"
+    ],
+    "languages": {
+      "Rust": 139.5
+    },
+    "top_repos": [
+      {
+        "github_login": "chavic",
+        "repo_name": "payjoin/rust-payjoin",
+        "push_events": 0,
+        "pr_events": 4,
+        "review_events": 16,
+        "issue_events": 16,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2025-07-04T12:46:47+00:00",
+        "last_activity": "2026-06-24T12:53:11+00:00",
+        "layer": "Ecash / Privacy",
+        "contribution_score": 129.5,
+        "display_metric": 4,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "chavic",
+        "repo_name": "bitcoindevkit/bdk-ffi",
+        "push_events": 0,
+        "pr_events": 1,
+        "review_events": 0,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2025-09-17T18:41:20+00:00",
+        "last_activity": "2025-09-22T18:44:49+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 10.0,
+        "display_metric": 1,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

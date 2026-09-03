@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funder Roster | Funding Explorer</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://bitcoindatalabs.org/styles/styles.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+</head>
+<body class="has-fixed-header">
+    <div id="main-container">
+        <div id="header"></div>
+
+        <div id="app-content" class="container">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 24px; margin-bottom: 24px; flex-wrap: wrap; gap: 16px;">
+                <div class="filter-controls" style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center;">
+                    <div class="search-box" style="position: relative; width: 300px;">
+                        <i class="fas fa-search" style="position: absolute; left: 16px; top: 50%; transform: translateY(-50%); color: var(--text-secondary); font-size: 1rem;"></i>
+                        <input type="text" id="roster-search" placeholder="Search funders or projects..." style="width: 100%; padding: 10px 16px 10px 40px; font-size: 0.95rem; border: 1px solid var(--border-color); border-radius: 20px; outline: none; background: var(--bg-color); color: var(--text-primary); transition: all 0.3s;">
+                    </div>
+                    
+                    <select id="sponsor-filter" style="padding: 10px 16px; border-radius: 20px; border: 1px solid var(--border-color); background: var(--bg-color); color: var(--text-primary); outline: none; font-size: 0.95rem;">
+                        <option value="">All Sponsors</option>
+                        <!-- Populated by JS -->
+                    </select>
+                    
+                    <select id="project-filter" style="padding: 10px 16px; border-radius: 20px; border: 1px solid var(--border-color); background: var(--bg-color); color: var(--text-primary); outline: none; font-size: 0.95rem;">
+                        <option value="">All Projects</option>
+                        <!-- Populated by JS -->
+                    </select>
+                    
+                    <select id="type-filter" style="padding: 10px 16px; border-radius: 20px; border: 1px solid var(--border-color); background: var(--bg-color); color: var(--text-primary); outline: none; font-size: 0.95rem;">
+                        <option value="">All Entities</option>
+                        <option value="developer">Developers</option>
+                        <option value="project">Projects / Orgs</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Grid View Container -->
+            <div id="roster-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 24px; margin-bottom: 40px;">
+                <!-- Cards injected here -->
+            </div>
+        </div>
+
+        <div id="footer"></div>
+    </div>
+
+    <script src="https://bitcoindatalabs.org/components/app-components.js"></script>
+    <script src="js/app-config.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

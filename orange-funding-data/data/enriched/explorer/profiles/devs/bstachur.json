@@ -1,0 +1,15 @@
+{
+  "type": "developer",
+  "name": "Brad Stachurski",
+  "github": "bstachur",
+  "notes": "LTS Grantee",
+  "description": "",
+  "grants": [
+    {
+      "sponsor": "OpenSats",
+      "project": "Bitcoin Ecosystem",
+      "start_date": null,
+      "end_date": null
+    }
+  ]
+}

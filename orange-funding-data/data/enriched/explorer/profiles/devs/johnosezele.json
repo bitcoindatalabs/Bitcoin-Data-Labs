@@ -1,0 +1,42 @@
+{
+  "type": "developer",
+  "name": "John Osezele",
+  "github": "Johnosezele",
+  "notes": "",
+  "description": "John is a software engineer based in Nigeria with five years of experience building mobile applications across fintech and security platforms. He is a co\u2011maintainer of the bdk\u2011dart project within the Bitcoin Dev Kit ecosystem. The project provides Dart bindings that allow Flutter developers to build Bitcoin wallets powered by BDK\u2019s Rust implementation.",
+  "grants": [
+    {
+      "sponsor": "Btrust",
+      "project": "Bitcoin Ecosystem",
+      "start_date": null,
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 5,
+    "layers_active": [
+      "Ecash / Privacy"
+    ],
+    "languages": {
+      "Rust": 388.5
+    },
+    "top_repos": [
+      {
+        "github_login": "Johnosezele",
+        "repo_name": "payjoin/rust-payjoin",
+        "push_events": 0,
+        "pr_events": 13,
+        "review_events": 62,
+        "issue_events": 24,
+        "star_events": 1,
+        "fork_events": 1,
+        "first_activity": "2025-04-03T16:45:35+00:00",
+        "last_activity": "2025-09-20T15:58:53+00:00",
+        "layer": "Ecash / Privacy",
+        "contribution_score": 388.5,
+        "display_metric": 13,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

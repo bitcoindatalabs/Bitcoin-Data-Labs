@@ -1,0 +1,15 @@
+{
+  "type": "developer",
+  "name": "Christoph Ono",
+  "github": "BitcoinDesign",
+  "notes": "",
+  "description": "Design resources for teams building better Bitcoin products.",
+  "grants": [
+    {
+      "sponsor": "OpenSats",
+      "project": "Bitcoin Design",
+      "start_date": "2023-03",
+      "end_date": null
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "type": "project",
+  "name": "Stratum V2",
+  "developers": [
+    "lucasbalieiro",
+    "stratum-mining",
+    "plebhash"
+  ],
+  "sponsors": [
+    "Vinteum",
+    "OpenSats"
+  ],
+  "eco_data": {
+    "layer": "Mining Infrastructure",
+    "description": "The next generation protocol for pooled Bitcoin mining.",
+    "website": "https://stratumprotocol.org",
+    "github": "stratum-mining",
+    "top_repos": [
+      {
+        "repo_name": "stratum-mining/stratum",
+        "description": "Stratum V2 protocol libraries",
+        "stars": 349,
+        "forks": 200,
+        "language": "Rust",
+        "open_issues": 66,
+        "license": "NOASSERTION",
+        "archived": false,
+        "topics": [],
+        "code_contributors": 68,
+        "code_reviewers": 49,
+        "total_unique_contributors": 454,
+        "bus_factor_tier": "healthy",
+        "review_culture_ratio": 0.72,
+        "first_activity": "2021-02-15T18:40:30+00:00",
+        "last_activity": "2026-07-31T02:16:32+00:00"
+      },
+      {
+        "repo_name": "stratum-mining/sv2-spec",
+        "description": "Stratum V2 Specification",
+        "stars": 94,
+        "forks": 45,
+        "language": "Shell",
+        "open_issues": 24,
+        "license": null,
+        "archived": false,
+        "topics": [],
+        "code_contributors": 21,
+        "code_reviewers": 20,
+        "total_unique_contributors": 129,
+        "bus_factor_tier": "healthy",
+        "review_culture_ratio": 0.95,
+        "first_activity": "2022-03-10T16:29:50+00:00",
+        "last_activity": "2026-06-09T10:51:50+00:00"
+      }
+    ],
+    "aggregate_metrics": {
+      "total_stars": 443,
+      "total_forks": 245,
+      "total_code_contributors": 89,
+      "total_code_reviewers": 69,
+      "total_unique_contributors": 583,
+      "primary_language": "Rust",
+      "languages": {
+        "Rust": 0.79,
+        "Shell": 0.21
+      },
+      "earliest_activity": "2021-02-15T18:40:30+00:00",
+      "latest_activity": "2026-07-31T02:16:32+00:00"
+    },
+    "top_contributors": [
+      {
+        "github_login": "plebhash",
+        "contribution_score": 18831.0,
+        "display_metric": 524,
+        "metric_label": "opened PRs",
+        "tenure_months": 32,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "GitGab19",
+        "contribution_score": 9566.5,
+        "display_metric": 208,
+        "metric_label": "opened PRs",
+        "tenure_months": 46,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "Fi3",
+        "contribution_score": 9301.0,
+        "display_metric": 494,
+        "metric_label": "opened PRs",
+        "tenure_months": 114,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "jbesraa",
+        "contribution_score": 4835.5,
+        "display_metric": 94,
+        "metric_label": "opened PRs",
+        "tenure_months": 56,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "rrybarczyk",
+        "contribution_score": 3434.0,
+        "display_metric": 141,
+        "metric_label": "opened PRs",
+        "tenure_months": 68,
+        "is_active_last_12m": false
+      },
+      {
+        "github_login": "darricksee",
+        "contribution_score": 2924.0,
+        "display_metric": 76,
+        "metric_label": "opened PRs",
+        "tenure_months": 24,
+        "is_active_last_12m": false
+      },
+      {
+        "github_login": "Shourya742",
+        "contribution_score": 2389.5,
+        "display_metric": 24,
+        "metric_label": "opened PRs",
+        "tenure_months": 38,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "lorbax",
+        "contribution_score": 2022.0,
+        "display_metric": 50,
+        "metric_label": "opened PRs",
+        "tenure_months": 24,
+        "is_active_last_12m": false
+      },
+      {
+        "github_login": "pavlenex",
+        "contribution_score": 1501.5,
+        "display_metric": 31,
+        "metric_label": "opened PRs",
+        "tenure_months": 90,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "Sjors",
+        "contribution_score": 1463.5,
+        "display_metric": 13,
+        "metric_label": "opened PRs",
+        "tenure_months": 137,
+        "is_active_last_12m": true
+      }
+    ]
+  }
+}

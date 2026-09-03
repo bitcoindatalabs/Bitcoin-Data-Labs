@@ -1,0 +1,6323 @@
+{
+  "_comment": "Bitcoin Core development sponsors and their known developers. Updated manually.",
+  "_last_updated": "2026-02-09",
+  "_methodology": "Classification: 'sponsored' = actively funded for Bitcoin Core work. 'affiliated' = works at company but funding unclear.",
+  "sponsors": [
+    {
+      "id": "chaincode",
+      "name": "Chaincode Labs",
+      "type": "nonprofit",
+      "domains": [
+        "chaincode.com"
+      ],
+      "website": "https://chaincode.com",
+      "x_handle": "ChaincodeLabs",
+      "github": "chaincodelabs"
+    },
+    {
+      "id": "spiral",
+      "name": "Spiral (Block/Square)",
+      "type": "corporate",
+      "domains": [
+        "spiral.xyz",
+        "block.xyz",
+        "squareup.com"
+      ],
+      "website": "https://spiral.xyz",
+      "x_handle": "spiralbtc",
+      "github": "spiralbtc"
+    },
+    {
+      "id": "blockstream",
+      "name": "Blockstream",
+      "type": "corporate",
+      "domains": [
+        "blockstream.com",
+        "blockstream.io"
+      ],
+      "website": "https://blockstream.com",
+      "x_handle": "Blockstream",
+      "github": "Blockstream"
+    },
+    {
+      "id": "brink",
+      "name": "Brink",
+      "type": "nonprofit",
+      "domains": [
+        "brink.dev"
+      ],
+      "website": "https://brink.dev",
+      "x_handle": "bitcoinbrink",
+      "github": "brink-dev"
+    },
+    {
+      "id": "mit_dci",
+      "name": "MIT Digital Currency Initiative",
+      "type": "academic",
+      "domains": [
+        "mit.edu",
+        "media.mit.edu"
+      ],
+      "website": "https://dci.mit.edu",
+      "x_handle": "mitdci",
+      "github": "mit-dci"
+    },
+    {
+      "id": "hrf",
+      "name": "Human Rights Foundation",
+      "type": "nonprofit",
+      "domains": [
+        "hrf.org"
+      ],
+      "website": "https://hrf.org/devfund",
+      "x_handle": "HRF"
+    },
+    {
+      "id": "okcoin",
+      "name": "OKCoin",
+      "type": "corporate",
+      "domains": [
+        "okcoin.com"
+      ],
+      "website": "https://okcoin.com",
+      "x_handle": "Okcoin"
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "type": "corporate",
+      "domains": [
+        "gemini.com"
+      ],
+      "website": "https://gemini.com",
+      "x_handle": "Gemini"
+    },
+    {
+      "id": "opensats",
+      "name": "OpenSats",
+      "type": "nonprofit",
+      "domains": [
+        "opensats.org"
+      ],
+      "website": "https://opensats.org",
+      "x_handle": "OpenSats",
+      "github": "OpenSats"
+    },
+    {
+      "id": "btrust",
+      "name": "Btrust",
+      "type": "nonprofit",
+      "domains": [
+        "btrust.africa",
+        "btrust.org"
+      ],
+      "website": "https://btrust.africa",
+      "x_handle": "btrustteam",
+      "github": "btrustteam"
+    },
+    {
+      "id": "2140",
+      "name": "2140",
+      "type": "nonprofit",
+      "domains": [
+        "2140.dev"
+      ],
+      "website": "https://2140.dev",
+      "x_handle": "2140_dev",
+      "github": "2140-dev"
+    },
+    {
+      "id": "localhost_research",
+      "name": "Localhost Research",
+      "type": "nonprofit",
+      "domains": [
+        "lclhost.org"
+      ],
+      "website": "https://lclhost.org"
+    },
+    {
+      "id": "bitmex",
+      "name": "BitMEX",
+      "type": "corporate",
+      "domains": [
+        "bitmex.com"
+      ],
+      "website": "https://bitmex.com",
+      "x_handle": "BitMEX",
+      "github": "BitMEX"
+    },
+    {
+      "id": "bitgo",
+      "name": "BitGo",
+      "type": "corporate",
+      "domains": [
+        "bitgo.com"
+      ],
+      "website": "https://bitgo.com",
+      "x_handle": "BitGo",
+      "github": "BitGo"
+    },
+    {
+      "id": "vinteum",
+      "name": "Vinteum",
+      "type": "nonprofit",
+      "domains": [
+        "vinteum.org"
+      ],
+      "website": "https://vinteum.org",
+      "x_handle": "vinteum_org",
+      "github": "vinteumorg"
+    },
+    {
+      "id": "maelstrom",
+      "name": "Maelstrom Fund",
+      "type": "corporate",
+      "domains": [
+        "maelstrom.fund"
+      ],
+      "website": "https://maelstrom.fund",
+      "x_handle": "MaelstromFund"
+    },
+    {
+      "id": "coinbase",
+      "name": "Coinbase",
+      "type": "corporate",
+      "domains": [
+        "coinbase.com"
+      ],
+      "website": "https://coinbase.com",
+      "x_handle": "coinbase",
+      "github": "coinbase"
+    },
+    {
+      "id": "hardcore_fund",
+      "name": "Hardcore Fund",
+      "type": "nonprofit",
+      "domains": [],
+      "website": "",
+      "github": "hardcorefund"
+    },
+    {
+      "id": "marathon",
+      "name": "Marathon Digital Holdings",
+      "type": "corporate",
+      "domains": [
+        "mara.com"
+      ],
+      "website": "https://mara.com",
+      "x_handle": "MarathonDH"
+    },
+    {
+      "id": "bitcoin_foundation",
+      "name": "Bitcoin Foundation",
+      "type": "nonprofit",
+      "domains": [
+        "bitcoinfoundation.org"
+      ],
+      "website": "https://bitcoinfoundation.org",
+      "x_handle": "BTCFoundation",
+      "github": "bitcoinfoundation"
+    }
+  ],
+  "sponsored_developers": [
+    {
+      "canonical_name": "Gloria Zhao",
+      "notes": "Mempool/P2P focus",
+      "github": "glozow",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Dec 2020",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ],
+      "social": {
+        "x_handle": "glozow",
+        "website": "https://twitter.com/glozow",
+        "nostr": null
+      },
+      "description": "Gloria was one of the maintainers of Bitcoin Core, primarily focused on mempool and P2P. As a Brink fellow and grantee, she worked on package relay (BIP331) and transaction relay policy changes to make pinning attacks more difficult. She also served on Brink's grant commitee while running the <a href=\"https://bitcoincore.reviews/\">Bitcoin Core PR Review Club</a> aimed at helping newcomers learn about the codebase and PR review process.",
+      "image_url": "https://brink.devassets/images/gloria-zhao.jpg",
+      "identity_uuid": "can_gloria_zhao",
+      "resolution_method": "social_handle"
+    },
+    {
+      "canonical_name": "Ava Chow",
+      "notes": "Wallet maintainer",
+      "github": "achow101",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": "2025-05"
+        },
+        {
+          "sponsor_id": "localhost_research",
+          "start_date": "2025-05",
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Pieter Wuille",
+      "notes": "Consensus, cryptography",
+      "github": "sipa",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": "2019-01"
+        },
+        {
+          "sponsor_id": "chaincode",
+          "start_date": "2019-01",
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Suhas Daftuar",
+      "notes": "P2P, mempool",
+      "github": "sdaftuar",
+      "grants": [
+        {
+          "sponsor_id": "chaincode",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "John Newbery",
+      "notes": "Brink co-founder",
+      "github": "jnewbery",
+      "grants": [
+        {
+          "sponsor_id": "chaincode",
+          "start_date": null,
+          "end_date": "2020-06"
+        },
+        {
+          "sponsor_id": "brink",
+          "start_date": "2020-06",
+          "end_date": null
+        }
+      ],
+      "social": {
+        "x_handle": "jfnewbery",
+        "website": "https://twitter.com/jfnewbery",
+        "nostr": null
+      },
+      "description": "John has been contributing to Bitcoin Core since 2016. He co-founded <a href=\"https://bitcoinops.org/\" target=\"_blank\" rel=\"noopener\">Bitcoin Optech</a> in 2018 to help Bitcoin companies adopt scaling technologies. He helped organize the <a href=\"https://bitdevs.org/\" target=\"_blank\" rel=\"noopener\">bitdevs NYC meetups</a>, the <a href=\"https://residency.chaincode.com/\" target=\"_blank\" rel=\"noopener\">Chaincode Residency programs</a> and the <a href=\"https://bitcoincore.reviews/\" target=\"_blank\" rel=\"noopener\">weekly Bitcoin Core PR review club</a>. John co-founded Brink in 2020 to support Bitcoin protocol development and onboard future Bitcoin protocol developers and served on the board and as Executive Director.",
+      "image_url": "https://brink.devassets/images/john-newbery.jpg",
+      "identity_uuid": "can_john_newbery",
+      "resolution_method": "identities.json"
+    },
+    {
+      "canonical_name": "Marco Falke",
+      "notes": "Former testing maintainer",
+      "github": "MarcoFalke",
+      "grants": [
+        {
+          "sponsor_id": "chaincode",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Wladimir van der Laan",
+      "notes": "Former lead maintainer",
+      "grants": [
+        {
+          "sponsor_id": "mit_dci",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "bitcoin_foundation",
+          "start_date": "2014-04",
+          "end_date": "2015-04"
+        }
+      ],
+      "github": "laanwj"
+    },
+    {
+      "canonical_name": "Cory Fields",
+      "notes": "Build system",
+      "github": "theuni",
+      "grants": [
+        {
+          "sponsor_id": "mit_dci",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "bitcoin_foundation",
+          "start_date": "2014-01",
+          "end_date": "2015-04"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Matt Corallo",
+      "notes": "LDK, formerly Core",
+      "github": "TheBlueMatt",
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "blockstream",
+          "start_date": "2014-01",
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Michael Ford",
+      "notes": "Build/release maintainer",
+      "github": "fanquake",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        }
+      ],
+      "social": {
+        "x_handle": "fanquake",
+        "website": "https://twitter.com/fanquake",
+        "nostr": null
+      },
+      "description": "Michael's funding supports his work as a maintainer as well as his work on the build system, security, and reducing the number of dependencies used in the codebase.",
+      "image_url": "https://brink.devassets/images/michael-ford.jpg",
+      "resolution_method": "source"
+    },
+    {
+      "canonical_name": "Hennadii Stepanov",
+      "notes": "GUI, build system",
+      "github": "hebasto",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        }
+      ],
+      "social": {
+        "x_handle": "hhebasto",
+        "website": "https://twitter.com/hhebasto",
+        "nostr": null
+      },
+      "description": "Hennadii has been contributing code and review to Bitcoin Core since 2018. In that time he has become one of the most prolific contributors to the project. Hennadii\u2019s funding allows him to work full time on Bitcoin Core development and review.",
+      "image_url": "https://brink.devassets/images/hennadii-stepanov.jpg",
+      "identity_uuid": "can_hennadii_stepanov",
+      "resolution_method": "identities.json"
+    },
+    {
+      "canonical_name": "Ryan Ofsky",
+      "notes": "Multiprocess",
+      "github": "ryanofsky",
+      "grants": [
+        {
+          "sponsor_id": "chaincode",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Sjors Provoost",
+      "notes": "Wallet, Stratum v2",
+      "github": "Sjors",
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Antoine Poinsot",
+      "notes": "Miniscript",
+      "github": "darosior",
+      "grants": [
+        {
+          "sponsor_id": "chaincode",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Sebastian Falbesoner",
+      "notes": "Various contributions",
+      "github": "theStack",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        }
+      ],
+      "social": {
+        "x_handle": "theStack",
+        "website": "https://twitter.com/theStack",
+        "nostr": null
+      },
+      "description": "Sebastian's funding supports his code review and testing, improving test coverage, extending the test framework, and improving the networking/P2P and wallet codebases. ",
+      "image_url": "https://brink.devassets/images/sebastian-falbesoner.jpg",
+      "identity_uuid": "can_sebastian_falbesoner",
+      "resolution_method": "social_handle"
+    },
+    {
+      "canonical_name": "Fabian Jahr",
+      "notes": "Coinstats, UTXO",
+      "github": "fjahr",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        }
+      ],
+      "social": {
+        "x_handle": "fjahr",
+        "website": "https://twitter.com/fjahr",
+        "nostr": null
+      },
+      "description": "Fabian's grant supports his work on investigating innovations enabled by Schnorr signatures, dedicated in-depth code review of important Bitcoin Core initiatives, ASMap development, and alternative code hosting solutions.",
+      "image_url": "https://brink.devassets/images/fabian-jahr.jpg",
+      "identity_uuid": "can_fabian_jahr",
+      "resolution_method": "social_handle"
+    },
+    {
+      "canonical_name": "Jon Atack",
+      "notes": "Review, P2P",
+      "github": "jonatack",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Mar 2020",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ],
+      "social": {
+        "x_handle": "jonatack",
+        "website": null,
+        "nostr": null
+      },
+      "resolution_method": "source"
+    },
+    {
+      "canonical_name": "Antoine Riard",
+      "notes": "Lightning, mempool",
+      "github": "ariard",
+      "grants": [
+        {
+          "sponsor_id": "chaincode",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Greg Sanders",
+      "notes": "Mempool, wallet",
+      "grants": [
+        {
+          "sponsor_id": "bitmex",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "spiral",
+          "start_date": null,
+          "end_date": null
+        }
+      ],
+      "github": "instagibbs"
+    },
+    {
+      "canonical_name": "Sebastian Kung",
+      "notes": "Build system, kernel",
+      "github": "thecharlatan",
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": null,
+          "end_date": null
+        }
+      ],
+      "social": {
+        "x_handle": "the_charlatan_",
+        "website": null,
+        "nostr": null
+      },
+      "resolution_method": "source"
+    },
+    {
+      "canonical_name": "Carl Dong",
+      "notes": "Former build maintainer",
+      "github": "carldong",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "chaincode",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Luke Dashjr",
+      "notes": "LTS Grantee",
+      "github": "luke-jr",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Vasil Dimov",
+      "notes": "P2P focus",
+      "github": "vasild",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Jul 2020",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ],
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "resolution_method": "source"
+    },
+    {
+      "canonical_name": "Matias Furszyfer",
+      "notes": "Wallet, Core engineer",
+      "github": "furszy",
+      "grants": [
+        {
+          "sponsor_id": "chaincode",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Martin Zumsande",
+      "notes": "P2P, testing",
+      "github": "mzumsande",
+      "grants": [
+        {
+          "sponsor_id": "chaincode",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        }
+      ],
+      "social": {
+        "x_handle": "mzumsande",
+        "website": null,
+        "nostr": null
+      },
+      "description": "Martin's grant supports his work on Bitcoin Core's peer-to-peer network, including improvements to address relay, initial block download and block validation, as well as review of larger, more complex proposals. Martin has been contributing to Bitcoin Core since 2019.",
+      "image_url": "https://brink.devassets/images/martin-zumsande.jpg",
+      "resolution_method": "source"
+    },
+    {
+      "canonical_name": "Sergi Delgado Segura",
+      "notes": "P2P, package manager",
+      "github": "sr-gi",
+      "grants": [
+        {
+          "sponsor_id": "chaincode",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "spiral",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "2140",
+          "start_date": null,
+          "end_date": null
+        }
+      ],
+      "social": {
+        "x_handle": "sr_gi",
+        "website": null,
+        "nostr": null
+      },
+      "resolution_method": "source"
+    },
+    {
+      "canonical_name": "Bruno Garcia",
+      "notes": "LTS Grantee",
+      "github": "brunoerg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "opensats",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Core",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ],
+      "social": {
+        "x_handle": "brrrunog",
+        "website": "https://twitter.com/brrrunog",
+        "nostr": null
+      },
+      "description": "Bruno's funding supported his review and testing Bitcoin Core PRs, extending and improving test coverage, and P2P/wallet work.",
+      "image_url": "https://brink.devassets/images/bruno-garcia.jpg",
+      "identity_uuid": "can_bruno_garcia",
+      "resolution_method": "identities.json"
+    },
+    {
+      "canonical_name": "Andrew Toth",
+      "notes": "LTS Grantee",
+      "github": "andrewtoth",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Brad Stachurski",
+      "notes": "LTS Grantee",
+      "github": "bstachur",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Anthony Towns",
+      "notes": "Consensus R&D",
+      "github": "ajtowns",
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Niklas G\u00f6gge",
+      "notes": "P2P and Fuzzing focus (Brink Grantee)",
+      "github": "dergoegge",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        }
+      ],
+      "social": {
+        "x_handle": "dergoegge",
+        "website": "https://twitter.com/dergoegge",
+        "nostr": null
+      },
+      "description": "Niklas\u2019 funding supports his work on Bitcoin Core. His focus is on making Bitcoin Core's peer-to-peer code more robust through review, testing and fuzzing.",
+      "image_url": "https://brink.devassets/images/niklas-goegge.jpg",
+      "identity_uuid": "can_niklas_g_gge",
+      "resolution_method": "social_handle"
+    },
+    {
+      "canonical_name": "Stefan Hanreich",
+      "notes": "Testing and review (Brink Grantee)",
+      "github": "stickies-v",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        }
+      ],
+      "social": {
+        "x_handle": "stickies_v",
+        "website": "https://twitter.com/stickies_v",
+        "nostr": null
+      },
+      "description": "St\u00e9phan's grant enables him to continue his review and testing of changes to Bitcoin Core, contribute to Miniscript, and his educational efforts of new Bitcoin developers.",
+      "image_url": "https://brink.devassets/images/stephan-vuylsteke.jpg",
+      "resolution_method": "manual_override"
+    },
+    {
+      "canonical_name": "0xb10c",
+      "notes": "Network monitoring and data analysis (Brink Grantee)",
+      "github": "0xb10c",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin core",
+          "grant_type": "grant",
+          "source": "automated"
+        },
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Feb 2023",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ],
+      "social": {
+        "x_handle": "0xB10C",
+        "website": "https://twitter.com/0xB10C",
+        "nostr": null
+      },
+      "description": "0xB10C's funding supported his Bitcoin network monitoring efforts, his work on Bitcoin Core development and review, his educational efforts maintaining bitcoin-dev.blog and his work on reorgs on Signet.",
+      "image_url": "https://brink.devassets/images/0xb10c.png",
+      "identity_uuid": "can_0xb10c",
+      "resolution_method": "social_handle"
+    },
+    {
+      "canonical_name": "Larry Ruane",
+      "notes": "Review and testing (Brink Grantee)",
+      "github": "LarryRuane",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        }
+      ],
+      "social": {
+        "x_handle": "larryruane",
+        "website": "https://twitter.com/larryruane",
+        "nostr": null
+      },
+      "description": "Larry's funding supported his work on reviewing and testing Bitcoin Core PRs focusing on correctness, thread-safety, code organization and maintainability, test coverage, logging for problem analysis, and related areas. ",
+      "image_url": "https://brink.devassets/images/larry-ruane.jpg",
+      "identity_uuid": "can_larry_ruane",
+      "resolution_method": "social_handle"
+    },
+    {
+      "canonical_name": "Yuvraj Chiplunkar",
+      "notes": "Bitcoin Core contributor (Brink Grantee)",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Josiah Baker",
+      "notes": "FROST and consensus R&D (Spiral Grantee)",
+      "github": "josibake",
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "2140",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Daniela Brozzoni",
+      "notes": "Spiral Grantee",
+      "github": "danielabrozzoni",
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": null,
+          "end_date": null
+        }
+      ],
+      "social": {
+        "x_handle": "danielabrozzoni",
+        "website": null,
+        "nostr": null
+      },
+      "resolution_method": "source"
+    },
+    {
+      "canonical_name": "Mark Erhardt",
+      "notes": "Wallet logic and coin selection (Chaincode Labs Engineer)",
+      "github": "murchandamus",
+      "grants": [
+        {
+          "sponsor_id": "bitgo",
+          "start_date": "2017-04",
+          "end_date": "2020-08"
+        },
+        {
+          "sponsor_id": "chaincode",
+          "start_date": "2020-10",
+          "end_date": "2024-12"
+        },
+        {
+          "sponsor_id": "localhost_research",
+          "start_date": "2025-01",
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Will Clark",
+      "notes": "Bitcoin Core PM and contributor (OpenSats LTS Grantee)",
+      "github": "willcl-ark",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Sep 2023",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ],
+      "social": {
+        "x_handle": "willcl_ark",
+        "website": null,
+        "nostr": null
+      },
+      "resolution_method": "source"
+    },
+    {
+      "canonical_name": "Brandon Odiwuor",
+      "notes": "Btrust Africa Grantee (2025)",
+      "github": "BrandonOdiwuor",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null
+        }
+      ],
+      "social": {
+        "x_handle": null,
+        "website": "https://www.linkedin.com/in/brandonodiwuor/",
+        "nostr": null
+      },
+      "description": "Brandon has been actively contributing to Bitcoin core, focusing on improving its testing infrastructure, build system, and developer tooling. Beyond his technical work, Brandon is driving Bitcoin education through BitDevs Nairobi, helping onboard new contributors into the ecosystem.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/b07f95ff-c5b2-4d9c-9c97-2497775334c1%20-%20Brandon%20Odiwuor-0mqggQL2ANUFTJbaMQjlkvEmo7ZKZr.JPG",
+      "resolution_method": "source"
+    },
+    {
+      "canonical_name": "ZmnSCPxj",
+      "notes": "Found via BitcoinWords (Square Crypto)",
+      "github": "ZmnSCPxj",
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": null,
+          "end_date": null
+        }
+      ],
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "resolution_method": "source"
+    },
+    {
+      "canonical_name": "Jo\u00e3o Barbosa",
+      "notes": "Found via BitcoinWords",
+      "github": "promag",
+      "grants": [
+        {
+          "sponsor_id": "coinbase",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Amiti Uttarwar",
+      "notes": "Found via BitcoinWords",
+      "github": "amitiuttarwar",
+      "grants": [
+        {
+          "sponsor_id": "okcoin",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Apr 2023",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ],
+      "social": {
+        "x_handle": "amizi",
+        "website": null,
+        "nostr": null
+      },
+      "resolution_method": "source"
+    },
+    {
+      "canonical_name": "Ben Woosley",
+      "notes": "Found via BitcoinWords",
+      "github": "Empact",
+      "grants": [
+        {
+          "sponsor_id": "hardcore_fund",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Chris Belcher",
+      "notes": "Found via BitcoinWords (HRF, Square Crypto)",
+      "github": "chris-belcher",
+      "grants": [
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Jul 2020",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ],
+      "social": {
+        "x_handle": "chris_belcher_",
+        "website": null,
+        "nostr": null
+      },
+      "resolution_method": "source"
+    },
+    {
+      "canonical_name": "Jeremy Rubin",
+      "notes": "Found via BitcoinWords",
+      "github": "JeremyRubin",
+      "grants": [
+        {
+          "sponsor_id": "bitmex",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Gleb Naumenko",
+      "notes": "Found via BitcoinWords",
+      "github": "naumenkogs",
+      "grants": [
+        {
+          "sponsor_id": "bitmex",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Jonas Schnelli",
+      "notes": "Found via BitcoinWords",
+      "github": "jonasschnelli",
+      "grants": [
+        {
+          "sponsor_id": "marathon",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Calvin Kim",
+      "notes": "Found via BitcoinWords",
+      "github": "kcalvinalvin",
+      "grants": [
+        {
+          "sponsor_id": "bitmex",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "rkrux",
+      "notes": "Maelstrom Grantee",
+      "github": "rkrux",
+      "grants": [
+        {
+          "sponsor_id": "maelstrom",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Ben Allen",
+      "notes": "Maelstrom Grantee",
+      "github": "benalleng",
+      "grants": [
+        {
+          "sponsor_id": "maelstrom",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "macgyver",
+      "notes": "Maelstrom Grantee",
+      "github": "macgyver13",
+      "grants": [
+        {
+          "sponsor_id": "maelstrom",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "stratospher",
+      "notes": "Maelstrom Grantee",
+      "github": "stratospher",
+      "grants": [
+        {
+          "sponsor_id": "maelstrom",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Core",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ],
+      "social": {
+        "x_handle": "5tratan",
+        "website": "https://x.com/5tratan",
+        "nostr": null
+      },
+      "description": "Stratos is a vulnerability researcher approaching Bitcoin Core security and fuzzing from a systems and protocol security perspective. His internship work under Niklas G\u00f6gge will focused on fuzz testing Bitcoin Core.",
+      "image_url": "https://brink.devassets/images/stratos.png",
+      "resolution_method": "manual_override"
+    },
+    {
+      "canonical_name": "Gregory Maxwell",
+      "notes": "Blockstream Co-founder / CTO",
+      "github": "gmaxwell",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": "2014-01",
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Mark Friedenbach",
+      "notes": "Blockstream Co-founder",
+      "github": "maaku",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": "2014-01",
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Jorge Tim\u00f3n",
+      "notes": "Blockstream Co-founder",
+      "github": "jtimon",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": "2014-01",
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Christian Decker",
+      "notes": "Core Tech Engineer",
+      "github": "cdecker",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": "historical"
+        },
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Core",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ],
+      "social": {
+        "x_handle": "Snyke",
+        "website": "https://twitter.com/Snyke",
+        "nostr": null
+      },
+      "description": "Christian served on Brink's board as well as grant committee. He works at Blockstream, wrote the world's first dissertation on Bitcoin and focuses on improving the understanding of underlying consensus mechanisms while making Bitcoin scalable and his research has resulted in numerous publications. Christian brought with him Bitcoin and Lightning technical expertise and insight to both the board as well as the grant committee.",
+      "image_url": "https://brink.devassets/images/christian-decker.png",
+      "identity_uuid": "can_christian_decker",
+      "resolution_method": "identities.json"
+    },
+    {
+      "canonical_name": "Andrew Poelstra",
+      "notes": "Director of Research",
+      "github": "apoelstra",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Russell O'Connor",
+      "notes": "Researcher",
+      "github": "roconnor",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Lisa Neigut",
+      "notes": "Lightning Engineer",
+      "github": "niftynei",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Elichai Turkel",
+      "notes": "Cryptographer",
+      "github": "elichai",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Nadav Ivgi",
+      "notes": "Engineer",
+      "github": "shesek",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Warren Togami",
+      "notes": "VP Engineering",
+      "github": "wtogami",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Gavin Andresen",
+      "notes": "Early Lead Maintainer",
+      "github": "gavinandresen",
+      "grants": [
+        {
+          "sponsor_id": "bitcoin_foundation",
+          "start_date": "2012-09",
+          "end_date": "2015-04"
+        },
+        {
+          "sponsor_id": "mit_dci",
+          "start_date": "2015-04",
+          "end_date": "2016-05"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Eugene Siegel",
+      "github": "Crypt-iQ",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "Crypt-iQ",
+        "website": null,
+        "nostr": null
+      },
+      "description": "Eugene's grant supports his security engineering work including fuzz testing, code review, and building out fuzzing infrastructure, with a focus on the P2P networking code.",
+      "image_url": "https://brink.devassets/images/eugene-siegel.jpg",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Core",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Marco De Leon",
+      "github": "marcofleon",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "marcofleon",
+        "website": null,
+        "nostr": null
+      },
+      "description": "Marco\u2019s funding enables his continued work on fuzz testing the codebase to ensure the security and robustness of the Bitcoin network. Before becoming a grantee, Marco participated in Brink's year-long fellowship program.",
+      "image_url": "https://brink.devassets/images/marco-de-leon.png",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Core",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "conduition",
+      "github": "conduition",
+      "identity_uuid": "auto_conduition",
+      "resolution_method": "identities.json",
+      "social": {
+        "x_handle": "conduition_io",
+        "website": "https://x.com/conduition_io",
+        "nostr": null
+      },
+      "description": "Conduition's grant supports his post-quantum cryptography research for Bitcoin, including work on the SHRINCS hash-based signature protocol and draft BIP, commit/reveal rescue protocols for dormant UTXOs, and isogeny-based cryptography research and education.",
+      "image_url": "https://brink.devassets/images/conduition.jpg",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Core",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Jesse Posner",
+      "github": "jesseposner",
+      "identity_uuid": "auto_jesse_posner",
+      "resolution_method": "social_handle",
+      "social": {
+        "x_handle": "jesseposner",
+        "website": "https://twitter.com/jesseposner",
+        "nostr": null
+      },
+      "description": "Jesse\u2019s funding supported his work on adaptor signatures and an implementation of the FROST threshold signature scheme. These technologies bring additional security, privacy and functionality to multisignature and second layer protocols.",
+      "image_url": "https://brink.devassets/images/jesse-posner.jpg",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Core",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Carla Kirk-Cohen",
+      "github": "carlaKC",
+      "identity_uuid": null,
+      "resolution_method": "manual_override",
+      "social": {
+        "x_handle": "actuallyCarlaKC",
+        "website": "https://twitter.com/actuallyCarlaKC",
+        "nostr": null
+      },
+      "description": "Carla is a software engineer at Chaincode Labs.  She was onboarded to full time work on Lightning at the <a href=\"https://residency.chaincode.com/\">Chaincode 2019 residency</a>, and has served on the Brink board with the goal of helping other developers find their way to Bitcoin.",
+      "image_url": "https://brink.devassets/images/carla-kirk-cohen.jpg",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Core",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Tadge Dryja",
+      "github": "adiabat",
+      "identity_uuid": "auto_tadge_dryja",
+      "resolution_method": "identities.json",
+      "social": {
+        "x_handle": "tdryja",
+        "website": "https://twitter.com/tdryja",
+        "nostr": null
+      },
+      "description": "Tadge is co-author of the Lightning Network whitepaper, developed Discreet Log Contracts on Bitcoin, and works with the MIT Digital Currency Initiative. His grant enabled him to continue his work on Utreexo and mentorship with junior Bitcoin developers.",
+      "image_url": "https://brink.devassets/images/tadge-dryja.jpg",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Core",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Alekos Filini",
+      "github": "afilini",
+      "identity_uuid": "auto_afilini",
+      "resolution_method": "social_handle",
+      "social": {
+        "x_handle": "afilini",
+        "website": "https://twitter.com/afilini",
+        "nostr": null
+      },
+      "description": "Alekos\u2019 funding supported his work as maintainer of the Bitcoin Dev Kit. BDK is a lightweight and modular collection of tools for use by wallets and other Bitcoin applications.",
+      "image_url": "https://brink.devassets/images/alekos-filini.jpg",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Core",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Vincenzo Palazzo",
+      "github": "vincenzopalazzo",
+      "identity_uuid": "auto_vincenzo_palazzo",
+      "resolution_method": "identities.json",
+      "social": {
+        "x_handle": "palazzovincenzo",
+        "website": "https://twitter.com/palazzovincenzo",
+        "nostr": null
+      },
+      "description": "Vincenzo's funding supported his work adding new features to Core Lightning and reviewing others' pull requests, as well as his ongoing contributions to the Lightning specification.",
+      "image_url": "https://brink.devassets/images/vincenzo-palazzo.jpg",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Core",
+          "grant_type": "grantee",
+          "source": "automated"
+        },
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Jun 2025",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Dave Harding",
+      "github": "harding",
+      "identity_uuid": null,
+      "resolution_method": "manual_override",
+      "social": {
+        "x_handle": "hrdng",
+        "website": "https://twitter.com/hrdng",
+        "nostr": null
+      },
+      "description": "Dave co-wrote the <a href=\"https://bitcoin.org\">Bitcoin.org</a> developer documentation in 2014 and 2015. He is the author of Mastering Bitcoin 3rd Edition and since 2018 he has been co-writing a <a href=\"https://bitcoinops.org/en/newsletters\">weekly newsletter</a> for Bitcoin Optech. He served Brink as a founding member of the board in 2020 and also served on Brink's grant committee.",
+      "image_url": "https://brink.devassets/images/dave-harding.png",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Core",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Dongjia Zhang",
+      "github": "tokatoka",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "tokatoka",
+        "website": null,
+        "nostr": null
+      },
+      "description": "Dongjia Zhang is a Ph.D. researcher focusing on software security and fuzzing. He is the maintainer of LibAFL, a state-of-the-art fuzzing framework written in Rust. His internship under the mentorship of Niklas G\u00f6gge involved fuzz testing Bitcoin Core.",
+      "image_url": "https://brink.devassets/images/dongjia-zhang.jpg",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Core",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Jemimah Nagasha",
+      "github": "Jem256",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "Nagasha is a software engineer based in Kampala, Uganda. She has experience building web and mobile applications and brings a strong systems-oriented approach from her background in civil engineering and software development.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Jemimah%20Nagasha.JPG",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Oyindamola Oladapo",
+      "github": "0xzaddyy",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "Oyindamola is a software engineer based in Kaduna, Nigeria, with experience building and maintaining reliable software systems. He was part of the inaugural Btrust Builders\u2019 Rust for Bitcoiners pathway, where he deepened his understanding of Rust and Bitcoin development and graduated as the top student.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Oyindamola%20Oladapo.jpg",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Yankho Ngolleka",
+      "github": "codaMW",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "Yankho is a Bitcoin developer and community builder based in Lilongwe, Malawi. His technical journey began at Btrust Builders, where he received the Top Student Award among an international cohort of Bitcoin developers.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Yankho%20Ngolleka.jpg",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Victor Chabunda",
+      "github": "chavic",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "Chabunda, also known as Chavic, is a developer based in Zambia with nearly a decade of experience building software across multiple platforms. He is the author of UniFFI\u2011Dart and a contributor to the rust\u2011payjoin project, where his work focuses on improving developer experience through cross\u2011language bindings and tooling.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Victor%20Chabunda.jpg",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "John Osezele",
+      "github": "Johnosezele",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "John is a software engineer based in Nigeria with five years of experience building mobile applications across fintech and security platforms. He is a co\u2011maintainer of the bdk\u2011dart project within the Bitcoin Dev Kit ecosystem. The project provides Dart bindings that allow Flutter developers to build Bitcoin wallets powered by BDK\u2019s Rust implementation.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/John%20Osezele.jpeg",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Frankline Omondi",
+      "github": "frankomosh",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "Frankline is a software engineer based in Kenya with experience in systems programming and open\u2011source infrastructure development. Frankline has contributed to Bitcoin Core\u2019s fuzz testing infrastructure and QA assets, helping improve coverage and detect potential bugs earlier in the development process.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Frankline%20Omondi.jpeg",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Michael Ariwaodo",
+      "github": "KvngMikey",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "Michael is a software developer based in Nigeria with over four years of experience building financial software systems. As our first Cashu developer grantee, his recent work includes improvements to Cashu TS and Cashu Nutshell, the reference implementation of a Cashu mint.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Michael%20Ariwaodo.jpeg",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Sonkeng Maldini",
+      "github": "sdmg15",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "Sonkeng is a software engineer based in Cameroon with more than eight years of experience building complex software systems. Through the starter grant, Sonkeng will focus on improving developer experience and contributing to new releases within the Bitcoin Development Kit ecosystem.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Sonkeng%20Maldini.png",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Shehu Muhammad Aliyu",
+      "github": "Mshehu5",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "Shehu is a software engineer based in Nigeria. He holds a degree in Computer Engineering from Ahmadu Bello University and graduated from the 2025 Btrust Builders Rust for Bitcoiners pathway.Shehu has been actively contributing to the Payjoin Dev Kit (PDK), a project focused on improving bitcoin transaction privacy through collaborative transaction construction.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Shehu%20M.%20Aliyu.jpg",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Ifeanyichukwu Amajuoyi",
+      "github": "Anyitechs",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://www.linkedin.com/in/ifeanyichukwu-amajuoyi-8b6229153/",
+        "nostr": null
+      },
+      "description": "Ifeanyichukwu is a graduate of the 2024\u202fBtrust\u202fBuilders fellowship, he has since become a consistent open\u2011source contributor within the Lightning\u202fDevelopment\u202fKit (LDK) ecosystem, making meaningful contributions across rust\u2011lightning, ldk\u2011node, and ldk\u2011server.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/ifeanyichukwu.jpeg",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Uqlidi",
+      "github": "uqlidi",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://www.linkedin.com/in/uqlidi",
+        "nostr": null
+      },
+      "description": "Uqlidi is a Computer Engineering student with a focus on systems programming and low-level systems. He spends his time building innovative projects and contributing to major open-source projects such as the LLVM project. He also has extensive experience with Rust and have built several projects with it.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/uqlidi.png",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Shammah Agwor",
+      "github": "zealsham",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://www.linkedin.com/in/zealsham/",
+        "nostr": null
+      },
+      "description": "Shammah have been a software engineer since 2017, with a strong focus on backend systems, security engineering, and Bitcoin open-source development. His journey began at Accelera (Feb\u2013Nov 2017), where he built out the web presence of the company on linode and an employee management platform using Node.js. He also handled security responsibilities for internal applications.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Shammah.JPG",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Rita Anene",
+      "github": "Camillarhi",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://www.linkedin.com/in/rita-anene-13a28b14b",
+        "nostr": null
+      },
+      "description": "Rita is a software developer with over 3 years of experience building and improving software solutions.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rita_Anene_Headshot.jpeg",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Chuks Agbakuru",
+      "github": "chuksys",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://www.linkedin.com/in/chuks-agbakuru/",
+        "nostr": null
+      },
+      "description": "Chuks is a software engineer with over 8 years of experience in building and maintaining software solutions. His career started with a focus on developing web solutions for start-ups, where he gained foundational expertise in PHP and JavaScript. With this long\u2011term grant, Chuks will focus on researching and implementing splice batching for the Lightning Network.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/chuks.jpeg",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Itoro Ukpong",
+      "github": "ItoroD",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://www.linkedin.com/in/itoro-ukpong-43917b177/",
+        "nostr": null
+      },
+      "description": "",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/builders-headshots/Itoro%20Ukpong-hbd9qQVHVz98yzbX1FlVqJX2hmxHOu.jpg",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Abdullahi Yunus",
+      "github": "Abdulkbk",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://www.linkedin.com/in/abdulkbk/",
+        "nostr": null
+      },
+      "description": "Abdullahi is a Btrust Builders cohort 3 alumnus, and has demonstrated outstanding contributions to Bitcoin\u2019s open-source projects. His work on LND has enhanced node reliability and user experience, while his improvements to Lightning Polar simplify developer workflows. With a strong focus on Bitcoin education, Abdullahi also mentors aspiring developers, making the ecosystem more accessible.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/builders-headshots/Abdullahi%20Yunus-A1RvSPh1dDS8Q8XesPqOO3oZ4BKhfj.jpg",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Sulaiman Aminu Barkindo",
+      "github": "SulaimanAminuBarkindo",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://www.linkedin.com/in/sulaiman-aminu-barkindo",
+        "nostr": null
+      },
+      "description": "Sulaiman is a seasoned software engineer and Engineering Manager based in Nigeria, and a Btrust Builders 2024 fellow. With over four years of experience in backend and full-stack engineering, Sulaiman has become an integral contributor to the Validating Lightning Signer (VLS) project, a Rust-based initiative focused on enhancing security and self-custody in the Bitcoin Lightning Network.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Sulaiman%20Aminu%20Barkindo-F7TRI6oTS2fyG55P4w4tmqJp2cxfig.jpg",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Peter Tyonum",
+      "github": "tvpeter",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://www.linkedin.com/in/peter-tyonum-a8a16310b/",
+        "nostr": null
+      },
+      "description": "Peter is a skilled software engineer based in Nigeria and a fellow of the Qala (now Btrust Builders) genesis cohort. With over five years of experience working with JavaScript, PHP, and Rust, Peter has made extensive contributions to the Bitcoin Dev Kit (BDK) ecosystem, developing features for bdk-cli, enhancing wallet APIs, improving documentation, and actively reviewing and testing code to raise the quality and reliability of BDK libraries.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Peter%20Tyonum-RHakLsv8qmdFtHQggGjiGImZnvjzE7.JPG",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Enigbe Ochekliye",
+      "github": "enigbe",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://www.linkedin.com/in/enigbe?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "nostr": null
+      },
+      "description": "",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020-jBTbGscnH4BTJiAZEw65Ban4bADAf1.png",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Tobechi Chukwuleta",
+      "github": "TChukwuleta",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://www.linkedin.com/in/tobechichukwuleta/",
+        "nostr": null
+      },
+      "description": "",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020-7lyzwEidWcaZTZ6jqwHtWiZ4a5WYcI.png",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Kelvin Isievwore",
+      "github": "kelvinator07",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://www.linkedin.com/in/kelvinobukome/",
+        "nostr": null
+      },
+      "description": "",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020-RRk3ZIr4taSF3toNJ484tSYBtfl7I1.png",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Abubakar Sadiq Ismail",
+      "github": "ismaelsadeeq",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://www.linkedin.com/in/abubakharismail/ ",
+        "nostr": null
+      },
+      "description": "",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/image-eILzWXOirxxpQnb9uAYpEVPHU16RqX.png",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Oghenovo Usiwoma",
+      "github": "eunovo",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://linkedin.com/in/eunovo",
+        "nostr": null
+      },
+      "description": "",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/image-UnAmaKTZoLk6y06r2sRBYvKT6iJKOE.png",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Jamal Errakibi",
+      "github": "jrakibi",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://www.linkedin.com/in/jamal-e-118069130/",
+        "nostr": null
+      },
+      "description": "Jamal is an accomplished software engineer and a 2024 Btrust Builders fellow, and Bitcoin open-source contributor. With seven years of professional experience, Jamal has developed deep expertise in Java development and AWS cloud services. In recent years, he has transitioned his focus to Bitcoin, making significant contributions as an independent contractor for Chaincode Labs and, most notably, as an active contributor to the rust-bitcoin project.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Jamal%20ERRAKIBI-O6XJ86b5zvvvvkz38lkQCozQu7TUJ9.JPG",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Ojok Emmanuel Nsubuga",
+      "github": "ojokne",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://www.linkedin.com/in/ojok-emmanuel-nsubuga-144541247/",
+        "nostr": null
+      },
+      "description": "Emmanuel is a software engineer with 2.5+ years of experience building web and mobile applications using JavaScript, TypeScript, React, React Native and Nodejs.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Ojok%20Emmanuel%20Nsubuga.jpg",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Abiodun Awoyemi",
+      "github": "aagbotemi",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://www.linkedin.com/in/abiodun-awoyemi-1ab8b3165/",
+        "nostr": null
+      },
+      "description": "Abiodun is a software engineer with 5 years of experience building and scaling systems in finance, real estate, and blockchain. He has worked across the stacks, from frontend (ReactJS, Next.js) to backend services powering real-time transactions.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Abiodun.jpg",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Duncan Dean",
+      "github": "dunxen",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "dunxen",
+        "website": null,
+        "nostr": null
+      },
+      "description": "A Lightning contributor from South Africa, Duncan is deeply involved in Lightning Network development, particularly focusing on the highly modular Bitcoin Lightning library, Rust-lightning. Duncan's work is further enriched by his active participation in other projects like ldk-review-club and lndk, where he has contributed to improving continuous integration (CI) actions and maintaining the robustness of the codebase. Through the cohort, Duncan aims to strengthen his contributions to the Bitcoin and Lightning open-source ecosystem.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020-Kof8ILgzYWa4w2jXkUV7RaOUHStcfM.png",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Vladimir Fomene",
+      "github": "vladimirfomene",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://www.linkedin.com/in/vladimirfomene?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "nostr": null
+      },
+      "description": "I\u2019m a seasoned software engineer with a strong technical background in computer science. As a full-stack developer, I have experience working with JavaScript, Rust, and Python. My passion for building on Bitcoin's technology drives my work, and I\u2019m constantly seeking ways to contribute to its growth and development.",
+      "image_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020-vVpeBtzWoJALiM5rV08eH0RrE7vuBq.png",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "devrandom and contributors",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": "https://vls.tech/",
+        "nostr": null
+      },
+      "description": "A Lightning signing stack that keeps keys off the node and enforces operator policies.",
+      "image_url": "https://opensats.org/static/images/projects/vls.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2023-12",
+          "end_date": null,
+          "project_name": "Validating Lightning Signer",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Praveen Perera",
+      "github": "bitcoinppl",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "covewallet",
+        "website": "https://covebitcoinwallet.com/",
+        "nostr": null
+      },
+      "description": "A Bitcoin-only mobile wallet built on BDK with strong hardware wallet support.",
+      "image_url": "https://opensats.org/static/images/projects/cove.svg",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2024-07",
+          "end_date": null,
+          "project_name": "Cove",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Bruno Garcia",
+      "github": "bitcoinfuzz",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://github.com/bitcoinfuzz/bitcoinfuzz",
+        "nostr": null
+      },
+      "description": "A differential fuzzing framework for Bitcoin protocol implementations and libraries.",
+      "image_url": "https://opensats.org/static/images/projects/bitcoinfuzz.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2026-05",
+          "end_date": null,
+          "project_name": "bitcoinfuzz",
+          "grant_type": "lts",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Austin Kelsay and cmdruid",
+      "github": "FROSTR-ORG",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://frostr.org/",
+        "nostr": null
+      },
+      "description": "A FROST-based threshold signing protocol for nostr with libraries and clients for multi-device keys.",
+      "image_url": "https://opensats.org/static/images/projects/frostr.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2025-06",
+          "end_date": null,
+          "project_name": "Frostr",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "rust-bitcoin Maintainers",
+      "github": "rust-bitcoin",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://rust-bitcoin.org/",
+        "nostr": null
+      },
+      "description": "A low-level Rust Bitcoin library stack for protocol messages, transactions, scripts, keys, addresses, and PSBTs.",
+      "image_url": "https://opensats.org/static/images/projects/rust-bitcoin.svg",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2026-05",
+          "end_date": null,
+          "project_name": "rust-bitcoin",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Adi Shankara",
+      "github": "adi-shankara",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "summerofbitcoin",
+        "website": "https://www.summerofbitcoin.org/",
+        "nostr": null
+      },
+      "description": "A global internship program for student Bitcoin contributors.",
+      "image_url": "https://opensats.org/static/images/projects/summerofbitcoin.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2023-04",
+          "end_date": null,
+          "project_name": "Summer of Bitcoin",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "PabloF7z",
+      "github": "nostr-dev-kit",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://nostr-dev-kit.github.io/ndk/",
+        "nostr": "npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"
+      },
+      "description": "A modular TypeScript toolkit for building nostr applications, with first-class outbox-model support and reactive UI bindings for Svelte and React.",
+      "image_url": "https://opensats.org/static/images/projects/ndk.svg",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2026-04",
+          "end_date": null,
+          "project_name": "NDK",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Misovan",
+      "github": "minibits-cash",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://www.minibits.cash/",
+        "nostr": null
+      },
+      "description": "A mobile Cashu wallet for Android and iOS, with Lightning, nostr, and offline token transfers.",
+      "image_url": "https://opensats.org/static/images/projects/minibits.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2024-09",
+          "end_date": null,
+          "project_name": "Minibits",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Davidson Souza",
+      "github": "getfloresta",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://getfloresta.org/",
+        "nostr": null
+      },
+      "description": "An embeddable Bitcoin client in Rust that validates every block using Utreexo.",
+      "image_url": "https://opensats.org/static/images/projects/floresta.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2024-09",
+          "end_date": null,
+          "project_name": "Floresta",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Greenart7c3",
+      "github": "greenart7c3",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://github.com/greenart7c3/Amber",
+        "nostr": "npub1w4uswmv6lu9yel005l3qgheysmr7tk9uvwluddznju3nuxalevvs2d0jr5"
+      },
+      "description": "A nostr signer for Android that keeps the nsec in one app and signs events for every other client over NIP-46.",
+      "image_url": "https://opensats.org/static/images/projects/amber.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2026-04",
+          "end_date": null,
+          "project_name": "Amber",
+          "grant_type": "lts",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "LDK Developers",
+      "github": "lightningdevkit",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://lightningdevkit.org/",
+        "nostr": null
+      },
+      "description": "A modular Lightning library stack that lets developers embed Lightning nodes into wallets and other applications.",
+      "image_url": "https://opensats.org/static/images/projects/ldk.svg",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2026-06",
+          "end_date": null,
+          "project_name": "LDK",
+          "grant_type": "lts",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "BTCPay Server Foundation",
+      "github": "btcpayserver",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "BtcpayServer",
+        "website": "https://btcpayserver.org/",
+        "nostr": null
+      },
+      "description": "A self-hosted, open-source Bitcoin payment processor with no fees and no third parties.",
+      "image_url": "https://opensats.org/static/images/projects/btcpayserver.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2022-09",
+          "end_date": null,
+          "project_name": "BTCPay Server",
+          "grant_type": "project",
+          "source": "automated"
+        },
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Sep 2019",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Cody Tseng",
+      "github": "CodyTseng",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://jumble.social/",
+        "nostr": null
+      },
+      "description": "A browser-based nostr client for relay discovery, relay reviews, safer signing, and targeted publishing.",
+      "image_url": "https://opensats.org/static/images/projects/jumble-rounded.svg",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2025-07",
+          "end_date": null,
+          "project_name": "Jumble",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "DanConwayDev",
+      "github": "DanConwayDev",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://ngit.dev/",
+        "nostr": "npub15qydau2hjma6ngxkl2cyar74wzyjshvl65za5k5rl69264ar2exs5cyejr"
+      },
+      "description": "A git plugin and remote helper that puts repository state, pull requests, and issues on nostr, with normal git servers used as the data store.",
+      "image_url": "https://opensats.org/static/images/projects/ngit.svg",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2026-04",
+          "end_date": null,
+          "project_name": "ngit",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Dan Gould",
+      "github": "payjoin",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "payjoindevkit",
+        "website": "https://payjoindevkit.org/",
+        "nostr": null
+      },
+      "description": "The Rust library for Payjoin, with bindings for Python, Dart, Swift, Kotlin, JavaScript, and C#.",
+      "image_url": "https://opensats.org/static/images/projects/pdk.svg",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2023-07",
+          "end_date": null,
+          "project_name": "Payjoin Dev Kit",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Bitcoin Core Developers",
+      "github": "bitcoin",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "bitcoincoreorg",
+        "website": "https://bitcoincore.org/en/download/",
+        "nostr": null
+      },
+      "description": "The full node software that validates the chain, relays transactions, and enforces Bitcoin\u2019s rules.",
+      "image_url": "https://opensats.org/static/images/projects/bitcoin-core.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2023-03",
+          "end_date": null,
+          "project_name": "Bitcoin Core",
+          "grant_type": "lts",
+          "source": "automated"
+        },
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin core",
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Michael Goldstein",
+      "github": "NakamotoInstitute",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://nakamotoinstitute.org/",
+        "nostr": null
+      },
+      "description": "A nonprofit archive and publishing project dedicated to preserving Bitcoin history and ideas.",
+      "image_url": "https://opensats.org/static/images/projects/satoshinakamotoinstitute.svg",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2024-07",
+          "end_date": null,
+          "project_name": "Satoshi Nakamoto Institute",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "ASmap Contributors",
+      "github": "asmap",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://asmap.org/",
+        "nostr": null
+      },
+      "description": "A project that builds reproducible IP-to-AS maps for Bitcoin Core so nodes can diversify peers across autonomous systems.",
+      "image_url": "https://opensats.org/static/images/projects/asmap.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2026-05",
+          "end_date": null,
+          "project_name": "ASmap",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Routstr contributors",
+      "github": "Routstr",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://routstr.com/",
+        "nostr": "npub130mznv74rxs032peqym6g3wqavh472623mt3z5w73xq9r6qqdufs7ql29s"
+      },
+      "description": "A decentralized AI inference protocol that uses Nostr discovery and Bitcoin ecash micropayments for private, pay-per-request model access.",
+      "image_url": "https://opensats.org/static/images/projects/routstr.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2026-05",
+          "end_date": null,
+          "project_name": "Routstr",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Stable Channels contributors",
+      "github": "toneloc",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://stablechannels.com/",
+        "nostr": null
+      },
+      "description": "A self-custodial Lightning wallet for bitcoin-backed dollar balances.",
+      "image_url": "https://opensats.org/static/images/projects/stable-channels.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2025-03",
+          "end_date": null,
+          "project_name": "Stable Channels",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Hodlbod",
+      "github": "coracle-social",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://coracle.social/",
+        "nostr": "npub1jlrs53pkdfjnts29kveljul2sm0actt6n8dxrrzqcersttvcuv3qdjynqn"
+      },
+      "description": "A web-based nostr client focused on relay management and web of trust.",
+      "image_url": "https://opensats.org/static/images/projects/coracle.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2023-07",
+          "end_date": null,
+          "project_name": "Coracle",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Christoph Ono",
+      "github": "BitcoinDesign",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "bitcoin_design",
+        "website": "https://bitcoin.design/",
+        "nostr": "npub13s5mxgws70rpxsug96jfvglggackjrxs2ehypwg0prjaxsek42sqd9l03e"
+      },
+      "description": "Design resources for teams building better Bitcoin products.",
+      "image_url": "https://opensats.org/static/images/projects/bitcoindesign.svg",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2023-03",
+          "end_date": null,
+          "project_name": "Bitcoin Design Community",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Odudex and Tadeubas",
+      "github": "selfcustody",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://selfcustody.github.io/krux/",
+        "nostr": null
+      },
+      "description": "Open-source firmware that turns inexpensive devices into air-gapped Bitcoin signing tools.",
+      "image_url": "https://opensats.org/static/images/projects/krux-logo.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2026-05",
+          "end_date": null,
+          "project_name": "Krux",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Blake Kaufman",
+      "github": "BlitzWallet",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "BlitzWalletApp",
+        "website": "https://blitzwalletapp.com/",
+        "nostr": "npub14l69mauhjyu9j8pgmhj04vjqauzq43ch9yp9g2yx9j9tc4n8xh8s5l9dz2"
+      },
+      "description": "A self-custodial Bitcoin wallet on Spark, with easy onboarding from custodial to self-custody.",
+      "image_url": "https://opensats.org/static/images/projects/blitz-wallet.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2024-07",
+          "end_date": null,
+          "project_name": "Blitz Wallet",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "skot",
+      "github": "bitaxeorg",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://www.bitaxe.org/",
+        "nostr": null
+      },
+      "description": "Open-source Bitcoin mining hardware and firmware built for home and small-scale miners.",
+      "image_url": "https://opensats.org/static/images/projects/bitaxe.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2026-05",
+          "end_date": null,
+          "project_name": "Bitaxe",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "cygnet3",
+      "github": "cygnet3",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://danawallet.app/",
+        "nostr": "npub17vjlv6u4dg2ypyy5je9zc3lpeyfrnfrpmzgwt8v4rc289p2m79cqepwz5q"
+      },
+      "description": "A mobile Bitcoin wallet built around silent payments, BIP353 addresses, and local scanning for private on-chain receiving.",
+      "image_url": "https://opensats.org/static/images/projects/dana-wallet.webp",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2026-05",
+          "end_date": null,
+          "project_name": "Dana Wallet",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "OpenCash Association",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": "https://opencash.dev/",
+        "nostr": null
+      },
+      "description": "A Swiss nonprofit funding the development of open-source ecash systems built on Bitcoin.",
+      "image_url": "https://opensats.org/static/images/projects/opencash.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2025-03",
+          "end_date": null,
+          "project_name": "OpenCash",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "nym21",
+      "github": "bitcoinresearchkit",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://bitview.space/",
+        "nostr": null
+      },
+      "description": "A self-hostable Bitcoin analytics stack that indexes chain data, computes metrics, serves an API, and powers the public Bitview instance.",
+      "image_url": "https://opensats.org/static/images/projects/bitcoinresearchkit.svg",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2026-05",
+          "end_date": null,
+          "project_name": "Bitcoin Research Kit",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "thesimplekid",
+      "github": "cashubtc",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "CashuBTC",
+        "website": "https://cashudevkit.org/",
+        "nostr": "npub1qjgcmlpkeyl8mdkvp4s0xls4ytcux6my606tgfx9xttut907h0zs76lgjw"
+      },
+      "description": "A modular Rust toolkit for building Cashu wallets and mints.",
+      "image_url": "https://opensats.org/static/images/projects/cdk.svg",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2025-09",
+          "end_date": null,
+          "project_name": "Cashu Dev Kit",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "pmienk",
+      "github": "libbitcoin",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://libbitcoin.info/",
+        "nostr": null
+      },
+      "description": "A modular C++ Bitcoin toolkit with an alternative full node, server, explorer, and supporting libraries.",
+      "image_url": "https://opensats.org/static/images/projects/libbitcoin.svg",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2026-05",
+          "end_date": null,
+          "project_name": "libbitcoin",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "fiatjaf",
+      "github": "fiatjaf",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://nak.nostr.com/",
+        "nostr": "npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6"
+      },
+      "description": "A command-line tool for doing all things nostr, from publishing and querying events to key management, relay inspection, and protocol debugging.",
+      "image_url": "https://opensats.org/static/images/projects/nak.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2026-06",
+          "end_date": null,
+          "project_name": "nak",
+          "grant_type": "lts",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Franzap",
+      "github": "zapstore",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://zapstore.dev/",
+        "nostr": null
+      },
+      "description": "A nostr-based app store for signed releases, open discovery, and censorship-resistant software distribution.",
+      "image_url": "https://opensats.org/static/images/projects/zapstore.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2025-03",
+          "end_date": null,
+          "project_name": "Zapstore",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Alex Gleason",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": "alexgleasonator",
+        "website": "https://soapbox.pub/",
+        "nostr": "npub108pv4cg5ag52nq082kd5leu9ffrn2gdg6g4xdwatn73y36uzplmq9uyev6"
+      },
+      "description": "Open-source software making nostr the best place to build and create on the social web.",
+      "image_url": "https://opensats.org/static/images/projects/soapbox.svg",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2023-07",
+          "end_date": null,
+          "project_name": "Soapbox",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "ContextVM contributors",
+      "github": "ContextVM",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://contextvm.org/",
+        "nostr": null
+      },
+      "description": "A nostr-routed MCP protocol with SDKs, relays, and gateways for exposing services by public key.",
+      "image_url": "https://opensats.org/static/images/projects/contextvm.svg",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2026-02",
+          "end_date": null,
+          "project_name": "ContextVM",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Vitor Pamplona",
+      "github": "vitorpamplona",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "vitorpamplona",
+        "website": "https://www.amethyst.social/",
+        "nostr": "npub142gywvjkq0dv6nupggyn2euhx4nduwc7yz5f24ah9rpmunr2s39se3xrj0"
+      },
+      "description": "A privacy-focused nostr client for Android with built-in Tor support.",
+      "image_url": "https://opensats.org/static/images/projects/amethyst-transparent.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2023-03",
+          "end_date": null,
+          "project_name": "Amethyst",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Jason A. Donenfeld",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": "https://www.wireguard.com/",
+        "nostr": null
+      },
+      "description": "A lean VPN protocol and software suite for secure networking across servers, phones, and desktops.",
+      "image_url": "https://opensats.org/static/images/projects/wireguard.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2026-05",
+          "end_date": null,
+          "project_name": "WireGuard",
+          "grant_type": "lts",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Dusty Daemon",
+      "github": "lightning",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "dusty_daemon",
+        "website": "https://lightningsplice.com/",
+        "nostr": "npub1fuk7q4y0wzqw7vjrg7xeuuva79pg7ctg69a53zsxq6gepksufrrst9mzly"
+      },
+      "description": "Resize Lightning channels without closing them.",
+      "image_url": "https://opensats.org/static/images/projects/splicing.svg",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2023-03",
+          "end_date": null,
+          "project_name": "Splicing",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Calvin Kim",
+      "github": "utreexo",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://github.com/utreexo/utreexod",
+        "nostr": null
+      },
+      "description": "A fully validating Bitcoin node and bridge node implementation of the Utreexo protocol.",
+      "image_url": "https://opensats.org/static/images/projects/utreexod.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2026-05",
+          "end_date": null,
+          "project_name": "utreexod",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Rajarshi Maitra",
+      "github": "Bitshala",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://bitshala.org/",
+        "nostr": null
+      },
+      "description": "A grassroots education initiative training open-source Bitcoin developers in India.",
+      "image_url": "https://opensats.org/static/images/projects/bitshala.svg",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2026-05",
+          "end_date": null,
+          "project_name": "Bitshala",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Francisco Calder\u00f3n",
+      "github": "MostroP2P",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "MostroP2P",
+        "website": "https://mostro.network/",
+        "nostr": "npub1m0str0d7z2ww8rdh20t2n9lx520xjwhaq24p68umqp06wwrwtsnqen40un"
+      },
+      "description": "A non-custodial peer-to-peer Bitcoin exchange on Lightning and nostr with federated nodes and open clients.",
+      "image_url": "https://opensats.org/static/images/projects/mostro.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2024-07",
+          "end_date": null,
+          "project_name": "Mostro",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "water783",
+      "github": "0xchat-app",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://0xchat.com/",
+        "nostr": "npub10td4yrp6cl9kmjp9x5yd7r8pm96a5j07lk5mtj2kw39qf8frpt8qm9x2wl"
+      },
+      "description": "A secure nostr chat client for iOS, Android, and desktop with encrypted DMs, groups, calls, and payments.",
+      "image_url": "https://opensats.org/static/images/projects/0xchat-transparent.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2023-10",
+          "end_date": null,
+          "project_name": "0xchat",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "William Casarin",
+      "github": "damus-io",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://damus.io/",
+        "nostr": "npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s"
+      },
+      "description": "A nostr client for iOS with Lightning zaps, relay transparency, and web-of-trust filtering.",
+      "image_url": "https://opensats.org/static/images/projects/damus.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2023-04",
+          "end_date": null,
+          "project_name": "Damus",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "hzrd149",
+      "github": "hzrd149",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://applesauce.build/",
+        "nostr": null
+      },
+      "description": "A modular TypeScript SDK for building nostr web clients, extracted from noStrudel.",
+      "image_url": "https://opensats.org/static/images/projects/applesauce.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2026-04",
+          "end_date": null,
+          "project_name": "Applesauce",
+          "grant_type": "lts",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Hampus Sj\u00f6berg",
+      "github": "smolcars",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "hampus_s",
+        "website": "https://blixtwallet.github.io/",
+        "nostr": "npub1v4v57fu60zvc9d2uq23cey4fnwvxlzga9q2vta2n6xalu03rs57s0mxwu8"
+      },
+      "description": "A non-custodial Lightning wallet that runs a full LND node on your phone.",
+      "image_url": "https://opensats.org/static/images/projects/blixt.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2023-07",
+          "end_date": null,
+          "project_name": "Blixt Wallet",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "BDK Foundation",
+      "github": "bitcoindevkit",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "bitcoindevkit",
+        "website": "https://bitcoindevkit.org/",
+        "nostr": null
+      },
+      "description": "A modern, descriptor-based wallet library written in Rust.",
+      "image_url": "https://opensats.org/img/project/bdk.jpeg",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2022-12",
+          "end_date": null,
+          "project_name": "Bitcoin Dev Kit",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "LNbits Contributors",
+      "github": "lnbits",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "lnbits",
+        "website": "https://lnbits.com/",
+        "nostr": null
+      },
+      "description": "A modular Lightning wallet account system with a plugin framework, used as the payments layer for shops, kiosks, hardware projects, and online services.",
+      "image_url": "https://opensats.org/static/images/projects/lnbits.svg",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2026-04",
+          "end_date": null,
+          "project_name": "LNbits",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "GrapheneOS Foundation",
+      "github": "GrapheneOS",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "GrapheneOS",
+        "website": "https://grapheneos.org/",
+        "nostr": "npub1235tem4hfn34edqh8hxfja9amty73998f0eagnuu4zm423s9e8ksdg0ht5"
+      },
+      "description": "A hardened mobile operating system focused on privacy, security, and Android app compatibility.",
+      "image_url": "https://opensats.org/static/images/projects/graphene-transparent.png",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2022-12",
+          "end_date": null,
+          "project_name": "GrapheneOS",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "StratumV2",
+      "github": "stratum-mining",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "StratumV2",
+        "website": "https://stratumprotocol.org/",
+        "nostr": null
+      },
+      "description": "An open mining protocol that gives individual miners more control over block construction.",
+      "image_url": "https://opensats.org/static/images/projects/stratumv2.svg",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2023-03",
+          "end_date": null,
+          "project_name": "Stratum V2",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "The Tor Project",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": "torproject",
+        "website": "https://www.torproject.org/",
+        "nostr": "npub1y8av7a5337erepxphjf50c9p4w5ghu6zu56fjqklpw0n06d7wvgqwh5cy0"
+      },
+      "description": "Free software and open networks for online privacy, anonymity, and censorship resistance.",
+      "image_url": "https://opensats.org/static/images/projects/tor.svg",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": "2022-12",
+          "end_date": null,
+          "project_name": "The Tor Project",
+          "grant_type": "project",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "0xchat",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": "https://www.0xchat.com/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null,
+          "project_name": null,
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "256 Foundation",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": "https://256foundation.org/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null,
+          "project_name": null,
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Africa Bitcoin Conference",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": "https://afrobitcoin.org/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null,
+          "project_name": null,
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Africa Bitcoin Institute (ABI)",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": "AnaiseKanimba",
+        "website": null,
+        "nostr": null
+      },
+      "description": null,
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null,
+          "project_name": null,
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Africa Free Routing Lightning Developer Bootcamp",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": "https://freerouting.africa/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null,
+          "project_name": null,
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "African Bitcoiners",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": "https://bitcoiners.africa",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null,
+          "project_name": null,
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "African UX Bitcoin Bootcamp",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": "https://www.bitcoinuxbootcamp.xyz/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null,
+          "project_name": null,
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Agora",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": "https://agora.spot/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null,
+          "project_name": null,
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "AmityAge",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": "https://www.amityage.com/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null,
+          "project_name": null,
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Anita Posch",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": "https://bffbtc.org/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin for Fairness",
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Arabic HODL",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": "https://bitcoinarabic.org/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null,
+          "project_name": null,
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Area Bitcoin",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": "https://www.areabitcoin.co/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null,
+          "project_name": null,
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Baltic Honeybadger",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": "https://baltichoneybadger.com/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null,
+          "project_name": null,
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Banxaas",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": "https://banxaas.com/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null,
+          "project_name": null,
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Base58 Bitcoin LARP",
+      "github": "base58btc",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": null,
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null,
+          "project_name": null,
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Bitcoin Atlantis",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": "https://bitcoinatlantis.com/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Atlantis",
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Bitcoin Babies",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": "https://bitcoinbabies.com/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null,
+          "project_name": null,
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Bitcoin Benin",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": "https://www.bitcoinbenin.org/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null,
+          "project_name": null,
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Bitcoin Core Graphical User Interface",
+      "github": "goqusan",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": null,
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null,
+          "project_name": null,
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Weikeng Chen",
+      "github": "weikengchen",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "weikengchen",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "May 2026",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Abhijay Jain",
+      "github": "Abhijay007",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "CodeInVeins",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Apr 2026",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Larry McCay",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Apr 2026",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Uchi Uchibeke",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Mar 2026",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Nishant Bansal",
+      "github": "NishantBansal2003",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "nishant282003",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Mar 2026",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "gitgab",
+      "github": "gitgab19",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "gitgab19",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Mar 2026",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Anthony Milton",
+      "github": "deadmanoz",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "ozdeadman",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Mar 2026",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Jerry Ochieng Anyumba",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Feb 2026",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "BTC Map",
+      "github": "teambtcmap",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "btcmap",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Jan 2026",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Daniel Pfeifer",
+      "github": "purpleKarrot",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Jan 2026",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Alexander Wiederin",
+      "github": "alexanderwiederin",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Nov 2025",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Hao Xu",
+      "github": "HowHsu",
+      "identity_uuid": "auto_hao_xu",
+      "resolution_method": "identities.json",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Oct 2025",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Ademan",
+      "github": "Ademan",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "Ademan555",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Aug 2025",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Martin Saposnic",
+      "github": "martinsaposnic",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "May 2025",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "CoinSwap",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "May 2025",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "crodas",
+      "github": "crodas",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "crodas",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Apr 2025",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Andrei",
+      "github": "andrei-21",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Apr 2025",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Maurice Poirrier",
+      "github": "a-mpch",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "mauricepoirrier",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Mar 2025",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "l0rinc",
+      "github": "L0RINC",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "L0RINC",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Jan 2025",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Rob Netzke",
+      "github": "rustaceanrob",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Jan 2025",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Bob McElrath",
+      "github": "mcelrath",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "BobMcElrath",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Nov 2024",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Leo Nash",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Nov 2024",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Rachel Rybarcyzk",
+      "github": "rrybarczyk",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "_rrybarczyk",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Oct 2024",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Austin Krauss",
+      "github": "Beige-Coffee",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "_austin_f",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Sep 2024",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "spacebear21",
+      "github": "spacebear21",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "spacebear21",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Aug 2024",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Nick Johnson",
+      "github": "nyonson",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Jul 2024",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "thesimplekid",
+      "github": "thesimplekid",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "thesimplekid",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "May 2024",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "siv2r",
+      "github": "siv2r",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "siv2r",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "May 2024",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Sean Giligan",
+      "github": "msgilligan",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "msgilligan",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Apr 2024",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "BDK Foundation",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Apr 2024",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "plebhash",
+      "github": "plebhash",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "plebhash",
+        "website": "https://plebhash.github.io",
+        "nostr": null
+      },
+      "description": "",
+      "image_url": "https://vinteum.org/assets/images/people/grantees/plebhash.png",
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Jan 2024",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        },
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Stratum V2",
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Dan Gould",
+      "github": "DanGould",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "bitgould",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Dec 2023",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Esraa",
+      "github": "jbesraa",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Dec 2023",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Bitcoin Design Foundation",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Nov 2023",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Joschisan",
+      "github": "joschisan",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "joschisanbtc",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Nov 2023",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "ZeroSync",
+      "github": "ZeroSync",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "zerosync_",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Sep 2023",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Michael Haase",
+      "github": "rabbitholiness",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "haasemike",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Jul 2023",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Alyssa Hertig",
+      "github": "orbitalturtle",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "mehmehturtle",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Jun 2023",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Matthew Ramsden",
+      "github": "reez",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "matthewramsden",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "May 2023",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "John Moffett",
+      "github": "john-moffett",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Apr 2023",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Matt Morehouse",
+      "github": "morehouse",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Mar 2023",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Okjodom",
+      "github": "okjodom",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "okjodom",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Feb 2023",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Evan Lin",
+      "github": "evanlinjin",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "evanlinjin",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Feb 2023",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Justin Moellar",
+      "github": "m1sterc001guy",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "m1sterc001guy",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Nov 2022",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Wallet Scrutiny",
+      "github": "WalletScrutiny",
+      "identity_uuid": "auto_walletscrutiny",
+      "resolution_method": "social_handle",
+      "social": {
+        "x_handle": "WalletScrutiny",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Oct 2022",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Josh Kitman",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Aug 2022",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Johannes Hofmann",
+      "github": "vir7u",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Jul 2022",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Ruben Somsen",
+      "github": "RubenSomsen",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "somsenruben",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Jun 2022",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Mogashni",
+      "github": "mouxdesign",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "MogashniNaidoo",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Jun 2022",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Bitcoin Zavior",
+      "github": "BitcoinZavior",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "BitcoinZavior",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Apr 2022",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "thunderbiscuit",
+      "github": "thunderbiscuit",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "thunderB__",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Apr 2022",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Doc Sharp",
+      "github": "Bosch-0",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "_Bosch_",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Nov 2021",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "John Cantrell",
+      "github": "johncantrell97",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "JohnCantrell97",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Sep 2021",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Stephen DeLorme",
+      "github": "sbddesign",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "StephenDeLorme",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Sep 2021",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Summer of Bitcoin",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": "summerofbitcoin",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Aug 2021",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Dhruv Mehta",
+      "github": "dhruv",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "dhruv",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Jun 2021",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Raj Maitra",
+      "github": "rajarshimaitra",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "RajarshiMaitra",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Jun 2021",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Mempool",
+      "github": "mempool",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "mempool",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Apr 2021",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Pavlenex",
+      "github": "pavlenex",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "pavlenex",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Feb 2021",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Fi3",
+      "github": "Fi3",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "dev_sv2",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Jan 2021",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Leon Johnson",
+      "github": "leonjohnson",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "LeonJohnson",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Jan 2021",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Riccardo Casatta",
+      "github": "RCasatta",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "RCasatta",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Nov 2020",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Maggie Valentine",
+      "github": "maggievalentine",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "magglevalentine",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Nov 2020",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Conor Okus",
+      "github": "ConorOkus",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "ConorOkus",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Nov 2020",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Jamaal Montasser",
+      "github": "jamaalm",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "jammontasser",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Sep 2020",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Johns Beharry",
+      "github": "johnsBeharry",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "JohnsBeharry",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Sep 2020",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Daniel Nordh",
+      "github": "danielnordh",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "danielnordh",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Sep 2020",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Thorbj\u00f8rn K\u00f6nig",
+      "github": "Thorbjoern",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "thorbjornkonig",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Aug 2020",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Lloyd Fournier",
+      "github": "LLFourn",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "LLFOURN",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Aug 2020",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Steve Myers",
+      "github": "notmandatory",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "notmandatory",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Jul 2020",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Validating Lightning Signer",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": "VLSProject",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Jul 2020",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Christoph Ono",
+      "github": "GBKS",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "GBKS",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Jul 2020",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Justin Moon",
+      "github": "justinmoon",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "_JustinMoon_",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Apr 2020",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Tankred Hase",
+      "github": "tanx",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "tankredhase",
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": "Mar 2020",
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Lightning Dev Kit",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Bitcoin Core",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Bitcoin Design",
+      "github": null,
+      "identity_uuid": null,
+      "resolution_method": null,
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": "",
+      "image_url": null,
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Ecosystem",
+          "grant_type": "grantee",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Leonardo Lima",
+      "github": "oleonardolima",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "_oleonardolima",
+        "website": null,
+        "nostr": "https://primal.net/p/npub1ez8efu9rjxu64g0lalty2ffmr2tgkzjz92rkafyfyz5463wr8ars8zls5t"
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/grantees/leonardolima.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Dev Kit",
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Davidson Souza",
+      "github": "Davidson-Souza",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "Erik17192799",
+        "website": "https://blog.dlsouza.lol",
+        "nostr": "https://primal.net/p/nprofile1qqswpna42jwnea7mfcnnd78phjz0vfyx4aayz22ase7x5vf5tyzz22qjdj9cx"
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/grantees/davidsonsouza.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Floresta",
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Pins",
+      "github": "MPins",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "pins_btc",
+        "website": null,
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/grantees/pins.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "LND",
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Chris G.",
+      "github": "csgui",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "csgui",
+        "website": "https://imchris.me/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/grantees/chrisg.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Floresta",
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Johnny Santos",
+      "github": "johnnyasantoss",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "johnnyasantos",
+        "website": "https://johnnyasantos.com/",
+        "nostr": "https://njump.me/npub1j0nyf54ndc6keq80xfyeqfumn2l23e3k79f33x5jsqxnut6a8dyqp74mu0"
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/grantees/johnnysantos.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "P2Pool V2",
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Erick Cestari",
+      "github": "erickcestari",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "iamflops",
+        "website": "https://erickcestari.dev/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/erickcestari.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoinfuzz / Smite",
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "thgO-O",
+      "github": "thgO-O",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "thgO_O",
+        "website": null,
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/thgoo.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "BtcPayServer",
+          "grant_type": "grant",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Vinicius Cestari",
+      "github": "viniciusCestarii",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "VCestarii",
+        "website": "https://viniciuscestari.dev/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/viniciuscestari.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Core",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "bc1cindy",
+      "github": "bc1cindy",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "bc1cindy",
+        "website": "https://linktr.ee/CindyBTC",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/bc1cindy.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Payjoin Dev Kit",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Caio Ueda Sampaio (K-YU)",
+      "github": "KY-U",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "KYU2029255",
+        "website": null,
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/caioueda.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoinfuzz",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Allocz",
+      "github": "allocz",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/allocz.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "btcd",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Octavio Lucca",
+      "github": "octaviolucca",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "octavio_lucca",
+        "website": "https://octavio.xyz/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/octaviolucca.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Peer Observer",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Victor Andr\u00e9",
+      "github": "victorandre957",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": "https://victorandre957.github.io/personal_blog/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/victorandre.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "BIP324",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Isaque Franklin",
+      "github": "IsaqueFranklin",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "IsaqueFranklin0",
+        "website": "https://www.harlock.xyz/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/isaquefranklin.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Studying Bitcoin cryptography",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Lucas Lima",
+      "github": "lucasdbr05",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "Lucaslgol05",
+        "website": null,
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/lucaslima.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Secure Fountain Codes",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Renato Britto (satsfy)",
+      "github": "satsfy",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "0xsatsfy",
+        "website": "https://satsfy.xyz/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/renatobritto.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Rust-Bitcoin",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "m4ycon",
+      "github": "m4ycon",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/m4ycon.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Peer Observer",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Jayr Motta",
+      "github": "jayrmotta",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "jayrmotta",
+        "website": null,
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/jayrmotta.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Mujina",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Yan",
+      "github": "yan-pi",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "yamigake",
+        "website": "https://indianboy.sh/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/yan.jpeg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null,
+          "project_name": "Bitcoin Dev Kit",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Lucas Balieiro",
+      "github": "lucasbalieiro",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/lucasbalieiro.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": "past",
+          "project_name": "Stratum V2",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Jo\u00e3o Leal",
+      "github": "jaoleal",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/joao.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": "past",
+          "project_name": "Floresta",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Luis Schwab",
+      "github": "luisschwab",
+      "identity_uuid": "auto_luis_schwab",
+      "resolution_method": "identities.json",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/luis.png",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": "past",
+          "project_name": "BDK / Floresta",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Luca0x46",
+      "github": "luca0x46",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "luca0x46",
+        "website": "https://luca0x46.com/",
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/luca0x46.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": "past",
+          "project_name": "Second",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Gustavo Stingelin",
+      "github": "GustavoStingelin",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "gustingelin",
+        "website": null,
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/gustavostingelin.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": "past",
+          "project_name": "Lightning Labs",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Moises Pompilio",
+      "github": "moisesPompilio",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "maicomjt",
+        "website": null,
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/moisespompilio.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": "past",
+          "project_name": "Floresta",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Guilherme Martins",
+      "github": "qlrd",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/guilhermemartins.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": "past",
+          "project_name": "Krux",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "TheMhv",
+      "github": "TheMhv",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": "TheMhv",
+        "website": null,
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/themhv.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": "past",
+          "project_name": "CDK",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "joaozinho",
+      "github": "joaozinhom",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": "https://primal.net/p/nprofile1qqs0xwjg3fwjrqm3anxlgq0t48wg8n9zp8007ryl034nckyljdaktmqm4mmyv"
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/joaozinho.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": "past",
+          "project_name": "Krux",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Caio",
+      "github": "kiocos",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/caio.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": "past",
+          "project_name": "Boltz",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Lang",
+      "github": "gusttav-lang",
+      "identity_uuid": null,
+      "resolution_method": "source",
+      "social": {
+        "x_handle": null,
+        "website": null,
+        "nostr": null
+      },
+      "description": null,
+      "image_url": "https://vinteum.org/assets/images/people/fellows/lang.jpg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": "past",
+          "project_name": "Tether",
+          "grant_type": "fellowship",
+          "source": "automated"
+        }
+      ]
+    }
+  ],
+  "classification_rules": {
+    "_comment": "Fallback rules when developer is not in sponsored_developers list",
+    "corporate_domains": [
+      "chaincode.com",
+      "blockstream.com",
+      "blockstream.io",
+      "spiral.xyz",
+      "block.xyz",
+      "brink.dev",
+      "okcoin.com",
+      "gemini.com",
+      "kraken.com",
+      "coinbase.com",
+      "bitpay.com",
+      "bitgo.com",
+      "river.com"
+    ],
+    "academic_domains": [
+      "mit.edu",
+      "stanford.edu",
+      "berkeley.edu",
+      "cornell.edu"
+    ],
+    "personal_domains": [
+      "gmail.com",
+      "hotmail.com",
+      "yahoo.com",
+      "outlook.com",
+      "protonmail.com",
+      "proton.me",
+      "pm.me",
+      "me.com",
+      "icloud.com",
+      "aol.com",
+      "users.noreply.github.com",
+      "gmx.com",
+      "tutanota.com"
+    ]
+  }
+}

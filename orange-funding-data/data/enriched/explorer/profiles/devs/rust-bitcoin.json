@@ -1,0 +1,15 @@
+{
+  "type": "developer",
+  "name": "rust-bitcoin Maintainers",
+  "github": "rust-bitcoin",
+  "notes": "",
+  "description": "A low-level Rust Bitcoin library stack for protocol messages, transactions, scripts, keys, addresses, and PSBTs.",
+  "grants": [
+    {
+      "sponsor": "OpenSats",
+      "project": "rust-bitcoin",
+      "start_date": "2026-05",
+      "end_date": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "project",
+  "name": "Blitz Wallet",
+  "developers": [
+    "BlitzWallet"
+  ],
+  "sponsors": [
+    "OpenSats"
+  ],
+  "eco_data": {
+    "layer": "Wallets & UX",
+    "description": "A Lightning-powered mobile wallet.",
+    "website": "",
+    "github": "",
+    "top_repos": [],
+    "aggregate_metrics": null,
+    "top_contributors": []
+  }
+}

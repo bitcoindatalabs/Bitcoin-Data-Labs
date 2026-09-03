@@ -1,0 +1,131 @@
+{
+  "type": "developer",
+  "name": "Gavin Andresen",
+  "github": "gavinandresen",
+  "notes": "Early Lead Maintainer",
+  "description": "",
+  "grants": [
+    {
+      "sponsor": "Bitcoin Foundation",
+      "project": "Bitcoin Ecosystem",
+      "start_date": "2012-09",
+      "end_date": "2015-04"
+    },
+    {
+      "sponsor": "MIT Digital Currency Initiative",
+      "project": "Bitcoin Ecosystem",
+      "start_date": "2015-04",
+      "end_date": "2016-05"
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 92,
+    "layers_active": [
+      "Core & Protocol",
+      "Mining Infrastructure"
+    ],
+    "languages": {
+      "C++": 1247.0,
+      "Wikitext": 119.5,
+      "Python": 2.5
+    },
+    "top_repos": [
+      {
+        "github_login": "gavinandresen",
+        "repo_name": "bitcoin/bitcoin",
+        "push_events": 5,
+        "pr_events": 35,
+        "review_events": 15,
+        "issue_events": 201,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2015-01-05T16:55:00+00:00",
+        "last_activity": "2016-04-25T15:14:21+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 797.5,
+        "display_metric": 504,
+        "metric_label": "commits"
+      },
+      {
+        "github_login": "gavinandresen",
+        "repo_name": "bitcoinclassic/bitcoinclassic",
+        "push_events": 5,
+        "pr_events": 15,
+        "review_events": 8,
+        "issue_events": 46,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2016-01-07T23:55:14+00:00",
+        "last_activity": "2016-04-12T19:22:14+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 262.0,
+        "display_metric": 15,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "gavinandresen",
+        "repo_name": "bitcoinxt/bitcoinxt",
+        "push_events": 2,
+        "pr_events": 8,
+        "review_events": 2,
+        "issue_events": 43,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2015-06-19T15:12:16+00:00",
+        "last_activity": "2016-04-09T16:02:51+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 175.0,
+        "display_metric": 8,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "gavinandresen",
+        "repo_name": "bitcoin/bips",
+        "push_events": 4,
+        "pr_events": 8,
+        "review_events": 1,
+        "issue_events": 19,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2015-05-26T17:59:54+00:00",
+        "last_activity": "2022-09-30T19:12:54+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 119.5,
+        "display_metric": 8,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "gavinandresen",
+        "repo_name": "btc1/bitcoin",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 5,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2017-06-12T17:17:06+00:00",
+        "last_activity": "2017-06-25T12:22:31+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 12.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "gavinandresen",
+        "repo_name": "p2pool/p2pool",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2015-12-10T12:20:35+00:00",
+        "last_activity": "2015-12-10T12:20:35+00:00",
+        "layer": "Mining Infrastructure",
+        "contribution_score": 2.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

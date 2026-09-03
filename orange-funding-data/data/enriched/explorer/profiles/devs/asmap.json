@@ -1,0 +1,15 @@
+{
+  "type": "developer",
+  "name": "ASmap Contributors",
+  "github": "asmap",
+  "notes": "",
+  "description": "A project that builds reproducible IP-to-AS maps for Bitcoin Core so nodes can diversify peers across autonomous systems.",
+  "grants": [
+    {
+      "sponsor": "OpenSats",
+      "project": "ASmap",
+      "start_date": "2026-05",
+      "end_date": null
+    }
+  ]
+}

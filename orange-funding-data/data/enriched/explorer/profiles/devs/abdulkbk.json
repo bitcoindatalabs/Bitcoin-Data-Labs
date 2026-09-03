@@ -1,0 +1,143 @@
+{
+  "type": "developer",
+  "name": "Abdullahi Yunus",
+  "github": "Abdulkbk",
+  "notes": "",
+  "description": "Abdullahi is a Btrust Builders cohort 3 alumnus, and has demonstrated outstanding contributions to Bitcoin\u2019s open-source projects. His work on LND has enhanced node reliability and user experience, while his improvements to Lightning Polar simplify developer workflows. With a strong focus on Bitcoin education, Abdullahi also mentors aspiring developers, making the ecosystem more accessible.",
+  "grants": [
+    {
+      "sponsor": "Btrust",
+      "project": "Bitcoin Ecosystem",
+      "start_date": null,
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 34,
+    "layers_active": [
+      "Core & Protocol",
+      "Lightning Network"
+    ],
+    "languages": {
+      "C++": 48.0,
+      "Go": 1359.0,
+      "Scala": 4.0,
+      "TypeScript": 297.5,
+      "Rust": 5.0
+    },
+    "top_repos": [
+      {
+        "github_login": "Abdulkbk",
+        "repo_name": "lightningnetwork/lnd",
+        "push_events": 0,
+        "pr_events": 15,
+        "review_events": 246,
+        "issue_events": 85,
+        "star_events": 1,
+        "fork_events": 0,
+        "first_activity": "2023-11-30T06:07:36+00:00",
+        "last_activity": "2026-07-20T21:10:44+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 1287.5,
+        "display_metric": 15,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "Abdulkbk",
+        "repo_name": "jamaljsr/polar",
+        "push_events": 1,
+        "pr_events": 6,
+        "review_events": 36,
+        "issue_events": 44,
+        "star_events": 1,
+        "fork_events": 1,
+        "first_activity": "2024-02-29T08:44:05+00:00",
+        "last_activity": "2026-06-30T15:20:10+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 297.5,
+        "display_metric": 6,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "Abdulkbk",
+        "repo_name": "bitcoin/bitcoin",
+        "push_events": 0,
+        "pr_events": 3,
+        "review_events": 5,
+        "issue_events": 3,
+        "star_events": 1,
+        "fork_events": 1,
+        "first_activity": "2023-09-15T13:45:25+00:00",
+        "last_activity": "2024-11-11T22:20:36+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 48.0,
+        "display_metric": 3,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "Abdulkbk",
+        "repo_name": "btcsuite/btcwallet",
+        "push_events": 0,
+        "pr_events": 1,
+        "review_events": 4,
+        "issue_events": 7,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2025-02-06T15:49:23+00:00",
+        "last_activity": "2025-06-20T19:52:21+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 41.0,
+        "display_metric": 1,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "Abdulkbk",
+        "repo_name": "btcsuite/btcd",
+        "push_events": 0,
+        "pr_events": 2,
+        "review_events": 4,
+        "issue_events": 0,
+        "star_events": 1,
+        "fork_events": 1,
+        "first_activity": "2024-03-07T14:59:12+00:00",
+        "last_activity": "2026-03-25T00:46:50+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 30.5,
+        "display_metric": 2,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "Abdulkbk",
+        "repo_name": "bitcoin-dev-project/sim-ln",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 1,
+        "star_events": 1,
+        "fork_events": 1,
+        "first_activity": "2025-05-23T14:02:06+00:00",
+        "last_activity": "2025-08-04T19:44:42+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 5.0,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "Abdulkbk",
+        "repo_name": "ACINQ/eclair",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2025-07-03T11:05:04+00:00",
+        "last_activity": "2025-07-05T19:05:25+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 4.0,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

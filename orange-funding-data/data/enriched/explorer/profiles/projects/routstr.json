@@ -1,0 +1,19 @@
+{
+  "type": "project",
+  "name": "Routstr",
+  "developers": [
+    "Routstr"
+  ],
+  "sponsors": [
+    "OpenSats"
+  ],
+  "eco_data": {
+    "layer": "Nostr & Social",
+    "description": "A Nostr-based routing project.",
+    "website": "",
+    "github": "",
+    "top_repos": [],
+    "aggregate_metrics": null,
+    "top_contributors": []
+  }
+}

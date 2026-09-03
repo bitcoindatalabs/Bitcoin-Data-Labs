@@ -1,0 +1,10 @@
+{
+  "type": "project",
+  "name": "Bitcoin Design Community",
+  "developers": [
+    "BitcoinDesign"
+  ],
+  "sponsors": [
+    "OpenSats"
+  ]
+}

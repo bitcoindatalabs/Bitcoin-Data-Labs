@@ -1,0 +1,109 @@
+{
+  "type": "developer",
+  "name": "Alexander Wiederin",
+  "github": "alexanderwiederin",
+  "notes": "",
+  "description": "",
+  "grants": [
+    {
+      "sponsor": "Spiral (Block/Square)",
+      "project": "Bitcoin Ecosystem",
+      "start_date": "Nov 2025",
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 41,
+    "layers_active": [
+      "Core & Protocol",
+      "Lightning Network"
+    ],
+    "languages": {
+      "C++": 252.5,
+      "Rust": 162.0,
+      "Python": 7.5
+    },
+    "top_repos": [
+      {
+        "github_login": "alexanderwiederin",
+        "repo_name": "TheCharlatan/rust-bitcoinkernel",
+        "push_events": 0,
+        "pr_events": 13,
+        "review_events": 18,
+        "issue_events": 6,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2025-10-15T09:11:33+00:00",
+        "last_activity": "2025-11-24T23:49:34+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 165.0,
+        "display_metric": 13,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "alexanderwiederin",
+        "repo_name": "lightningdevkit/ldk-node",
+        "push_events": 0,
+        "pr_events": 13,
+        "review_events": 8,
+        "issue_events": 2,
+        "star_events": 1,
+        "fork_events": 1,
+        "first_activity": "2023-08-22T09:54:22+00:00",
+        "last_activity": "2023-11-28T01:30:32+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 117.5,
+        "display_metric": 13,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "alexanderwiederin",
+        "repo_name": "bitcoin/bitcoin",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 19,
+        "issue_events": 3,
+        "star_events": 1,
+        "fork_events": 2,
+        "first_activity": "2022-12-04T18:35:24+00:00",
+        "last_activity": "2026-05-05T22:40:55+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 87.5,
+        "display_metric": 5,
+        "metric_label": "commits"
+      },
+      {
+        "github_login": "alexanderwiederin",
+        "repo_name": "lightningdevkit/rust-lightning",
+        "push_events": 0,
+        "pr_events": 3,
+        "review_events": 5,
+        "issue_events": 2,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2023-04-02T15:33:01+00:00",
+        "last_activity": "2023-10-22T11:44:35+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 44.5,
+        "display_metric": 3,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "alexanderwiederin",
+        "repo_name": "bitcointranscripts/bitcointranscripts",
+        "push_events": 0,
+        "pr_events": 1,
+        "review_events": 0,
+        "issue_events": 0,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2023-11-17T16:56:29+00:00",
+        "last_activity": "2023-11-17T19:52:44+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 7.5,
+        "display_metric": 1,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

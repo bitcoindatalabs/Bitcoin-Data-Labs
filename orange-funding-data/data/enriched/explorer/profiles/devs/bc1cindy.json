@@ -1,0 +1,112 @@
+{
+  "type": "developer",
+  "name": "bc1cindy",
+  "github": "bc1cindy",
+  "notes": "",
+  "description": null,
+  "grants": [
+    {
+      "sponsor": "Vinteum",
+      "project": "Payjoin Dev Kit",
+      "start_date": null,
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 12,
+    "layers_active": [
+      "Ecash / Privacy",
+      "Ecosystem Tooling",
+      "Lightning Network",
+      "Core & Protocol"
+    ],
+    "languages": {
+      "Rust": 204.0,
+      "Python": 61.0,
+      "C++": 7.5,
+      "C#": 52.5
+    },
+    "top_repos": [
+      {
+        "github_login": "bc1cindy",
+        "repo_name": "payjoin/rust-payjoin",
+        "push_events": 0,
+        "pr_events": 8,
+        "review_events": 10,
+        "issue_events": 33,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2025-08-09T13:58:51+00:00",
+        "last_activity": "2026-07-01T18:31:31+00:00",
+        "layer": "Ecash / Privacy",
+        "contribution_score": 172.0,
+        "display_metric": 8,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "bc1cindy",
+        "repo_name": "selfcustody/krux",
+        "push_events": 0,
+        "pr_events": 4,
+        "review_events": 3,
+        "issue_events": 10,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2025-07-23T02:58:25+00:00",
+        "last_activity": "2025-08-01T20:37:15+00:00",
+        "layer": "Ecosystem Tooling",
+        "contribution_score": 61.0,
+        "display_metric": 4,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "bc1cindy",
+        "repo_name": "btcpayserver/btcpayserver",
+        "push_events": 0,
+        "pr_events": 6,
+        "review_events": 0,
+        "issue_events": 6,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2025-07-27T15:18:59+00:00",
+        "last_activity": "2025-08-22T14:26:16+00:00",
+        "layer": "Ecosystem Tooling",
+        "contribution_score": 52.5,
+        "display_metric": 6,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "bc1cindy",
+        "repo_name": "lightningdevkit/ldk-node",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 8,
+        "issue_events": 0,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2026-03-12T21:54:25+00:00",
+        "last_activity": "2026-05-10T19:51:12+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 32.0,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "bc1cindy",
+        "repo_name": "bitcoin/bitcoin",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 3,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2025-08-12T00:17:34+00:00",
+        "last_activity": "2025-08-12T01:36:34+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 7.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

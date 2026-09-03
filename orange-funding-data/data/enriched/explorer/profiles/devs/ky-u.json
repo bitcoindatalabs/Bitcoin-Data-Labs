@@ -1,0 +1,15 @@
+{
+  "type": "developer",
+  "name": "Caio Ueda Sampaio (K-YU)",
+  "github": "KY-U",
+  "notes": "",
+  "description": null,
+  "grants": [
+    {
+      "sponsor": "Vinteum",
+      "project": "bitcoinfuzz",
+      "start_date": null,
+      "end_date": null
+    }
+  ]
+}

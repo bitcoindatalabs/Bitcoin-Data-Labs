@@ -1,0 +1,115 @@
+{
+  "type": "developer",
+  "name": "stratospher",
+  "github": "stratospher",
+  "notes": "Maelstrom Grantee",
+  "description": "Stratos is a vulnerability researcher approaching Bitcoin Core security and fuzzing from a systems and protocol security perspective. His internship work under Niklas G\u00f6gge will focused on fuzz testing Bitcoin Core.",
+  "grants": [
+    {
+      "sponsor": "Maelstrom Fund",
+      "project": "Bitcoin Core",
+      "start_date": null,
+      "end_date": null
+    },
+    {
+      "sponsor": "Brink",
+      "project": "Bitcoin Core",
+      "start_date": null,
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 59,
+    "layers_active": [
+      "Core & Protocol"
+    ],
+    "languages": {
+      "C": 247.5,
+      "Wikitext": 51.5,
+      "C++": 2854.0,
+      "Jupyter Notebook": 7.5
+    },
+    "top_repos": [
+      {
+        "github_login": "stratospher",
+        "repo_name": "bitcoin/bitcoin",
+        "push_events": 0,
+        "pr_events": 21,
+        "review_events": 623,
+        "issue_events": 90,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2021-06-24T13:12:07+00:00",
+        "last_activity": "2026-05-27T12:42:33+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 2844.5,
+        "display_metric": 97,
+        "metric_label": "commits"
+      },
+      {
+        "github_login": "stratospher",
+        "repo_name": "bitcoin-core/secp256k1",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 59,
+        "issue_events": 4,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2022-07-28T14:46:24+00:00",
+        "last_activity": "2026-01-17T11:44:33+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 247.5,
+        "display_metric": 5,
+        "metric_label": "commits"
+      },
+      {
+        "github_login": "stratospher",
+        "repo_name": "bitcoin/bips",
+        "push_events": 0,
+        "pr_events": 1,
+        "review_events": 11,
+        "issue_events": 0,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2023-04-26T16:09:23+00:00",
+        "last_activity": "2024-11-01T04:46:33+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 51.5,
+        "display_metric": 1,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "stratospher",
+        "repo_name": "bitcoin-core/gui",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 2,
+        "issue_events": 0,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2021-09-27T20:58:59+00:00",
+        "last_activity": "2021-10-05T05:02:26+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 9.5,
+        "display_metric": 97,
+        "metric_label": "commits"
+      },
+      {
+        "github_login": "stratospher",
+        "repo_name": "chaincodelabs/onboarding-to-bitcoin-core",
+        "push_events": 0,
+        "pr_events": 1,
+        "review_events": 0,
+        "issue_events": 0,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2022-04-05T18:23:47+00:00",
+        "last_activity": "2022-04-05T19:36:39+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 7.5,
+        "display_metric": 1,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

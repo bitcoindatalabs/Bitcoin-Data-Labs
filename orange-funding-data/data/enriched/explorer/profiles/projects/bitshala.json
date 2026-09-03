@@ -1,0 +1,19 @@
+{
+  "type": "project",
+  "name": "Bitshala",
+  "developers": [
+    "Bitshala"
+  ],
+  "sponsors": [
+    "OpenSats"
+  ],
+  "eco_data": {
+    "layer": "Developer Education",
+    "description": "A Bitcoin education initiative focused on the Indian developer community.",
+    "website": "https://bitshala.org",
+    "github": "",
+    "top_repos": [],
+    "aggregate_metrics": null,
+    "top_contributors": []
+  }
+}

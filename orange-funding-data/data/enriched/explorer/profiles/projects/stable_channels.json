@@ -1,0 +1,19 @@
+{
+  "type": "project",
+  "name": "Stable Channels",
+  "developers": [
+    "toneloc"
+  ],
+  "sponsors": [
+    "OpenSats"
+  ],
+  "eco_data": {
+    "layer": "Lightning Network",
+    "description": "Stable-value channels on the Lightning Network.",
+    "website": "",
+    "github": "",
+    "top_repos": [],
+    "aggregate_metrics": null,
+    "top_contributors": []
+  }
+}

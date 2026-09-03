@@ -1,0 +1,134 @@
+{
+  "type": "project",
+  "name": "LDK",
+  "developers": [
+    "lightningdevkit"
+  ],
+  "sponsors": [
+    "OpenSats"
+  ],
+  "eco_data": {
+    "layer": "Lightning Network",
+    "description": "A flexible Lightning implementation building block for custom integrations.",
+    "website": "https://lightningdevkit.org",
+    "github": "lightningdevkit",
+    "top_repos": [
+      {
+        "repo_name": "lightningdevkit/rust-lightning",
+        "description": "Active development happens on git.rust-bitcoin.org, this repo is a mirror of https://git.rust-bitcoin.org/lightningdevkit/rust-lightning",
+        "stars": 1369,
+        "forks": 478,
+        "language": "Rust",
+        "open_issues": 275,
+        "license": "NOASSERTION",
+        "archived": false,
+        "topics": [
+          "bitcoin",
+          "lightning-network"
+        ],
+        "code_contributors": 142,
+        "code_reviewers": 132,
+        "total_unique_contributors": 1176,
+        "bus_factor_tier": "healthy",
+        "review_culture_ratio": 0.93,
+        "first_activity": "2021-10-12T04:50:10+00:00",
+        "last_activity": "2026-07-30T21:58:10+00:00"
+      }
+    ],
+    "aggregate_metrics": {
+      "total_stars": 1369,
+      "total_forks": 478,
+      "total_code_contributors": 142,
+      "total_code_reviewers": 132,
+      "total_unique_contributors": 1176,
+      "primary_language": "Rust",
+      "languages": {
+        "Rust": 1.0
+      },
+      "earliest_activity": "2021-10-12T04:50:10+00:00",
+      "latest_activity": "2026-07-30T21:58:10+00:00"
+    },
+    "top_contributors": [
+      {
+        "github_login": "jkczyz",
+        "contribution_score": 32732.0,
+        "display_metric": 193,
+        "metric_label": "opened PRs",
+        "tenure_months": 104,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "valentinewallace",
+        "contribution_score": 23532.0,
+        "display_metric": 291,
+        "metric_label": "opened PRs",
+        "tenure_months": 102,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "TheBlueMatt",
+        "contribution_score": 12284.5,
+        "display_metric": 248,
+        "metric_label": "opened PRs",
+        "tenure_months": 138,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "dunxen",
+        "contribution_score": 8807.0,
+        "display_metric": 55,
+        "metric_label": "opened PRs",
+        "tenure_months": 49,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "tnull",
+        "contribution_score": 8043.5,
+        "display_metric": 65,
+        "metric_label": "opened PRs",
+        "tenure_months": 136,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "joostjager",
+        "contribution_score": 7605.5,
+        "display_metric": 58,
+        "metric_label": "opened PRs",
+        "tenure_months": 97,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "shaavan",
+        "contribution_score": 7043.5,
+        "display_metric": 37,
+        "metric_label": "opened PRs",
+        "tenure_months": 56,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "ariard",
+        "contribution_score": 4223.5,
+        "display_metric": 21,
+        "metric_label": "opened PRs",
+        "tenure_months": 107,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "optout21",
+        "contribution_score": 3864.0,
+        "display_metric": 59,
+        "metric_label": "opened PRs",
+        "tenure_months": 35,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "ldk-reviews-bot",
+        "contribution_score": 3710.0,
+        "display_metric": 0,
+        "metric_label": "opened PRs",
+        "tenure_months": 16,
+        "is_active_last_12m": true
+      }
+    ]
+  }
+}

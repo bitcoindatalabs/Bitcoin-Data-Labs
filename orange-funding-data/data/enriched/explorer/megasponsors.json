@@ -1,0 +1,74 @@
+{
+  "indicator": [
+    {
+      "name": "General Ecosystem Support",
+      "max": 83
+    },
+    {
+      "name": "Core & Protocol",
+      "max": 25
+    },
+    {
+      "name": "Nostr & Social",
+      "max": 13
+    }
+  ],
+  "data": [
+    {
+      "name": "Spiral",
+      "value": [
+        83,
+        12,
+        0
+      ]
+    },
+    {
+      "name": "Opensats",
+      "value": [
+        3,
+        9,
+        13
+      ]
+    },
+    {
+      "name": "Btrust",
+      "value": [
+        20,
+        4,
+        0
+      ]
+    },
+    {
+      "name": "Brink",
+      "value": [
+        1,
+        25,
+        0
+      ]
+    },
+    {
+      "name": "Hrf",
+      "value": [
+        18,
+        2,
+        0
+      ]
+    }
+  ],
+  "aggregate": {
+    "Core & Protocol": 72,
+    "General Ecosystem Support": 142,
+    "Lightning Network": 10,
+    "Wallets & UX": 5,
+    "Nostr & Social": 13,
+    "Libraries & SDKs": 5,
+    "Developer Education": 4,
+    "Ecash & Privacy": 5,
+    "Payments & Commerce": 3,
+    "Other": 11,
+    "Hardware & Signers": 1,
+    "Mining Infrastructure": 3,
+    "Sidechains & L2s": 1,
+    "Ecosystem Tooling": 3
+  }
+}

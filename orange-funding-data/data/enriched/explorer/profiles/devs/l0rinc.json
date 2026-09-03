@@ -1,0 +1,108 @@
+{
+  "type": "developer",
+  "name": "l0rinc",
+  "github": "L0RINC",
+  "notes": "",
+  "description": "",
+  "grants": [
+    {
+      "sponsor": "Spiral (Block/Square)",
+      "project": "Bitcoin Ecosystem",
+      "start_date": "Jan 2025",
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 23,
+    "layers_active": [
+      "Core & Protocol"
+    ],
+    "languages": {
+      "C++": 16894.0,
+      "HTML": 6.5,
+      "C": 26.5
+    },
+    "top_repos": [
+      {
+        "github_login": "l0rinc",
+        "repo_name": "bitcoin/bitcoin",
+        "push_events": 0,
+        "pr_events": 127,
+        "review_events": 3602,
+        "issue_events": 687,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2024-08-20T21:09:12+00:00",
+        "last_activity": "2026-07-29T21:25:51+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 16887.5,
+        "display_metric": 339,
+        "metric_label": "commits"
+      },
+      {
+        "github_login": "l0rinc",
+        "repo_name": "bitcoin-core/secp256k1",
+        "push_events": 0,
+        "pr_events": 2,
+        "review_events": 2,
+        "issue_events": 2,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2025-09-06T20:17:18+00:00",
+        "last_activity": "2025-09-10T21:57:39+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 26.5,
+        "display_metric": 13,
+        "metric_label": "commits"
+      },
+      {
+        "github_login": "l0rinc",
+        "repo_name": "bitcoin-core/bitcoincore.org",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 1,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2025-06-04T11:53:19+00:00",
+        "last_activity": "2026-06-07T20:20:54+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 6.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "l0rinc",
+        "repo_name": "bitcoinknots/bitcoin",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 1,
+        "issue_events": 0,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2026-02-11T15:32:54+00:00",
+        "last_activity": "2026-02-11T15:32:54+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 4.0,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "l0rinc",
+        "repo_name": "bitcoin-core/minisketch",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2025-09-01T18:48:05+00:00",
+        "last_activity": "2025-09-01T18:48:05+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 2.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

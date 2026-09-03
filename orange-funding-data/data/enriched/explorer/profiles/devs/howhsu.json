@@ -1,0 +1,60 @@
+{
+  "type": "developer",
+  "name": "Hao Xu",
+  "github": "HowHsu",
+  "notes": "",
+  "description": "",
+  "grants": [
+    {
+      "sponsor": "Spiral (Block/Square)",
+      "project": "Bitcoin Ecosystem",
+      "start_date": "Oct 2025",
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 83,
+    "layers_active": [
+      "Ecosystem Tooling",
+      "Core & Protocol"
+    ],
+    "languages": {
+      "TypeScript": 7.5,
+      "C++": 130.0
+    },
+    "top_repos": [
+      {
+        "github_login": "HowHsu",
+        "repo_name": "bitcoin/bitcoin",
+        "push_events": 0,
+        "pr_events": 3,
+        "review_events": 12,
+        "issue_events": 25,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2019-07-15T09:53:32+00:00",
+        "last_activity": "2026-06-28T02:33:24+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 130.0,
+        "display_metric": 21,
+        "metric_label": "commits"
+      },
+      {
+        "github_login": "HowHsu",
+        "repo_name": "saving-satoshi/saving-satoshi",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 3,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2025-12-23T10:26:03+00:00",
+        "last_activity": "2025-12-23T12:15:02+00:00",
+        "layer": "Ecosystem Tooling",
+        "contribution_score": 7.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

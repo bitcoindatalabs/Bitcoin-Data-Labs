@@ -1,0 +1,93 @@
+{
+  "type": "developer",
+  "name": "Martin Saposnic",
+  "github": "martinsaposnic",
+  "notes": "",
+  "description": "",
+  "grants": [
+    {
+      "sponsor": "Spiral (Block/Square)",
+      "project": "Bitcoin Ecosystem",
+      "start_date": "May 2025",
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 17,
+    "layers_active": [
+      "Lightning Network",
+      "Ecosystem Tooling",
+      "Core & Protocol"
+    ],
+    "languages": {
+      "Rust": 730.0,
+      "C++": 47.0
+    },
+    "top_repos": [
+      {
+        "github_login": "martinsaposnic",
+        "repo_name": "lightningdevkit/rust-lightning",
+        "push_events": 0,
+        "pr_events": 15,
+        "review_events": 96,
+        "issue_events": 66,
+        "star_events": 1,
+        "fork_events": 1,
+        "first_activity": "2025-03-11T19:30:37+00:00",
+        "last_activity": "2025-10-28T12:12:55+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 641.5,
+        "display_metric": 15,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "martinsaposnic",
+        "repo_name": "lightningdevkit/ldk-node",
+        "push_events": 0,
+        "pr_events": 5,
+        "review_events": 8,
+        "issue_events": 3,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2025-04-24T20:05:50+00:00",
+        "last_activity": "2026-01-02T20:13:05+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 71.0,
+        "display_metric": 5,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "martinsaposnic",
+        "repo_name": "bitcoin/bitcoin",
+        "push_events": 0,
+        "pr_events": 2,
+        "review_events": 4,
+        "issue_events": 7,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2024-08-13T15:12:11+00:00",
+        "last_activity": "2024-08-28T15:00:22+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 47.0,
+        "display_metric": 3,
+        "metric_label": "commits"
+      },
+      {
+        "github_login": "martinsaposnic",
+        "repo_name": "bitcoindevkit/bdk",
+        "push_events": 0,
+        "pr_events": 1,
+        "review_events": 0,
+        "issue_events": 4,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2025-02-23T19:22:22+00:00",
+        "last_activity": "2025-03-14T14:48:44+00:00",
+        "layer": "Ecosystem Tooling",
+        "contribution_score": 17.5,
+        "display_metric": 1,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

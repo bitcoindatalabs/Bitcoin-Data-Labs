@@ -1,0 +1,92 @@
+{
+  "type": "developer",
+  "name": "Daniel Pfeifer",
+  "github": "purpleKarrot",
+  "notes": "",
+  "description": "",
+  "grants": [
+    {
+      "sponsor": "Spiral (Block/Square)",
+      "project": "Bitcoin Ecosystem",
+      "start_date": "Jan 2026",
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 18,
+    "layers_active": [
+      "Ecash / Privacy",
+      "Core & Protocol"
+    ],
+    "languages": {
+      "C++": 474.0,
+      "C": 77.0
+    },
+    "top_repos": [
+      {
+        "github_login": "purpleKarrot",
+        "repo_name": "bitcoin/bitcoin",
+        "push_events": 0,
+        "pr_events": 7,
+        "review_events": 46,
+        "issue_events": 88,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2024-11-11T11:13:48+00:00",
+        "last_activity": "2026-05-10T06:18:39+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 447.5,
+        "display_metric": 13,
+        "metric_label": "commits"
+      },
+      {
+        "github_login": "purpleKarrot",
+        "repo_name": "bitcoin-core/secp256k1",
+        "push_events": 0,
+        "pr_events": 4,
+        "review_events": 6,
+        "issue_events": 11,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2024-11-22T21:32:17+00:00",
+        "last_activity": "2025-11-18T08:43:35+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 77.0,
+        "display_metric": 4,
+        "metric_label": "commits"
+      },
+      {
+        "github_login": "purpleKarrot",
+        "repo_name": "bitcoin-core/minisketch",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 6,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2025-06-27T17:23:08+00:00",
+        "last_activity": "2025-06-27T19:49:23+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 26.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "purpleKarrot",
+        "repo_name": "cashubtc/nuts",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 2,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2024-12-12T22:02:56+00:00",
+        "last_activity": "2024-12-14T14:11:45+00:00",
+        "layer": "Ecash / Privacy",
+        "contribution_score": 10.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

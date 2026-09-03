@@ -1,0 +1,420 @@
+[
+  {
+    "name": "0XB10C",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin core",
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": null,
+      "website": "https://b10c.me/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  },
+  {
+    "name": "0xchat",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": null,
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": null,
+      "website": "https://www.0xchat.com/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  },
+  {
+    "name": "256 Foundation",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": null,
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": null,
+      "website": "https://256foundation.org/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  },
+  {
+    "name": "Abubakar Nur Khalil",
+    "github": "bitcoin",
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin core",
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": null,
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  },
+  {
+    "name": "Africa Bitcoin Conference",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": null,
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": null,
+      "website": "https://afrobitcoin.org/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  },
+  {
+    "name": "Africa Bitcoin Institute (ABI)",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": null,
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": "AnaiseKanimba",
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  },
+  {
+    "name": "Africa Free Routing Lightning Developer Bootcamp",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": null,
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": null,
+      "website": "https://freerouting.africa/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  },
+  {
+    "name": "African Bitcoiners",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": null,
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": null,
+      "website": "https://bitcoiners.africa",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  },
+  {
+    "name": "African UX Bitcoin Bootcamp",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": null,
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": null,
+      "website": "https://www.bitcoinuxbootcamp.xyz/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  },
+  {
+    "name": "Agora",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": null,
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": null,
+      "website": "https://agora.spot/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  },
+  {
+    "name": "Amiti Uttarwar",
+    "github": "bitcoin",
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin core",
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": null,
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  },
+  {
+    "name": "AmityAge",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": null,
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": null,
+      "website": "https://www.amityage.com/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  },
+  {
+    "name": "Anita Posch",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin for Fairness",
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": null,
+      "website": "https://bffbtc.org/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  },
+  {
+    "name": "Arabic HODL",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": null,
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": null,
+      "website": "https://bitcoinarabic.org/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  },
+  {
+    "name": "Area Bitcoin",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": null,
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": null,
+      "website": "https://www.areabitcoin.co/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  },
+  {
+    "name": "Baltic Honeybadger",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": null,
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": null,
+      "website": "https://baltichoneybadger.com/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  },
+  {
+    "name": "Banxaas",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": null,
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": null,
+      "website": "https://banxaas.com/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  },
+  {
+    "name": "Base58 Bitcoin LARP",
+    "github": "base58btc",
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": null,
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": null,
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  },
+  {
+    "name": "Bitcoin Atlantis",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Atlantis",
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": null,
+      "website": "https://bitcoinatlantis.com/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  },
+  {
+    "name": "Bitcoin Babies",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": null,
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": null,
+      "website": "https://bitcoinbabies.com/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  },
+  {
+    "name": "Bitcoin Benin",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": null,
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": null,
+      "website": "https://www.bitcoinbenin.org/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  },
+  {
+    "name": "Bitcoin Core Graphical User Interface",
+    "github": "goqusan",
+    "github_type": "personal",
+    "sponsor": "hrf",
+    "start_date": null,
+    "end_date": null,
+    "project_name": null,
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/grantees/",
+    "social": {
+      "x_handle": null,
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": null
+  }
+]

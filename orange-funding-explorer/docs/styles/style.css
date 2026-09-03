@@ -1,0 +1,207 @@
+/* orange-funding-explorer custom styles */
+
+/* Global Container Width Constraint */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+    box-sizing: border-box;
+}
+
+/* Header & Nav Overrides to match container */
+#header .top-container,
+#header .nav-container {
+    max-width: 1100px !important;
+    padding: 0 24px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+}
+
+/* Landing Page Cards */
+.cta-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.cta-card {
+    background: var(--card-bg, #ffffff);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 24px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s ease;
+    display: block;
+}
+
+.cta-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.05);
+    border-color: var(--primary);
+}
+
+/* Charts */
+.chart-container {
+    background: var(--card-bg, #ffffff);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.chart-header {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.chart-header h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.1rem;
+    color: var(--text-primary);
+}
+
+.chart-header p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+/* DataTables Overrides for Light Mode */
+table.dataTable.display tbody tr {
+    background-color: var(--card-bg, #ffffff);
+}
+table.dataTable.display tbody tr.odd > .sorting_1, 
+table.dataTable.order-column.stripe tbody tr.odd > .sorting_1 {
+    background-color: #f9fafb;
+}
+table.dataTable.display tbody tr.even > .sorting_1, 
+table.dataTable.order-column.stripe tbody tr.even > .sorting_1 {
+    background-color: #ffffff;
+}
+
+.theme-select {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    background: var(--surface);
+    color: var(--text-primary);
+    font-family: inherit;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+/* Funder Page Enhancements */
+.funder-card {
+    transition: all 0.3s ease;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    background: var(--card-bg, #ffffff);
+    border-radius: 12px;
+}
+
+.funder-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px -4px rgba(0, 0, 0, 0.1);
+    border-color: var(--primary);
+}
+
+.grantee-pill {
+    background: #f1f5f9;
+    color: #475569;
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 0.85rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    border: 1px solid #e2e8f0;
+}
+
+.grantee-pill:hover {
+    background: #e2e8f0;
+    border-color: #cbd5e1;
+    color: #0f172a;
+    transform: translateY(-1px);
+}
+
+.grantee-pill-more {
+    background: rgba(0,0,0,0.03);
+    color: var(--text-secondary);
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.grantee-pill-more:hover {
+    background: rgba(0,0,0,0.06);
+    color: var(--text-primary);
+}
+
+.social-icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #f1f5f9;
+    color: #64748b;
+    margin-right: 8px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+}
+.social-icon-btn:hover {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(245, 158, 11, 0.3);
+    border-color: rgba(245, 158, 11, 0.4);
+}
+
+/* Dynamic Expansion for Network View */
+.container {
+    transition: max-width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.container-expanded {
+    max-width: 95% !important;
+}
+
+/* Floating Filters for Network View */
+.filters-floating {
+    position: absolute !important;
+    top: 24px;
+    right: 24px;
+    z-index: 100;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 10px 30px -10px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
+.filters-floating .search-box {
+    width: 250px !important;
+}
+.filters-floating select {
+    width: 250px !important;
+}
+
+.toggles-floating {
+    position: absolute !important;
+    top: 24px;
+    left: 24px;
+    z-index: 100;
+    box-shadow: 0 4px 20px -5px rgba(0,0,0,0.15);
+}

@@ -1,0 +1,92 @@
+{
+  "type": "developer",
+  "name": "rkrux",
+  "github": "rkrux",
+  "notes": "Maelstrom Grantee",
+  "description": "",
+  "grants": [
+    {
+      "sponsor": "Maelstrom Fund",
+      "project": "Bitcoin Ecosystem",
+      "start_date": null,
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 38,
+    "layers_active": [
+      "Core & Protocol"
+    ],
+    "languages": {
+      "SCSS": 4.0,
+      "C++": 5139.0,
+      "Wikitext": 34.5
+    },
+    "top_repos": [
+      {
+        "github_login": "rkrux",
+        "repo_name": "bitcoin/bitcoin",
+        "push_events": 0,
+        "pr_events": 25,
+        "review_events": 1172,
+        "issue_events": 115,
+        "star_events": 1,
+        "fork_events": 0,
+        "first_activity": "2023-04-23T11:26:17+00:00",
+        "last_activity": "2026-06-27T07:57:38+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 5126.5,
+        "display_metric": 72,
+        "metric_label": "commits"
+      },
+      {
+        "github_login": "rkrux",
+        "repo_name": "bitcoin/bips",
+        "push_events": 0,
+        "pr_events": 2,
+        "review_events": 5,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2025-03-10T13:22:45+00:00",
+        "last_activity": "2026-01-15T14:04:33+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 34.5,
+        "display_metric": 2,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "rkrux",
+        "repo_name": "bitcoin-core/gui",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 5,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2025-12-18T10:53:32+00:00",
+        "last_activity": "2025-12-29T08:39:34+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 12.5,
+        "display_metric": 72,
+        "metric_label": "commits"
+      },
+      {
+        "github_login": "rkrux",
+        "repo_name": "bitcoin-core-review-club/website",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 1,
+        "issue_events": 0,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2024-09-11T13:04:03+00:00",
+        "last_activity": "2024-09-11T13:04:03+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 4.0,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

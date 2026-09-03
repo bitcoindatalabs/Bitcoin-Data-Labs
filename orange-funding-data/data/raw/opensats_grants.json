@@ -1,0 +1,971 @@
+[
+  {
+    "name": "devrandom and contributors",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2023-12",
+    "end_date": null,
+    "project_name": "Validating Lightning Signer",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/vls",
+    "social": {
+      "x_handle": null,
+      "website": "https://vls.tech/",
+      "nostr": null
+    },
+    "description": "A Lightning signing stack that keeps keys off the node and enforces operator policies.",
+    "image_url": "https://opensats.org/static/images/projects/vls.png"
+  },
+  {
+    "name": "Praveen Perera",
+    "github": "bitcoinppl",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2024-07",
+    "end_date": null,
+    "project_name": "Cove",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/cove",
+    "social": {
+      "x_handle": "covewallet",
+      "website": "https://covebitcoinwallet.com/",
+      "nostr": null
+    },
+    "description": "A Bitcoin-only mobile wallet built on BDK with strong hardware wallet support.",
+    "image_url": "https://opensats.org/static/images/projects/cove.svg"
+  },
+  {
+    "name": "Bruno Garcia",
+    "github": "bitcoinfuzz",
+    "github_type": "organization",
+    "sponsor": "opensats",
+    "start_date": "2026-05",
+    "end_date": null,
+    "project_name": "bitcoinfuzz",
+    "grant_type": "lts",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/bitcoinfuzz",
+    "social": {
+      "x_handle": null,
+      "website": "https://github.com/bitcoinfuzz/bitcoinfuzz",
+      "nostr": null
+    },
+    "description": "A differential fuzzing framework for Bitcoin protocol implementations and libraries.",
+    "image_url": "https://opensats.org/static/images/projects/bitcoinfuzz.png"
+  },
+  {
+    "name": "Austin Kelsay and cmdruid",
+    "github": "FROSTR-ORG",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2025-06",
+    "end_date": null,
+    "project_name": "Frostr",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/frostr",
+    "social": {
+      "x_handle": null,
+      "website": "https://frostr.org/",
+      "nostr": null
+    },
+    "description": "A FROST-based threshold signing protocol for nostr with libraries and clients for multi-device keys.",
+    "image_url": "https://opensats.org/static/images/projects/frostr.png"
+  },
+  {
+    "name": "rust-bitcoin Maintainers",
+    "github": "rust-bitcoin",
+    "github_type": "organization",
+    "sponsor": "opensats",
+    "start_date": "2026-05",
+    "end_date": null,
+    "project_name": "rust-bitcoin",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/rust-bitcoin",
+    "social": {
+      "x_handle": null,
+      "website": "https://rust-bitcoin.org/",
+      "nostr": null
+    },
+    "description": "A low-level Rust Bitcoin library stack for protocol messages, transactions, scripts, keys, addresses, and PSBTs.",
+    "image_url": "https://opensats.org/static/images/projects/rust-bitcoin.svg"
+  },
+  {
+    "name": "Adi Shankara",
+    "github": "adi-shankara",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2023-04",
+    "end_date": null,
+    "project_name": "Summer of Bitcoin",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/summerofbitcoin",
+    "social": {
+      "x_handle": "summerofbitcoin",
+      "website": "https://www.summerofbitcoin.org/",
+      "nostr": null
+    },
+    "description": "A global internship program for student Bitcoin contributors.",
+    "image_url": "https://opensats.org/static/images/projects/summerofbitcoin.png"
+  },
+  {
+    "name": "PabloF7z",
+    "github": "nostr-dev-kit",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2026-04",
+    "end_date": null,
+    "project_name": "NDK",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/ndk",
+    "social": {
+      "x_handle": null,
+      "website": "https://nostr-dev-kit.github.io/ndk/",
+      "nostr": "npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"
+    },
+    "description": "A modular TypeScript toolkit for building nostr applications, with first-class outbox-model support and reactive UI bindings for Svelte and React.",
+    "image_url": "https://opensats.org/static/images/projects/ndk.svg"
+  },
+  {
+    "name": "Misovan",
+    "github": "minibits-cash",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2024-09",
+    "end_date": null,
+    "project_name": "Minibits",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/minibits",
+    "social": {
+      "x_handle": null,
+      "website": "https://www.minibits.cash/",
+      "nostr": null
+    },
+    "description": "A mobile Cashu wallet for Android and iOS, with Lightning, nostr, and offline token transfers.",
+    "image_url": "https://opensats.org/static/images/projects/minibits.png"
+  },
+  {
+    "name": "Davidson Souza",
+    "github": "getfloresta",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2024-09",
+    "end_date": null,
+    "project_name": "Floresta",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/floresta",
+    "social": {
+      "x_handle": null,
+      "website": "https://getfloresta.org/",
+      "nostr": null
+    },
+    "description": "An embeddable Bitcoin client in Rust that validates every block using Utreexo.",
+    "image_url": "https://opensats.org/static/images/projects/floresta.png"
+  },
+  {
+    "name": "Greenart7c3",
+    "github": "greenart7c3",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2026-04",
+    "end_date": null,
+    "project_name": "Amber",
+    "grant_type": "lts",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/amber",
+    "social": {
+      "x_handle": null,
+      "website": "https://github.com/greenart7c3/Amber",
+      "nostr": "npub1w4uswmv6lu9yel005l3qgheysmr7tk9uvwluddznju3nuxalevvs2d0jr5"
+    },
+    "description": "A nostr signer for Android that keeps the nsec in one app and signs events for every other client over NIP-46.",
+    "image_url": "https://opensats.org/static/images/projects/amber.png"
+  },
+  {
+    "name": "LDK Developers",
+    "github": "lightningdevkit",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2026-06",
+    "end_date": null,
+    "project_name": "LDK",
+    "grant_type": "lts",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/ldk",
+    "social": {
+      "x_handle": null,
+      "website": "https://lightningdevkit.org/",
+      "nostr": null
+    },
+    "description": "A modular Lightning library stack that lets developers embed Lightning nodes into wallets and other applications.",
+    "image_url": "https://opensats.org/static/images/projects/ldk.svg"
+  },
+  {
+    "name": "BTCPay Server Foundation",
+    "github": "btcpayserver",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2022-09",
+    "end_date": null,
+    "project_name": "BTCPay Server",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/btcpayserver",
+    "social": {
+      "x_handle": "BtcpayServer",
+      "website": "https://btcpayserver.org/",
+      "nostr": null
+    },
+    "description": "A self-hosted, open-source Bitcoin payment processor with no fees and no third parties.",
+    "image_url": "https://opensats.org/static/images/projects/btcpayserver.png"
+  },
+  {
+    "name": "Cody Tseng",
+    "github": "CodyTseng",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2025-07",
+    "end_date": null,
+    "project_name": "Jumble",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/jumble",
+    "social": {
+      "x_handle": null,
+      "website": "https://jumble.social/",
+      "nostr": null
+    },
+    "description": "A browser-based nostr client for relay discovery, relay reviews, safer signing, and targeted publishing.",
+    "image_url": "https://opensats.org/static/images/projects/jumble-rounded.svg"
+  },
+  {
+    "name": "DanConwayDev",
+    "github": "DanConwayDev",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2026-04",
+    "end_date": null,
+    "project_name": "ngit",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/ngit",
+    "social": {
+      "x_handle": null,
+      "website": "https://ngit.dev/",
+      "nostr": "npub15qydau2hjma6ngxkl2cyar74wzyjshvl65za5k5rl69264ar2exs5cyejr"
+    },
+    "description": "A git plugin and remote helper that puts repository state, pull requests, and issues on nostr, with normal git servers used as the data store.",
+    "image_url": "https://opensats.org/static/images/projects/ngit.svg"
+  },
+  {
+    "name": "Dan Gould",
+    "github": "payjoin",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2023-07",
+    "end_date": null,
+    "project_name": "Payjoin Dev Kit",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/pdk",
+    "social": {
+      "x_handle": "payjoindevkit",
+      "website": "https://payjoindevkit.org/",
+      "nostr": null
+    },
+    "description": "The Rust library for Payjoin, with bindings for Python, Dart, Swift, Kotlin, JavaScript, and C#.",
+    "image_url": "https://opensats.org/static/images/projects/pdk.svg"
+  },
+  {
+    "name": "Bitcoin Core Developers",
+    "github": "bitcoin",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2023-03",
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "lts",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/bitcoin-core",
+    "social": {
+      "x_handle": "bitcoincoreorg",
+      "website": "https://bitcoincore.org/en/download/",
+      "nostr": null
+    },
+    "description": "The full node software that validates the chain, relays transactions, and enforces Bitcoin\u2019s rules.",
+    "image_url": "https://opensats.org/static/images/projects/bitcoin-core.png"
+  },
+  {
+    "name": "Greenart7c3",
+    "github": "greenart7c3",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2026-04",
+    "end_date": null,
+    "project_name": "Citrine",
+    "grant_type": "lts",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/citrine",
+    "social": {
+      "x_handle": null,
+      "website": "https://github.com/greenart7c3/Citrine",
+      "nostr": "npub1w4uswmv6lu9yel005l3qgheysmr7tk9uvwluddznju3nuxalevvs2d0jr5"
+    },
+    "description": "A nostr relay that runs on your Android phone, used as a local cache and a private write target by other clients on the same device.",
+    "image_url": "https://opensats.org/static/images/projects/citrine.png"
+  },
+  {
+    "name": "Michael Goldstein",
+    "github": "NakamotoInstitute",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2024-07",
+    "end_date": null,
+    "project_name": "Satoshi Nakamoto Institute",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/satoshinakamotoinstitute",
+    "social": {
+      "x_handle": null,
+      "website": "https://nakamotoinstitute.org/",
+      "nostr": null
+    },
+    "description": "A nonprofit archive and publishing project dedicated to preserving Bitcoin history and ideas.",
+    "image_url": "https://opensats.org/static/images/projects/satoshinakamotoinstitute.svg"
+  },
+  {
+    "name": "ASmap Contributors",
+    "github": "asmap",
+    "github_type": "organization",
+    "sponsor": "opensats",
+    "start_date": "2026-05",
+    "end_date": null,
+    "project_name": "ASmap",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/asmap",
+    "social": {
+      "x_handle": null,
+      "website": "https://asmap.org/",
+      "nostr": null
+    },
+    "description": "A project that builds reproducible IP-to-AS maps for Bitcoin Core so nodes can diversify peers across autonomous systems.",
+    "image_url": "https://opensats.org/static/images/projects/asmap.png"
+  },
+  {
+    "name": "Routstr contributors",
+    "github": "Routstr",
+    "github_type": "organization",
+    "sponsor": "opensats",
+    "start_date": "2026-05",
+    "end_date": null,
+    "project_name": "Routstr",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/routstr",
+    "social": {
+      "x_handle": null,
+      "website": "https://routstr.com/",
+      "nostr": "npub130mznv74rxs032peqym6g3wqavh472623mt3z5w73xq9r6qqdufs7ql29s"
+    },
+    "description": "A decentralized AI inference protocol that uses Nostr discovery and Bitcoin ecash micropayments for private, pay-per-request model access.",
+    "image_url": "https://opensats.org/static/images/projects/routstr.png"
+  },
+  {
+    "name": "Stable Channels contributors",
+    "github": "toneloc",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2025-03",
+    "end_date": null,
+    "project_name": "Stable Channels",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/stable-channels",
+    "social": {
+      "x_handle": null,
+      "website": "https://stablechannels.com/",
+      "nostr": null
+    },
+    "description": "A self-custodial Lightning wallet for bitcoin-backed dollar balances.",
+    "image_url": "https://opensats.org/static/images/projects/stable-channels.png"
+  },
+  {
+    "name": "Hodlbod",
+    "github": "coracle-social",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2023-07",
+    "end_date": null,
+    "project_name": "Coracle",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/coracle",
+    "social": {
+      "x_handle": null,
+      "website": "https://coracle.social/",
+      "nostr": "npub1jlrs53pkdfjnts29kveljul2sm0actt6n8dxrrzqcersttvcuv3qdjynqn"
+    },
+    "description": "A web-based nostr client focused on relay management and web of trust.",
+    "image_url": "https://opensats.org/static/images/projects/coracle.png"
+  },
+  {
+    "name": "Christoph Ono",
+    "github": "BitcoinDesign",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2023-03",
+    "end_date": null,
+    "project_name": "Bitcoin Design Community",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/bitcoindesign",
+    "social": {
+      "x_handle": "bitcoin_design",
+      "website": "https://bitcoin.design/",
+      "nostr": "npub13s5mxgws70rpxsug96jfvglggackjrxs2ehypwg0prjaxsek42sqd9l03e"
+    },
+    "description": "Design resources for teams building better Bitcoin products.",
+    "image_url": "https://opensats.org/static/images/projects/bitcoindesign.svg"
+  },
+  {
+    "name": "Odudex and Tadeubas",
+    "github": "selfcustody",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2026-05",
+    "end_date": null,
+    "project_name": "Krux",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/krux",
+    "social": {
+      "x_handle": null,
+      "website": "https://selfcustody.github.io/krux/",
+      "nostr": null
+    },
+    "description": "Open-source firmware that turns inexpensive devices into air-gapped Bitcoin signing tools.",
+    "image_url": "https://opensats.org/static/images/projects/krux-logo.png"
+  },
+  {
+    "name": "Blake Kaufman",
+    "github": "BlitzWallet",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2024-07",
+    "end_date": null,
+    "project_name": "Blitz Wallet",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/blitz-wallet",
+    "social": {
+      "x_handle": "BlitzWalletApp",
+      "website": "https://blitzwalletapp.com/",
+      "nostr": "npub14l69mauhjyu9j8pgmhj04vjqauzq43ch9yp9g2yx9j9tc4n8xh8s5l9dz2"
+    },
+    "description": "A self-custodial Bitcoin wallet on Spark, with easy onboarding from custodial to self-custody.",
+    "image_url": "https://opensats.org/static/images/projects/blitz-wallet.png"
+  },
+  {
+    "name": "skot",
+    "github": "bitaxeorg",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2026-05",
+    "end_date": null,
+    "project_name": "Bitaxe",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/bitaxe",
+    "social": {
+      "x_handle": null,
+      "website": "https://www.bitaxe.org/",
+      "nostr": null
+    },
+    "description": "Open-source Bitcoin mining hardware and firmware built for home and small-scale miners.",
+    "image_url": "https://opensats.org/static/images/projects/bitaxe.png"
+  },
+  {
+    "name": "cygnet3",
+    "github": "cygnet3",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2026-05",
+    "end_date": null,
+    "project_name": "Dana Wallet",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/dana-wallet",
+    "social": {
+      "x_handle": null,
+      "website": "https://danawallet.app/",
+      "nostr": "npub17vjlv6u4dg2ypyy5je9zc3lpeyfrnfrpmzgwt8v4rc289p2m79cqepwz5q"
+    },
+    "description": "A mobile Bitcoin wallet built around silent payments, BIP353 addresses, and local scanning for private on-chain receiving.",
+    "image_url": "https://opensats.org/static/images/projects/dana-wallet.webp"
+  },
+  {
+    "name": "OpenCash Association",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2025-03",
+    "end_date": null,
+    "project_name": "OpenCash",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/opencash",
+    "social": {
+      "x_handle": null,
+      "website": "https://opencash.dev/",
+      "nostr": null
+    },
+    "description": "A Swiss nonprofit funding the development of open-source ecash systems built on Bitcoin.",
+    "image_url": "https://opensats.org/static/images/projects/opencash.png"
+  },
+  {
+    "name": "nym21",
+    "github": "bitcoinresearchkit",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2026-05",
+    "end_date": null,
+    "project_name": "Bitcoin Research Kit",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/bitcoinresearchkit",
+    "social": {
+      "x_handle": null,
+      "website": "https://bitview.space/",
+      "nostr": null
+    },
+    "description": "A self-hostable Bitcoin analytics stack that indexes chain data, computes metrics, serves an API, and powers the public Bitview instance.",
+    "image_url": "https://opensats.org/static/images/projects/bitcoinresearchkit.svg"
+  },
+  {
+    "name": "thesimplekid",
+    "github": "cashubtc",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2025-09",
+    "end_date": null,
+    "project_name": "Cashu Dev Kit",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/cdk",
+    "social": {
+      "x_handle": null,
+      "website": "https://cashudevkit.org/",
+      "nostr": "npub1qjgcmlpkeyl8mdkvp4s0xls4ytcux6my606tgfx9xttut907h0zs76lgjw"
+    },
+    "description": "A modular Rust toolkit for building Cashu wallets and mints.",
+    "image_url": "https://opensats.org/static/images/projects/cdk.svg"
+  },
+  {
+    "name": "pmienk",
+    "github": "libbitcoin",
+    "github_type": "organization",
+    "sponsor": "opensats",
+    "start_date": "2026-05",
+    "end_date": null,
+    "project_name": "libbitcoin",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/libbitcoin",
+    "social": {
+      "x_handle": null,
+      "website": "https://libbitcoin.info/",
+      "nostr": null
+    },
+    "description": "A modular C++ Bitcoin toolkit with an alternative full node, server, explorer, and supporting libraries.",
+    "image_url": "https://opensats.org/static/images/projects/libbitcoin.svg"
+  },
+  {
+    "name": "fiatjaf",
+    "github": "fiatjaf",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2026-06",
+    "end_date": null,
+    "project_name": "nak",
+    "grant_type": "lts",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/nak",
+    "social": {
+      "x_handle": null,
+      "website": "https://nak.nostr.com/",
+      "nostr": "npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6"
+    },
+    "description": "A command-line tool for doing all things nostr, from publishing and querying events to key management, relay inspection, and protocol debugging.",
+    "image_url": "https://opensats.org/static/images/projects/nak.png"
+  },
+  {
+    "name": "Franzap",
+    "github": "zapstore",
+    "github_type": "organization",
+    "sponsor": "opensats",
+    "start_date": "2025-03",
+    "end_date": null,
+    "project_name": "Zapstore",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/zapstore",
+    "social": {
+      "x_handle": null,
+      "website": "https://zapstore.dev/",
+      "nostr": null
+    },
+    "description": "A nostr-based app store for signed releases, open discovery, and censorship-resistant software distribution.",
+    "image_url": "https://opensats.org/static/images/projects/zapstore.png"
+  },
+  {
+    "name": "Cashu Contributors",
+    "github": "cashubtc",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2023-04",
+    "end_date": null,
+    "project_name": "Cashu",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/cashu",
+    "social": {
+      "x_handle": "CashuBTC",
+      "website": "https://cashu.space/",
+      "nostr": "npub17fzkepv3q2szsvdefmws9znhhpzx9kvhgl2p3jqk9tm5z6sjalvsg49yxv"
+    },
+    "description": "A Chaumian ecash protocol built for Bitcoin that brings near-perfect privacy to custodial payments.",
+    "image_url": "https://opensats.org/static/images/projects/cashu.jpeg"
+  },
+  {
+    "name": "Alex Gleason",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2023-07",
+    "end_date": null,
+    "project_name": "Soapbox",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/soapbox",
+    "social": {
+      "x_handle": "alexgleasonator",
+      "website": "https://soapbox.pub/",
+      "nostr": "npub108pv4cg5ag52nq082kd5leu9ffrn2gdg6g4xdwatn73y36uzplmq9uyev6"
+    },
+    "description": "Open-source software making nostr the best place to build and create on the social web.",
+    "image_url": "https://opensats.org/static/images/projects/soapbox.svg"
+  },
+  {
+    "name": "ContextVM contributors",
+    "github": "ContextVM",
+    "github_type": "organization",
+    "sponsor": "opensats",
+    "start_date": "2026-02",
+    "end_date": null,
+    "project_name": "ContextVM",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/contextvm",
+    "social": {
+      "x_handle": null,
+      "website": "https://contextvm.org/",
+      "nostr": null
+    },
+    "description": "A nostr-routed MCP protocol with SDKs, relays, and gateways for exposing services by public key.",
+    "image_url": "https://opensats.org/static/images/projects/contextvm.svg"
+  },
+  {
+    "name": "Vitor Pamplona",
+    "github": "vitorpamplona",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2023-03",
+    "end_date": null,
+    "project_name": "Amethyst",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/amethyst",
+    "social": {
+      "x_handle": "vitorpamplona",
+      "website": "https://www.amethyst.social/",
+      "nostr": "npub142gywvjkq0dv6nupggyn2euhx4nduwc7yz5f24ah9rpmunr2s39se3xrj0"
+    },
+    "description": "A privacy-focused nostr client for Android with built-in Tor support.",
+    "image_url": "https://opensats.org/static/images/projects/amethyst-transparent.png"
+  },
+  {
+    "name": "Jason A. Donenfeld",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2026-05",
+    "end_date": null,
+    "project_name": "WireGuard",
+    "grant_type": "lts",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/wireguard",
+    "social": {
+      "x_handle": null,
+      "website": "https://www.wireguard.com/",
+      "nostr": null
+    },
+    "description": "A lean VPN protocol and software suite for secure networking across servers, phones, and desktops.",
+    "image_url": "https://opensats.org/static/images/projects/wireguard.png"
+  },
+  {
+    "name": "Dusty Daemon",
+    "github": "lightning",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2023-03",
+    "end_date": null,
+    "project_name": "Splicing",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/splicing",
+    "social": {
+      "x_handle": "dusty_daemon",
+      "website": "https://lightningsplice.com/",
+      "nostr": "npub1fuk7q4y0wzqw7vjrg7xeuuva79pg7ctg69a53zsxq6gepksufrrst9mzly"
+    },
+    "description": "Resize Lightning channels without closing them.",
+    "image_url": "https://opensats.org/static/images/projects/splicing.svg"
+  },
+  {
+    "name": "Calvin Kim",
+    "github": "utreexo",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2026-05",
+    "end_date": null,
+    "project_name": "utreexod",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/utreexod",
+    "social": {
+      "x_handle": null,
+      "website": "https://github.com/utreexo/utreexod",
+      "nostr": null
+    },
+    "description": "A fully validating Bitcoin node and bridge node implementation of the Utreexo protocol.",
+    "image_url": "https://opensats.org/static/images/projects/utreexod.png"
+  },
+  {
+    "name": "Rajarshi Maitra",
+    "github": "Bitshala",
+    "github_type": "organization",
+    "sponsor": "opensats",
+    "start_date": "2026-05",
+    "end_date": null,
+    "project_name": "Bitshala",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/bitshala",
+    "social": {
+      "x_handle": null,
+      "website": "https://bitshala.org/",
+      "nostr": null
+    },
+    "description": "A grassroots education initiative training open-source Bitcoin developers in India.",
+    "image_url": "https://opensats.org/static/images/projects/bitshala.svg"
+  },
+  {
+    "name": "Francisco Calder\u00f3n",
+    "github": "MostroP2P",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2024-07",
+    "end_date": null,
+    "project_name": "Mostro",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/mostro",
+    "social": {
+      "x_handle": "MostroP2P",
+      "website": "https://mostro.network/",
+      "nostr": "npub1m0str0d7z2ww8rdh20t2n9lx520xjwhaq24p68umqp06wwrwtsnqen40un"
+    },
+    "description": "A non-custodial peer-to-peer Bitcoin exchange on Lightning and nostr with federated nodes and open clients.",
+    "image_url": "https://opensats.org/static/images/projects/mostro.png"
+  },
+  {
+    "name": "water783",
+    "github": "0xchat-app",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2023-10",
+    "end_date": null,
+    "project_name": "0xchat",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/0xchat",
+    "social": {
+      "x_handle": null,
+      "website": "https://0xchat.com/",
+      "nostr": "npub10td4yrp6cl9kmjp9x5yd7r8pm96a5j07lk5mtj2kw39qf8frpt8qm9x2wl"
+    },
+    "description": "A secure nostr chat client for iOS, Android, and desktop with encrypted DMs, groups, calls, and payments.",
+    "image_url": "https://opensats.org/static/images/projects/0xchat-transparent.png"
+  },
+  {
+    "name": "William Casarin",
+    "github": "damus-io",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2023-04",
+    "end_date": null,
+    "project_name": "Damus",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/damus",
+    "social": {
+      "x_handle": null,
+      "website": "https://damus.io/",
+      "nostr": "npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s"
+    },
+    "description": "A nostr client for iOS with Lightning zaps, relay transparency, and web-of-trust filtering.",
+    "image_url": "https://opensats.org/static/images/projects/damus.png"
+  },
+  {
+    "name": "hzrd149",
+    "github": "hzrd149",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2026-04",
+    "end_date": null,
+    "project_name": "Applesauce",
+    "grant_type": "lts",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/applesauce",
+    "social": {
+      "x_handle": null,
+      "website": "https://applesauce.build/",
+      "nostr": null
+    },
+    "description": "A modular TypeScript SDK for building nostr web clients, extracted from noStrudel.",
+    "image_url": "https://opensats.org/static/images/projects/applesauce.png"
+  },
+  {
+    "name": "Hampus Sj\u00f6berg",
+    "github": "smolcars",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2023-07",
+    "end_date": null,
+    "project_name": "Blixt Wallet",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/blixt",
+    "social": {
+      "x_handle": "hampus_s",
+      "website": "https://blixtwallet.github.io/",
+      "nostr": "npub1v4v57fu60zvc9d2uq23cey4fnwvxlzga9q2vta2n6xalu03rs57s0mxwu8"
+    },
+    "description": "A non-custodial Lightning wallet that runs a full LND node on your phone.",
+    "image_url": "https://opensats.org/static/images/projects/blixt.png"
+  },
+  {
+    "name": "BDK Foundation",
+    "github": "bitcoindevkit",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2022-12",
+    "end_date": null,
+    "project_name": "Bitcoin Dev Kit",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/bdk",
+    "social": {
+      "x_handle": "bitcoindevkit",
+      "website": "https://bitcoindevkit.org/",
+      "nostr": null
+    },
+    "description": "A modern, descriptor-based wallet library written in Rust.",
+    "image_url": "https://opensats.org/img/project/bdk.jpeg"
+  },
+  {
+    "name": "LNbits Contributors",
+    "github": "lnbits",
+    "github_type": "organization",
+    "sponsor": "opensats",
+    "start_date": "2026-04",
+    "end_date": null,
+    "project_name": "LNbits",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/lnbits",
+    "social": {
+      "x_handle": "lnbits",
+      "website": "https://lnbits.com/",
+      "nostr": null
+    },
+    "description": "A modular Lightning wallet account system with a plugin framework, used as the payments layer for shops, kiosks, hardware projects, and online services.",
+    "image_url": "https://opensats.org/static/images/projects/lnbits.svg"
+  },
+  {
+    "name": "GrapheneOS Foundation",
+    "github": "GrapheneOS",
+    "github_type": "organization",
+    "sponsor": "opensats",
+    "start_date": "2022-12",
+    "end_date": null,
+    "project_name": "GrapheneOS",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/grapheneos",
+    "social": {
+      "x_handle": "GrapheneOS",
+      "website": "https://grapheneos.org/",
+      "nostr": "npub1235tem4hfn34edqh8hxfja9amty73998f0eagnuu4zm423s9e8ksdg0ht5"
+    },
+    "description": "A hardened mobile operating system focused on privacy, security, and Android app compatibility.",
+    "image_url": "https://opensats.org/static/images/projects/graphene-transparent.png"
+  },
+  {
+    "name": "StratumV2",
+    "github": "stratum-mining",
+    "github_type": "personal",
+    "sponsor": "opensats",
+    "start_date": "2023-03",
+    "end_date": null,
+    "project_name": "Stratum V2",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/stratumv2",
+    "social": {
+      "x_handle": "StratumV2",
+      "website": "https://stratumprotocol.org/",
+      "nostr": null
+    },
+    "description": "An open mining protocol that gives individual miners more control over block construction.",
+    "image_url": "https://opensats.org/static/images/projects/stratumv2.svg"
+  },
+  {
+    "name": "The Tor Project",
+    "github": null,
+    "github_type": "organization",
+    "sponsor": "opensats",
+    "start_date": "2022-12",
+    "end_date": null,
+    "project_name": "The Tor Project",
+    "grant_type": "project",
+    "status": "current",
+    "source_url": "https://opensats.org/projects/tor",
+    "social": {
+      "x_handle": "torproject",
+      "website": "https://www.torproject.org/",
+      "nostr": "npub1y8av7a5337erepxphjf50c9p4w5ghu6zu56fjqklpw0n06d7wvgqwh5cy0"
+    },
+    "description": "Free software and open networks for online privacy, anonymity, and censorship resistance.",
+    "image_url": "https://opensats.org/static/images/projects/tor.svg"
+  }
+]

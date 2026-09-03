@@ -1,0 +1,15 @@
+{
+  "type": "developer",
+  "name": "thesimplekid",
+  "github": "cashubtc",
+  "notes": "",
+  "description": "A modular Rust toolkit for building Cashu wallets and mints.",
+  "grants": [
+    {
+      "sponsor": "OpenSats",
+      "project": "Cashu Dev Kit",
+      "start_date": "2025-09",
+      "end_date": null
+    }
+  ]
+}

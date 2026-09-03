@@ -1,0 +1,19 @@
+{
+  "type": "project",
+  "name": "Dana Wallet",
+  "developers": [
+    "cygnet3"
+  ],
+  "sponsors": [
+    "OpenSats"
+  ],
+  "eco_data": {
+    "layer": "Wallets & UX",
+    "description": "A Bitcoin wallet project.",
+    "website": "",
+    "github": "",
+    "top_repos": [],
+    "aggregate_metrics": null,
+    "top_contributors": []
+  }
+}

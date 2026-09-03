@@ -1,0 +1,240 @@
+{
+  "type": "project",
+  "name": "Bitcoin Core",
+  "developers": [
+    "mzumsande",
+    "Crypt-iQ",
+    "glozow",
+    "jesseposner",
+    "brunoerg",
+    "furszy",
+    "jonatack",
+    "carlaKC",
+    "vasild",
+    "marcofleon",
+    "josibake",
+    "cdecker",
+    "conduition",
+    "dergoegge",
+    "ajtowns",
+    "tokatoka",
+    "bitcoin",
+    "vincenzopalazzo",
+    "ariard",
+    "sipa",
+    "stratospher",
+    "sdaftuar",
+    "BrandonOdiwuor",
+    "adiabat",
+    "TheBlueMatt",
+    "willcl-ark",
+    "sr-gi",
+    "0xb10c",
+    "instagibbs",
+    "LarryRuane",
+    "harding",
+    "hebasto",
+    "afilini",
+    "stickies-v",
+    "fjahr",
+    "theStack",
+    "viniciusCestarii",
+    "jnewbery"
+  ],
+  "sponsors": [
+    "BitMEX",
+    "Chaincode Labs",
+    "2140",
+    "Vinteum",
+    "Spiral (Block/Square)",
+    "Brink",
+    "Btrust",
+    "OpenSats",
+    "Human Rights Foundation",
+    "Maelstrom Fund",
+    "Blockstream"
+  ],
+  "eco_data": {
+    "layer": "Core & Protocol",
+    "description": "The reference implementation of the Bitcoin protocol.",
+    "website": "https://bitcoincore.org",
+    "github": "bitcoin",
+    "top_repos": [
+      {
+        "repo_name": "bitcoin/bitcoin",
+        "description": "Bitcoin Core integration/staging tree",
+        "stars": 89880,
+        "forks": 39285,
+        "language": "C++",
+        "open_issues": 694,
+        "license": "MIT",
+        "archived": false,
+        "topics": [
+          "bitcoin",
+          "c-plus-plus",
+          "cryptocurrency",
+          "cryptography",
+          "p2p"
+        ],
+        "code_contributors": 2184,
+        "code_reviewers": 1546,
+        "total_unique_contributors": 122001,
+        "bus_factor_tier": "healthy",
+        "review_culture_ratio": 0.71,
+        "first_activity": "2015-01-01T00:25:45+00:00",
+        "last_activity": "2026-07-29T22:48:01+00:00"
+      },
+      {
+        "repo_name": "bitcoin/bips",
+        "description": "Bitcoin Improvement Proposals",
+        "stars": 10908,
+        "forks": 6005,
+        "language": "Wikitext",
+        "open_issues": 48,
+        "license": null,
+        "archived": false,
+        "topics": [],
+        "code_contributors": 634,
+        "code_reviewers": 558,
+        "total_unique_contributors": 17288,
+        "bus_factor_tier": "healthy",
+        "review_culture_ratio": 0.88,
+        "first_activity": "2015-01-01T22:56:32+00:00",
+        "last_activity": "2026-07-23T19:25:53+00:00"
+      },
+      {
+        "repo_name": "bitcoin-core/secp256k1",
+        "description": "Optimized C library for EC operations on curve secp256k1",
+        "stars": 2472,
+        "forks": 1163,
+        "language": "C",
+        "open_issues": 152,
+        "license": "MIT",
+        "archived": false,
+        "topics": [],
+        "code_contributors": 138,
+        "code_reviewers": 129,
+        "total_unique_contributors": 3342,
+        "bus_factor_tier": "healthy",
+        "review_culture_ratio": 0.93,
+        "first_activity": "2016-04-27T10:15:46+00:00",
+        "last_activity": "2026-07-29T13:50:15+00:00"
+      },
+      {
+        "repo_name": "bitcoin-core/gui",
+        "description": "Bitcoin Core GUI staging repository",
+        "stars": 740,
+        "forks": 367,
+        "language": "C++",
+        "open_issues": 157,
+        "license": "MIT",
+        "archived": false,
+        "topics": [],
+        "code_contributors": 83,
+        "code_reviewers": 102,
+        "total_unique_contributors": 1210,
+        "bus_factor_tier": "healthy",
+        "review_culture_ratio": 1.23,
+        "first_activity": "2020-06-16T12:20:08+00:00",
+        "last_activity": "2026-07-29T20:36:27+00:00"
+      }
+    ],
+    "aggregate_metrics": {
+      "total_stars": 104000,
+      "total_forks": 46820,
+      "total_code_contributors": 3039,
+      "total_code_reviewers": 2335,
+      "total_unique_contributors": 143841,
+      "primary_language": "C++",
+      "languages": {
+        "C++": 0.87,
+        "Wikitext": 0.1,
+        "C": 0.02
+      },
+      "earliest_activity": "2015-01-01T00:25:45+00:00",
+      "latest_activity": "2026-07-29T22:48:01+00:00"
+    },
+    "top_contributors": [
+      {
+        "github_login": "MarcoFalke",
+        "contribution_score": 154451.5,
+        "display_metric": 7461,
+        "metric_label": "commits",
+        "tenure_months": 94,
+        "is_active_last_12m": false
+      },
+      {
+        "github_login": "laanwj",
+        "contribution_score": 120194.5,
+        "display_metric": 3767,
+        "metric_label": "commits",
+        "tenure_months": 134,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "fanquake",
+        "contribution_score": 102583.5,
+        "display_metric": 3754,
+        "metric_label": "commits",
+        "tenure_months": 138,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "hebasto",
+        "contribution_score": 76070.0,
+        "display_metric": 4061,
+        "metric_label": "commits",
+        "tenure_months": 105,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "achow101",
+        "contribution_score": 64182.0,
+        "display_metric": 2770,
+        "metric_label": "commits",
+        "tenure_months": 137,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "DrahtBot",
+        "contribution_score": 56938.0,
+        "display_metric": 12,
+        "metric_label": "commits",
+        "tenure_months": 97,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "sipa",
+        "contribution_score": 49794.0,
+        "display_metric": 2326,
+        "metric_label": "commits",
+        "tenure_months": 138,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "jonatack",
+        "contribution_score": 46642.5,
+        "display_metric": 1597,
+        "metric_label": "commits",
+        "tenure_months": 117,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "ryanofsky",
+        "contribution_score": 40103.0,
+        "display_metric": 1529,
+        "metric_label": "commits",
+        "tenure_months": 117,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "luke-jr",
+        "contribution_score": 38670.0,
+        "display_metric": 1892,
+        "metric_label": "commits",
+        "tenure_months": 136,
+        "is_active_last_12m": true
+      }
+    ]
+  }
+}

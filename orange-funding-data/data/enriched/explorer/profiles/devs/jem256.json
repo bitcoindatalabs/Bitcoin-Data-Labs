@@ -1,0 +1,78 @@
+{
+  "type": "developer",
+  "name": "Jemimah Nagasha",
+  "github": "Jem256",
+  "notes": "",
+  "description": "Nagasha is a software engineer based in Kampala, Uganda. She has experience building web and mobile applications and brings a strong systems-oriented approach from her background in civil engineering and software development.",
+  "grants": [
+    {
+      "sponsor": "Btrust",
+      "project": "Bitcoin Ecosystem",
+      "start_date": null,
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 27,
+    "layers_active": [
+      "Ecosystem Tooling",
+      "Lightning Network",
+      "Core & Protocol"
+    ],
+    "languages": {
+      "C#": 2.5,
+      "TypeScript": 112.5,
+      "JavaScript": 8.0
+    },
+    "top_repos": [
+      {
+        "github_login": "Jem256",
+        "repo_name": "jamaljsr/polar",
+        "push_events": 0,
+        "pr_events": 2,
+        "review_events": 13,
+        "issue_events": 19,
+        "star_events": 1,
+        "fork_events": 0,
+        "first_activity": "2024-02-27T18:43:12+00:00",
+        "last_activity": "2026-05-31T21:49:53+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 112.5,
+        "display_metric": 2,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "Jem256",
+        "repo_name": "bitcoinjs/bitcoinjs-lib",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 1,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2024-04-18T13:34:27+00:00",
+        "last_activity": "2024-04-19T10:25:57+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 8.0,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "Jem256",
+        "repo_name": "btcpayserver/btcpayserver",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2024-02-27T18:58:31+00:00",
+        "last_activity": "2024-02-27T18:58:31+00:00",
+        "layer": "Ecosystem Tooling",
+        "contribution_score": 2.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

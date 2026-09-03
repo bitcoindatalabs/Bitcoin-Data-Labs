@@ -1,0 +1,138 @@
+{
+  "type": "project",
+  "name": "Krux",
+  "developers": [
+    "joaozinhom",
+    "qlrd",
+    "selfcustody"
+  ],
+  "sponsors": [
+    "Vinteum",
+    "OpenSats"
+  ],
+  "eco_data": {
+    "layer": "Hardware & Signers",
+    "description": "An open-source DIY hardware signer for Bitcoin transactions.",
+    "website": "https://selfcustody.github.io/krux",
+    "github": "selfcustody",
+    "top_repos": [
+      {
+        "repo_name": "selfcustody/krux",
+        "description": "Open-source signing device firmware for Bitcoin",
+        "stars": 359,
+        "forks": 77,
+        "language": "Python",
+        "open_issues": 67,
+        "license": "NOASSERTION",
+        "archived": false,
+        "topics": [
+          "bitcoin",
+          "python",
+          "wallet"
+        ],
+        "code_contributors": 29,
+        "code_reviewers": 13,
+        "total_unique_contributors": 300,
+        "bus_factor_tier": "healthy",
+        "review_culture_ratio": 0.45,
+        "first_activity": "2022-03-21T05:32:30+00:00",
+        "last_activity": "2026-07-29T13:08:06+00:00"
+      }
+    ],
+    "aggregate_metrics": {
+      "total_stars": 359,
+      "total_forks": 77,
+      "total_code_contributors": 29,
+      "total_code_reviewers": 13,
+      "total_unique_contributors": 300,
+      "primary_language": "Python",
+      "languages": {
+        "Python": 1.0
+      },
+      "earliest_activity": "2022-03-21T05:32:30+00:00",
+      "latest_activity": "2026-07-29T13:08:06+00:00"
+    },
+    "top_contributors": [
+      {
+        "github_login": "odudex",
+        "contribution_score": 8672.5,
+        "display_metric": 351,
+        "metric_label": "opened PRs",
+        "tenure_months": 66,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "tadeubas",
+        "contribution_score": 3223.5,
+        "display_metric": 200,
+        "metric_label": "opened PRs",
+        "tenure_months": 48,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "jreesun",
+        "contribution_score": 1875.0,
+        "display_metric": 65,
+        "metric_label": "opened PRs",
+        "tenure_months": 28,
+        "is_active_last_12m": false
+      },
+      {
+        "github_login": "qlrd",
+        "contribution_score": 1535.0,
+        "display_metric": 56,
+        "metric_label": "opened PRs",
+        "tenure_months": 47,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "jdlcdl",
+        "contribution_score": 1211.0,
+        "display_metric": 60,
+        "metric_label": "opened PRs",
+        "tenure_months": 41,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "spatcho",
+        "contribution_score": 238.0,
+        "display_metric": 1,
+        "metric_label": "opened PRs",
+        "tenure_months": 2,
+        "is_active_last_12m": false
+      },
+      {
+        "github_login": "bc1cindy",
+        "contribution_score": 61.0,
+        "display_metric": 4,
+        "metric_label": "opened PRs",
+        "tenure_months": 12,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "nervetrip",
+        "contribution_score": 55.0,
+        "display_metric": 0,
+        "metric_label": "opened PRs",
+        "tenure_months": 7,
+        "is_active_last_12m": false
+      },
+      {
+        "github_login": "j-moreno-c-r",
+        "contribution_score": 55.0,
+        "display_metric": 4,
+        "metric_label": "opened PRs",
+        "tenure_months": 9,
+        "is_active_last_12m": false
+      },
+      {
+        "github_login": "rough-street",
+        "contribution_score": 52.0,
+        "display_metric": 2,
+        "metric_label": "opened PRs",
+        "tenure_months": 0,
+        "is_active_last_12m": false
+      }
+    ]
+  }
+}

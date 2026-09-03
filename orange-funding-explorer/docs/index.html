@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Roster | Funding Explorer</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://bitcoindatalabs.org/styles/styles.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+</head>
+<body class="has-fixed-header">
+    <div id="main-container">
+        <div id="header"></div>
+
+        <div id="app-content" class="container">
+            <div id="top-controls-bar" style="display: flex; justify-content: space-between; align-items: center; margin-top: 24px; margin-bottom: 24px; flex-wrap: wrap; gap: 16px;">
+                <div class="filter-controls" id="filter-controls" style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center;">
+                    <div class="search-box" style="position: relative; width: 300px;">
+                        <i class="fas fa-search" style="position: absolute; left: 16px; top: 50%; transform: translateY(-50%); color: var(--text-secondary); font-size: 1rem;"></i>
+                        <input type="text" id="roster-search" placeholder="Search developers, projects..." style="width: 100%; padding: 10px 16px 10px 40px; font-size: 0.95rem; border: 1px solid var(--border-color); border-radius: 20px; outline: none; background: var(--bg-color); color: var(--text-primary); transition: all 0.3s;">
+                    </div>
+                    
+                    <select id="sponsor-filter" style="padding: 10px 16px; border-radius: 20px; border: 1px solid var(--border-color); background: var(--bg-color); color: var(--text-primary); outline: none; font-size: 0.95rem;">
+                        <option value="">All Sponsors</option>
+                        <!-- Populated by JS -->
+                    </select>
+                    
+                    <select id="project-filter" style="padding: 10px 16px; border-radius: 20px; border: 1px solid var(--border-color); background: var(--bg-color); color: var(--text-primary); outline: none; font-size: 0.95rem;">
+                        <option value="">All Projects</option>
+                        <!-- Populated by JS -->
+                    </select>
+                    
+                    <select id="type-filter" style="padding: 10px 16px; border-radius: 20px; border: 1px solid var(--border-color); background: var(--bg-color); color: var(--text-primary); outline: none; font-size: 0.95rem;">
+                        <option value="">All Entities</option>
+                        <option value="developer">Developers</option>
+                        <option value="project">Projects / Orgs</option>
+                    </select>
+                </div>
+                
+                <div class="view-toggles" style="display: flex; gap: 8px; background: var(--bg-color); padding: 4px; border-radius: 20px; border: 1px solid var(--border-color); align-self: center;">
+                    <button id="view-grid-btn" style="padding: 8px 16px; border: none; border-radius: 16px; cursor: pointer; background: var(--primary); color: white; font-weight: 500; transition: all 0.2s;"><i class="fas fa-th-large"></i> Grid</button>
+                    <button id="view-table-btn" style="padding: 8px 16px; border: none; border-radius: 16px; cursor: pointer; background: transparent; color: var(--text-secondary); font-weight: 500; transition: all 0.2s;"><i class="fas fa-project-diagram"></i> Network</button>
+                </div>
+            </div>
+
+            <!-- Grid View Container -->
+            <div id="roster-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px; margin-bottom: 40px;">
+                <!-- Cards injected here -->
+            </div>
+
+            <!-- Network View Container (hidden by default) -->
+            <div class="card" id="roster-table-container" style="padding: 0; overflow: hidden; display: none; position: relative;">
+                <div id="roster-network-graph" style="width: 100%; height: calc(100vh - 180px); min-height: 600px;"></div>
+            </div>
+        </div>
+
+        <div id="footer"></div>
+    </div>
+
+    <script src="https://bitcoindatalabs.org/components/app-components.js"></script>
+    <script src="js/app-config.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

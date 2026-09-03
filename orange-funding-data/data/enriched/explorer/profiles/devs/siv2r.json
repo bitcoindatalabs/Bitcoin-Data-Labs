@@ -1,0 +1,125 @@
+{
+  "type": "developer",
+  "name": "siv2r",
+  "github": "siv2r",
+  "notes": "",
+  "description": "",
+  "grants": [
+    {
+      "sponsor": "Spiral (Block/Square)",
+      "project": "Bitcoin Ecosystem",
+      "start_date": "May 2024",
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 60,
+    "layers_active": [
+      "Core & Protocol"
+    ],
+    "languages": {
+      "C": 942.5,
+      "C++": 60.0,
+      "Python": 1154.0,
+      "Wikitext": 192.5
+    },
+    "top_repos": [
+      {
+        "github_login": "siv2r",
+        "repo_name": "siv2r/bip-frost-signing",
+        "push_events": 151,
+        "pr_events": 15,
+        "review_events": 19,
+        "issue_events": 37,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2024-02-23T13:32:45+00:00",
+        "last_activity": "2026-06-23T11:28:53+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 1013.5,
+        "display_metric": 15,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "siv2r",
+        "repo_name": "bitcoin-core/secp256k1",
+        "push_events": 0,
+        "pr_events": 7,
+        "review_events": 79,
+        "issue_events": 50,
+        "star_events": 1,
+        "fork_events": 1,
+        "first_activity": "2021-07-13T17:30:07+00:00",
+        "last_activity": "2026-03-28T11:40:37+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 485.5,
+        "display_metric": 9,
+        "metric_label": "commits"
+      },
+      {
+        "github_login": "siv2r",
+        "repo_name": "BlockstreamResearch/secp256k1-zkp",
+        "push_events": 0,
+        "pr_events": 2,
+        "review_events": 110,
+        "issue_events": 2,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2023-08-27T12:28:12+00:00",
+        "last_activity": "2026-01-21T05:28:53+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 457.0,
+        "display_metric": 2,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "siv2r",
+        "repo_name": "bitcoin/bips",
+        "push_events": 0,
+        "pr_events": 3,
+        "review_events": 37,
+        "issue_events": 10,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2021-12-01T00:28:10+00:00",
+        "last_activity": "2026-05-20T20:59:35+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 192.5,
+        "display_metric": 3,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "siv2r",
+        "repo_name": "BlockstreamResearch/bip-frost-dkg",
+        "push_events": 0,
+        "pr_events": 6,
+        "review_events": 18,
+        "issue_events": 12,
+        "star_events": 1,
+        "fork_events": 1,
+        "first_activity": "2024-02-08T15:45:36+00:00",
+        "last_activity": "2026-03-22T14:04:59+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 140.5,
+        "display_metric": 6,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "siv2r",
+        "repo_name": "bitcoin/bitcoin",
+        "push_events": 0,
+        "pr_events": 3,
+        "review_events": 8,
+        "issue_events": 3,
+        "star_events": 1,
+        "fork_events": 1,
+        "first_activity": "2021-06-20T01:44:15+00:00",
+        "last_activity": "2021-12-04T15:19:03+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 60.0,
+        "display_metric": 3,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

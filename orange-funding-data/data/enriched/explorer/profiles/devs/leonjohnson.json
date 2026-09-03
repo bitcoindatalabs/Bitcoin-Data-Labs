@@ -1,0 +1,59 @@
+{
+  "type": "developer",
+  "name": "Leon Johnson",
+  "github": "leonjohnson",
+  "notes": "",
+  "description": "",
+  "grants": [
+    {
+      "sponsor": "Spiral (Block/Square)",
+      "project": "Bitcoin Ecosystem",
+      "start_date": "Jan 2021",
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 52,
+    "layers_active": [
+      "Core & Protocol"
+    ],
+    "languages": {
+      "Python": 7.5,
+      "HTML": 2.5
+    },
+    "top_repos": [
+      {
+        "github_login": "leonjohnson",
+        "repo_name": "jimmysong/programmingbitcoin",
+        "push_events": 0,
+        "pr_events": 1,
+        "review_events": 0,
+        "issue_events": 0,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2018-12-10T22:01:35+00:00",
+        "last_activity": "2018-12-20T16:07:49+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 7.5,
+        "display_metric": 1,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "leonjohnson",
+        "repo_name": "bitcoin-dot-org/Bitcoin.org",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2023-04-15T22:45:27+00:00",
+        "last_activity": "2023-04-15T22:45:27+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 2.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

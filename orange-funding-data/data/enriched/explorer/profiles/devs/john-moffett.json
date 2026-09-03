@@ -1,0 +1,92 @@
+{
+  "type": "developer",
+  "name": "John Moffett",
+  "github": "john-moffett",
+  "notes": "",
+  "description": "",
+  "grants": [
+    {
+      "sponsor": "Spiral (Block/Square)",
+      "project": "Bitcoin Ecosystem",
+      "start_date": "Apr 2023",
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 37,
+    "layers_active": [
+      "Core & Protocol"
+    ],
+    "languages": {
+      "C": 52.0,
+      "Wikitext": 15.5,
+      "C++": 675.5
+    },
+    "top_repos": [
+      {
+        "github_login": "john-moffett",
+        "repo_name": "bitcoin/bitcoin",
+        "push_events": 0,
+        "pr_events": 12,
+        "review_events": 82,
+        "issue_events": 47,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2022-10-28T19:57:38+00:00",
+        "last_activity": "2025-09-24T16:06:15+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 519.0,
+        "display_metric": 24,
+        "metric_label": "commits"
+      },
+      {
+        "github_login": "john-moffett",
+        "repo_name": "bitcoin-core/gui",
+        "push_events": 0,
+        "pr_events": 8,
+        "review_events": 13,
+        "issue_events": 22,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2022-11-15T15:31:59+00:00",
+        "last_activity": "2023-07-03T17:08:50+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 156.5,
+        "display_metric": 24,
+        "metric_label": "commits"
+      },
+      {
+        "github_login": "john-moffett",
+        "repo_name": "bitcoin-core/secp256k1",
+        "push_events": 0,
+        "pr_events": 1,
+        "review_events": 9,
+        "issue_events": 4,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2025-09-01T14:40:51+00:00",
+        "last_activity": "2025-09-17T14:35:15+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 52.0,
+        "display_metric": 4,
+        "metric_label": "commits"
+      },
+      {
+        "github_login": "john-moffett",
+        "repo_name": "bitcoin/bips",
+        "push_events": 0,
+        "pr_events": 1,
+        "review_events": 2,
+        "issue_events": 0,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2023-01-31T18:04:35+00:00",
+        "last_activity": "2025-11-20T20:14:56+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 15.5,
+        "display_metric": 1,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

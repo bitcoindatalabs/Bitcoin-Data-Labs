@@ -1,0 +1,15 @@
+{
+  "type": "developer",
+  "name": "Bruno Garcia",
+  "github": "bitcoinfuzz",
+  "notes": "",
+  "description": "A differential fuzzing framework for Bitcoin protocol implementations and libraries.",
+  "grants": [
+    {
+      "sponsor": "OpenSats",
+      "project": "bitcoinfuzz",
+      "start_date": "2026-05",
+      "end_date": null
+    }
+  ]
+}

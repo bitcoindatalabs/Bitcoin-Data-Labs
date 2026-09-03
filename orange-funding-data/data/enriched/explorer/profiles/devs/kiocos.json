@@ -1,0 +1,42 @@
+{
+  "type": "developer",
+  "name": "Caio",
+  "github": "kiocos",
+  "notes": "",
+  "description": null,
+  "grants": [
+    {
+      "sponsor": "Vinteum",
+      "project": "Boltz",
+      "start_date": null,
+      "end_date": "past"
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 0,
+    "layers_active": [
+      "Ecosystem Tooling"
+    ],
+    "languages": {
+      "Kotlin": 5.0
+    },
+    "top_repos": [
+      {
+        "github_login": "kiocos",
+        "repo_name": "Blockstream/green_android",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 2,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2025-06-19T20:08:33+00:00",
+        "last_activity": "2025-06-19T20:08:54+00:00",
+        "layer": "Ecosystem Tooling",
+        "contribution_score": 5.0,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

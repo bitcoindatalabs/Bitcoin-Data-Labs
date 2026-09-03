@@ -1,0 +1,15 @@
+{
+  "type": "developer",
+  "name": "Dongjia Zhang",
+  "github": "tokatoka",
+  "notes": "",
+  "description": "Dongjia Zhang is a Ph.D. researcher focusing on software security and fuzzing. He is the maintainer of LibAFL, a state-of-the-art fuzzing framework written in Rust. His internship under the mentorship of Niklas G\u00f6gge involved fuzz testing Bitcoin Core.",
+  "grants": [
+    {
+      "sponsor": "Brink",
+      "project": "Bitcoin Core",
+      "start_date": null,
+      "end_date": null
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "type": "project",
+  "name": "rust-bitcoin",
+  "developers": [
+    "rust-bitcoin",
+    "satsfy"
+  ],
+  "sponsors": [
+    "Vinteum",
+    "OpenSats"
+  ],
+  "eco_data": {
+    "layer": "Libraries & SDKs",
+    "description": "Rust Bitcoin library for serialization, parsing, and manipulation.",
+    "website": "https://rust-bitcoin.org",
+    "github": "rust-bitcoin",
+    "top_repos": [
+      {
+        "repo_name": "rust-bitcoin/rust-bitcoin",
+        "description": "Rust Bitcoin library",
+        "stars": 2654,
+        "forks": 1001,
+        "language": "Rust",
+        "open_issues": 486,
+        "license": "CC0-1.0",
+        "archived": false,
+        "topics": [],
+        "code_contributors": 262,
+        "code_reviewers": 170,
+        "total_unique_contributors": 3184,
+        "bus_factor_tier": "healthy",
+        "review_culture_ratio": 0.65,
+        "first_activity": "2018-03-05T19:44:05+00:00",
+        "last_activity": "2026-07-30T22:53:44+00:00"
+      }
+    ],
+    "aggregate_metrics": {
+      "total_stars": 2654,
+      "total_forks": 1001,
+      "total_code_contributors": 262,
+      "total_code_reviewers": 170,
+      "total_unique_contributors": 3184,
+      "primary_language": "Rust",
+      "languages": {
+        "Rust": 1.0
+      },
+      "earliest_activity": "2018-03-05T19:44:05+00:00",
+      "latest_activity": "2026-07-30T22:53:44+00:00"
+    },
+    "top_contributors": [
+      {
+        "github_login": "apoelstra",
+        "contribution_score": 69175.0,
+        "display_metric": 2286,
+        "metric_label": "opened PRs",
+        "tenure_months": 133,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "tcharding",
+        "contribution_score": 63236.0,
+        "display_metric": 1773,
+        "metric_label": "opened PRs",
+        "tenure_months": 70,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "Kixunil",
+        "contribution_score": 39297.0,
+        "display_metric": 160,
+        "metric_label": "opened PRs",
+        "tenure_months": 109,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "sanket1729",
+        "contribution_score": 9589.5,
+        "display_metric": 124,
+        "metric_label": "opened PRs",
+        "tenure_months": 104,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "dr-orlovsky",
+        "contribution_score": 8959.0,
+        "display_metric": 173,
+        "metric_label": "opened PRs",
+        "tenure_months": 96,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "yancyribbens",
+        "contribution_score": 8878.0,
+        "display_metric": 169,
+        "metric_label": "opened PRs",
+        "tenure_months": 102,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "stevenroose",
+        "contribution_score": 5155.5,
+        "display_metric": 150,
+        "metric_label": "opened PRs",
+        "tenure_months": 131,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "sgeisler",
+        "contribution_score": 3007.0,
+        "display_metric": 52,
+        "metric_label": "opened PRs",
+        "tenure_months": 67,
+        "is_active_last_12m": false
+      },
+      {
+        "github_login": "jamillambert",
+        "contribution_score": 2813.0,
+        "display_metric": 125,
+        "metric_label": "opened PRs",
+        "tenure_months": 46,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "storopoli",
+        "contribution_score": 2597.5,
+        "display_metric": 37,
+        "metric_label": "opened PRs",
+        "tenure_months": 46,
+        "is_active_last_12m": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "developer",
+  "name": "Lang",
+  "github": "gusttav-lang",
+  "notes": "",
+  "description": null,
+  "grants": [
+    {
+      "sponsor": "Vinteum",
+      "project": "Tether",
+      "start_date": null,
+      "end_date": "past"
+    }
+  ]
+}

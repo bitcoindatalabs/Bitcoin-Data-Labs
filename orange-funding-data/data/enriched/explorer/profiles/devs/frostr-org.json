@@ -1,0 +1,15 @@
+{
+  "type": "developer",
+  "name": "Austin Kelsay and cmdruid",
+  "github": "FROSTR-ORG",
+  "notes": "",
+  "description": "A FROST-based threshold signing protocol for nostr with libraries and clients for multi-device keys.",
+  "grants": [
+    {
+      "sponsor": "OpenSats",
+      "project": "Frostr",
+      "start_date": "2025-06",
+      "end_date": null
+    }
+  ]
+}

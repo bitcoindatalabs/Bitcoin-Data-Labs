@@ -1,0 +1,629 @@
+[
+  {
+    "name": "Leonardo Lima",
+    "github": "oleonardolima",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Dev Kit",
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://vinteum.org/programs/grants",
+    "social": {
+      "x_handle": "_oleonardolima",
+      "website": null,
+      "nostr": "https://primal.net/p/npub1ez8efu9rjxu64g0lalty2ffmr2tgkzjz92rkafyfyz5463wr8ars8zls5t"
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/grantees/leonardolima.jpg"
+  },
+  {
+    "name": "Davidson Souza",
+    "github": "Davidson-Souza",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Floresta",
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://vinteum.org/programs/grants",
+    "social": {
+      "x_handle": "Erik17192799",
+      "website": "https://blog.dlsouza.lol",
+      "nostr": "https://primal.net/p/nprofile1qqswpna42jwnea7mfcnnd78phjz0vfyx4aayz22ase7x5vf5tyzz22qjdj9cx"
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/grantees/davidsonsouza.jpg"
+  },
+  {
+    "name": "plebhash",
+    "github": "plebhash",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Stratum V2",
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://vinteum.org/programs/grants",
+    "social": {
+      "x_handle": "plebhash",
+      "website": "https://plebhash.github.io",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/grantees/plebhash.png"
+  },
+  {
+    "name": "Pins",
+    "github": "MPins",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "LND",
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://vinteum.org/programs/grants",
+    "social": {
+      "x_handle": "pins_btc",
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/grantees/pins.jpg"
+  },
+  {
+    "name": "Chris G.",
+    "github": "csgui",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Floresta",
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://vinteum.org/programs/grants",
+    "social": {
+      "x_handle": "csgui",
+      "website": "https://imchris.me/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/grantees/chrisg.jpg"
+  },
+  {
+    "name": "Johnny Santos",
+    "github": "johnnyasantoss",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "P2Pool V2",
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://vinteum.org/programs/grants",
+    "social": {
+      "x_handle": "johnnyasantos",
+      "website": "https://johnnyasantos.com/",
+      "nostr": "https://njump.me/npub1j0nyf54ndc6keq80xfyeqfumn2l23e3k79f33x5jsqxnut6a8dyqp74mu0"
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/grantees/johnnysantos.jpg"
+  },
+  {
+    "name": "Erick Cestari",
+    "github": "erickcestari",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoinfuzz / Smite",
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://vinteum.org/programs/grants",
+    "social": {
+      "x_handle": "iamflops",
+      "website": "https://erickcestari.dev/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/erickcestari.jpg"
+  },
+  {
+    "name": "thgO-O",
+    "github": "thgO-O",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "BtcPayServer",
+    "grant_type": "grant",
+    "status": "current",
+    "source_url": "https://vinteum.org/programs/grants",
+    "social": {
+      "x_handle": "thgO_O",
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/thgoo.jpg"
+  },
+  {
+    "name": "Vinicius Cestari",
+    "github": "viniciusCestarii",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "fellowship",
+    "status": "current",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": "VCestarii",
+      "website": "https://viniciuscestari.dev/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/viniciuscestari.jpg"
+  },
+  {
+    "name": "bc1cindy",
+    "github": "bc1cindy",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Payjoin Dev Kit",
+    "grant_type": "fellowship",
+    "status": "current",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": "bc1cindy",
+      "website": "https://linktr.ee/CindyBTC",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/bc1cindy.jpg"
+  },
+  {
+    "name": "Caio Ueda Sampaio (K-YU)",
+    "github": "KY-U",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoinfuzz",
+    "grant_type": "fellowship",
+    "status": "current",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": "KYU2029255",
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/caioueda.jpg"
+  },
+  {
+    "name": "Allocz",
+    "github": "allocz",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "btcd",
+    "grant_type": "fellowship",
+    "status": "current",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": null,
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/allocz.jpg"
+  },
+  {
+    "name": "Octavio Lucca",
+    "github": "octaviolucca",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Peer Observer",
+    "grant_type": "fellowship",
+    "status": "current",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": "octavio_lucca",
+      "website": "https://octavio.xyz/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/octaviolucca.jpg"
+  },
+  {
+    "name": "Victor André",
+    "github": "victorandre957",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "BIP324",
+    "grant_type": "fellowship",
+    "status": "current",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": null,
+      "website": "https://victorandre957.github.io/personal_blog/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/victorandre.jpg"
+  },
+  {
+    "name": "Isaque Franklin",
+    "github": "IsaqueFranklin",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Studying Bitcoin cryptography",
+    "grant_type": "fellowship",
+    "status": "current",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": "IsaqueFranklin0",
+      "website": "https://www.harlock.xyz/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/isaquefranklin.jpg"
+  },
+  {
+    "name": "Lucas Lima",
+    "github": "lucasdbr05",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Secure Fountain Codes",
+    "grant_type": "fellowship",
+    "status": "current",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": "Lucaslgol05",
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/lucaslima.jpg"
+  },
+  {
+    "name": "Renato Britto (satsfy)",
+    "github": "satsfy",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Rust-Bitcoin",
+    "grant_type": "fellowship",
+    "status": "current",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": "0xsatsfy",
+      "website": "https://satsfy.xyz/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/renatobritto.jpg"
+  },
+  {
+    "name": "m4ycon",
+    "github": "m4ycon",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Peer Observer",
+    "grant_type": "fellowship",
+    "status": "current",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": null,
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/m4ycon.jpg"
+  },
+  {
+    "name": "Jayr Motta",
+    "github": "jayrmotta",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Mujina",
+    "grant_type": "fellowship",
+    "status": "current",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": "jayrmotta",
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/jayrmotta.jpg"
+  },
+  {
+    "name": "Yan",
+    "github": "yan-pi",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Dev Kit",
+    "grant_type": "fellowship",
+    "status": "current",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": "yamigake",
+      "website": "https://indianboy.sh/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/yan.jpeg"
+  },
+  {
+    "name": "Lucas Balieiro",
+    "github": "lucasbalieiro",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": "past",
+    "project_name": "Stratum V2",
+    "grant_type": "fellowship",
+    "status": "past",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": null,
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/lucasbalieiro.jpg"
+  },
+  {
+    "name": "João Leal",
+    "github": "jaoleal",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": "past",
+    "project_name": "Floresta",
+    "grant_type": "fellowship",
+    "status": "past",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": null,
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/joao.jpg"
+  },
+  {
+    "name": "Luis Schwab",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": "past",
+    "project_name": "BDK / Floresta",
+    "grant_type": "fellowship",
+    "status": "past",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": null,
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/luis.png"
+  },
+  {
+    "name": "Luca0x46",
+    "github": "luca0x46",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": "past",
+    "project_name": "Second",
+    "grant_type": "fellowship",
+    "status": "past",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": "luca0x46",
+      "website": "https://luca0x46.com/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/luca0x46.jpg"
+  },
+  {
+    "name": "Gustavo Stingelin",
+    "github": "GustavoStingelin",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": "past",
+    "project_name": "Lightning Labs",
+    "grant_type": "fellowship",
+    "status": "past",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": "gustingelin",
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/gustavostingelin.jpg"
+  },
+  {
+    "name": "Moises Pompilio",
+    "github": "moisesPompilio",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": "past",
+    "project_name": "Floresta",
+    "grant_type": "fellowship",
+    "status": "past",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": "maicomjt",
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/moisespompilio.jpg"
+  },
+  {
+    "name": "Erick Cestari",
+    "github": "erickcestari",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": "past",
+    "project_name": "Bitcoinfuzz / Smite",
+    "grant_type": "fellowship",
+    "status": "past",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": "iamflops",
+      "website": "https://erickcestari.dev/",
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/erickcestari.jpg"
+  },
+  {
+    "name": "Guilherme Martins",
+    "github": "qlrd",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": "past",
+    "project_name": "Krux",
+    "grant_type": "fellowship",
+    "status": "past",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": null,
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/guilhermemartins.jpg"
+  },
+  {
+    "name": "TheMhv",
+    "github": "TheMhv",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": "past",
+    "project_name": "CDK",
+    "grant_type": "fellowship",
+    "status": "past",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": "TheMhv",
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/themhv.jpg"
+  },
+  {
+    "name": "joaozinho",
+    "github": "joaozinhom",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": "past",
+    "project_name": "Krux",
+    "grant_type": "fellowship",
+    "status": "past",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": null,
+      "website": null,
+      "nostr": "https://primal.net/p/nprofile1qqs0xwjg3fwjrqm3anxlgq0t48wg8n9zp8007ryl034nckyljdaktmqm4mmyv"
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/joaozinho.jpg"
+  },
+  {
+    "name": "Caio",
+    "github": "kiocos",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": "past",
+    "project_name": "Boltz",
+    "grant_type": "fellowship",
+    "status": "past",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": null,
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/caio.jpg"
+  },
+  {
+    "name": "Lang",
+    "github": "gusttav-lang",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": "past",
+    "project_name": "Tether",
+    "grant_type": "fellowship",
+    "status": "past",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": null,
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/lang.jpg"
+  },
+  {
+    "name": "thgO-O",
+    "github": "thgO-O",
+    "github_type": "personal",
+    "sponsor": "vinteum",
+    "start_date": null,
+    "end_date": "past",
+    "project_name": "BtcPayServer",
+    "grant_type": "fellowship",
+    "status": "past",
+    "source_url": "https://vinteum.org/programs/fellowship",
+    "social": {
+      "x_handle": "thgO_O",
+      "website": null,
+      "nostr": null
+    },
+    "description": null,
+    "image_url": "https://vinteum.org/assets/images/people/fellows/thgoo.jpg"
+  }
+]

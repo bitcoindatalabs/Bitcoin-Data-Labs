@@ -1,0 +1,15 @@
+{
+  "type": "developer",
+  "name": "Base58 Bitcoin LARP",
+  "github": "base58btc",
+  "notes": "",
+  "description": null,
+  "grants": [
+    {
+      "sponsor": "Human Rights Foundation",
+      "project": "Bitcoin Ecosystem",
+      "start_date": null,
+      "end_date": null
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "project",
+  "name": "GrapheneOS",
+  "developers": [
+    "GrapheneOS"
+  ],
+  "sponsors": [
+    "OpenSats"
+  ],
+  "eco_data": {
+    "layer": "Ecosystem Tooling",
+    "description": "A privacy and security focused mobile OS compatible with Android apps.",
+    "website": "https://grapheneos.org",
+    "github": "GrapheneOS",
+    "top_repos": [
+      {
+        "repo_name": "GrapheneOS/os-issue-tracker",
+        "description": "",
+        "stars": 0,
+        "forks": 0,
+        "language": "",
+        "open_issues": 0,
+        "license": "",
+        "archived": false,
+        "topics": [],
+        "code_contributors": 0,
+        "code_reviewers": 0,
+        "total_unique_contributors": 0,
+        "bus_factor_tier": "",
+        "review_culture_ratio": 0,
+        "first_activity": "",
+        "last_activity": ""
+      }
+    ],
+    "aggregate_metrics": null,
+    "top_contributors": []
+  }
+}

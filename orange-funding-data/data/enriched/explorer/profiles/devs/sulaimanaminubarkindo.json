@@ -1,0 +1,59 @@
+{
+  "type": "developer",
+  "name": "Sulaiman Aminu Barkindo",
+  "github": "SulaimanAminuBarkindo",
+  "notes": "",
+  "description": "Sulaiman is a seasoned software engineer and Engineering Manager based in Nigeria, and a Btrust Builders 2024 fellow. With over four years of experience in backend and full-stack engineering, Sulaiman has become an integral contributor to the Validating Lightning Signer (VLS) project, a Rust-based initiative focused on enhancing security and self-custody in the Bitcoin Lightning Network.",
+  "grants": [
+    {
+      "sponsor": "Btrust",
+      "project": "Bitcoin Ecosystem",
+      "start_date": null,
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 2,
+    "layers_active": [
+      "Lightning Network",
+      "Core & Protocol"
+    ],
+    "languages": {
+      "Go": 67.5
+    },
+    "top_repos": [
+      {
+        "github_login": "SulaimanAminuBarkindo",
+        "repo_name": "btcsuite/btcd",
+        "push_events": 0,
+        "pr_events": 1,
+        "review_events": 10,
+        "issue_events": 6,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2024-03-01T06:52:15+00:00",
+        "last_activity": "2024-05-06T15:36:38+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 62.5,
+        "display_metric": 1,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "SulaimanAminuBarkindo",
+        "repo_name": "lightningnetwork/lnd",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 2,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2024-04-26T13:27:35+00:00",
+        "last_activity": "2024-05-06T14:17:28+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 5.0,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

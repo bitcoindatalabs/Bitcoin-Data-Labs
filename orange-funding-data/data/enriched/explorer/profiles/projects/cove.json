@@ -1,0 +1,19 @@
+{
+  "type": "project",
+  "name": "Cove",
+  "developers": [
+    "bitcoinppl"
+  ],
+  "sponsors": [
+    "OpenSats"
+  ],
+  "eco_data": {
+    "layer": "Wallets & UX",
+    "description": "A Bitcoin-only mobile wallet built on BDK with hardware wallet support.",
+    "website": "https://covebitcoinwallet.com",
+    "github": "bitcoinppl",
+    "top_repos": [],
+    "aggregate_metrics": null,
+    "top_contributors": []
+  }
+}

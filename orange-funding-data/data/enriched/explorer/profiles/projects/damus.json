@@ -1,0 +1,136 @@
+{
+  "type": "project",
+  "name": "Damus",
+  "developers": [
+    "damus-io"
+  ],
+  "sponsors": [
+    "OpenSats"
+  ],
+  "eco_data": {
+    "layer": "Nostr & Social",
+    "description": "A Nostr client for iOS focused on social networking.",
+    "website": "https://damus.io",
+    "github": "damus-io",
+    "top_repos": [
+      {
+        "repo_name": "damus-io/damus",
+        "description": "iOS nostr client",
+        "stars": 2134,
+        "forks": 299,
+        "language": "Swift",
+        "open_issues": 125,
+        "license": "GPL-3.0",
+        "archived": false,
+        "topics": [
+          "bitcoin",
+          "freedom",
+          "lightning-network",
+          "nostr"
+        ],
+        "code_contributors": 113,
+        "code_reviewers": 36,
+        "total_unique_contributors": 2674,
+        "bus_factor_tier": "healthy",
+        "review_culture_ratio": 0.32,
+        "first_activity": "2022-05-21T18:10:01+00:00",
+        "last_activity": "2026-06-17T23:39:44+00:00"
+      }
+    ],
+    "aggregate_metrics": {
+      "total_stars": 2134,
+      "total_forks": 299,
+      "total_code_contributors": 113,
+      "total_code_reviewers": 36,
+      "total_unique_contributors": 2674,
+      "primary_language": "Swift",
+      "languages": {
+        "Swift": 1.0
+      },
+      "earliest_activity": "2022-05-21T18:10:01+00:00",
+      "latest_activity": "2026-06-17T23:39:44+00:00"
+    },
+    "top_contributors": [
+      {
+        "github_login": "jb55",
+        "contribution_score": 17034.5,
+        "display_metric": 759,
+        "metric_label": "opened PRs",
+        "tenure_months": 121,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "alltheseas",
+        "contribution_score": 13324.0,
+        "display_metric": 98,
+        "metric_label": "opened PRs",
+        "tenure_months": 52,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "danieldaquino",
+        "contribution_score": 7080.5,
+        "display_metric": 222,
+        "metric_label": "opened PRs",
+        "tenure_months": 52,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "tyiu",
+        "contribution_score": 3399.0,
+        "display_metric": 187,
+        "metric_label": "opened PRs",
+        "tenure_months": 32,
+        "is_active_last_12m": false
+      },
+      {
+        "github_login": "joelklabo",
+        "contribution_score": 896.5,
+        "display_metric": 84,
+        "metric_label": "opened PRs",
+        "tenure_months": 133,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "scoder1747",
+        "contribution_score": 890.0,
+        "display_metric": 83,
+        "metric_label": "opened PRs",
+        "tenure_months": 29,
+        "is_active_last_12m": false
+      },
+      {
+        "github_login": "BenGWeeks",
+        "contribution_score": 798.5,
+        "display_metric": 36,
+        "metric_label": "opened PRs",
+        "tenure_months": 56,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "ericholguin",
+        "contribution_score": 765.0,
+        "display_metric": 85,
+        "metric_label": "opened PRs",
+        "tenure_months": 37,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "bryanmontz",
+        "contribution_score": 621.5,
+        "display_metric": 44,
+        "metric_label": "opened PRs",
+        "tenure_months": 11,
+        "is_active_last_12m": false
+      },
+      {
+        "github_login": "dmnyc",
+        "contribution_score": 582.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs",
+        "tenure_months": 119,
+        "is_active_last_12m": true
+      }
+    ]
+  }
+}

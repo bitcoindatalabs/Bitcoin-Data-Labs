@@ -1,0 +1,19 @@
+{
+  "type": "project",
+  "name": "Summer of Bitcoin",
+  "developers": [
+    "adi-shankara"
+  ],
+  "sponsors": [
+    "OpenSats"
+  ],
+  "eco_data": {
+    "layer": "Developer Education",
+    "description": "A global internship program for university students to contribute to Bitcoin.",
+    "website": "https://summerofbitcoin.org",
+    "github": "",
+    "top_repos": [],
+    "aggregate_metrics": null,
+    "top_contributors": []
+  }
+}

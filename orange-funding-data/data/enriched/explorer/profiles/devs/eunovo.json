@@ -1,0 +1,162 @@
+{
+  "type": "developer",
+  "name": "Oghenovo Usiwoma",
+  "github": "eunovo",
+  "notes": "",
+  "description": "",
+  "grants": [
+    {
+      "sponsor": "Btrust",
+      "project": "Bitcoin Ecosystem",
+      "start_date": null,
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 41,
+    "layers_active": [
+      "Core & Protocol",
+      "Lightning Network"
+    ],
+    "languages": {
+      "Rust": 18.0,
+      "TypeScript": 11.0,
+      "C": 80.0,
+      "Python": 12.5,
+      "C++": 1336.5,
+      "Scala": 2.5,
+      "Wikitext": 28.0,
+      "JavaScript": 12.5
+    },
+    "top_repos": [
+      {
+        "github_login": "Eunovo",
+        "repo_name": "bitcoin/bitcoin",
+        "push_events": 0,
+        "pr_events": 10,
+        "review_events": 270,
+        "issue_events": 78,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2024-01-10T22:20:24+00:00",
+        "last_activity": "2026-07-07T11:09:39+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 1336.5,
+        "display_metric": 78,
+        "metric_label": "commits"
+      },
+      {
+        "github_login": "Eunovo",
+        "repo_name": "bitcoin-core/secp256k1",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 19,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2024-10-31T19:07:35+00:00",
+        "last_activity": "2026-01-09T10:02:10+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 80.0,
+        "display_metric": 10,
+        "metric_label": "commits"
+      },
+      {
+        "github_login": "Eunovo",
+        "repo_name": "bitcoin/bips",
+        "push_events": 0,
+        "pr_events": 1,
+        "review_events": 4,
+        "issue_events": 2,
+        "star_events": 1,
+        "fork_events": 0,
+        "first_activity": "2024-01-14T21:33:20+00:00",
+        "last_activity": "2026-04-07T20:51:12+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 28.0,
+        "display_metric": 1,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "Eunovo",
+        "repo_name": "cygnet3/rust-silentpayments",
+        "push_events": 0,
+        "pr_events": 1,
+        "review_events": 2,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2024-03-12T08:39:55+00:00",
+        "last_activity": "2024-03-13T12:08:46+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 18.0,
+        "display_metric": 1,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "Eunovo",
+        "repo_name": "darosior/python-bip380",
+        "push_events": 0,
+        "pr_events": 1,
+        "review_events": 0,
+        "issue_events": 2,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2023-05-10T22:29:52+00:00",
+        "last_activity": "2023-05-17T12:22:21+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 12.5,
+        "display_metric": 1,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "Eunovo",
+        "repo_name": "bitcoinjs/bitcoinjs-lib",
+        "push_events": 0,
+        "pr_events": 1,
+        "review_events": 0,
+        "issue_events": 2,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2023-03-08T17:05:08+00:00",
+        "last_activity": "2023-03-26T08:24:11+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 12.5,
+        "display_metric": 1,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "Eunovo",
+        "repo_name": "Eunovo/taproot-with-bitcoinjs",
+        "push_events": 2,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 0,
+        "star_events": 1,
+        "fork_events": 0,
+        "first_activity": "2023-02-12T20:51:14+00:00",
+        "last_activity": "2023-03-06T22:18:13+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 11.0,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "Eunovo",
+        "repo_name": "ACINQ/eclair",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2024-02-26T15:15:21+00:00",
+        "last_activity": "2024-02-26T15:15:21+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 2.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

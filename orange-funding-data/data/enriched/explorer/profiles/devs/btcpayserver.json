@@ -1,0 +1,21 @@
+{
+  "type": "developer",
+  "name": "BTCPay Server Foundation",
+  "github": "btcpayserver",
+  "notes": "",
+  "description": "A self-hosted, open-source Bitcoin payment processor with no fees and no third parties.",
+  "grants": [
+    {
+      "sponsor": "OpenSats",
+      "project": "BTCPay Server",
+      "start_date": "2022-09",
+      "end_date": null
+    },
+    {
+      "sponsor": "Spiral (Block/Square)",
+      "project": "Bitcoin Ecosystem",
+      "start_date": "Sep 2019",
+      "end_date": null
+    }
+  ]
+}

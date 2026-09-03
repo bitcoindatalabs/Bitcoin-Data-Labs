@@ -1,0 +1,15 @@
+{
+  "type": "developer",
+  "name": "PabloF7z",
+  "github": "nostr-dev-kit",
+  "notes": "",
+  "description": "A modular TypeScript toolkit for building nostr applications, with first-class outbox-model support and reactive UI bindings for Svelte and React.",
+  "grants": [
+    {
+      "sponsor": "OpenSats",
+      "project": "NDK",
+      "start_date": "2026-04",
+      "end_date": null
+    }
+  ]
+}

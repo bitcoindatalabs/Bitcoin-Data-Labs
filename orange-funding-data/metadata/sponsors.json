@@ -1,0 +1,1120 @@
+{
+  "_comment": "Bitcoin Core development sponsors and their known developers. Updated manually.",
+  "_last_updated": "2026-02-09",
+  "_methodology": "Classification: 'sponsored' = actively funded for Bitcoin Core work. 'affiliated' = works at company but funding unclear.",
+  "sponsors": [
+    {
+      "id": "chaincode",
+      "name": "Chaincode Labs",
+      "type": "nonprofit",
+      "domains": [
+        "chaincode.com"
+      ],
+      "website": "https://chaincode.com",
+      "x_handle": "ChaincodeLabs",
+      "github": "chaincodelabs"
+    },
+    {
+      "id": "spiral",
+      "name": "Spiral (Block/Square)",
+      "type": "corporate",
+      "domains": [
+        "spiral.xyz",
+        "block.xyz",
+        "squareup.com"
+      ],
+      "website": "https://spiral.xyz",
+      "x_handle": "spiralbtc",
+      "github": "spiralbtc"
+    },
+    {
+      "id": "blockstream",
+      "name": "Blockstream",
+      "type": "corporate",
+      "domains": [
+        "blockstream.com",
+        "blockstream.io"
+      ],
+      "website": "https://blockstream.com",
+      "x_handle": "Blockstream",
+      "github": "Blockstream"
+    },
+    {
+      "id": "brink",
+      "name": "Brink",
+      "type": "nonprofit",
+      "domains": [
+        "brink.dev"
+      ],
+      "website": "https://brink.dev",
+      "x_handle": "bitcoinbrink",
+      "github": "brink-dev"
+    },
+    {
+      "id": "mit_dci",
+      "name": "MIT Digital Currency Initiative",
+      "type": "academic",
+      "domains": [
+        "mit.edu",
+        "media.mit.edu"
+      ],
+      "website": "https://dci.mit.edu",
+      "x_handle": "mitdci",
+      "github": "mit-dci"
+    },
+    {
+      "id": "hrf",
+      "name": "Human Rights Foundation",
+      "type": "nonprofit",
+      "domains": [
+        "hrf.org"
+      ],
+      "website": "https://hrf.org/devfund",
+      "x_handle": "HRF"
+    },
+    {
+      "id": "okcoin",
+      "name": "OKCoin",
+      "type": "corporate",
+      "domains": [
+        "okcoin.com"
+      ],
+      "website": "https://okcoin.com",
+      "x_handle": "Okcoin"
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "type": "corporate",
+      "domains": [
+        "gemini.com"
+      ],
+      "website": "https://gemini.com",
+      "x_handle": "Gemini"
+    },
+    {
+      "id": "opensats",
+      "name": "OpenSats",
+      "type": "nonprofit",
+      "domains": [
+        "opensats.org"
+      ],
+      "website": "https://opensats.org",
+      "x_handle": "OpenSats",
+      "github": "OpenSats"
+    },
+    {
+      "id": "btrust",
+      "name": "Btrust",
+      "type": "nonprofit",
+      "domains": [
+        "btrust.africa",
+        "btrust.org"
+      ],
+      "website": "https://btrust.africa",
+      "x_handle": "btrustteam",
+      "github": "btrustteam"
+    },
+    {
+      "id": "2140",
+      "name": "2140",
+      "type": "nonprofit",
+      "domains": [
+        "2140.dev"
+      ],
+      "website": "https://2140.dev",
+      "x_handle": "2140_dev",
+      "github": "2140-dev"
+    },
+    {
+      "id": "localhost_research",
+      "name": "Localhost Research",
+      "type": "nonprofit",
+      "domains": [
+        "lclhost.org"
+      ],
+      "website": "https://lclhost.org"
+    },
+    {
+      "id": "bitmex",
+      "name": "BitMEX",
+      "type": "corporate",
+      "domains": [
+        "bitmex.com"
+      ],
+      "website": "https://bitmex.com",
+      "x_handle": "BitMEX",
+      "github": "BitMEX"
+    },
+    {
+      "id": "bitgo",
+      "name": "BitGo",
+      "type": "corporate",
+      "domains": [
+        "bitgo.com"
+      ],
+      "website": "https://bitgo.com",
+      "x_handle": "BitGo",
+      "github": "BitGo"
+    },
+    {
+      "id": "vinteum",
+      "name": "Vinteum",
+      "type": "nonprofit",
+      "domains": [
+        "vinteum.org"
+      ],
+      "website": "https://vinteum.org",
+      "x_handle": "vinteum_org",
+      "github": "vinteumorg"
+    },
+    {
+      "id": "maelstrom",
+      "name": "Maelstrom Fund",
+      "type": "corporate",
+      "domains": [
+        "maelstrom.fund"
+      ],
+      "website": "https://maelstrom.fund",
+      "x_handle": "MaelstromFund"
+    },
+    {
+      "id": "coinbase",
+      "name": "Coinbase",
+      "type": "corporate",
+      "domains": [
+        "coinbase.com"
+      ],
+      "website": "https://coinbase.com",
+      "x_handle": "coinbase",
+      "github": "coinbase"
+    },
+    {
+      "id": "hardcore_fund",
+      "name": "Hardcore Fund",
+      "type": "nonprofit",
+      "domains": [],
+      "website": "",
+      "github": "hardcorefund"
+    },
+    {
+      "id": "marathon",
+      "name": "Marathon Digital Holdings",
+      "type": "corporate",
+      "domains": [
+        "mara.com"
+      ],
+      "website": "https://mara.com",
+      "x_handle": "MarathonDH"
+    },
+    {
+      "id": "bitcoin_foundation",
+      "name": "Bitcoin Foundation",
+      "type": "nonprofit",
+      "domains": [
+        "bitcoinfoundation.org"
+      ],
+      "website": "https://bitcoinfoundation.org",
+      "x_handle": "BTCFoundation",
+      "github": "bitcoinfoundation"
+    }
+  ],
+  "sponsored_developers": [
+    {
+      "canonical_name": "Gloria Zhao",
+      "notes": "Mempool/P2P focus",
+      "github": "glozow",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Ava Chow",
+      "notes": "Wallet maintainer",
+      "github": "achow101",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": "2025-05"
+        },
+        {
+          "sponsor_id": "localhost_research",
+          "start_date": "2025-05",
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Pieter Wuille",
+      "notes": "Consensus, cryptography",
+      "github": "sipa",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": "2019-01"
+        },
+        {
+          "sponsor_id": "chaincode",
+          "start_date": "2019-01",
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Suhas Daftuar",
+      "notes": "P2P, mempool",
+      "github": "sdaftuar",
+      "grants": [
+        {
+          "sponsor_id": "chaincode",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "John Newbery",
+      "notes": "Brink co-founder",
+      "github": "jnewbery",
+      "grants": [
+        {
+          "sponsor_id": "chaincode",
+          "start_date": null,
+          "end_date": "2020-06"
+        },
+        {
+          "sponsor_id": "brink",
+          "start_date": "2020-06",
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Marco Falke",
+      "notes": "Former testing maintainer",
+      "github": "MarcoFalke",
+      "grants": [
+        {
+          "sponsor_id": "chaincode",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Wladimir van der Laan",
+      "notes": "Former lead maintainer",
+      "grants": [
+        {
+          "sponsor_id": "mit_dci",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "bitcoin_foundation",
+          "start_date": "2014-04",
+          "end_date": "2015-04"
+        }
+      ],
+      "github": "laanwj"
+    },
+    {
+      "canonical_name": "Cory Fields",
+      "notes": "Build system",
+      "github": "theuni",
+      "grants": [
+        {
+          "sponsor_id": "mit_dci",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "bitcoin_foundation",
+          "start_date": "2014-01",
+          "end_date": "2015-04"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Matt Corallo",
+      "notes": "LDK, formerly Core",
+      "github": "TheBlueMatt",
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "blockstream",
+          "start_date": "2014-01",
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Michael Ford",
+      "notes": "Build/release maintainer",
+      "github": "fanquake",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Hennadii Stepanov",
+      "notes": "GUI, build system",
+      "github": "hebasto",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Ryan Ofsky",
+      "notes": "Multiprocess",
+      "github": "ryanofsky",
+      "grants": [
+        {
+          "sponsor_id": "chaincode",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Sjors Provoost",
+      "notes": "Wallet, Stratum v2",
+      "github": "Sjors",
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Antoine Poinsot",
+      "notes": "Miniscript",
+      "github": "darosior",
+      "grants": [
+        {
+          "sponsor_id": "chaincode",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Sebastian Falbesoner",
+      "notes": "Various contributions",
+      "github": "theStack",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Fabian Jahr",
+      "notes": "Coinstats, UTXO",
+      "github": "fjahr",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Jon Atack",
+      "notes": "Review, P2P",
+      "github": "jonatack",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Antoine Riard",
+      "notes": "Lightning, mempool",
+      "github": "ariard",
+      "grants": [
+        {
+          "sponsor_id": "chaincode",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Greg Sanders",
+      "notes": "Mempool, wallet",
+      "grants": [
+        {
+          "sponsor_id": "bitmex",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "spiral",
+          "start_date": null,
+          "end_date": null
+        }
+      ],
+      "github": "instagibbs"
+    },
+    {
+      "canonical_name": "Sebastian Kung",
+      "notes": "Build system, kernel",
+      "github": "thecharlatan",
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Carl Dong",
+      "notes": "Former build maintainer",
+      "github": "carldong",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "chaincode",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Luke Dashjr",
+      "notes": "LTS Grantee",
+      "github": "luke-jr",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Vasil Dimov",
+      "notes": "P2P focus",
+      "github": "vasild",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Matias Furszyfer",
+      "notes": "Wallet, Core engineer",
+      "github": "furszy",
+      "grants": [
+        {
+          "sponsor_id": "chaincode",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Martin Zumsande",
+      "notes": "P2P, testing",
+      "github": "mzumsande",
+      "grants": [
+        {
+          "sponsor_id": "chaincode",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Sergi Delgado Segura",
+      "notes": "P2P, package manager",
+      "github": "sr-gi",
+      "grants": [
+        {
+          "sponsor_id": "chaincode",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "spiral",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "2140",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Bruno Garcia",
+      "notes": "LTS Grantee",
+      "github": "brunoerg",
+      "grants": [
+        {
+          "sponsor_id": "vinteum",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "opensats",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Andrew Toth",
+      "notes": "LTS Grantee",
+      "github": "andrewtoth",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Brad Stachurski",
+      "notes": "LTS Grantee",
+      "github": "bstachur",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Anthony Towns",
+      "notes": "Consensus R&D",
+      "github": "ajtowns",
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Niklas G\u00f6gge",
+      "notes": "P2P and Fuzzing focus (Brink Grantee)",
+      "github": "dergoegge",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Stefan Hanreich",
+      "notes": "Testing and review (Brink Grantee)",
+      "github": "stickies-v",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "0xb10c",
+      "notes": "Network monitoring and data analysis (Brink Grantee)",
+      "github": "0xb10c",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Larry Ruane",
+      "notes": "Review and testing (Brink Grantee)",
+      "github": "LarryRuane",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Yuvraj Chiplunkar",
+      "notes": "Bitcoin Core contributor (Brink Grantee)",
+      "grants": [
+        {
+          "sponsor_id": "brink",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Josiah Baker",
+      "notes": "FROST and consensus R&D (Spiral Grantee)",
+      "github": "josibake",
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": null,
+          "end_date": null
+        },
+        {
+          "sponsor_id": "2140",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Daniela Brozzoni",
+      "notes": "Spiral Grantee",
+      "github": "danielabrozzoni",
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Mark Erhardt",
+      "notes": "Wallet logic and coin selection (Chaincode Labs Engineer)",
+      "github": "murchandamus",
+      "grants": [
+        {
+          "sponsor_id": "bitgo",
+          "start_date": "2017-04",
+          "end_date": "2020-08"
+        },
+        {
+          "sponsor_id": "chaincode",
+          "start_date": "2020-10",
+          "end_date": "2024-12"
+        },
+        {
+          "sponsor_id": "localhost_research",
+          "start_date": "2025-01",
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Will Clark",
+      "notes": "Bitcoin Core PM and contributor (OpenSats LTS Grantee)",
+      "github": "willcl-ark",
+      "grants": [
+        {
+          "sponsor_id": "opensats",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Brandon Odiwuor",
+      "notes": "Btrust Africa Grantee (2025)",
+      "github": "BrandonOdiwuor",
+      "grants": [
+        {
+          "sponsor_id": "btrust",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "ZmnSCPxj",
+      "notes": "Found via BitcoinWords (Square Crypto)",
+      "github": "ZmnSCPxj",
+      "grants": [
+        {
+          "sponsor_id": "spiral",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Jo\u00e3o Barbosa",
+      "notes": "Found via BitcoinWords",
+      "github": "promag",
+      "grants": [
+        {
+          "sponsor_id": "coinbase",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Amiti Uttarwar",
+      "notes": "Found via BitcoinWords",
+      "github": "amitiuttarwar",
+      "grants": [
+        {
+          "sponsor_id": "okcoin",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Ben Woosley",
+      "notes": "Found via BitcoinWords",
+      "github": "Empact",
+      "grants": [
+        {
+          "sponsor_id": "hardcore_fund",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Chris Belcher",
+      "notes": "Found via BitcoinWords (HRF, Square Crypto)",
+      "github": "chris-belcher",
+      "grants": [
+        {
+          "sponsor_id": "hrf",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Jeremy Rubin",
+      "notes": "Found via BitcoinWords",
+      "github": "JeremyRubin",
+      "grants": [
+        {
+          "sponsor_id": "bitmex",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Gleb Naumenko",
+      "notes": "Found via BitcoinWords",
+      "github": "naumenkogs",
+      "grants": [
+        {
+          "sponsor_id": "bitmex",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Jonas Schnelli",
+      "notes": "Found via BitcoinWords",
+      "github": "jonasschnelli",
+      "grants": [
+        {
+          "sponsor_id": "marathon",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Calvin Kim",
+      "notes": "Found via BitcoinWords",
+      "github": "kcalvinalvin",
+      "grants": [
+        {
+          "sponsor_id": "bitmex",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "rkrux",
+      "notes": "Maelstrom Grantee",
+      "github": "rkrux",
+      "grants": [
+        {
+          "sponsor_id": "maelstrom",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Ben Allen",
+      "notes": "Maelstrom Grantee",
+      "github": "benalleng",
+      "grants": [
+        {
+          "sponsor_id": "maelstrom",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "macgyver",
+      "notes": "Maelstrom Grantee",
+      "github": "macgyver13",
+      "grants": [
+        {
+          "sponsor_id": "maelstrom",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "stratospher",
+      "notes": "Maelstrom Grantee",
+      "github": "stratospher",
+      "grants": [
+        {
+          "sponsor_id": "maelstrom",
+          "start_date": null,
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "canonical_name": "Gregory Maxwell",
+      "notes": "Blockstream Co-founder / CTO",
+      "github": "gmaxwell",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": "2014-01",
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Mark Friedenbach",
+      "notes": "Blockstream Co-founder",
+      "github": "maaku",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": "2014-01",
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Jorge Tim\u00f3n",
+      "notes": "Blockstream Co-founder",
+      "github": "jtimon",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": "2014-01",
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Christian Decker",
+      "notes": "Core Tech Engineer",
+      "github": "cdecker",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Andrew Poelstra",
+      "notes": "Director of Research",
+      "github": "apoelstra",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Russell O'Connor",
+      "notes": "Researcher",
+      "github": "roconnor",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Lisa Neigut",
+      "notes": "Lightning Engineer",
+      "github": "niftynei",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Elichai Turkel",
+      "notes": "Cryptographer",
+      "github": "elichai",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Nadav Ivgi",
+      "notes": "Engineer",
+      "github": "shesek",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Warren Togami",
+      "notes": "VP Engineering",
+      "github": "wtogami",
+      "grants": [
+        {
+          "sponsor_id": "blockstream",
+          "start_date": null,
+          "end_date": "historical"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Gavin Andresen",
+      "notes": "Early Lead Maintainer",
+      "github": "gavinandresen",
+      "grants": [
+        {
+          "sponsor_id": "bitcoin_foundation",
+          "start_date": "2012-09",
+          "end_date": "2015-04"
+        },
+        {
+          "sponsor_id": "mit_dci",
+          "start_date": "2015-04",
+          "end_date": "2016-05"
+        }
+      ]
+    }
+  ],
+  "classification_rules": {
+    "_comment": "Fallback rules when developer is not in sponsored_developers list",
+    "corporate_domains": [
+      "chaincode.com",
+      "blockstream.com",
+      "blockstream.io",
+      "spiral.xyz",
+      "block.xyz",
+      "brink.dev",
+      "okcoin.com",
+      "gemini.com",
+      "kraken.com",
+      "coinbase.com",
+      "bitpay.com",
+      "bitgo.com",
+      "river.com"
+    ],
+    "academic_domains": [
+      "mit.edu",
+      "stanford.edu",
+      "berkeley.edu",
+      "cornell.edu"
+    ],
+    "personal_domains": [
+      "gmail.com",
+      "hotmail.com",
+      "yahoo.com",
+      "outlook.com",
+      "protonmail.com",
+      "proton.me",
+      "pm.me",
+      "me.com",
+      "icloud.com",
+      "aol.com",
+      "users.noreply.github.com",
+      "gmx.com",
+      "tutanota.com"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "project",
+  "name": "Zapstore",
+  "developers": [
+    "zapstore"
+  ],
+  "sponsors": [
+    "OpenSats"
+  ],
+  "eco_data": {
+    "layer": "Nostr & Social",
+    "description": "A Nostr-powered app store.",
+    "website": "",
+    "github": "",
+    "top_repos": [],
+    "aggregate_metrics": null,
+    "top_contributors": []
+  }
+}

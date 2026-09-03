@@ -1,0 +1,15 @@
+{
+  "type": "developer",
+  "name": "LNbits Contributors",
+  "github": "lnbits",
+  "notes": "",
+  "description": "A modular Lightning wallet account system with a plugin framework, used as the payments layer for shops, kiosks, hardware projects, and online services.",
+  "grants": [
+    {
+      "sponsor": "OpenSats",
+      "project": "LNbits",
+      "start_date": "2026-04",
+      "end_date": null
+    }
+  ]
+}

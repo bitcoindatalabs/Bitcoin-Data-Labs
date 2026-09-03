@@ -1,0 +1,15 @@
+{
+  "type": "developer",
+  "name": "LDK Developers",
+  "github": "lightningdevkit",
+  "notes": "",
+  "description": "A modular Lightning library stack that lets developers embed Lightning nodes into wallets and other applications.",
+  "grants": [
+    {
+      "sponsor": "OpenSats",
+      "project": "LDK",
+      "start_date": "2026-06",
+      "end_date": null
+    }
+  ]
+}

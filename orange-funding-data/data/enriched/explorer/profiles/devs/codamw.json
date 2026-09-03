@@ -1,0 +1,42 @@
+{
+  "type": "developer",
+  "name": "Yankho Ngolleka",
+  "github": "codaMW",
+  "notes": "",
+  "description": "Yankho is a Bitcoin developer and community builder based in Lilongwe, Malawi. His technical journey began at Btrust Builders, where he received the Top Student Award among an international cohort of Bitcoin developers.",
+  "grants": [
+    {
+      "sponsor": "Btrust",
+      "project": "Bitcoin Ecosystem",
+      "start_date": null,
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 0,
+    "layers_active": [
+      "Ecash / Privacy"
+    ],
+    "languages": {
+      "Rust": 23.5
+    },
+    "top_repos": [
+      {
+        "github_login": "codaMW",
+        "repo_name": "payjoin/rust-payjoin",
+        "push_events": 0,
+        "pr_events": 1,
+        "review_events": 0,
+        "issue_events": 7,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2026-04-12T06:39:19+00:00",
+        "last_activity": "2026-04-19T18:10:15+00:00",
+        "layer": "Ecash / Privacy",
+        "contribution_score": 23.5,
+        "display_metric": 1,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

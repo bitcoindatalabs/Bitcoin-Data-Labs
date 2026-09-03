@@ -1,0 +1,496 @@
+[
+  {
+    "name": "Michael Ford",
+    "github": "fanquake",
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "current",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "fanquake",
+      "website": "https://twitter.com/fanquake",
+      "nostr": null
+    },
+    "description": "Michael's funding supports his work as a maintainer as well as his work on the build system, security, and reducing the number of dependencies used in the codebase.",
+    "image_url": "https://brink.devassets/images/michael-ford.jpg"
+  },
+  {
+    "name": "Hennadii Stepanov",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "current",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "hhebasto",
+      "website": "https://twitter.com/hhebasto",
+      "nostr": null
+    },
+    "description": "Hennadii has been contributing code and review to Bitcoin Core since 2018. In that time he has become one of the most prolific contributors to the project. Hennadii\u2019s funding allows him to work full time on Bitcoin Core development and review.",
+    "image_url": "https://brink.devassets/images/hennadii-stepanov.jpg"
+  },
+  {
+    "name": "Sebastian Falbesoner",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "current",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "theStack",
+      "website": "https://twitter.com/theStack",
+      "nostr": null
+    },
+    "description": "Sebastian's funding supports his code review and testing, improving test coverage, extending the test framework, and improving the networking/P2P and wallet codebases. ",
+    "image_url": "https://brink.devassets/images/sebastian-falbesoner.jpg"
+  },
+  {
+    "name": "Niklas G\u00f6gge",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "current",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "dergoegge",
+      "website": "https://twitter.com/dergoegge",
+      "nostr": null
+    },
+    "description": "Niklas\u2019 funding supports his work on Bitcoin Core. His focus is on making Bitcoin Core's peer-to-peer code more robust through review, testing and fuzzing.",
+    "image_url": "https://brink.devassets/images/niklas-goegge.jpg"
+  },
+  {
+    "name": "St\u00e9phan Vuylsteke",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "current",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "stickies_v",
+      "website": "https://twitter.com/stickies_v",
+      "nostr": null
+    },
+    "description": "St\u00e9phan's grant enables him to continue his review and testing of changes to Bitcoin Core, contribute to Miniscript, and his educational efforts of new Bitcoin developers.",
+    "image_url": "https://brink.devassets/images/stephan-vuylsteke.jpg"
+  },
+  {
+    "name": "Fabian Jahr",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "current",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "fjahr",
+      "website": "https://twitter.com/fjahr",
+      "nostr": null
+    },
+    "description": "Fabian's grant supports his work on investigating innovations enabled by Schnorr signatures, dedicated in-depth code review of important Bitcoin Core initiatives, ASMap development, and alternative code hosting solutions.",
+    "image_url": "https://brink.devassets/images/fabian-jahr.jpg"
+  },
+  {
+    "name": "Eugene Siegel",
+    "github": "Crypt-iQ",
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "current",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "Crypt-iQ",
+      "website": null,
+      "nostr": null
+    },
+    "description": "Eugene's grant supports his security engineering work including fuzz testing, code review, and building out fuzzing infrastructure, with a focus on the P2P networking code.",
+    "image_url": "https://brink.devassets/images/eugene-siegel.jpg"
+  },
+  {
+    "name": "Marco De Leon",
+    "github": "marcofleon",
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "current",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "marcofleon",
+      "website": null,
+      "nostr": null
+    },
+    "description": "Marco\u2019s funding enables his continued work on fuzz testing the codebase to ensure the security and robustness of the Bitcoin network. Before becoming a grantee, Marco participated in Brink's year-long fellowship program.",
+    "image_url": "https://brink.devassets/images/marco-de-leon.png"
+  },
+  {
+    "name": "conduition",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "current",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "conduition_io",
+      "website": "https://x.com/conduition_io",
+      "nostr": null
+    },
+    "description": "Conduition's grant supports his post-quantum cryptography research for Bitcoin, including work on the SHRINCS hash-based signature protocol and draft BIP, commit/reveal rescue protocols for dormant UTXOs, and isogeny-based cryptography research and education.",
+    "image_url": "https://brink.devassets/images/conduition.jpg"
+  },
+  {
+    "name": "Martin Zumsande",
+    "github": "mzumsande",
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "current",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "mzumsande",
+      "website": null,
+      "nostr": null
+    },
+    "description": "Martin's grant supports his work on Bitcoin Core's peer-to-peer network, including improvements to address relay, initial block download and block validation, as well as review of larger, more complex proposals. Martin has been contributing to Bitcoin Core since 2019.",
+    "image_url": "https://brink.devassets/images/martin-zumsande.jpg"
+  },
+  {
+    "name": "Jesse Posner",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "alumni",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "jesseposner",
+      "website": "https://twitter.com/jesseposner",
+      "nostr": null
+    },
+    "description": "Jesse\u2019s funding supported his work on adaptor signatures and an implementation of the FROST threshold signature scheme. These technologies bring additional security, privacy and functionality to multisignature and second layer protocols.",
+    "image_url": "https://brink.devassets/images/jesse-posner.jpg"
+  },
+  {
+    "name": "Bruno Garcia",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "alumni",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "brrrunog",
+      "website": "https://twitter.com/brrrunog",
+      "nostr": null
+    },
+    "description": "Bruno's funding supported his review and testing Bitcoin Core PRs, extending and improving test coverage, and P2P/wallet work.",
+    "image_url": "https://brink.devassets/images/bruno-garcia.jpg"
+  },
+  {
+    "name": "0xB10C",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "alumni",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "0xB10C",
+      "website": "https://twitter.com/0xB10C",
+      "nostr": null
+    },
+    "description": "0xB10C's funding supported his Bitcoin network monitoring efforts, his work on Bitcoin Core development and review, his educational efforts maintaining bitcoin-dev.blog and his work on reorgs on Signet.",
+    "image_url": "https://brink.devassets/images/0xb10c.png"
+  },
+  {
+    "name": "John Newbery",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "alumni",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "jfnewbery",
+      "website": "https://twitter.com/jfnewbery",
+      "nostr": null
+    },
+    "description": "John has been contributing to Bitcoin Core since 2016. He co-founded <a href=\"https://bitcoinops.org/\" target=\"_blank\" rel=\"noopener\">Bitcoin Optech</a> in 2018 to help Bitcoin companies adopt scaling technologies. He helped organize the <a href=\"https://bitdevs.org/\" target=\"_blank\" rel=\"noopener\">bitdevs NYC meetups</a>, the <a href=\"https://residency.chaincode.com/\" target=\"_blank\" rel=\"noopener\">Chaincode Residency programs</a> and the <a href=\"https://bitcoincore.reviews/\" target=\"_blank\" rel=\"noopener\">weekly Bitcoin Core PR review club</a>. John co-founded Brink in 2020 to support Bitcoin protocol development and onboard future Bitcoin protocol developers and served on the board and as Executive Director.",
+    "image_url": "https://brink.devassets/images/john-newbery.jpg"
+  },
+  {
+    "name": "Carla Kirk-Cohen",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "alumni",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "actuallyCarlaKC",
+      "website": "https://twitter.com/actuallyCarlaKC",
+      "nostr": null
+    },
+    "description": "Carla is a software engineer at Chaincode Labs.  She was onboarded to full time work on Lightning at the <a href=\"https://residency.chaincode.com/\">Chaincode 2019 residency</a>, and has served on the Brink board with the goal of helping other developers find their way to Bitcoin.",
+    "image_url": "https://brink.devassets/images/carla-kirk-cohen.jpg"
+  },
+  {
+    "name": "Antonie Hodge",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "alumni",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "antoniehodge",
+      "website": "https://twitter.com/antoniehodge",
+      "nostr": null
+    },
+    "description": "Antonie Hodge has worked at the intersection of cryptocurrencies and nonprofits for over six years and brought a wealth of operational experience to the Brink executive team. She is the Operations Director at <a href=\"https://coincenter.org\">Coin Center</a>, the leading nonprofit focused on the policy issues facing cryptocurrencies. Antonie previously led our operations, finance, logistics and administration efforts.",
+    "image_url": "https://brink.devassets/images/antonie-hodge.jpg"
+  },
+  {
+    "name": "Jerry Brito",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "alumni",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "jerrybrito",
+      "website": "https://twitter.com/jerrybrito",
+      "nostr": null
+    },
+    "description": "Jerry is executive director of Coin Center, the leading non-profit research and advocacy group focused on the public policy issues facing cryptocurrency technologies. He has <a href=\"https://jerrybrito.com/testimony\">testified</a> several times before the U.S. Congress about cryptocurrencies, holds briefings for policy makers, and has presented to the CFTC, SEC, Treasury Department, State Department, the White House and elsewhere. His scholarly <a href=\"https://jerrybrito.com/research\">research</a> has been published in the Harvard Journal of Law & Public Policy and the Stanford Technology Law Review, and his <a href=\"https://jerrybrito.com/opeds\">articles</a> have appeared in the Wall Street Journal, the New York Times, and elsewhere.",
+    "image_url": "https://brink.devassets/images/jerry-brito.jpg"
+  },
+  {
+    "name": "Tadge Dryja",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "alumni",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "tdryja",
+      "website": "https://twitter.com/tdryja",
+      "nostr": null
+    },
+    "description": "Tadge is co-author of the Lightning Network whitepaper, developed Discreet Log Contracts on Bitcoin, and works with the MIT Digital Currency Initiative. His grant enabled him to continue his work on Utreexo and mentorship with junior Bitcoin developers.",
+    "image_url": "https://brink.devassets/images/tadge-dryja.jpg"
+  },
+  {
+    "name": "Alekos Filini",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "alumni",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "afilini",
+      "website": "https://twitter.com/afilini",
+      "nostr": null
+    },
+    "description": "Alekos\u2019 funding supported his work as maintainer of the Bitcoin Dev Kit. BDK is a lightweight and modular collection of tools for use by wallets and other Bitcoin applications.",
+    "image_url": "https://brink.devassets/images/alekos-filini.jpg"
+  },
+  {
+    "name": "Larry Ruane",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "alumni",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "larryruane",
+      "website": "https://twitter.com/larryruane",
+      "nostr": null
+    },
+    "description": "Larry's funding supported his work on reviewing and testing Bitcoin Core PRs focusing on correctness, thread-safety, code organization and maintainability, test coverage, logging for problem analysis, and related areas. ",
+    "image_url": "https://brink.devassets/images/larry-ruane.jpg"
+  },
+  {
+    "name": "Vincenzo Palazzo",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "alumni",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "palazzovincenzo",
+      "website": "https://twitter.com/palazzovincenzo",
+      "nostr": null
+    },
+    "description": "Vincenzo's funding supported his work adding new features to Core Lightning and reviewing others' pull requests, as well as his ongoing contributions to the Lightning specification.",
+    "image_url": "https://brink.devassets/images/vincenzo-palazzo.jpg"
+  },
+  {
+    "name": "Christian Decker",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "alumni",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "Snyke",
+      "website": "https://twitter.com/Snyke",
+      "nostr": null
+    },
+    "description": "Christian served on Brink's board as well as grant committee. He works at Blockstream, wrote the world's first dissertation on Bitcoin and focuses on improving the understanding of underlying consensus mechanisms while making Bitcoin scalable and his research has resulted in numerous publications. Christian brought with him Bitcoin and Lightning technical expertise and insight to both the board as well as the grant committee.",
+    "image_url": "https://brink.devassets/images/christian-decker.png"
+  },
+  {
+    "name": "Gloria Zhao",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "alumni",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "glozow",
+      "website": "https://twitter.com/glozow",
+      "nostr": null
+    },
+    "description": "Gloria was one of the maintainers of Bitcoin Core, primarily focused on mempool and P2P. As a Brink fellow and grantee, she worked on package relay (BIP331) and transaction relay policy changes to make pinning attacks more difficult. She also served on Brink's grant commitee while running the <a href=\"https://bitcoincore.reviews/\">Bitcoin Core PR Review Club</a> aimed at helping newcomers learn about the codebase and PR review process.",
+    "image_url": "https://brink.devassets/images/gloria-zhao.jpg"
+  },
+  {
+    "name": "Dave Harding",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "alumni",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "hrdng",
+      "website": "https://twitter.com/hrdng",
+      "nostr": null
+    },
+    "description": "Dave co-wrote the <a href=\"https://bitcoin.org\">Bitcoin.org</a> developer documentation in 2014 and 2015. He is the author of Mastering Bitcoin 3rd Edition and since 2018 he has been co-writing a <a href=\"https://bitcoinops.org/en/newsletters\">weekly newsletter</a> for Bitcoin Optech. He served Brink as a founding member of the board in 2020 and also served on Brink's grant committee.",
+    "image_url": "https://brink.devassets/images/dave-harding.png"
+  },
+  {
+    "name": "Dongjia Zhang",
+    "github": "tokatoka",
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "alumni",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "tokatoka",
+      "website": null,
+      "nostr": null
+    },
+    "description": "Dongjia Zhang is a Ph.D. researcher focusing on software security and fuzzing. He is the maintainer of LibAFL, a state-of-the-art fuzzing framework written in Rust. His internship under the mentorship of Niklas G\u00f6gge involved fuzz testing Bitcoin Core.",
+    "image_url": "https://brink.devassets/images/dongjia-zhang.jpg"
+  },
+  {
+    "name": "Stratos",
+    "github": null,
+    "github_type": "personal",
+    "sponsor": "brink",
+    "start_date": null,
+    "end_date": null,
+    "project_name": "Bitcoin Core",
+    "grant_type": "grantee",
+    "status": "alumni",
+    "source_url": "https://brink.dev",
+    "social": {
+      "x_handle": "5tratan",
+      "website": "https://x.com/5tratan",
+      "nostr": null
+    },
+    "description": "Stratos is a vulnerability researcher approaching Bitcoin Core security and fuzzing from a systems and protocol security perspective. His internship work under Niklas G\u00f6gge will focused on fuzz testing Bitcoin Core.",
+    "image_url": "https://brink.devassets/images/stratos.png"
+  }
+]

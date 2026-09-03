@@ -1,0 +1,19 @@
+{
+  "type": "project",
+  "name": "Applesauce",
+  "developers": [
+    "hzrd149"
+  ],
+  "sponsors": [
+    "OpenSats"
+  ],
+  "eco_data": {
+    "layer": "Nostr & Social",
+    "description": "A Nostr library and tools collection.",
+    "website": "",
+    "github": "",
+    "top_repos": [],
+    "aggregate_metrics": null,
+    "top_contributors": []
+  }
+}

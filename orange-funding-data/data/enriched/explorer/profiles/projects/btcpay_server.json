@@ -1,0 +1,140 @@
+{
+  "type": "project",
+  "name": "BTCPay Server",
+  "developers": [
+    "btcpayserver"
+  ],
+  "sponsors": [
+    "OpenSats"
+  ],
+  "eco_data": {
+    "layer": "Payments & Commerce",
+    "description": "A self-hosted, open-source Bitcoin payment processor.",
+    "website": "https://btcpayserver.org",
+    "github": "btcpayserver",
+    "top_repos": [
+      {
+        "repo_name": "btcpayserver/btcpayserver",
+        "description": "Accept Bitcoin payments. Free, open-source & self-hosted, Bitcoin payment processor. ",
+        "stars": 7711,
+        "forks": 2010,
+        "language": "C#",
+        "open_issues": 82,
+        "license": "MIT",
+        "archived": false,
+        "topics": [
+          "bitcoin",
+          "bitcoin-payment-gateway",
+          "bitcoin-payment-processor",
+          "crowdfunding",
+          "lightning-network",
+          "payment-gateway",
+          "point-of-sale",
+          "selfhosted"
+        ],
+        "code_contributors": 290,
+        "code_reviewers": 153,
+        "total_unique_contributors": 9943,
+        "bus_factor_tier": "healthy",
+        "review_culture_ratio": 0.53,
+        "first_activity": "2017-08-18T12:57:05+00:00",
+        "last_activity": "2026-07-30T03:35:54+00:00"
+      }
+    ],
+    "aggregate_metrics": {
+      "total_stars": 7711,
+      "total_forks": 2010,
+      "total_code_contributors": 290,
+      "total_code_reviewers": 153,
+      "total_unique_contributors": 9943,
+      "primary_language": "C#",
+      "languages": {
+        "C#": 1.0
+      },
+      "earliest_activity": "2017-08-18T12:57:05+00:00",
+      "latest_activity": "2026-07-30T03:35:54+00:00"
+    },
+    "top_contributors": [
+      {
+        "github_login": "NicolasDorier",
+        "contribution_score": 63173.0,
+        "display_metric": 2710,
+        "metric_label": "opened PRs",
+        "tenure_months": 138,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "Kukks",
+        "contribution_score": 26227.5,
+        "display_metric": 1221,
+        "metric_label": "opened PRs",
+        "tenure_months": 101,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "dennisreimann",
+        "contribution_score": 19411.0,
+        "display_metric": 974,
+        "metric_label": "opened PRs",
+        "tenure_months": 91,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "pavlenex",
+        "contribution_score": 10265.5,
+        "display_metric": 124,
+        "metric_label": "opened PRs",
+        "tenure_months": 90,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "rockstardev",
+        "contribution_score": 6265.0,
+        "display_metric": 276,
+        "metric_label": "opened PRs",
+        "tenure_months": 98,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "bolatovumar",
+        "contribution_score": 5044.0,
+        "display_metric": 204,
+        "metric_label": "opened PRs",
+        "tenure_months": 62,
+        "is_active_last_12m": false
+      },
+      {
+        "github_login": "dstrukt",
+        "contribution_score": 5018.5,
+        "display_metric": 68,
+        "metric_label": "opened PRs",
+        "tenure_months": 82,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "woutersamaey",
+        "contribution_score": 1835.0,
+        "display_metric": 50,
+        "metric_label": "opened PRs",
+        "tenure_months": 80,
+        "is_active_last_12m": false
+      },
+      {
+        "github_login": "britttttk",
+        "contribution_score": 1084.0,
+        "display_metric": 28,
+        "metric_label": "opened PRs",
+        "tenure_months": 46,
+        "is_active_last_12m": false
+      },
+      {
+        "github_login": "Eskyee",
+        "contribution_score": 1083.0,
+        "display_metric": 20,
+        "metric_label": "opened PRs",
+        "tenure_months": 54,
+        "is_active_last_12m": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "type": "developer",
+  "name": "Okjodom",
+  "github": "okjodom",
+  "notes": "",
+  "description": "",
+  "grants": [
+    {
+      "sponsor": "Spiral (Block/Square)",
+      "project": "Bitcoin Ecosystem",
+      "start_date": "Feb 2023",
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 21,
+    "layers_active": [
+      "Lightning Network",
+      "Ecash / Privacy",
+      "Core & Protocol"
+    ],
+    "languages": {
+      "TypeScript": 5.5,
+      "Rust": 7902.5,
+      "Python": 36.5,
+      "Wikitext": 10.5,
+      "C": 15.5
+    },
+    "top_repos": [
+      {
+        "github_login": "okjodom",
+        "repo_name": "fedimint/fedimint",
+        "push_events": 47,
+        "pr_events": 229,
+        "review_events": 1078,
+        "issue_events": 405,
+        "star_events": 1,
+        "fork_events": 0,
+        "first_activity": "2022-08-12T20:56:07+00:00",
+        "last_activity": "2024-05-08T14:47:22+00:00",
+        "layer": "Ecash / Privacy",
+        "contribution_score": 6934.5,
+        "display_metric": 229,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "okjodom",
+        "repo_name": "bitcoin-dev-project/sim-ln",
+        "push_events": 7,
+        "pr_events": 28,
+        "review_events": 160,
+        "issue_events": 49,
+        "star_events": 1,
+        "fork_events": 1,
+        "first_activity": "2023-08-14T10:47:45+00:00",
+        "last_activity": "2024-02-09T06:39:38+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 968.0,
+        "display_metric": 28,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "okjodom",
+        "repo_name": "bitcoin-dev-project/warnet",
+        "push_events": 0,
+        "pr_events": 3,
+        "review_events": 4,
+        "issue_events": 0,
+        "star_events": 1,
+        "fork_events": 1,
+        "first_activity": "2023-08-17T14:46:42+00:00",
+        "last_activity": "2023-08-24T17:01:04+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 36.5,
+        "display_metric": 3,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "okjodom",
+        "repo_name": "ElementsProject/lightning",
+        "push_events": 0,
+        "pr_events": 1,
+        "review_events": 2,
+        "issue_events": 0,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2022-09-28T23:48:10+00:00",
+        "last_activity": "2023-07-14T17:02:44+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 15.5,
+        "display_metric": 1,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "okjodom",
+        "repo_name": "bitcoin/bips",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 2,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2022-12-06T16:50:35+00:00",
+        "last_activity": "2022-12-11T07:44:31+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 10.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "okjodom",
+        "repo_name": "jamaljsr/polar",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 2,
+        "first_activity": "2023-04-05T13:53:10+00:00",
+        "last_activity": "2024-01-23T15:42:34+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 5.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

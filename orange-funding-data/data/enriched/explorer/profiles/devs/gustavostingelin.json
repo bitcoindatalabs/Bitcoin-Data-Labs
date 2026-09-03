@@ -1,0 +1,143 @@
+{
+  "type": "developer",
+  "name": "Gustavo Stingelin",
+  "github": "GustavoStingelin",
+  "notes": "",
+  "description": null,
+  "grants": [
+    {
+      "sponsor": "Vinteum",
+      "project": "Lightning Labs",
+      "start_date": null,
+      "end_date": "past"
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 20,
+    "layers_active": [
+      "Ecosystem Tooling",
+      "Core & Protocol",
+      "Lightning Network"
+    ],
+    "languages": {
+      "Python": 6.0,
+      "Go": 2759.0,
+      "Rust": 8.0,
+      "C++": 5.0
+    },
+    "top_repos": [
+      {
+        "github_login": "GustavoStingelin",
+        "repo_name": "btcsuite/btcwallet",
+        "push_events": 39,
+        "pr_events": 15,
+        "review_events": 453,
+        "issue_events": 46,
+        "star_events": 1,
+        "fork_events": 1,
+        "first_activity": "2025-03-18T02:03:58+00:00",
+        "last_activity": "2026-07-29T18:04:18+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 2214.5,
+        "display_metric": 15,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "GustavoStingelin",
+        "repo_name": "lightningnetwork/lnd",
+        "push_events": 0,
+        "pr_events": 2,
+        "review_events": 104,
+        "issue_events": 20,
+        "star_events": 1,
+        "fork_events": 1,
+        "first_activity": "2024-11-25T04:00:18+00:00",
+        "last_activity": "2026-05-22T19:37:42+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 480.5,
+        "display_metric": 2,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "GustavoStingelin",
+        "repo_name": "btcsuite/btcd",
+        "push_events": 0,
+        "pr_events": 1,
+        "review_events": 12,
+        "issue_events": 4,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2025-06-09T20:33:20+00:00",
+        "last_activity": "2026-03-25T19:12:12+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 64.0,
+        "display_metric": 1,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "GustavoStingelin",
+        "repo_name": "rust-bitcoin/rust-bitcoin",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 2,
+        "issue_events": 0,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2025-05-16T15:00:08+00:00",
+        "last_activity": "2025-05-16T15:00:12+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 8.0,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "GustavoStingelin",
+        "repo_name": "selfcustody/krux",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 2,
+        "star_events": 1,
+        "fork_events": 0,
+        "first_activity": "2025-06-24T22:12:27+00:00",
+        "last_activity": "2025-07-11T19:51:53+00:00",
+        "layer": "Ecosystem Tooling",
+        "contribution_score": 6.0,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "GustavoStingelin",
+        "repo_name": "Blockstream/gdk",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2025-01-07T23:27:11+00:00",
+        "last_activity": "2025-01-07T23:27:11+00:00",
+        "layer": "Ecosystem Tooling",
+        "contribution_score": 2.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "GustavoStingelin",
+        "repo_name": "sipa/bitcoin-seeder",
+        "push_events": 0,
+        "pr_events": 0,
+        "review_events": 0,
+        "issue_events": 1,
+        "star_events": 0,
+        "fork_events": 0,
+        "first_activity": "2025-06-01T01:01:02+00:00",
+        "last_activity": "2025-06-01T01:01:02+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 2.5,
+        "display_metric": 0,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

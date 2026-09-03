@@ -1,0 +1,137 @@
+{
+  "type": "project",
+  "name": "LNbits",
+  "developers": [
+    "lnbits"
+  ],
+  "sponsors": [
+    "OpenSats"
+  ],
+  "eco_data": {
+    "layer": "Payments & Commerce",
+    "description": "A free and open-source Lightning Network wallet and accounts system.",
+    "website": "https://lnbits.com",
+    "github": "lnbits",
+    "top_repos": [
+      {
+        "repo_name": "lnbits/lnbits",
+        "description": "LNbits, free and open-source Lightning wallet and accounts system.",
+        "stars": 1231,
+        "forks": 421,
+        "language": "Python",
+        "open_issues": 76,
+        "license": "MIT",
+        "archived": false,
+        "topics": [
+          "bitcoin",
+          "lightning-network",
+          "lightning-network-wallet",
+          "lnurl",
+          "lnurl-atm"
+        ],
+        "code_contributors": 134,
+        "code_reviewers": 54,
+        "total_unique_contributors": 1445,
+        "bus_factor_tier": "healthy",
+        "review_culture_ratio": 0.4,
+        "first_activity": "2020-04-27T17:02:00+00:00",
+        "last_activity": "2026-07-30T19:45:05+00:00"
+      }
+    ],
+    "aggregate_metrics": {
+      "total_stars": 1231,
+      "total_forks": 421,
+      "total_code_contributors": 134,
+      "total_code_reviewers": 54,
+      "total_unique_contributors": 1445,
+      "primary_language": "Python",
+      "languages": {
+        "Python": 1.0
+      },
+      "earliest_activity": "2020-04-27T17:02:00+00:00",
+      "latest_activity": "2026-07-30T19:45:05+00:00"
+    },
+    "top_contributors": [
+      {
+        "github_login": "dni",
+        "contribution_score": 28827.0,
+        "display_metric": 1047,
+        "metric_label": "opened PRs",
+        "tenure_months": 76,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "motorina0",
+        "contribution_score": 25221.5,
+        "display_metric": 556,
+        "metric_label": "opened PRs",
+        "tenure_months": 75,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "arcbtc",
+        "contribution_score": 16055.5,
+        "display_metric": 708,
+        "metric_label": "opened PRs",
+        "tenure_months": 84,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "callebtc",
+        "contribution_score": 7759.5,
+        "display_metric": 419,
+        "metric_label": "opened PRs",
+        "tenure_months": 56,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "prusnak",
+        "contribution_score": 5501.0,
+        "display_metric": 198,
+        "metric_label": "opened PRs",
+        "tenure_months": 138,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "talvasconcelos",
+        "contribution_score": 4519.0,
+        "display_metric": 158,
+        "metric_label": "opened PRs",
+        "tenure_months": 75,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "fiatjaf",
+        "contribution_score": 2581.5,
+        "display_metric": 84,
+        "metric_label": "opened PRs",
+        "tenure_months": 95,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "jackstar12",
+        "contribution_score": 1641.5,
+        "display_metric": 49,
+        "metric_label": "opened PRs",
+        "tenure_months": 40,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "bitkarrot",
+        "contribution_score": 805.5,
+        "display_metric": 22,
+        "metric_label": "opened PRs",
+        "tenure_months": 60,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "arbadacarbaYK",
+        "contribution_score": 512.5,
+        "display_metric": 38,
+        "metric_label": "opened PRs",
+        "tenure_months": 40,
+        "is_active_last_12m": true
+      }
+    ]
+  }
+}

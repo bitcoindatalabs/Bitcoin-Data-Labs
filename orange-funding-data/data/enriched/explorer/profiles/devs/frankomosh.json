@@ -1,0 +1,93 @@
+{
+  "type": "developer",
+  "name": "Frankline Omondi",
+  "github": "frankomosh",
+  "notes": "",
+  "description": "Frankline is a software engineer based in Kenya with experience in systems programming and open\u2011source infrastructure development. Frankline has contributed to Bitcoin Core\u2019s fuzz testing infrastructure and QA assets, helping improve coverage and detect potential bugs earlier in the development process.",
+  "grants": [
+    {
+      "sponsor": "Btrust",
+      "project": "Bitcoin Ecosystem",
+      "start_date": null,
+      "end_date": null
+    }
+  ],
+  "eco_data": {
+    "tenure_months": 14,
+    "layers_active": [
+      "Core & Protocol",
+      "Lightning Network",
+      "Mining Infrastructure"
+    ],
+    "languages": {
+      "C++": 336.0,
+      "Rust": 292.0
+    },
+    "top_repos": [
+      {
+        "github_login": "frankomosh",
+        "repo_name": "bitcoin/bitcoin",
+        "push_events": 0,
+        "pr_events": 5,
+        "review_events": 68,
+        "issue_events": 13,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2025-03-23T12:29:35+00:00",
+        "last_activity": "2026-05-24T06:53:51+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 336.0,
+        "display_metric": 11,
+        "metric_label": "commits"
+      },
+      {
+        "github_login": "frankomosh",
+        "repo_name": "rust-bitcoin/rust-bitcoin",
+        "push_events": 0,
+        "pr_events": 5,
+        "review_events": 33,
+        "issue_events": 7,
+        "star_events": 1,
+        "fork_events": 1,
+        "first_activity": "2025-05-07T06:06:06+00:00",
+        "last_activity": "2025-07-01T19:03:01+00:00",
+        "layer": "Core & Protocol",
+        "contribution_score": 182.0,
+        "display_metric": 5,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "frankomosh",
+        "repo_name": "rust-nostr/nostr",
+        "push_events": 0,
+        "pr_events": 2,
+        "review_events": 7,
+        "issue_events": 9,
+        "star_events": 0,
+        "fork_events": 1,
+        "first_activity": "2025-06-07T15:06:07+00:00",
+        "last_activity": "2025-07-03T06:56:56+00:00",
+        "layer": "Lightning Network",
+        "contribution_score": 64.0,
+        "display_metric": 2,
+        "metric_label": "opened PRs"
+      },
+      {
+        "github_login": "frankomosh",
+        "repo_name": "stratum-mining/stratum",
+        "push_events": 0,
+        "pr_events": 1,
+        "review_events": 8,
+        "issue_events": 2,
+        "star_events": 0,
+        "fork_events": 2,
+        "first_activity": "2025-03-22T14:54:41+00:00",
+        "last_activity": "2025-05-21T06:53:35+00:00",
+        "layer": "Mining Infrastructure",
+        "contribution_score": 46.0,
+        "display_metric": 1,
+        "metric_label": "opened PRs"
+      }
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "type": "project",
+  "name": "Lightning Network",
+  "developers": [
+    "niftynei"
+  ],
+  "sponsors": [
+    "Blockstream"
+  ],
+  "eco_data": {
+    "layer": "Lightning Network",
+    "description": "General grants for Lightning Network protocol development.",
+    "website": "",
+    "github": "",
+    "top_repos": [
+      {
+        "repo_name": "lightningnetwork/lnd",
+        "description": "Lightning Network Daemon \u26a1\ufe0f",
+        "stars": 8181,
+        "forks": 2279,
+        "language": "Go",
+        "open_issues": 851,
+        "license": "MIT",
+        "archived": false,
+        "topics": [
+          "bitcoin",
+          "blockchain",
+          "cryptocurrency",
+          "cryptography",
+          "lightning",
+          "lightning-network",
+          "micropayments",
+          "payments",
+          "peer-to-peer",
+          "protocol"
+        ],
+        "code_contributors": 577,
+        "code_reviewers": 329,
+        "total_unique_contributors": 11373,
+        "bus_factor_tier": "healthy",
+        "review_culture_ratio": 0.57,
+        "first_activity": "2016-07-26T00:54:18+00:00",
+        "last_activity": "2026-07-31T00:19:35+00:00"
+      },
+      {
+        "repo_name": "ElementsProject/lightning",
+        "description": "Core Lightning \u2014 Lightning Network implementation focusing on spec compliance and performance",
+        "stars": 3087,
+        "forks": 1012,
+        "language": "C",
+        "open_issues": 367,
+        "license": "NOASSERTION",
+        "archived": false,
+        "topics": [
+          "bitcoin",
+          "lightning",
+          "lightning-network",
+          "p2p"
+        ],
+        "code_contributors": 342,
+        "code_reviewers": 188,
+        "total_unique_contributors": 4679,
+        "bus_factor_tier": "healthy",
+        "review_culture_ratio": 0.55,
+        "first_activity": "2015-06-13T02:27:34+00:00",
+        "last_activity": "2026-07-21T20:48:07+00:00"
+      },
+      {
+        "repo_name": "lightningdevkit/rust-lightning",
+        "description": "Active development happens on git.rust-bitcoin.org, this repo is a mirror of https://git.rust-bitcoin.org/lightningdevkit/rust-lightning",
+        "stars": 1369,
+        "forks": 478,
+        "language": "Rust",
+        "open_issues": 275,
+        "license": "NOASSERTION",
+        "archived": false,
+        "topics": [
+          "bitcoin",
+          "lightning-network"
+        ],
+        "code_contributors": 142,
+        "code_reviewers": 132,
+        "total_unique_contributors": 1176,
+        "bus_factor_tier": "healthy",
+        "review_culture_ratio": 0.93,
+        "first_activity": "2021-10-12T04:50:10+00:00",
+        "last_activity": "2026-07-30T21:58:10+00:00"
+      },
+      {
+        "repo_name": "ACINQ/eclair",
+        "description": "A scala implementation of the Lightning Network.",
+        "stars": 1343,
+        "forks": 283,
+        "language": "Scala",
+        "open_issues": 44,
+        "license": "Apache-2.0",
+        "archived": false,
+        "topics": [
+          "bitcoin",
+          "blockchain",
+          "cryptocurrency",
+          "eclair",
+          "lightning",
+          "lightning-network",
+          "payments"
+        ],
+        "code_contributors": 67,
+        "code_reviewers": 38,
+        "total_unique_contributors": 1920,
+        "bus_factor_tier": "healthy",
+        "review_culture_ratio": 0.57,
+        "first_activity": "2016-01-22T09:33:54+00:00",
+        "last_activity": "2026-07-29T12:56:10+00:00"
+      }
+    ],
+    "aggregate_metrics": {
+      "total_stars": 13980,
+      "total_forks": 4052,
+      "total_code_contributors": 1128,
+      "total_code_reviewers": 687,
+      "total_unique_contributors": 19148,
+      "primary_language": "Go",
+      "languages": {
+        "Go": 0.59,
+        "C": 0.22,
+        "Rust": 0.1,
+        "Scala": 0.1
+      },
+      "earliest_activity": "2015-06-13T02:27:34+00:00",
+      "latest_activity": "2026-07-31T00:19:35+00:00"
+    },
+    "top_contributors": [
+      {
+        "github_login": "Roasbeef",
+        "contribution_score": 86895.0,
+        "display_metric": 2787,
+        "metric_label": "opened PRs",
+        "tenure_months": 138,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "rustyrussell",
+        "contribution_score": 63453.0,
+        "display_metric": 3970,
+        "metric_label": "opened PRs",
+        "tenure_months": 134,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "guggero",
+        "contribution_score": 49502.5,
+        "display_metric": 1490,
+        "metric_label": "opened PRs",
+        "tenure_months": 104,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "cdecker",
+        "contribution_score": 47213.5,
+        "display_metric": 2074,
+        "metric_label": "opened PRs",
+        "tenure_months": 135,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "t-bast",
+        "contribution_score": 45351.5,
+        "display_metric": 1235,
+        "metric_label": "opened PRs",
+        "tenure_months": 87,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "pm47",
+        "contribution_score": 43922.5,
+        "display_metric": 1289,
+        "metric_label": "opened PRs",
+        "tenure_months": 131,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "yyforyongyu",
+        "contribution_score": 37382.0,
+        "display_metric": 449,
+        "metric_label": "opened PRs",
+        "tenure_months": 82,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "joostjager",
+        "contribution_score": 35305.5,
+        "display_metric": 505,
+        "metric_label": "opened PRs",
+        "tenure_months": 97,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "jkczyz",
+        "contribution_score": 32732.0,
+        "display_metric": 193,
+        "metric_label": "opened PRs",
+        "tenure_months": 104,
+        "is_active_last_12m": true
+      },
+      {
+        "github_login": "halseth",
+        "contribution_score": 28661.5,
+        "display_metric": 617,
+        "metric_label": "opened PRs",
+        "tenure_months": 100,
+        "is_active_last_12m": false
+      }
+    ]
+  }
+}

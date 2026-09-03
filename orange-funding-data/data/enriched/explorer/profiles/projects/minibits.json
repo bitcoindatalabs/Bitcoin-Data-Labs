@@ -1,0 +1,38 @@
+{
+  "type": "project",
+  "name": "Minibits",
+  "developers": [
+    "minibits-cash"
+  ],
+  "sponsors": [
+    "OpenSats"
+  ],
+  "eco_data": {
+    "layer": "Ecash & Privacy",
+    "description": "A mobile Cashu ecash wallet for everyday Bitcoin payments.",
+    "website": "https://www.minibits.cash",
+    "github": "minibits-cash",
+    "top_repos": [
+      {
+        "repo_name": "minibits-cash/minibits_wallet",
+        "description": "",
+        "stars": 0,
+        "forks": 0,
+        "language": "",
+        "open_issues": 0,
+        "license": "",
+        "archived": false,
+        "topics": [],
+        "code_contributors": 0,
+        "code_reviewers": 0,
+        "total_unique_contributors": 0,
+        "bus_factor_tier": "",
+        "review_culture_ratio": 0,
+        "first_activity": "",
+        "last_activity": ""
+      }
+    ],
+    "aggregate_metrics": null,
+    "top_contributors": []
+  }
+}

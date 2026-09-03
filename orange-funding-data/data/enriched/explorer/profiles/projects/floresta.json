@@ -1,0 +1,43 @@
+{
+  "type": "project",
+  "name": "Floresta",
+  "developers": [
+    "csgui",
+    "getfloresta",
+    "moisesPompilio",
+    "Davidson-Souza",
+    "jaoleal"
+  ],
+  "sponsors": [
+    "Vinteum",
+    "OpenSats"
+  ],
+  "eco_data": {
+    "layer": "Core & Protocol",
+    "description": "A lightweight Bitcoin node implementation with utreexo support.",
+    "website": "https://github.com/vinteumorg/Floresta",
+    "github": "vinteumorg",
+    "top_repos": [
+      {
+        "repo_name": "vinteumorg/Floresta",
+        "description": "",
+        "stars": 0,
+        "forks": 0,
+        "language": "",
+        "open_issues": 0,
+        "license": "",
+        "archived": false,
+        "topics": [],
+        "code_contributors": 0,
+        "code_reviewers": 0,
+        "total_unique_contributors": 0,
+        "bus_factor_tier": "",
+        "review_culture_ratio": 0,
+        "first_activity": "",
+        "last_activity": ""
+      }
+    ],
+    "aggregate_metrics": null,
+    "top_contributors": []
+  }
+}

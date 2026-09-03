@@ -1,0 +1,15 @@
+{
+  "type": "developer",
+  "name": "Bitcoin Core Graphical User Interface",
+  "github": "goqusan",
+  "notes": "",
+  "description": null,
+  "grants": [
+    {
+      "sponsor": "Human Rights Foundation",
+      "project": "Bitcoin Ecosystem",
+      "start_date": null,
+      "end_date": null
+    }
+  ]
+}

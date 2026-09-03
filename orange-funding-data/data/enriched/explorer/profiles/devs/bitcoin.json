@@ -1,0 +1,21 @@
+{
+  "type": "developer",
+  "name": "Bitcoin Core Developers",
+  "github": "bitcoin",
+  "notes": "",
+  "description": "The full node software that validates the chain, relays transactions, and enforces Bitcoin\u2019s rules.",
+  "grants": [
+    {
+      "sponsor": "OpenSats",
+      "project": "Bitcoin Core",
+      "start_date": "2023-03",
+      "end_date": null
+    },
+    {
+      "sponsor": "Human Rights Foundation",
+      "project": "Bitcoin Core",
+      "start_date": null,
+      "end_date": null
+    }
+  ]
+}

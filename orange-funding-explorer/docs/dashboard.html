@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funding Explorer | Bitcoin Data Labs</title>
+    <meta name="description" content="Explore and analyze funding data across the Bitcoin ecosystem.">
+
+    <!-- Bitcoin Data Labs Font & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Bitcoin Data Labs Shell Styles -->
+    <link rel="stylesheet" href="https://bitcoindatalabs.org/styles/styles.css">
+
+    <!-- Local Styles -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://bitcoindatalabs.org/favicon.png">
+    <!-- ECharts -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+</head>
+<body class="has-fixed-header">
+    <div id="main-container">
+        <div id="header"></div>
+
+        <div id="app-content" class="container">
+            <div class="hero-section" style="text-align: center; padding: 24px 0 20px 0;">
+
+                <!-- KPI Cards -->
+                <div style="display: flex; justify-content: center; gap: 24px; flex-wrap: wrap; margin-bottom: 40px;">
+                    <div class="card" style="padding: 24px; min-width: 200px; text-align: center; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+                        <div style="font-size: 3rem; font-weight: 800; color: var(--primary);" id="kpi-funders">--</div>
+                        <div style="color: var(--text-secondary); font-size: 1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">Active Funders</div>
+                    </div>
+                    <div class="card" style="padding: 24px; min-width: 200px; text-align: center; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+                        <div style="font-size: 3rem; font-weight: 800; color: var(--primary);" id="kpi-devs">--</div>
+                        <div style="color: var(--text-secondary); font-size: 1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">Developers Funded</div>
+                    </div>
+                    <div class="card" style="padding: 24px; min-width: 200px; text-align: center; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+                        <div style="font-size: 3rem; font-weight: 800; color: var(--primary);" id="kpi-projects">--</div>
+                        <div style="color: var(--text-secondary); font-size: 1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">Projects Funded</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Dashboard Layout -->
+            <div class="dashboard-grid" style="display: flex; flex-direction: column; gap: 24px; margin-bottom: 40px;">
+                
+                <!-- Top Row: Focus & Top Sponsors -->
+                <div style="display: flex; gap: 24px; flex-wrap: wrap;">
+                    <div class="card" style="flex: 1; min-width: 300px; padding: 24px;">
+                        <div class="chart-header">
+                            <h3 style="margin-top: 0;">Ecosystem Focus</h3>
+                            <p style="color: var(--text-secondary); margin-bottom: 0;">Grants by Layer.</p>
+                        </div>
+                        <div id="chart-aggregate" style="height: 450px; width: 100%;"></div>
+                    </div>
+
+                    <div class="card" style="flex: 1; min-width: 300px; padding: 24px;">
+                        <div class="chart-header">
+                            <h3 style="margin-top: 0;">Top Active Sponsors</h3>
+                            <p style="color: var(--text-secondary); margin-bottom: 0;">Number of active developers supported by each funder.</p>
+                        </div>
+                        <div id="chart-funder-stats" style="height: 450px; width: 100%;"></div>
+                    </div>
+                </div>
+
+                <!-- Middle Row: Mega Sponsors -->
+                <div class="card" style="padding: 24px;">
+                    <div class="chart-header">
+                        <h3 style="margin-top: 0;">Strategic Deep Dive</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 0;">100% allocation breakdown for top funding entities.</p>
+                    </div>
+                    <div id="chart-mega-radar" style="height: 400px; width: 100%;"></div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div id="footer"></div>
+    </div>
+
+    <!-- Bitcoin Data Labs App Components -->
+    <script src="https://bitcoindatalabs.org/components/app-components.js"></script>
+    <script src="js/app-config.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

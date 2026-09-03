@@ -1,0 +1,15 @@
+{
+  "type": "developer",
+  "name": "Praveen Perera",
+  "github": "bitcoinppl",
+  "notes": "",
+  "description": "A Bitcoin-only mobile wallet built on BDK with strong hardware wallet support.",
+  "grants": [
+    {
+      "sponsor": "OpenSats",
+      "project": "Cove",
+      "start_date": "2024-07",
+      "end_date": null
+    }
+  ]
+}
