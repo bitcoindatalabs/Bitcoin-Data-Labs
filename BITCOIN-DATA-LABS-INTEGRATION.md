@@ -105,4 +105,4 @@ If migrating from `include.js` or `BitcoinLabsComponents`:
 5.  **CNAME note**: The repository root `CNAME` file should contain `bitcoindatalabs.org`. This is correct and ensures the custom domain is served by GitHub Pages.
 
 ## 🆘 Support
-Report issues or propose branding updates in the [Bitcoin-Data-Labs repository](https://github.com/sorukumar/Bitcoin-Data-Labs).
+Report issues or propose branding updates in the [Bitcoin-Data-Labs repository](https://github.com/bitcoindatalabs/Bitcoin-Data-Labs).
