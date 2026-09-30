@@ -5,6 +5,72 @@
 ==========================================================================
 */
 
+/* ═══════════════════════════════════════════════
+   SCROLL-REVEAL ANIMATION SYSTEM
+   Classy, subtle. Nothing over 0.5s.
+═══════════════════════════════════════════════ */
+
+/* Base state: hidden, shifted down */
+.reveal {
+    opacity: 0;
+    transform: translateY(22px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Triggered state: visible */
+.reveal.revealed,
+.pillar-card.revealed {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Pillar cards: start hidden, stagger via JS */
+.pillar-card {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.45s ease, transform 0.45s ease,
+                border-color 0.18s ease, background 0.18s ease;
+}
+
+/* Pillar accent bar: expand from left on reveal */
+.pillar-card.revealed .pillar-accent-bar {
+    animation: accentExpand 0.4s ease 0.15s both;
+}
+
+@keyframes accentExpand {
+    from { width: 0; opacity: 0; }
+    to   { width: 28px; opacity: 1; }
+}
+
+/* Showcase cards: lift + deepen shadow on hover */
+.showcase-card {
+    transition: border-color 0.2s ease,
+                transform 0.25s ease,
+                box-shadow 0.25s ease;
+}
+
+.showcase-card:hover {
+    border-color: var(--primary);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(42, 51, 66, 0.1);
+}
+
+[data-theme="dark"] .showcase-card:hover {
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+    .reveal,
+    .pillar-card,
+    .showcase-card {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+        animation: none !important;
+    }
+}
+
 /* Main Site Layout (Scoped to avoid conflicts with apps) */
 .bdl-container {
     position: relative;
@@ -74,10 +140,30 @@
     color: #fff;
     margin: 0 0 1.5rem 0;
     letter-spacing: -0.02em;
-    line-height: 1.1;
+    line-height: 1.15;
+    min-height: 3.6rem; /* Reserve space so layout doesn't jump between slides */
+    position: relative;
 }
 
-.hero-headline span {
+/* Rotating tagline slides */
+.tagline-slide {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.7s ease;
+    pointer-events: none;
+}
+
+.tagline-slide.active {
+    opacity: 1;
+    position: relative;
+    pointer-events: auto;
+}
+
+.tagline-sub-accent {
     color: var(--primary);
 }
 
@@ -85,9 +171,60 @@
     font-size: 1.05rem;
     line-height: 1.8;
     color: rgba(255, 255, 255, 0.65);
-    max-width: 480px;
-    margin: 0;
+    max-width: 520px;
+    margin: 0 0 2.25rem 0;
     padding: 0;
+}
+
+/* ═══ Hero Stat Bar ═══ */
+.hero-stats {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin-top: 0;
+    flex-wrap: wrap;
+    gap: 0.5rem 0;
+}
+
+.hero-stat {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+.hero-stat-num {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -0.01em;
+    line-height: 1;
+}
+
+.hero-stat-label {
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.hero-stat-divider {
+    width: 1px;
+    height: 32px;
+    background: rgba(255, 255, 255, 0.15);
+    margin: 0 1.5rem;
+    flex-shrink: 0;
+}
+
+@media (max-width: 480px) {
+    .hero-stat-divider {
+        display: none;
+    }
+    .hero-stats {
+        gap: 1.25rem 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 /* Legacy BDL styles - scoped or removed */
@@ -421,16 +558,12 @@
     border-radius: 4px;
     overflow: hidden;
     background: var(--bg-primary);
-    transition: border-color 0.2s ease;
     display: flex;
     flex-direction: column;
     text-decoration: none;
     color: inherit;
     cursor: pointer;
-}
-
-.showcase-card:hover {
-    border-color: var(--primary);
+    /* transition & hover defined in the animation system block above */
 }
 
 .showcase-img {
@@ -577,6 +710,142 @@
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+}
+
+/* ═══════════════════════════════════════════════
+   IMPACT SECTION — Numbers Grid + All Projects
+═══════════════════════════════════════════════ */
+.impact-section.section {
+    margin-bottom: 4rem;
+}
+
+.impact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    border: 1px solid rgba(42, 51, 66, 0.12);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 2.5rem;
+}
+
+.impact-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 2.25rem;
+    border-right: 1px solid rgba(42, 51, 66, 0.1);
+    border-bottom: 1px solid rgba(42, 51, 66, 0.1);
+    background: var(--bg-primary);
+    transition: background 0.18s ease;
+}
+
+.impact-stat:hover {
+    background: var(--bg-secondary);
+}
+
+/* Remove right border on last of each row */
+.impact-stat:nth-child(3n) {
+    border-right: none;
+}
+
+/* Remove bottom border on last row */
+.impact-stat:nth-last-child(-n+3) {
+    border-bottom: none;
+}
+
+.impact-num {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--secondary);
+    letter-spacing: -0.03em;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.impact-label {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+}
+
+/* Dark mode */
+[data-theme="dark"] .impact-stat {
+    border-color: rgba(253, 246, 227, 0.07);
+    background: var(--bg-primary);
+}
+[data-theme="dark"] .impact-stat:hover {
+    background: var(--bg-secondary);
+}
+[data-theme="dark"] .impact-num {
+    color: var(--text-primary);
+}
+
+@media (max-width: 640px) {
+    .impact-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .impact-stat:nth-child(3n) {
+        border-right: 1px solid rgba(42, 51, 66, 0.1);
+    }
+    .impact-stat:nth-child(2n) {
+        border-right: none;
+    }
+    .impact-stat:nth-last-child(-n+2) {
+        border-bottom: none;
+    }
+    .impact-stat:nth-last-child(3) {
+        border-bottom: 1px solid rgba(42, 51, 66, 0.1);
+    }
+}
+
+/* All Projects compact strip */
+.all-projects {
+    padding: 1.5rem 2rem;
+    background: var(--bg-secondary);
+    border-radius: 4px;
+    border: 1px solid rgba(42, 51, 66, 0.08);
+}
+
+.all-projects-label {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--primary);
+    margin: 0 0 0.65rem 0;
+}
+
+.all-projects-list {
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+    font-size: 0.9rem;
+}
+
+.all-projects-list a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.15s ease;
+}
+
+.all-projects-list a:hover {
+    color: var(--primary);
+}
+
+.all-projects-list .dot {
+    color: var(--primary);
+    margin: 0 0.5rem;
+    opacity: 0.45;
+    font-weight: 700;
+    user-select: none;
+}
+
+[data-theme="dark"] .all-projects {
+    background: var(--bg-secondary);
+    border-color: rgba(253, 246, 227, 0.06);
 }
 
 /* ═══════════════════════════════════════════════
@@ -786,6 +1055,38 @@
     margin-top: 1rem;
 }
 
+/* Flywheel CTA row — two buttons side by side */
+.flywheel-cta-row {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.75rem;
+    flex-wrap: wrap;
+}
+
+.btn-ghost-muted {
+    color: var(--accent-cool);
+    border-color: var(--accent-cool);
+    opacity: 0.85;
+}
+
+.btn-ghost-muted:hover {
+    background: var(--accent-cool);
+    color: #fff;
+    opacity: 1;
+}
+
+/* Flywheel nonprofit statement */
+.flywheel-nonprofit {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin: 0 0 0.5rem 0;
+    padding: 1.25rem 1.5rem;
+    border-left: 3px solid var(--primary);
+    background: var(--bg-secondary);
+    border-radius: 0 2px 2px 0;
+}
+
 @media screen and (max-width: 768px) {
     .flywheel-section {
         padding: 2.5rem 1.5rem;
@@ -815,7 +1116,8 @@
         }
     
         .hero-headline {
-            font-size: 2rem;
+            font-size: 1.75rem;
+            min-height: 4.5rem;
         }
     
         .hero-description {

@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy"
         content="default-src 'self' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' https:; connect-src 'self' https:;">
-    <title>Bitcoin Data Labs</title>
+    <title>Bitcoin Data Labs — Making Bitcoin Legible</title>
+    <meta name="description" content="Bitcoin Data Labs is an open-source non-profit building data platforms that bring transparency, accountability, and foresight to the Bitcoin ecosystem. Developer intelligence, Lightning network analytics, and automated public reports.">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <link rel="stylesheet" type="text/css" href="styles/bdl.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -16,7 +17,7 @@
 <body class="has-fixed-header">
     <div id="header"></div>
 
-    <!-- ═══ HERO — Dimmed Data Aesthetic ═══ -->
+    <!-- ═══ HERO ═══ -->
     <section class="hero-section">
         <div class="hero-bg-pattern" aria-hidden="true">
             <svg viewBox="0 0 700 380" preserveAspectRatio="xMinYMid slice" xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +91,7 @@
                     <circle cx="658" cy="348" r="2.5" />
                     <circle cx="698" cy="280" r="3" />
                 </g>
-                <!-- Accent hub nodes (key intersections) -->
+                <!-- Accent hub nodes -->
                 <g fill="rgba(232,145,107,0.45)" stroke="none">
                     <circle cx="275" cy="95" r="4" />
                     <circle cx="358" cy="188" r="4.5" />
@@ -98,7 +99,7 @@
                     <circle cx="612" cy="188" r="4" />
                     <circle cx="648" cy="248" r="3.5" />
                 </g>
-                <!-- Accent rings around hub nodes -->
+                <!-- Accent rings -->
                 <g fill="none" stroke="rgba(232,145,107,0.3)" stroke-width="1">
                     <circle cx="275" cy="95" r="9" />
                     <circle cx="358" cy="188" r="10" />
@@ -109,161 +110,198 @@
         </div>
         <div class="hero-gradient-overlay" aria-hidden="true"></div>
         <div class="hero-content">
-            <p class="hero-eyebrow">The Open Intelligence Layer</p>
-            <h1 class="hero-headline">The Lab for <span>Bitcoin</span> Data</h1>
+            <p class="hero-eyebrow">NON-PROFIT &nbsp;·&nbsp; OPEN SOURCE &nbsp;·&nbsp; AUSTIN, TX</p>
+            <!-- Rotating tagline -->
+            <h1 class="hero-headline" id="rotating-headline" aria-live="polite">
+                <span class="tagline-slide active">Making Bitcoin Legible</span>
+                <span class="tagline-slide">The Open Accountability Layer for Bitcoin</span>
+                <span class="tagline-slide">Accountability Through Data.<br><span class="tagline-sub-accent">For the Protocol That Has No CEO.</span></span>
+            </h1>
             <p class="hero-description">
-                The analytical layer of the Bitcoin ecosystem. We build open-source data platforms, tools, and insights
-                — a community of data scientists, analysts, and engineers working to learn, build, and educate.
+                Who builds the code? Who mines the blocks? Where does the funding flow? Bitcoin has no CEO and no
+                earnings call. We build open-source data platforms that bring transparency, accountability, and
+                foresight to every layer of the ecosystem — through analysis, structured data, and tools that let
+                anyone verify for themselves.
             </p>
+            <!-- Stat bar -->
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="hero-stat-num">53,980+</span>
+                    <span class="hero-stat-label">Developers Tracked</span>
+                </div>
+                <div class="hero-stat-divider" aria-hidden="true"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-num">955+</span>
+                    <span class="hero-stat-label">Repositories Monitored</span>
+                </div>
+                <div class="hero-stat-divider" aria-hidden="true"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-num">Weekly</span>
+                    <span class="hero-stat-label">Automated Reports</span>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- ═══ THREE PILLARS ═══ -->
+    <!-- ═══ THE MISSION — Three Pillars ═══ -->
     <section class="pillars-section">
         <div class="pillars-inner">
             <div class="pillar-card">
                 <div class="pillar-accent-bar"></div>
-                <p class="pillar-label">Public Goods</p>
-                <h3 class="pillar-title">Open Infrastructure</h3>
-                <p class="pillar-body">We build free, open-source data platforms and 'Bitcoinful' dashboards. We do the
-                    heavy lifting of curating data so the ecosystem has forensic-level transparency.</p>
+                <p class="pillar-label">Transparency</p>
+                <h3 class="pillar-title">Every Layer, Visible</h3>
+                <p class="pillar-body">Every pull request, every mining pool, every funding source. We track it,
+                    structure it, and publish it — free and open, forever. No paywalls. No subscription tiers.</p>
                 <a href="#lab-in-action" class="pillar-cta">Explore the Dashboards&nbsp;→</a>
             </div>
             <div class="pillar-card">
                 <div class="pillar-accent-bar"></div>
-                <p class="pillar-label">Volunteers</p>
-                <h3 class="pillar-title">Community</h3>
-                <p class="pillar-body">We are a group of data scientists and engineers. We learn by doing. Join
-                    us.<br><br><span style="font-size: 0.85rem; opacity: 0.8;">(Discord invite provided after a quick
-                        chat)</span></p>
-                <a href="https://x.com/sorukumar" target="_blank" rel="noopener noreferrer" class="pillar-cta">Reach out on X&nbsp;→</a>
+                <p class="pillar-label">Accountability</p>
+                <h3 class="pillar-title">No Board of Directors</h3>
+                <p class="pillar-body">Bitcoin has no institution responsible for oversight. We build the tools that
+                    let the ecosystem hold itself accountable — not through opinion, but through verifiable data.</p>
+                <a href="#lab-in-action" class="pillar-cta">See the Data&nbsp;→</a>
             </div>
             <div class="pillar-card">
                 <div class="pillar-accent-bar"></div>
-                <p class="pillar-label">Funding</p>
-                <h3 class="pillar-title">Support the Mission</h3>
-                <p class="pillar-body">We are an Austin, Texas-based non-profit. We rely on grants to keep our tools
-                    free and open. Reach out to discuss early sponsorship.</p>
-                <a href="https://x.com/sorukumar" target="_blank" rel="noopener noreferrer" class="pillar-cta">Message Founder on X&nbsp;→</a>
+                <p class="pillar-label">Foresight</p>
+                <h3 class="pillar-title">Before Twitter Does</h3>
+                <p class="pillar-body">Which protocol changes are gaining momentum? Where is developer attention
+                    shifting? Our platforms surface the patterns that tell you what's coming — before anyone else.</p>
+                <a href="#p2ps" class="pillar-cta">Read the Reports&nbsp;→</a>
             </div>
         </div>
     </section>
 
     <div class="bdl-container">
 
-        <!-- ═══ THE LAB IN ACTION ═══ -->
+        <!-- ═══ THE WORK — Three Flagship Products ═══ -->
         <section class="section lab-showcase" id="lab-in-action">
-            <h2 class="section-title"><i class="fas fa-microscope"></i> The Lab in Action</h2>
+            <h2 class="section-title"><i class="fas fa-microscope"></i> The Work</h2>
             <div class="showcase-grid">
 
-                <!-- Orange Dev Suite -->
-                <div class="showcase-card">
+                <!-- Orange Dev -->
+                <div class="showcase-card reveal">
                     <div class="showcase-img showcase-img-slider slider-3">
-                        <img src="screenshots/orange-dev-network.png" alt="Orange Dev Network" class="slider-img"
-                            loading="lazy">
-                        <img src="screenshots/orange-dev-tracker.png" alt="Orange Dev Tracker" class="slider-img"
-                            loading="lazy">
+                        <img src="screenshots/orange-dev-tracker.png" alt="Orange Dev Tracker" class="slider-img" loading="lazy">
+                        <img src="screenshots/orange-dev-network.png" alt="Orange Dev Network" class="slider-img" loading="lazy">
                         <img src="screenshots/twib.png" alt="This Week in Bitcoin" class="slider-img" loading="lazy">
                     </div>
                     <div class="showcase-body">
                         <p class="showcase-eyebrow">Developer Intelligence</p>
-                        <h3 class="showcase-title">The Orange Dev Suite</h3>
-                        <p class="showcase-desc">Bitcoin has no CEO or roadmap. For years, its development was a black
-                            box. The Orange Dev Suite brings forensic-level transparency, accountability, and foresight
-                            to the ecosystem.</p>
-                        <div class="suite-tools">
-                            <a href="https://network.bitcoindatalabs.org/" target="_blank"
-                                rel="noopener noreferrer" class="suite-tool-pill">Orange Dev Network</a>
-                            <a href="https://orange-dev.bitcoindatalabs.org/" target="_blank"
-                                rel="noopener noreferrer" class="suite-tool-pill">Orange Dev Tracker</a>
-                            <a href="https://twib.bitcoindatalabs.org/" target="_blank"
-                                rel="noopener noreferrer" class="suite-tool-pill">This Week in Bitcoin</a>
-                        </div>
+                        <h3 class="showcase-title">Orange Dev</h3>
+                        <p class="showcase-desc">The most comprehensive open-source intelligence platform for Bitcoin
+                            development. We track 53,980+ developers across 955+ repositories — who's writing code, what's
+                            being merged, and how the protocol is evolving. Through analysis, structured data, and open
+                            access — updated weekly.</p>
                         <a href="https://orange-dev.bitcoindatalabs.org/" target="_blank"
                             rel="noopener noreferrer" class="btn-ghost"
-                            style="margin-top: auto; align-self: flex-start; text-decoration: none;">Explore the Suite
-                            →</a>
+                            style="margin-top: auto; align-self: flex-start; text-decoration: none;">Explore Orange Dev →</a>
                     </div>
                 </div>
 
                 <!-- Lightning Suite -->
-                <div class="showcase-card">
+                <div class="showcase-card reveal">
                     <div class="showcase-img showcase-img-slider slider-2">
                         <img src="screenshots/ln-graph-viz.png" alt="LN Graph Viz" class="slider-img" loading="lazy">
-                        <img src="screenshots/plebdashboard-ln.png" alt="Plebdashboard LN" class="slider-img"
-                            loading="lazy">
+                        <img src="screenshots/plebdashboard-ln.png" alt="Plebdashboard LN" class="slider-img" loading="lazy">
                     </div>
                     <div class="showcase-body">
                         <p class="showcase-eyebrow">Network Topology</p>
-                        <h3 class="showcase-title">The Lightning Suite</h3>
-                        <p class="showcase-desc">The ultimate UX for the Lightning Network. Rank and filter nodes in a
-                            beautiful explorer, or navigate the most information-rich, intuitive visual graph of the LN
-                            topology ever built.</p>
-                        <div class="suite-tools">
-                            <a href="https://bitcoindatalabs.github.io/ln-graph-viz/" target="_blank"
-                                rel="noopener noreferrer" class="suite-tool-pill">LN Graph Viz</a>
-                            <a href="https://bitcoindatalabs.github.io/plebdashboard-ln/" target="_blank"
-                                rel="noopener noreferrer" class="suite-tool-pill">PlebDashboard LN</a>
-                        </div>
-                        <a href="https://bitcoindatalabs.github.io/ln-graph-viz/" target="_blank" rel="noopener noreferrer"
+                        <h3 class="showcase-title">Lightning Suite</h3>
+                        <p class="showcase-desc">Navigate the Lightning Network through the most information-rich visual
+                            graph ever built. Rank and filter nodes, explore routing channels, and understand the
+                            network's evolving shape — from macro topology to individual node profiles.</p>
+                        <a href="https://lightning.bitcoindatalabs.org/" target="_blank" rel="noopener noreferrer"
                             class="btn-ghost"
-                            style="margin-top: auto; align-self: flex-start; text-decoration: none;">Explore the Suite
-                            →</a>
+                            style="margin-top: auto; align-self: flex-start; text-decoration: none;">Explore the Suite →</a>
                     </div>
                 </div>
 
-                <!-- Mining Analytics -->
-                <div class="showcase-card">
+                <!-- Protocol to Public Square -->
+                <div class="showcase-card reveal" id="p2ps">
                     <div class="showcase-img">
-                        <img src="screenshots/mining-pool.png" alt="Bitcoin Mining Pools" loading="lazy">
+                        <img src="screenshots/twib.png" alt="This Week in Bitcoin — weekly digest published to X, LinkedIn, and Nostr" loading="lazy">
                     </div>
                     <div class="showcase-body">
-                        <p class="showcase-eyebrow">On-Chain Analytics</p>
-                        <h3 class="showcase-title">Mining Pool Profiler</h3>
-                        <p class="showcase-desc">Uncover the industrial backbone of Bitcoin. Track real-time hashrate
-                            distribution, analyze mining patterns, and detect centralization risks across major pools.
-                        </p>
+                        <p class="showcase-eyebrow">Data Distribution</p>
+                        <h3 class="showcase-title">Protocol to Public Square</h3>
+                        <p class="showcase-desc">Dashboards are not enough. We bring Bitcoin's data to where people
+                            already are — automated daily and weekly reports published to X, LinkedIn, and Nostr.
+                            The public square shouldn't have to come find the data.
+                            The data finds the public square.</p>
                         <div class="suite-tools">
-                            <a href="https://bitcoindatalabs.github.io/bitcoin-mining-pools/" target="_blank"
-                                rel="noopener noreferrer" class="suite-tool-pill">Mining Dashboard</a>
+                            <a href="https://x.com/sorukumar" target="_blank" rel="noopener noreferrer" class="suite-tool-pill"><i class="fa-brands fa-x-twitter"></i> X / Twitter</a>
+                            <a href="https://www.linkedin.com/in/sorukumar/" target="_blank" rel="noopener noreferrer" class="suite-tool-pill"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                            <a href="https://twib.bitcoindatalabs.org/" target="_blank" rel="noopener noreferrer" class="suite-tool-pill"><i class="fas fa-newspaper"></i> TWIB</a>
                         </div>
-                        <a href="https://bitcoindatalabs.github.io/bitcoin-mining-pools/" target="_blank"
+                        <a href="https://x.com/sorukumar" target="_blank"
                             rel="noopener noreferrer" class="btn-ghost"
-                            style="margin-top: auto; align-self: flex-start; text-decoration: none;">Open Dashboard
-                            →</a>
+                            style="margin-top: auto; align-self: flex-start; text-decoration: none;">Follow the Reports →</a>
                     </div>
                 </div>
 
             </div>
         </section>
 
-        <!-- ═══ THE CONTRIBUTOR FLYWHEEL ═══ -->
-        <section class="section flywheel-section" id="community">
-            <div class="flywheel-split">
-                <div class="flywheel-text-col">
-                    <p class="flywheel-eyebrow"><i class="fas fa-users"></i> Open Source Community</p>
-                    <h2 class="section-title">The Contributor Flywheel</h2>
-                    <p class="flywheel-subtitle">Bitcoin Data Labs is powered by volunteers. We don't just build
-                        dashboards; we generate human capital. Join the cycle:</p>
-
-                    <ul class="flywheel-bullets">
-                        <li><strong>Build:</strong> Contribute code to open-source data platforms and infrastructure.
-                        </li>
-                        <li><strong>Learn:</strong> Master Bitcoin on-chain metrics through hands-on analysis and
-                            building.</li>
-                        <li><strong>Educate:</strong> Your tools become the sandboxes that train the next generation of
-                            sovereign thinkers.</li>
-                    </ul>
-
-                    <div class="flywheel-cta">
-                        <a href="https://x.com/sorukumar" target="_blank" rel="noopener noreferrer" class="btn-ghost">DM
-                            on X to Join the Cycle →</a>
-                    </div>
+        <!-- ═══ THE IMPACT ═══ -->
+        <section class="section impact-section reveal" id="impact">
+            <h2 class="section-title"><i class="fas fa-chart-line"></i> By the Numbers</h2>
+            <div class="impact-grid">
+                <div class="impact-stat">
+                    <span class="impact-num count-up" data-target="53980" data-suffix="+">53,980+</span>
+                    <span class="impact-label">Developers Tracked</span>
                 </div>
-                <div class="flywheel-img-col">
-                    <img src="screenshots/flywheel-diagram.png" alt="Contributor Flywheel: Build, Learn, Educate"
-                        class="flywheel-diagram">
+                <div class="impact-stat">
+                    <span class="impact-num count-up" data-target="955" data-suffix="+">955+</span>
+                    <span class="impact-label">Repositories Monitored</span>
                 </div>
+                <div class="impact-stat">
+                    <span class="impact-num count-up" data-target="10" data-suffix="+">10+</span>
+                    <span class="impact-label">Open-Source Dashboards</span>
+                </div>
+                <div class="impact-stat">
+                    <span class="impact-num count-up" data-target="3">3</span>
+                    <span class="impact-label">Social Platforms</span>
+                </div>
+                <div class="impact-stat">
+                    <span class="impact-num">Weekly</span>
+                    <span class="impact-label">Automated Reports</span>
+                </div>
+                <div class="impact-stat">
+                    <span class="impact-num">100%</span>
+                    <span class="impact-label">Free & Open Source</span>
+                </div>
+            </div>
+
+            <!-- All Projects compact list -->
+            <div class="all-projects">
+                <p class="all-projects-label">All Projects</p>
+                <p class="all-projects-list">
+                    <a href="https://orange-dev.bitcoindatalabs.org/" target="_blank" rel="noopener noreferrer">Orange Dev Tracker</a>
+                    <span class="dot" aria-hidden="true">·</span>
+                    <a href="https://network.bitcoindatalabs.org/" target="_blank" rel="noopener noreferrer">Orange Dev Network</a>
+                    <span class="dot" aria-hidden="true">·</span>
+                    <a href="https://twib.bitcoindatalabs.org/" target="_blank" rel="noopener noreferrer">This Week in Bitcoin</a>
+                    <span class="dot" aria-hidden="true">·</span>
+                    <a href="https://bitcoindatalabs.github.io/ln-graph-viz/" target="_blank" rel="noopener noreferrer">LN Graph Viz</a>
+                    <span class="dot" aria-hidden="true">·</span>
+                    <a href="https://bitcoindatalabs.github.io/plebdashboard-ln/" target="_blank" rel="noopener noreferrer">PlebDashboard LN</a>
+                    <span class="dot" aria-hidden="true">·</span>
+                    <a href="https://bitcoindatalabs.github.io/bitcoin-mining-pools/" target="_blank" rel="noopener noreferrer">Mining Pool Profiler</a>
+                    <span class="dot" aria-hidden="true">·</span>
+                    <a href="https://sorukumar.github.io/bitcoin-is-beautiful/" target="_blank" rel="noopener noreferrer">Bitcoin is Beautiful</a>
+                    <span class="dot" aria-hidden="true">·</span>
+                    <a href="https://bitcoindatalabs.github.io/orange-ecosystem-map/" target="_blank" rel="noopener noreferrer">Orange Ecosystem Map</a>
+                    <span class="dot" aria-hidden="true">·</span>
+                    <a href="https://bitcoindatalabs.github.io/orange-repo-health/" target="_blank" rel="noopener noreferrer">Repo Health</a>
+                    <span class="dot" aria-hidden="true">·</span>
+                    <a href="https://sorukumar.github.io/bitcoin-ledger-anatomy/" target="_blank" rel="noopener noreferrer">Bitcoin Ledger Anatomy</a>
+                    <span class="dot" aria-hidden="true">·</span>
+                    <a href="https://sorukumar.github.io/oss-app-stats/" target="_blank" rel="noopener noreferrer">OSS App Stats</a>
+                    <span class="dot" aria-hidden="true">·</span>
+                    <a href="https://sorukumar.github.io/Tools/BitcoinBasicStats/index.html" target="_blank" rel="noopener noreferrer">Bitcoin Network Stats</a>
+                </p>
             </div>
         </section>
 
@@ -280,108 +318,45 @@
                         <span class="dp-tag">Drag-and-drop Dashboards</span>
                         <span class="dp-tag">Curated On-chain Data</span>
                         <span class="dp-tag">Lightning Network</span>
-                        <span class="dp-tag dp-tag-status">In Development</span>
                     </div>
-                    <a href="https://datalabs.orangemetrics.xyz/" target="_blank" class="btn-ghost">Explore the Platform
-                        →</a>
+                    <a href="https://datalabs.orangemetrics.xyz/" target="_blank" class="btn-ghost">Explore the Platform →</a>
                 </div>
             </div>
         </section>
 
-        <!-- All Dashboards Section -->
-        <section class="section" id="dashboards">
-            <h2 class="section-title"><i class="fas fa-chart-line"></i> All Dashboards</h2>
-            <div class="list-container">
-                <div class="list-item">
-                    <h3>
-                        <a href="https://sorukumar.github.io/plebdashboard/" target="_blank">PlebDashboard</a><span
-                            class="badge badge-platform">Powered by Data Platform</span>
-                    </h3>
-                    <p>Lightning Network data, insights, and visualization</p>
-                </div>
+        <!-- ═══ THE CONTRIBUTOR FLYWHEEL ═══ -->
+        <section class="section flywheel-section" id="community">
+            <div class="flywheel-split">
+                <div class="flywheel-text-col">
+                    <p class="flywheel-eyebrow"><i class="fas fa-users"></i> Open Source Community</p>
+                    <h2 class="section-title">The Contributor Flywheel</h2>
+                    <p class="flywheel-subtitle">Bitcoin Data Labs is powered by volunteers. We don't just build
+                        dashboards — we develop human capital. Join the cycle:</p>
 
-                <div class="list-item">
-                    <h3>
-                        <a href="https://bitcoindatalabs.github.io/ln-graph-viz/" target="_blank">LN Graph Viz</a><span
-                            class="badge badge-independent">Independent</span>
-                    </h3>
-                    <p>Interactive Graph for Lightning network</p>
-                </div>
-
-                <div class="list-item">
-                    <h3>
-                        <a href="https://bitcoindatalabs.github.io/plebdashboard-ln/" target="_blank">LN explorer
-                        </a><span class="badge badge-independent">Independent</span>
-                    </h3>
-                    <p>Lightning network Node profile, and Prank, a custom method to rank LN nodes.</p>
-                </div>
-
-                <div class="list-item">
-                    <h3>
-                        <a href="https://sorukumar.github.io/bitcoin-is-beautiful/" target="_blank">Bitcoin is
-                            Beautiful</a><span class="badge badge-independent">Independent</span>
-                    </h3>
-                    <p>Making Bitcoin insights visually appealing</p>
-                </div>
-
-                <div class="list-item">
-                    <h3>
-                        <a href="https://sorukumar.github.io/Tools/BitcoinBasicStats/index.html" target="_blank">Bitcoin
-                            Network Stats</a><span class="badge badge-independent">Independent</span>
-                    </h3>
-                    <p>Network stats, last 24 hours</p>
-                </div>
-
-                <div class="list-item">
-                    <h3>
-                        <a href="https://bitcoindatalabs.github.io/bitcoin-mining-pools/" target="_blank">Bitcoin Mining
-                            Pools</a><span class="badge badge-independent">Independent</span>
-                    </h3>
-                    <p>Mining pools profile and analytics</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Resources: Tools + Books -->
-        <section class="section resources-section" id="resources">
-            <h2 class="section-title"><i class="fas fa-layer-group"></i> Resources</h2>
-            <div class="resources-grid">
-
-                <div class="resource-group">
-                    <h3 class="resource-group-title"><i class="fas fa-tools"></i> Tools</h3>
-                    <ul class="tools-list">
-                        <li><a href="https://sorukumar.github.io/Tools/lnsimulator/lnsimulator.html"
-                                target="_blank">Lightning Network Simulator</a></li>
-                        <li><a href="https://sorukumar.github.io/Tools/btcminingsimulator/index.html"
-                                target="_blank">Bitcoin Mining Explainer</a></li>
-                        <li><a href="https://sorukumar.github.io/Tools/LNChannelIDDecoder/index.html"
-                                target="_blank">Lightning Channel ID Decoder</a></li>
-                        <li><a href="https://sorukumar.github.io/Tools/BitcoinWitnessDataDecoder/index.html"
-                                target="_blank">Bitcoin Witness Data Decoder</a></li>
-                        <li><a href="https://sorukumar.github.io/Tools/BitcoinBasicStats/index.html"
-                                target="_blank">Bitcoin Basic Stats</a></li>
-                        <li><a href="https://sorukumar.github.io/Tools/" target="_blank">More Tools →</a></li>
-                    </ul>
-                </div>
-
-                <div class="resource-group">
-                    <h3 class="resource-group-title"><i class="fas fa-book"></i> Mini Books</h3>
-                    <ul class="tools-list">
-                        <li><a href="https://sorukumar.github.io/TheBitcoinExpress/index.html" target="_blank">The
-                                Bitcoin Express</a> <span class="resource-caption">Quick guide to Bitcoin</span></li>
-                        <li><a href="https://sorukumar.github.io/TheCryptographyExpress/index.html" target="_blank">The
-                                Cryptography Express</a> <span class="resource-caption">Cryptography basics, fast</span>
+                    <ul class="flywheel-bullets">
+                        <li><strong>Build:</strong> Contribute code to open-source data platforms and infrastructure.
                         </li>
-                        <li><a href="https://sorukumar.github.io/TheSowellExpress/" target="_blank">The Sowell
-                                Express</a> <span class="resource-caption">Wisdom of Thomas Sowell, distilled</span>
-                        </li>
+                        <li><strong>Learn:</strong> Master Bitcoin on-chain metrics through hands-on analysis and
+                            building.</li>
+                        <li><strong>Educate:</strong> Your tools become the sandboxes that train the next generation of
+                            sovereign thinkers.</li>
                     </ul>
-                </div>
 
+                    <p class="flywheel-nonprofit">We are an Austin, Texas-based non-profit. We rely on grants to keep
+                        our tools free and open. Reach out to discuss sponsorship or collaboration.</p>
+
+                    <div class="flywheel-cta-row">
+                        <a href="https://x.com/sorukumar" target="_blank" rel="noopener noreferrer" class="btn-ghost">DM on X to Join →</a>
+                        <a href="https://github.com/bitcoindatalabs" target="_blank" rel="noopener noreferrer" class="btn-ghost btn-ghost-muted">View on GitHub →</a>
+                    </div>
+                </div>
+                <div class="flywheel-img-col">
+                    <img src="screenshots/flywheel-diagram.png" alt="Contributor Flywheel: Build, Learn, Educate"
+                        class="flywheel-diagram">
+                </div>
             </div>
         </section>
 
-        <!-- Removed standalone Connect With Us section in favor of global footer socials -->
     </div>
 
     <div id="footer"></div>
@@ -390,6 +365,94 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             BitcoinLabsApp.init();
+
+            // ── 1. Rotating Tagline ──
+            const slides = document.querySelectorAll('.tagline-slide');
+            let current = 0;
+            if (slides.length > 1) {
+                setInterval(() => {
+                    slides[current].classList.remove('active');
+                    current = (current + 1) % slides.length;
+                    slides[current].classList.add('active');
+                }, 6000);
+            }
+
+            // ── 2. Hero entrance stagger ──
+            const heroItems = document.querySelectorAll(
+                '.hero-eyebrow, .hero-headline, .hero-description, .hero-stats'
+            );
+            heroItems.forEach((el, i) => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(18px)';
+                el.style.transition = `opacity 0.55s ease ${i * 0.1}s, transform 0.55s ease ${i * 0.1}s`;
+                requestAnimationFrame(() => {
+                    requestAnimationFrame(() => {
+                        el.style.opacity = '';
+                        el.style.transform = '';
+                    });
+                });
+            });
+
+            // ── 3. Scroll-reveal ──
+            const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('revealed');
+                        revealObserver.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+            document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+            // Auto-reveal pillar cards with stagger
+            const pillarObserver = new IntersectionObserver((entries) => {
+                if (entries[0].isIntersecting) {
+                    document.querySelectorAll('.pillar-card').forEach((card, i) => {
+                        setTimeout(() => card.classList.add('revealed'), i * 100);
+                    });
+                    pillarObserver.disconnect();
+                }
+            }, { threshold: 0.15 });
+            const pillarsSection = document.querySelector('.pillars-section');
+            if (pillarsSection) pillarObserver.observe(pillarsSection);
+
+            // Stagger showcase cards
+            const showcaseObserver = new IntersectionObserver((entries) => {
+                if (entries[0].isIntersecting) {
+                    document.querySelectorAll('.showcase-card.reveal').forEach((card, i) => {
+                        setTimeout(() => card.classList.add('revealed'), i * 120);
+                    });
+                    showcaseObserver.disconnect();
+                }
+            }, { threshold: 0.1 });
+            const showcaseSection = document.querySelector('.lab-showcase');
+            if (showcaseSection) showcaseObserver.observe(showcaseSection);
+
+            // ── 4. Count-up animation ──
+            const countObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const el = entry.target;
+                        const target = parseInt(el.dataset.target, 10);
+                        const suffix = el.dataset.suffix || '';
+                        const duration = 1400;
+                        const start = performance.now();
+                        const easeOut = t => 1 - Math.pow(1 - t, 3);
+
+                        function tick(now) {
+                            const elapsed = now - start;
+                            const progress = Math.min(elapsed / duration, 1);
+                            const value = Math.round(easeOut(progress) * target);
+                            el.textContent = value.toLocaleString() + suffix;
+                            if (progress < 1) requestAnimationFrame(tick);
+                        }
+                        requestAnimationFrame(tick);
+                        countObserver.unobserve(el);
+                    }
+                });
+            }, { threshold: 0.5 });
+            document.querySelectorAll('.count-up').forEach(el => countObserver.observe(el));
         });
     </script>
 </body>
