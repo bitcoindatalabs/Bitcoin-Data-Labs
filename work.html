@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' https:; connect-src 'self' https:;">
+    <script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+    <title>All Work — Bitcoin Data Labs</title>
+    <meta name="description" content="Every dashboard, report, dataset and investigation published by Bitcoin Data Labs, covering Bitcoin Core development, the Lightning Network, on-chain forensics and learning tools.">
+    <meta property="og:title" content="All Work — Bitcoin Data Labs">
+    <meta property="og:image" content="https://bitcoindatalabs.org/screenshots/og-card.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/bdl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+
+<body class="bdl-site">
+    <header id="site-header" class="site-header"></header>
+
+    <main>
+        <section class="page-hero">
+            <div class="wrap">
+                <p class="eyebrow">All work</p>
+                <h1>Everything we've published.</h1>
+                <p>Dashboards refreshed by our pipelines, finished investigations, and experiments from the lab.
+                    Everything is free to use, and the code and data are open.</p>
+            </div>
+        </section>
+
+        <section class="band" style="padding-top: 3rem;">
+            <div class="wrap">
+                <div class="filters" role="toolbar" aria-label="Filter by program" id="filters"></div>
+                <div class="catalog" id="catalog" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <section class="band" style="padding-top: 0;">
+            <div class="wrap">
+                <div class="cta-band">
+                    <div>
+                        <p class="eyebrow">Missing something?</p>
+                        <h2>Tell us what to measure next.</h2>
+                        <p>Most of our work started as someone's question. If there's something about Bitcoin you
+                            think should be measured in public, we'd like to hear it.</p>
+                    </div>
+                    <div class="hero-ctas">
+                        <a class="btn btn-primary" href="mailto:contact@bitcoindatalabs.org">Suggest a question</a>
+                        <a class="btn btn-quiet" href="https://github.com/bitcoindatalabs" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="site-footer" class="site-footer"></footer>
+
+    <script src="scripts/projects.js"></script>
+    <script src="scripts/site.js"></script>
+    <script>
+        (function () {
+            const projects = window.BDL_PROJECTS || [];
+            const programs = window.BDL_PROGRAMS || {};
+            const statusTag = {
+                live: p => `<span class="tag tag-live">${p.cadence || 'Live'}</span>`,
+                published: () => '<span class="tag">Published</span>',
+                lab: () => '<span class="tag tag-lab">Experimental</span>',
+            };
+            const host = url => {
+                try {
+                    const u = new URL(url);
+                    return u.hostname.endsWith('github.io') ? u.pathname.split('/')[1] : u.hostname;
+                } catch (e) { return url; }
+            };
+            const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+            const catalog = document.getElementById('catalog');
+            catalog.innerHTML = projects.map(p => `
+                <a class="lens" data-program="${p.program}" href="${esc(p.url)}">
+                    <div class="lens-shot"><img src="${esc(p.shot)}" alt="${esc(p.name)}" loading="lazy" width="1440" height="900"></div>
+                    <div class="lens-body">
+                        <div class="lens-top"><span class="lens-key">${esc((programs[p.program] || {}).label || '')} · ${esc(p.key)}</span>${statusTag[p.status](p)}</div>
+                        <h3>${esc(p.name)}</h3>
+                        <p class="lens-q">${esc(p.question)}</p>
+                        <p class="lens-d">${esc(p.desc)}</p>
+                        <div class="lens-foot"><span class="host">${esc(host(p.url))}</span><span class="link-arrow">Open</span></div>
+                    </div>
+                </a>`).join('');
+
+            const filters = document.getElementById('filters');
+            const counts = projects.reduce((acc, p) => (acc[p.program] = (acc[p.program] || 0) + 1, acc), {});
+            const options = [['all', 'All', projects.length]].concat(
+                Object.keys(programs).filter(k => counts[k]).map(k => [k, programs[k].label, counts[k]])
+            );
+            filters.innerHTML = options.map(([k, label, n]) =>
+                `<button class="filter" type="button" data-filter="${k}" aria-pressed="${k === 'all'}">${esc(label)}<span class="count">${n}</span></button>`
+            ).join('');
+
+            function apply(key) {
+                filters.querySelectorAll('.filter').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.filter === key)));
+                catalog.querySelectorAll('.lens').forEach(card => {
+                    card.hidden = key !== 'all' && card.dataset.program !== key;
+                });
+                try { history.replaceState(null, '', key === 'all' ? location.pathname : `#${key}`); } catch (e) {}
+            }
+            filters.addEventListener('click', e => {
+                const b = e.target.closest('.filter');
+                if (b) apply(b.dataset.filter);
+            });
+            const initial = location.hash.slice(1);
+            apply(programs[initial] ? initial : 'all');
+        })();
+    </script>
+</body>
+
+</html>

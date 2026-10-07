@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' https:; connect-src 'self' https:;">
+    <title>Bitcoin Data Labs — Deck</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/bdl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        /* ── Stage: fixed 1920×1080 canvas scaled to fit any screen ── */
+        html, body { margin: 0; height: 100%; background: #05070A; overflow: hidden; }
+        body { font-family: var(--bdl-font-sans); color: var(--bdl-ink-text); }
+        .viewport { position: fixed; inset: 0; display: grid; place-items: center; }
+        .stage { width: 1920px; height: 1080px; position: relative; transform-origin: center center; flex-shrink: 0; }
+
+        .slide {
+            position: absolute; inset: 0;
+            background: var(--bdl-ink);
+            padding: 110px 130px 120px;
+            box-sizing: border-box;
+            display: none;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .slide.active { display: flex; }
+        .slide::before {
+            content: ""; position: absolute; inset: 0; pointer-events: none;
+            background-image:
+                linear-gradient(rgba(253, 246, 227, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(253, 246, 227, 0.03) 1px, transparent 1px);
+            background-size: 72px 72px;
+            -webkit-mask-image: radial-gradient(ellipse 75% 70% at 80% 20%, #000 20%, transparent 75%);
+            mask-image: radial-gradient(ellipse 75% 70% at 80% 20%, #000 20%, transparent 75%);
+        }
+        .slide::after {
+            content: ""; position: absolute; width: 1100px; height: 1100px; right: -380px; top: -520px; pointer-events: none;
+            background: radial-gradient(circle, rgba(232, 145, 107, 0.15), transparent 62%);
+        }
+        .slide > * { position: relative; z-index: 1; }
+
+        .s-eyebrow { font-size: 22px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--primary); margin: 0 0 28px; }
+        .s-title { font-size: 84px; line-height: 1.04; letter-spacing: -0.035em; font-weight: 800; margin: 0 0 30px; color: var(--bdl-ink-text) !important; max-width: 1500px; }
+        .s-title .accent { color: var(--primary); }
+        .s-lede { font-size: 32px; line-height: 1.5; color: var(--bdl-ink-muted) !important; max-width: 1250px; margin: 0; }
+        .s-foot {
+            position: absolute; left: 130px; right: 130px; bottom: 54px; z-index: 1;
+            display: flex; justify-content: space-between; align-items: center;
+            font-size: 20px; color: rgba(244, 239, 230, 0.45);
+            border-top: 1px solid var(--bdl-ink-line); padding-top: 22px;
+        }
+        .s-foot img { height: 30px; width: auto; }
+        .s-foot b { color: var(--bdl-ink-text); font-weight: 600; }
+
+        .card {
+            background: var(--bdl-ink-2); border: 1px solid var(--bdl-ink-line); border-radius: 18px;
+            padding: 38px 40px; box-sizing: border-box;
+        }
+        .card h3 { margin: 0 0 14px; font-size: 34px; letter-spacing: -0.01em; color: var(--bdl-ink-text) !important; }
+        .card p { margin: 0; font-size: 24px; line-height: 1.5; color: var(--bdl-ink-muted) !important; }
+        .card .k { font-size: 18px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--primary); margin-bottom: 18px; display: block; }
+
+        /* 1 — title */
+        .s1 { justify-content: center; }
+        .s1 .s-title { font-size: 120px; max-width: 1350px; }
+        .s1 .s-lede { font-size: 36px; max-width: 1150px; }
+        .s1-partner { display: flex; align-items: center; gap: 22px; margin-top: 70px; font-size: 20px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(244, 239, 230, 0.5); }
+        .s1-partner .partner-logo { height: 70px; background-color: var(--bdl-ink-text); }
+
+        /* 2 — problem */
+        .cols3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 64px; }
+        .cols3 .card i { font-size: 34px; color: var(--primary); margin-bottom: 26px; display: block; }
+        .cols3 { margin-top: 40px; }
+        .cols3 .card { padding: 28px 36px; }
+        .cols3 .card i { margin-bottom: 18px; }
+        .pillars { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px 32px; margin-top: 26px; }
+        .pillars-head { grid-column: 1 / -1; margin: 0 0 -14px;
+            font-size: 18px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(244, 239, 230, 0.5); }
+        .pillars div { border-top: 3px solid var(--primary); padding-top: 16px; }
+        .pillars b { display: block; font-size: 34px; font-weight: 800; letter-spacing: -0.01em; color: var(--primary); }
+        .pillars span { display: block; margin-top: 6px; font-size: 22px; line-height: 1.45; color: var(--bdl-ink-text); }
+
+        /* 3 — what we built */
+        .programs { display: grid; grid-template-columns: 1.25fr 1fr 1fr; gap: 30px; margin-top: 30px; flex: 1; min-height: 0; }
+        .prog { display: flex; flex-direction: column; padding: 0; overflow: hidden; }
+        .prog .shot { height: 270px; flex-shrink: 0; overflow: hidden; border-bottom: 1px solid var(--bdl-ink-line); background: #0D0F14; }
+        .prog .shot img { width: 100%; height: 100%; object-fit: cover; object-position: top center; display: block; }
+        .prog .body { padding: 26px 32px 30px; display: flex; flex-direction: column; gap: 10px; }
+        .prog .body h3 { margin: 0; }
+        .prog .body .k { margin-bottom: 4px; }
+        .prog ul { margin: 6px 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 10px; }
+        .prog li { font-size: 18px; font-weight: 600; padding: 6px 13px; border-radius: 6px; background: rgba(253, 246, 227, 0.06); color: var(--bdl-ink-text); }
+
+        /* 4 — proof */
+        .proof { display: grid; grid-template-columns: 1fr 820px; gap: 50px; margin-top: 30px; flex: 1; min-height: 0; }
+        .nums { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 1px solid var(--bdl-ink-line); border-radius: 18px; overflow: hidden; align-self: start; }
+        .n { padding: 24px 32px; border-right: 1px solid var(--bdl-ink-line); border-bottom: 1px solid var(--bdl-ink-line); }
+        .n:nth-child(2n) { border-right: none; }
+        .n:nth-last-child(-n+2) { border-bottom: none; }
+        .n b { display: block; font-size: 54px; font-weight: 800; letter-spacing: -0.03em; line-height: 1.05; color: var(--bdl-ink-text); }
+        .n b small { font-size: 26px; font-weight: 650; color: var(--bdl-up); margin-left: 8px; letter-spacing: 0; }
+        .n > span { display: block; margin-top: 8px; font-size: 20px; line-height: 1.4; color: var(--bdl-ink-muted); }
+        .report { display: flex; flex-direction: column; gap: 22px; }
+        .report img { width: 100%; max-height: 500px; object-fit: cover; object-position: top left; border-radius: 14px; border: 1px solid var(--bdl-ink-line); box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5); display: block; }
+        .cadence-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+        .cadence-row div { border: 1px solid var(--bdl-ink-line); border-radius: 12px; padding: 16px 18px; font-size: 18px; line-height: 1.45; color: var(--bdl-ink-muted); }
+        .cadence-row b { display: block; font-size: 22px; color: var(--bdl-ink-text); margin-bottom: 4px; }
+
+        /* 5 — how we work + ask */
+        .ask { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 50px; }
+        .principles-big { list-style: none; margin: 0; padding: 0; display: grid; gap: 26px; }
+        .principles-big li { display: grid; grid-template-columns: 56px 1fr; gap: 10px; font-size: 24px; line-height: 1.45; color: var(--bdl-ink-muted); }
+        .principles-big li i { color: var(--primary); font-size: 26px; padding-top: 4px; }
+        .principles-big b { color: var(--bdl-ink-text); display: block; font-size: 28px; margin-bottom: 2px; }
+        .ask-card { border-color: rgba(232, 145, 107, 0.45); background: linear-gradient(180deg, rgba(232, 145, 107, 0.1), rgba(232, 145, 107, 0.02)); }
+        .ask-card ol { margin: 10px 0 34px; padding-left: 30px; font-size: 26px; line-height: 1.5; color: var(--bdl-ink-text); }
+        .ask-card ol li { margin-bottom: 12px; }
+        .ask-card ol li span { display: block; font-size: 21px; color: var(--bdl-ink-muted); }
+        .contact { font-size: 34px; font-weight: 750; color: var(--primary); letter-spacing: -0.01em; }
+        .contact-sub { font-size: 22px; color: var(--bdl-ink-muted); margin-top: 8px; }
+
+        /* ── Controls ── */
+        .progress { position: fixed; left: 0; bottom: 0; height: 4px; background: var(--primary); transition: width 0.3s ease; z-index: 10; }
+        .hud {
+            position: fixed; right: 18px; bottom: 16px; z-index: 10;
+            display: flex; align-items: center; gap: 8px;
+            font: 600 13px/1 var(--bdl-font-sans); color: rgba(244, 239, 230, 0.55);
+            opacity: 0; transition: opacity 0.3s ease;
+        }
+        body:hover .hud, .hud:focus-within { opacity: 1; }
+        .hud button {
+            background: rgba(253, 246, 227, 0.06); border: 1px solid var(--bdl-ink-line); color: var(--bdl-ink-text);
+            width: 34px; height: 34px; border-radius: 8px; cursor: pointer; font-size: 13px;
+        }
+        .hud button:hover { border-color: var(--primary); color: var(--primary); }
+
+        /* ── Print / Save as PDF: one slide per page ── */
+        @page { size: 1920px 1080px; margin: 0; }
+        @media print {
+            html, body { overflow: visible; height: auto; background: var(--bdl-ink); }
+            .viewport { position: static; display: block; }
+            .stage { transform: none !important; width: 1920px; height: auto; }
+            .slide { display: flex !important; position: relative; width: 1920px; height: 1080px; page-break-after: always; break-after: page; }
+            .hud, .progress { display: none; }
+            * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+        }
+    </style>
+</head>
+
+<body class="bdl-site">
+    <div class="viewport">
+        <div class="stage" id="stage">
+
+            <!-- 1 · Title -->
+            <section class="slide s1" aria-label="Slide 1">
+                <p class="s-eyebrow">Bitcoin Data Labs · The open analytical layer for Bitcoin</p>
+                <h1 class="s-title">Bitcoin has no annual report. <span class="accent">So we publish one.</span></h1>
+                <p class="s-lede">An open-source data lab that measures Bitcoin in public: how it's developed, how its
+                    second layers behave, and what happens on-chain. Daily, weekly and monthly.</p>
+                <div class="s1-partner">
+                    <span>In partnership with</span>
+                    <span class="partner-logo" role="img" aria-label="PlebLab"
+                        style="-webkit-mask-image:url('../assets/partners/pleblab.png'); mask-image:url('../assets/partners/pleblab.png'); aspect-ratio:480/301; -webkit-mask-size:contain; mask-size:contain; -webkit-mask-repeat:no-repeat; mask-repeat:no-repeat;"></span>
+                </div>
+                <div class="s-foot"><img src="../assets/brand/bdl-logo-tight.svg" alt="Bitcoin Data Labs"><span><b>bitcoindatalabs.org</b></span></div>
+            </section>
+
+            <!-- 2 · Problem -->
+            <section class="slide" aria-label="Slide 2">
+                <p class="s-eyebrow">The problem</p>
+                <h2 class="s-title">Bitcoin is public. <span class="accent">Its story isn't.</span></h2>
+                <p class="s-lede">Bitcoin has no CEO, no board and no earnings call. Everything about it is on the
+                    record, but nobody reads that record and reports on it.</p>
+                <div class="cols3">
+                    <div class="card"><i class="fas fa-shuffle"></i><h3>Scattered</h3><p>The record is spread across GitHub, mailing lists, IRC, Lightning gossip and the chain itself.</p></div>
+                    <div class="card"><i class="fas fa-gauge-simple"></i><h3>Unmeasured</h3><p>The software most of the network runs has no published numbers on review load, maintainer risk or who funds the work.</p></div>
+                    <div class="card"><i class="fas fa-scale-unbalanced"></i><h3>Argued, not checked</h3><p>Debates about clients, centralization and funding run on opinion because the data takes weeks to assemble.</p></div>
+                </div>
+                <div class="pillars">
+                    <p class="pillars-head">Our answer</p>
+                    <div><b>Transparency</b><span>Bring the scattered record into open dashboards and data anyone can check.</span></div>
+                    <div><b>Accountability</b><span>Show where development effort and funding actually go.</span></div>
+                    <div><b>Foresight</b><span>Spot shifts in code, clients and capital before they become debates.</span></div>
+                </div>
+                <div class="s-foot"><img src="../assets/brand/bdl-logo-tight.svg" alt=""><span>2 / 5</span></div>
+            </section>
+
+            <!-- 3 · What we built -->
+            <section class="slide" aria-label="Slide 3">
+                <p class="s-eyebrow">What we've built</p>
+                <h2 class="s-title" style="font-size: 72px;">Three programs, one open pipeline.</h2>
+                <div class="programs">
+                    <div class="card prog">
+                        <div class="shot"><img src="../screenshots/live/tracker.jpg" alt="Orange Dev Tracker"></div>
+                        <div class="body">
+                            <span class="k">Program 01 · Orange Dev</span>
+                            <h3>Bitcoin Core, measured</h3>
+                            <p>Who builds Bitcoin, what ships, how healthy the project is, and who funds it.</p>
+                            <ul><li>Tracker</li><li>Network</li><li>This Week in Bitcoin</li><li>Funding Explorer</li><li>Ecosystem Map</li><li>Monthly report</li></ul>
+                        </div>
+                    </div>
+                    <div class="card prog">
+                        <div class="shot"><img src="../screenshots/live/lightning.jpg" alt="Lightning Dashboard"></div>
+                        <div class="body">
+                            <span class="k">Program 02 · Lightning &amp; L2s</span>
+                            <h3>Second layers, measured</h3>
+                            <p>Daily Lightning intelligence since 2023, and sidechain audits starting with Liquid.</p>
+                            <ul><li>Lightning Dashboard</li><li>LN Graph Viz</li><li>L2 Watch</li></ul>
+                        </div>
+                    </div>
+                    <div class="card prog">
+                        <div class="shot"><img src="../screenshots/live/coldcard.jpg" alt="Coldcard RNG investigation"></div>
+                        <div class="body">
+                            <span class="k">Program 03 · Research</span>
+                            <h3>Forensics &amp; research</h3>
+                            <p>One question answered rigorously, with the methodology published next to it.</p>
+                            <ul><li>Coldcard RNG sweep</li><li>Mining pools</li><li>Deep Dives</li><li>Open books</li></ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="s-foot"><img src="../assets/brand/bdl-logo-tight.svg" alt=""><span>3 / 5</span></div>
+            </section>
+
+            <!-- 4 · Proof -->
+            <section class="slide" aria-label="Slide 4">
+                <p class="s-eyebrow">Proof, live from our pipelines</p>
+                <h2 class="s-title" style="font-size: 72px;">Already running, every day.</h2>
+                <div class="proof">
+                    <div class="nums">
+                        <div class="n"><b class="num"><span data-live="core-merged">144</span><small data-live="core-merged-yoy">+69% YoY</small></b><span>PRs merged into Bitcoin Core, <span data-live="core-month">September 2026</span></span></div>
+                        <div class="n"><b class="num">7,790</b><span>Bitcoin contributors mapped across code, review, research and BIPs</span></div>
+                        <div class="n"><b class="num" data-live="ln-nodes">12,536</b><span>Lightning nodes tracked, <span data-live="ln-capacity">3,726</span> BTC of public capacity</span></div>
+                        <div class="n"><b class="num" data-live="meetings-count">87</b><span>Core dev meetings summarized since Jan 2025</span></div>
+                        <div class="n"><b class="num">55,000+</b><span>open-source developers across 955 ecosystem repos</span></div>
+                        <div class="n"><b class="num">25+</b><span>automated jobs collecting, rendering and publishing</span></div>
+                    </div>
+                    <div class="report">
+                        <img data-live-src="core-slide"
+                            src="https://raw.githubusercontent.com/bitcoindatalabs/bdl-report-assets/main/bitcoin/state_of_bitcoin_core_202609_slide_1.png"
+                            data-fallback="../screenshots/reports/state-of-core.jpg"
+                            onerror="this.onerror=null;this.src=this.dataset.fallback"
+                            alt="State of Bitcoin Core monthly report">
+                        <div class="cadence-row">
+                            <div><b>Daily</b>Lightning Ledger · Node Spotlight</div>
+                            <div><b>Weekly</b>This Week in Bitcoin · Dev Meeting</div>
+                            <div><b>Monthly</b>State of Bitcoin Core · LN Digest</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="s-foot"><img src="../assets/brand/bdl-logo-tight.svg" alt=""><span>Posted to X, LinkedIn and Nostr · 4 / 5</span></div>
+            </section>
+
+            <!-- 5 · How we work + ask -->
+            <section class="slide" aria-label="Slide 5">
+                <p class="s-eyebrow">How we work · How you can help</p>
+                <h2 class="s-title" style="font-size: 72px;">Keep Bitcoin's public record free.</h2>
+                <div class="ask">
+                    <ul class="principles-big">
+                        <li><i class="fas fa-lock-open"></i><span><b>Open by default</b>Open-source code, public data, no paywalls or logins.</span></li>
+                        <li><i class="fas fa-rotate"></i><span><b>Reproducible</b>Every number traces to a public pipeline and a methodology page.</span></li>
+                        <li><i class="fas fa-circle-half-stroke"></i><span><b>Honest about gaps</b>Missing data shows as "unavailable". We never fill gaps with a guess.</span></li>
+                        <li><i class="fas fa-scale-balanced"></i><span><b>Measure, don't advocate</b>No token, no sides. Just the record.</span></li>
+                    </ul>
+                    <div class="card ask-card">
+                        <span class="k">Support the lab</span>
+                        <ol>
+                            <li>Keep the record running<span>Infrastructure and the engineering behind every scheduled report.</span></li>
+                            <li>Measure more of Bitcoin<span>More implementations, more Lightning clients, more layers.</span></li>
+                            <li>Research &amp; contributors<span>Deep dives, papers, and mentoring the people who build with us.</span></li>
+                        </ol>
+                        <div class="contact">contact@bitcoindatalabs.org</div>
+                        <div class="contact-sub">bitcoindatalabs.org/support.html · @Bitcoindatalabs</div>
+                    </div>
+                </div>
+                <div class="s-foot"><img src="../assets/brand/bdl-logo-tight.svg" alt=""><span>Non-profit · Austin, TX · 5 / 5</span></div>
+            </section>
+
+        </div>
+    </div>
+
+    <div class="progress" id="progress"></div>
+    <div class="hud" aria-label="Slide controls">
+        <button type="button" id="prev" aria-label="Previous slide"><i class="fas fa-chevron-left"></i></button>
+        <span id="counter">1 / 5</span>
+        <button type="button" id="next" aria-label="Next slide"><i class="fas fa-chevron-right"></i></button>
+        <button type="button" id="fs" aria-label="Full screen"><i class="fas fa-expand"></i></button>
+    </div>
+
+    <script src="../scripts/site.js"></script>
+    <script>
+        (function () {
+            const stage = document.getElementById('stage');
+            const slides = [...document.querySelectorAll('.slide')];
+            const counter = document.getElementById('counter');
+            const progress = document.getElementById('progress');
+            let i = 0;
+
+            function fit() {
+                const s = Math.min(window.innerWidth / 1920, window.innerHeight / 1080);
+                stage.style.transform = `scale(${s})`;
+            }
+            function show(n) {
+                i = Math.max(0, Math.min(slides.length - 1, n));
+                slides.forEach((el, k) => el.classList.toggle('active', k === i));
+                counter.textContent = `${i + 1} / ${slides.length}`;
+                progress.style.width = `${((i + 1) / slides.length) * 100}%`;
+                history.replaceState(null, '', `#${i + 1}`);
+            }
+            function fullscreen() {
+                if (!document.fullscreenElement) document.documentElement.requestFullscreen?.();
+                else document.exitFullscreen?.();
+            }
+
+            document.addEventListener('keydown', e => {
+                if (['ArrowRight', 'PageDown', ' ', 'Enter'].includes(e.key)) { e.preventDefault(); show(i + 1); }
+                else if (['ArrowLeft', 'PageUp', 'Backspace'].includes(e.key)) { e.preventDefault(); show(i - 1); }
+                else if (e.key === 'Home') show(0);
+                else if (e.key === 'End') show(slides.length - 1);
+                else if (e.key === 'f' || e.key === 'F') fullscreen();
+            });
+            document.getElementById('prev').addEventListener('click', () => show(i - 1));
+            document.getElementById('next').addEventListener('click', () => show(i + 1));
+            document.getElementById('fs').addEventListener('click', fullscreen);
+            stage.addEventListener('click', e => {
+                if (e.target.closest('a, button')) return;
+                const r = stage.getBoundingClientRect();
+                show(e.clientX > r.left + r.width / 3 ? i + 1 : i - 1);
+            });
+            let x0 = null;
+            document.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; }, { passive: true });
+            document.addEventListener('touchend', e => {
+                if (x0 === null) return;
+                const dx = e.changedTouches[0].clientX - x0;
+                if (Math.abs(dx) > 40) show(dx < 0 ? i + 1 : i - 1);
+                x0 = null;
+            });
+
+            window.addEventListener('hashchange', () => {
+                const n = (parseInt(location.hash.slice(1), 10) || 1) - 1;
+                if (n !== i) show(n);
+            });
+            window.addEventListener('resize', fit);
+            fit();
+            show((parseInt(location.hash.slice(1), 10) || 1) - 1);
+        })();
+    </script>
+</body>
+
+</html>
