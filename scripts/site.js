@@ -106,6 +106,7 @@
                         <a href="https://lightning.bitcoindatalabs.org/">Lightning</a>
                         <a href="https://bitcoindatalabs.github.io/l2-watch/">L2 Watch</a>
                         <a href="index.html#research">Forensics &amp; Research</a>
+                        <a href="index.html#learn">Learn</a>
                         <a href="work.html">All work</a>
                     </div>
                     <div class="sf-col">

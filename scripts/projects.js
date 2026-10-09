@@ -133,6 +133,13 @@ window.BDL_PROJECTS = [
         desc: 'A fast, open introduction to cryptography: symmetric and public-key systems, hash functions, real-world practice, and a closing deep dive on the algorithms inside Bitcoin.',
         status: 'published',
     },
+    {
+        program: 'tools', key: 'Book', name: 'No-BS Lightning Analytics',
+        url: 'https://sorukumar.github.io/No-BS-LightningAnalytics/', shot: 'screenshots/live/no-bs-lightning.jpg',
+        question: 'How do I analyze the Lightning Network with code?',
+        desc: 'A hands-on guide to Lightning data science in nine notebooks: network graph, centrality, pathfinding, probing and HTLC analysis, on real gossip data.',
+        status: 'published',
+    },
 ];
 
 window.BDL_PROGRAMS = {

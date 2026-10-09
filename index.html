@@ -17,7 +17,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@Bitcoindatalabs">
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/bdl.css">
+    <link rel="stylesheet" href="styles/bdl.css?v=20261009">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="icon" href="favicon.png" type="image/png">
 </head>
@@ -97,44 +97,56 @@
             </div>
         </section>
 
-        <!-- ═══ START HERE ═══ -->
+        <!-- ═══ LAB AT A GLANCE ═══ -->
         <section class="band" id="start">
             <div class="wrap">
                 <div class="band-head reveal">
-                    <p class="eyebrow">Start here</p>
-                    <h2>One public record, read four ways.</h2>
+                    <p class="eyebrow">The lab at a glance</p>
+                    <h2>Four programs. One public record of Bitcoin.</h2>
                     <p>Bitcoin's development, funding and network activity are public, but scattered across
-                        GitHub, mailing lists, IRC, gossip and the chain. We collect it, clean it and publish it
-                        for the people who need it.</p>
+                        GitHub, mailing lists, IRC, Lightning gossip and the chain. Each program takes one part of
+                        that record and turns it into answers anyone can check.</p>
                 </div>
-                <div class="router reveal">
-                    <a class="route" href="#orange-dev">
-                        <span class="route-icon"><i class="fas fa-hand-holding-dollar"></i></span>
-                        <h3>Funders</h3>
-                        <p>See where development effort goes, who reviews it, how healthy Bitcoin Core is, and
-                            who funds the people doing the work.</p>
-                        <span class="link-arrow">Development and funding</span>
+
+                <div class="totals reveal" aria-label="What the lab publishes">
+                    <div><b class="num">50+</b><span>dashboards &amp; explorer views</span></div>
+                    <div><b class="num">10+</b><span>recurring reports, daily to monthly</span></div>
+                    <div><b class="num">10+</b><span>open datasets in public repos</span></div>
+                    <div><b class="num">5</b><span>open books &amp; learning tools</span></div>
+                </div>
+
+                <div class="glance reveal">
+                    <a class="gl" href="#orange-dev">
+                        <span class="gl-num">01</span>
+                        <h3>Bitcoin Core</h3>
+                        <p class="gl-q">Who builds Bitcoin Core, who funds it, and is the project healthy?</p>
+                        <ul><li>Orange Dev Tracker</li><li>State of Bitcoin Core</li><li>This Week in Bitcoin</li><li>Orange Dev Network</li><li>Funding Explorer</li><li>Ecosystem Map</li><li>Code Topology</li></ul>
+                        <span class="gl-latest is-live"><b>Latest</b> State of Bitcoin Core, <span data-live="core-month">September 2026</span> · dev meeting <span data-live="meetings-latest">Oct 1, 2026</span></span>
+                        <span class="gl-for">For funders, maintainers and developers</span>
                     </a>
-                    <a class="route" href="#data">
-                        <span class="route-icon"><i class="fas fa-flask"></i></span>
-                        <h3>Researchers</h3>
-                        <p>Work from open, versioned datasets with documented methodology, and cite numbers you
-                            can rebuild yourself.</p>
-                        <span class="link-arrow">Open data and methods</span>
+                    <a class="gl" href="#lightning">
+                        <span class="gl-num">02</span>
+                        <h3>Lightning &amp; L2s</h3>
+                        <p class="gl-q">Which nodes matter, where is liquidity moving, and how are sidechains run?</p>
+                        <ul><li>Lightning Dashboard</li><li>LN Graph Viz</li><li>L2 Watch</li><li>Daily Ledger</li><li>Node Spotlight</li></ul>
+                        <span class="gl-latest is-live"><b>Latest</b> Network snapshot, week of <span data-live="ln-week">Sep 28 – Oct 04, 2026</span></span>
+                        <span class="gl-for">For node operators, builders and analysts</span>
                     </a>
-                    <a class="route" href="https://twib.bitcoindatalabs.org/">
-                        <span class="route-icon"><i class="fas fa-code-pull-request"></i></span>
-                        <h3>Developers</h3>
-                        <p>Follow what merged this week, what needs review, and what the Core dev meeting decided,
-                            in five minutes.</p>
-                        <span class="link-arrow">This Week in Bitcoin</span>
+                    <a class="gl" href="#research">
+                        <span class="gl-num">03</span>
+                        <h3>Forensics &amp; Research</h3>
+                        <p class="gl-q">When something happens on-chain, what actually happened?</p>
+                        <ul><li>Coldcard RNG Investigation</li><li>Mining Pool Profiler</li><li>OSS App Stats</li><li>Deep Dives</li></ul>
+                        <span class="gl-latest"><b>Latest</b> The Summer Lightning Broke (a Little)</span>
+                        <span class="gl-for">For researchers, journalists and policy</span>
                     </a>
-                    <a class="route" href="#lightning">
-                        <span class="route-icon"><i class="fas fa-bolt"></i></span>
-                        <h3>Node operators</h3>
-                        <p>Rank nodes, inspect channels and peers, and watch liquidity move across the Lightning
-                            Network every day.</p>
-                        <span class="link-arrow">Lightning Intelligence</span>
+                    <a class="gl" href="#learn">
+                        <span class="gl-num">04</span>
+                        <h3>Learn</h3>
+                        <p class="gl-q">How does Bitcoin work, well enough to verify it yourself?</p>
+                        <ul><li>The Bitcoin Express</li><li>The Cryptography Express</li><li>No-BS Lightning Analytics</li><li>Simulators &amp; decoders</li></ul>
+                        <span class="gl-latest"><b>Latest</b> No-BS Lightning Analytics, now in the library</span>
+                        <span class="gl-for">For newcomers, students and educators</span>
                     </a>
                 </div>
             </div>
@@ -146,11 +158,10 @@
                 <div class="program-head reveal">
                     <div class="band-head">
                         <div class="program-kicker"><p class="eyebrow">Program 01 · Orange Dev</p><span class="tag tag-live">Live</span></div>
-                        <h2>Bitcoin Core, measured.</h2>
+                        <h2>Who builds Bitcoin Core, and is it healthy?</h2>
                         <p>Most of the Bitcoin network runs Bitcoin Core, yet no one publishes its operating numbers.
-                            Orange Dev is our suite for doing that: one open pipeline over Bitcoin's development
-                            record, read through five lenses. <em>Now</em>, <em>What</em>, <em>Who</em>,
-                            <em>Money</em> and <em>Beyond Core</em>.</p>
+                            Orange Dev does: one open pipeline over 17 years of development history, answering
+                            what ships, who builds it, who pays for it, and what gets built beyond it.</p>
                     </div>
                     <a class="btn btn-quiet" href="https://orange-dev.bitcoindatalabs.org/">Open the suite <i class="fas fa-arrow-up-right-from-square"></i></a>
                 </div>
@@ -185,63 +196,60 @@
                     <a class="lens lens-feature reveal" href="https://orange-dev.bitcoindatalabs.org/">
                         <div class="lens-shot"><img src="screenshots/live/tracker.jpg" alt="Orange Dev Tracker home: See How Bitcoin is Built" loading="lazy" width="1440" height="900"></div>
                         <div class="lens-body">
-                            <div class="lens-top"><span class="lens-key">What · Tracker</span><span class="tag tag-live">Weekly</span></div>
+                            <div class="lens-top"><span class="lens-key">Health</span><span class="tag tag-live">Weekly</span></div>
                             <h3>Orange Dev Tracker</h3>
                             <p class="lens-q">What is shipping in Bitcoin Core, and is the project healthy?</p>
-                            <p class="lens-d">Engineering throughput, review rigor, releases and active initiatives,
-                                plus the vital signs a funder should watch: bus factor, maintainer load, talent
-                                inflow and how institutionalized contribution has become. Home of the monthly
-                                <strong>State of Bitcoin Core</strong> report.</p>
+                            <ul class="lens-learn"><li>How much merges each month, and whether review keeps pace</li><li>The vital signs a funder should watch: bus factor, maintainer load, new-contributor inflow</li><li>The monthly <strong>State of Bitcoin Core</strong> report, with every past edition archived</li></ul>
                             <div class="lens-foot"><span class="host">orange-dev.bitcoindatalabs.org</span><span><span class="lens-stat num">1,278</span> Core contributors</span></div>
                         </div>
                     </a>
                     <a class="lens reveal" href="https://twib.bitcoindatalabs.org/">
                         <div class="lens-shot"><img src="screenshots/live/twib.jpg" alt="This Week in Bitcoin weekly digest" loading="lazy" width="1440" height="900"></div>
                         <div class="lens-body">
-                            <div class="lens-top"><span class="lens-key">Now · TWIB</span><span class="tag tag-live">Weekly</span></div>
+                            <div class="lens-top"><span class="lens-key">This week</span><span class="tag tag-live">Weekly</span></div>
                             <h3>This Week in Bitcoin</h3>
                             <p class="lens-q">What happened in Bitcoin Core this week?</p>
-                            <p class="lens-d">What merged, what needs review, and what the weekly dev meeting decided, as a five-minute read.</p>
+                            <ul class="lens-learn"><li>What merged, and what is waiting on review</li><li>What the Thursday dev meeting decided, in five minutes</li></ul>
                             <div class="lens-foot"><span class="host">twib.bitcoindatalabs.org</span><span><span class="lens-stat num" data-live="meetings-count">87</span> meetings</span></div>
                         </div>
                     </a>
                     <a class="lens reveal" href="https://network.bitcoindatalabs.org/">
                         <div class="lens-shot"><img src="screenshots/live/network-graph.jpg" alt="Orange Dev Network influence map" loading="lazy" width="1440" height="900"></div>
                         <div class="lens-body">
-                            <div class="lens-top"><span class="lens-key">Who · Network</span><span class="tag tag-live">Weekly</span></div>
+                            <div class="lens-top"><span class="lens-key">People</span><span class="tag tag-live">Weekly</span></div>
                             <h3>Orange Dev Network</h3>
                             <p class="lens-q">Who builds Bitcoin, and how do they work together?</p>
-                            <p class="lens-d">Contributor profiles, maintainers, a builder directory and an influence graph across code, review, research and BIPs.</p>
+                            <ul class="lens-learn"><li>A profile for every contributor across code, review, research and BIPs</li><li>Who maintains what, and who influences whom</li></ul>
                             <div class="lens-foot"><span class="host">network.bitcoindatalabs.org</span><span><span class="lens-stat num">7,790</span> people</span></div>
                         </div>
                     </a>
                     <a class="lens reveal" href="https://bitcoindatalabs.github.io/orange-funding-explorer/dashboard.html">
                         <div class="lens-shot"><img src="screenshots/live/funding.jpg" alt="Funding Explorer ecosystem overview" loading="lazy" width="1440" height="900"></div>
                         <div class="lens-body">
-                            <div class="lens-top"><span class="lens-key">Money · Funding</span><span class="tag">Explorer</span></div>
+                            <div class="lens-top"><span class="lens-key">Money</span><span class="tag">Explorer</span></div>
                             <h3>Funding Explorer</h3>
                             <p class="lens-q">Who funds Bitcoin developers, and which work do they fund?</p>
-                            <p class="lens-d">Funders, sponsored developers and the projects they support, with a profile for every funder and grantee.</p>
+                            <ul class="lens-learn"><li>Which funders back which developers and projects</li><li>A profile for every funder and grantee</li></ul>
                             <div class="lens-foot"><span class="host">orange-funding-explorer</span><span><span class="lens-stat num">235</span> developers funded</span></div>
                         </div>
                     </a>
                     <a class="lens reveal" href="https://bitcoindatalabs.github.io/orange-ecosystem-map/">
                         <div class="lens-shot"><img src="screenshots/live/ecosystem-map.jpg" alt="Bitcoin open-source ecosystem map" loading="lazy" width="1440" height="900"></div>
                         <div class="lens-body">
-                            <div class="lens-top"><span class="lens-key">Beyond Core · Map</span><span class="tag">Explorer</span></div>
+                            <div class="lens-top"><span class="lens-key">Beyond Core</span><span class="tag">Explorer</span></div>
                             <h3>Ecosystem Map</h3>
                             <p class="lens-q">What else is being built on Bitcoin, and by whom?</p>
-                            <p class="lens-d">955 repositories and 55,000+ developers clustered into the communities behind wallets, Lightning, libraries and mining.</p>
-                            <div class="lens-foot"><span class="host">orange-ecosystem-map</span><span><span class="lens-stat num">109</span> projects</span></div>
+                            <ul class="lens-learn"><li>The communities behind wallets, Lightning, libraries and mining</li><li>Which projects and developers anchor each one</li></ul>
+                            <div class="lens-foot"><span class="host">orange-ecosystem-map</span><span><span class="lens-stat num">955</span> repos</span></div>
                         </div>
                     </a>
                     <a class="lens lens-wide reveal" href="https://bitcoindatalabs.github.io/orange-code-topology/">
                         <div class="lens-shot"><img src="screenshots/live/code-topology.jpg" alt="Bitcoin Core code topology map" loading="lazy" width="1440" height="900"></div>
                         <div class="lens-body">
-                            <div class="lens-top"><span class="lens-key">Lab · Code</span><span class="tag tag-lab">Experimental</span></div>
+                            <div class="lens-top"><span class="lens-key">Codebase</span><span class="tag tag-lab">Experimental</span></div>
                             <h3>Code Topology</h3>
                             <p class="lens-q">How does the Bitcoin Core codebase fit together?</p>
-                            <p class="lens-d">A map of <code>bitcoin/src</code> built from <code>#include</code> dependencies: subsystems, and the files that bridge them.</p>
+                            <ul class="lens-learn"><li>The subsystems of <code>bitcoin/src</code>, mapped from <code>#include</code> dependencies</li><li>The files that bridge one subsystem to another</li></ul>
                             <div class="lens-foot"><span class="host">orange-code-topology</span><span>WebGL</span></div>
                         </div>
                     </a>
@@ -255,7 +263,7 @@
                 <div class="program-head reveal">
                     <div class="band-head">
                         <div class="program-kicker"><p class="eyebrow">Program 02 · Lightning &amp; Layer 2s</p><span class="tag tag-live">Daily</span></div>
-                        <h2>Bitcoin's second layers, measured.</h2>
+                        <h2>Which Lightning nodes matter, and where is the money moving?</h2>
                         <p>Lightning, every day: gossip snapshots since May 2023 joined with on-chain channel opens and
                             closes, to rank nodes, map the graph and follow capital. L2 Watch brings the same audit
                             approach to sidechains, starting with Liquid.</p>
@@ -270,48 +278,154 @@
                     <div class="ln-stat"><b class="num" data-live="ln-tor">46.4%</b><span>of nodes on Tor · week of <span data-live="ln-week">Sep 28 – Oct 04, 2026</span></span></div>
                 </div>
 
-                <div class="ln-grid">
-                    <a class="lens reveal" href="https://lightning.bitcoindatalabs.org/">
+                <div class="lenses">
+                    <a class="lens lens-feature reveal" href="https://lightning.bitcoindatalabs.org/">
                         <div class="lens-shot"><img src="screenshots/live/lightning.jpg" alt="Lightning dashboard with PlebRank leaderboard" loading="lazy" width="1440" height="900"></div>
                         <div class="lens-body">
-                            <div class="lens-top"><span class="lens-key">Network · Dashboard</span><span class="tag tag-live">Daily</span></div>
+                            <div class="lens-top"><span class="lens-key">Network</span><span class="tag tag-live">Daily</span></div>
                             <h3>Lightning Dashboard</h3>
                             <p class="lens-q">Which nodes matter, and where is liquidity moving?</p>
-                            <p class="lens-d">PlebRank leaderboards, node and channel explorers, per-node profiles,
-                                node comparison and a daily node spotlight.</p>
-                            <div class="lens-foot"><span class="host">lightning.bitcoindatalabs.org</span><span>PlebRank</span></div>
+                            <ul class="lens-learn"><li>PlebRank: every public node ranked, with leaderboards you can filter</li><li>Node and channel explorers, per-node profiles and side-by-side comparison</li><li>A daily ledger of channel opens, closes and capacity, plus a Node Spotlight every day</li></ul>
+                            <div class="lens-foot"><span class="host">lightning.bitcoindatalabs.org</span><span><span class="lens-stat num" data-live="ln-nodes">12,536</span> nodes tracked</span></div>
                         </div>
                     </a>
-                    <div class="ln-stack">
-                        <a class="lens reveal" href="https://bitcoindatalabs.github.io/ln-graph-viz/">
-                            <div class="lens-body">
-                                <div class="lens-top"><span class="lens-key">Graph · Viz</span><span class="tag tag-live">Daily</span></div>
-                                <h3>LN Graph Viz</h3>
-                                <p class="lens-d">Explore the whole network interactively, or only its Highway (&gt;5M sats) and
-                                    Freeway (&gt;1 BTC) channels, with PlebRank and bridge-node filters.</p>
-                            </div>
-                        </a>
-                        <a class="lens reveal" href="https://bitcoindatalabs.github.io/deep-dives/">
-                            <div class="lens-body">
-                                <div class="lens-top"><span class="lens-key">Deep dive</span><span class="tag tag-accent">New</span></div>
-                                <h3>The Summer Lightning Broke (a Little)</h3>
-                                <p class="lens-d">Core Lightning lost a fifth of its public nodes and capacity. What the
-                                    gossip and the chain show about force closes and recovery.</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="lenses" style="margin-top: 1.1rem;">
+                    <a class="lens reveal" href="https://bitcoindatalabs.github.io/ln-graph-viz/">
+                        <div class="lens-shot"><img src="screenshots/live/ln-graph-viz.jpg" alt="Interactive Lightning Network graph" loading="lazy" width="1440" height="900"></div>
+                        <div class="lens-body">
+                            <div class="lens-top"><span class="lens-key">Graph</span><span class="tag tag-live">Daily</span></div>
+                            <h3>LN Graph Viz</h3>
+                            <p class="lens-q">What does the Lightning Network actually look like?</p>
+                            <ul class="lens-learn"><li>The whole network, or only its Highway (&gt;5M sats) and Freeway (&gt;1 BTC) channels</li><li>The bridge nodes that hold it together</li></ul>
+                            <div class="lens-foot"><span class="host">ln-graph-viz</span><span><span class="lens-stat num" data-live="ln-channels">33,517</span> channels</span></div>
+                        </div>
+                    </a>
                     <a class="lens lens-wide reveal" href="https://bitcoindatalabs.github.io/l2-watch/">
                         <div class="lens-shot"><img src="screenshots/live/l2-watch.jpg" alt="L2 Watch: Liquid Network activity dashboard" loading="lazy" width="1440" height="900"></div>
                         <div class="lens-body">
-                            <div class="lens-top"><span class="lens-key">Sidechains · L2 Watch</span><span class="tag tag-accent">New</span></div>
+                            <div class="lens-top"><span class="lens-key">Sidechains</span><span class="tag tag-accent">New</span></div>
                             <h3>L2 Watch</h3>
                             <p class="lens-q">How much Bitcoin lives on sidechains, and how are they run?</p>
-                            <p class="lens-d">An audit dashboard for Bitcoin's layer 2s and sidechains, starting with
-                                Liquid: network activity, reserve proof, federation signer participation, confidential
-                                transaction adoption and asset issuance, from our own nodes.</p>
+                            <ul class="lens-learn"><li>Liquid network activity and its reserve proof</li><li>Federation signer participation, confidential-transaction adoption and asset issuance</li><li>Measured from our own nodes, not a third-party API</li></ul>
                             <div class="lens-foot"><span class="host">l2-watch</span><span><span class="lens-stat num">10.1M</span> Liquid transactions audited</span></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ FORENSICS & RESEARCH ═══ -->
+        <section class="band" id="research">
+            <div class="wrap">
+                <div class="program-head reveal">
+                    <div class="band-head">
+                        <p class="eyebrow">Program 03 · Forensics &amp; Research</p>
+                        <h2>When something happens on-chain, what really happened?</h2>
+                        <p>Standalone investigations that take one question and answer it with on-chain data, with the
+                            methodology published next to the findings.</p>
+                    </div>
+                    <a class="btn btn-quiet" href="work.html">See all work <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="lenses">
+                    <a class="lens reveal" href="https://bitcoindatalabs.github.io/coldcard-rng-tracker/">
+                        <div class="lens-shot"><img src="screenshots/live/coldcard.jpg" alt="Coldcard RNG on-chain forensics" loading="lazy" width="1440" height="900"></div>
+                        <div class="lens-body">
+                            <div class="lens-top"><span class="lens-key">Forensics</span><span class="tag">Investigation</span></div>
+                            <h3>1,983 BTC swept in 22 hours</h3>
+                            <p class="lens-q">What happened when a weak random-number generator was exploited?</p>
+                            <ul class="lens-learn"><li>A wave-by-wave reconstruction across 4,925 drained addresses</li><li>How the attacker's behavior changed, and where the funds went</li><li>The full methodology, cross-checked externally</li></ul>
+                            <div class="lens-foot"><span class="host">coldcard-rng-tracker</span><span>Investigation</span></div>
+                        </div>
+                    </a>
+                    <a class="lens reveal" href="https://bitcoindatalabs.github.io/bitcoin-mining-pools/">
+                        <div class="lens-shot"><img src="screenshots/live/mining-pools.jpg" alt="Mining pool centralization dashboard" loading="lazy" width="1440" height="900"></div>
+                        <div class="lens-body">
+                            <div class="lens-top"><span class="lens-key">Mining</span><span class="tag">Dashboard</span></div>
+                            <h3>Mining Pool Profiler</h3>
+                            <p class="lens-q">How centralized is Bitcoin mining, and how has that changed?</p>
+                            <ul class="lens-learn"><li>Every block since genesis attributed to its pool</li><li>Market share, HHI concentration and top-3 dominance over time</li></ul>
+                            <div class="lens-foot"><span class="host">bitcoin-mining-pools</span><span><span class="lens-stat num">160+</span> pools</span></div>
+                        </div>
+                    </a>
+                    <a class="lens reveal" href="https://bitcoindatalabs.github.io/oss-app-stats/">
+                        <div class="lens-shot"><img src="screenshots/live/oss-app-stats.jpg" alt="OSS App Stats adoption leaderboard" loading="lazy" width="1440" height="900"></div>
+                        <div class="lens-body">
+                            <div class="lens-top"><span class="lens-key">Open source</span><span class="tag">Leaderboard</span></div>
+                            <h3>OSS App Stats</h3>
+                            <p class="lens-q">Which Bitcoin open-source apps are people actually using?</p>
+                            <ul class="lens-learn"><li>Downloads and release cadence for Bitcoin Core, LND, CLN, Sparrow, BDK and more</li><li>Which projects ship often, and which have gone quiet</li></ul>
+                            <div class="lens-foot"><span class="host">oss-app-stats</span><span><span class="lens-stat num">33</span> projects</span></div>
+                        </div>
+                    </a>
+                    <a class="lens lens-wide reveal" href="https://bitcoindatalabs.github.io/deep-dives/">
+                        <div class="lens-shot"><img src="screenshots/live/deep-dives.jpg" alt="Bitcoin Data Labs deep dives" loading="lazy" width="1440" height="900"></div>
+                        <div class="lens-body">
+                            <div class="lens-top"><span class="lens-key">Deep dive</span><span class="tag tag-accent">New</span></div>
+                            <h3>Deep Dives</h3>
+                            <p class="lens-q">When something breaks or shifts, what does the data say?</p>
+                            <ul class="lens-learn"><li>Latest: <strong>The Summer Lightning Broke (a Little)</strong>. Core Lightning lost a fifth of its public nodes and capacity; what gossip and the chain show about force closes and recovery</li><li>Every piece ships with the numbers, the caveats and the code to reproduce them</li></ul>
+                            <div class="lens-foot"><span class="host">deep-dives</span><span>Long-form</span></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="more-work reveal">
+                    <b>Also from the lab</b>
+                    <a href="https://datalabs.orangemetrics.xyz/">Data Platform (SQL &amp; charts)</a>
+                    <a class="link-arrow" href="work.html">Full catalog</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ LEARN ═══ -->
+        <section class="band band-alt" id="learn">
+            <div class="wrap">
+                <div class="program-head reveal">
+                    <div class="band-head">
+                        <p class="eyebrow">Program 04 · Learn</p>
+                        <h2>How does Bitcoin work, well enough to verify it yourself?</h2>
+                        <p>Open data is only useful to people who can read it. Our books and interactive tools take
+                            a newcomer from first principles to decoding real transactions and routing real
+                            payments, free and in the open.</p>
+                    </div>
+                </div>
+                <div class="lenses">
+                    <a class="lens reveal" href="https://bitcoindatalabs.github.io/TheBitcoinExpress/">
+                        <div class="lens-shot"><img src="screenshots/live/bitcoin-express.jpg" alt="The Bitcoin Express open book" loading="lazy" width="1440" height="900"></div>
+                        <div class="lens-body">
+                            <div class="lens-top"><span class="lens-key">Book</span><span class="tag">Open book</span></div>
+                            <h3>The Bitcoin Express</h3>
+                            <p class="lens-q">New to Bitcoin? Where do I start?</p>
+                            <ul class="lens-learn"><li>Digital money, transactions, mining and wallets, from scratch</li><li>From novice to knowledgeable in a few hours</li></ul>
+                            <div class="lens-foot"><span class="host">TheBitcoinExpress</span><span>Free to read</span></div>
+                        </div>
+                    </a>
+                    <a class="lens reveal" href="https://bitcoindatalabs.github.io/TheCryptographyExpress/">
+                        <div class="lens-shot"><img src="screenshots/live/cryptography-express.jpg" alt="The Cryptography Express open book" loading="lazy" width="1440" height="900"></div>
+                        <div class="lens-body">
+                            <div class="lens-top"><span class="lens-key">Book</span><span class="tag">Open book</span></div>
+                            <h3>The Cryptography Express</h3>
+                            <p class="lens-q">What cryptography do I need to understand Bitcoin?</p>
+                            <ul class="lens-learn"><li>Symmetric and public-key systems, and hash functions</li><li>A closing deep dive on the algorithms inside Bitcoin</li></ul>
+                            <div class="lens-foot"><span class="host">TheCryptographyExpress</span><span>Free to read</span></div>
+                        </div>
+                    </a>
+                    <a class="lens reveal" href="https://sorukumar.github.io/No-BS-LightningAnalytics/">
+                        <div class="lens-shot"><img src="screenshots/live/no-bs-lightning.jpg" alt="No-BS Lightning Analytics book cover" loading="lazy" width="1440" height="900" style="object-position:center"></div>
+                        <div class="lens-body">
+                            <div class="lens-top"><span class="lens-key">Book</span><span class="tag">Open book</span></div>
+                            <h3>No-BS Lightning Analytics</h3>
+                            <p class="lens-q">How do I analyze the Lightning Network with code?</p>
+                            <ul class="lens-learn"><li>Nine hands-on notebooks: node counts, graph metrics, pathfinding, probing and HTLCs</li><li>Real gossip data, plus the mempool, Blockstream and LND APIs</li></ul>
+                            <div class="lens-foot"><span class="host">No-BS-LightningAnalytics</span><span>Free to read</span></div>
+                        </div>
+                    </a>
+                    <a class="lens lens-wide reveal" href="https://bitcoindatalabs.github.io/Tools/">
+                        <div class="lens-shot"><img src="screenshots/live/tools.jpg" alt="Bitcoin and Lightning interactive tools" loading="lazy" width="1440" height="900"></div>
+                        <div class="lens-body">
+                            <div class="lens-top"><span class="lens-key">Hands-on</span><span class="tag">Tools</span></div>
+                            <h3>Simulators &amp; Decoders</h3>
+                            <p class="lens-q">How do payments route, and how is a transaction built?</p>
+                            <ul class="lens-learn"><li>Route a Lightning payment, hop by hop</li><li>Decode witness data, channel IDs and HD addresses</li><li>Simulate mining</li></ul>
+                            <div class="lens-foot"><span class="host">Tools</span><span>5 tools</span></div>
                         </div>
                     </a>
                 </div>
@@ -400,74 +514,16 @@
             </div>
         </section>
 
-        <!-- ═══ FORENSICS & RESEARCH ═══ -->
-        <section class="band band-alt" id="research">
-            <div class="wrap">
-                <div class="program-head reveal">
-                    <div class="band-head">
-                        <p class="eyebrow">Program 03 · Forensics &amp; Research</p>
-                        <h2>When something happens on-chain, we measure it.</h2>
-                        <p>Standalone investigations that take one question and answer it with on-chain data, with the
-                            methodology published next to the findings.</p>
-                    </div>
-                    <a class="btn btn-quiet" href="work.html">See all work <i class="fas fa-arrow-right"></i></a>
-                </div>
-                <div class="research">
-                    <a class="lens reveal" href="https://bitcoindatalabs.github.io/coldcard-rng-tracker/">
-                        <div class="lens-shot"><img src="screenshots/live/coldcard.jpg" alt="Coldcard RNG on-chain forensics" loading="lazy" width="1440" height="900"></div>
-                        <div class="lens-body">
-                            <div class="lens-top"><span class="lens-key">Forensics</span><span class="tag">Investigation</span></div>
-                            <h3>1,983 BTC swept in 22 hours</h3>
-                            <p class="lens-d">A wave-by-wave reconstruction of a weak-RNG sweep: 4,925 drained addresses,
-                                how the attacker's behavior changed, a fund-flow graph and the full methodology.</p>
-                            <div class="lens-foot"><span class="host">coldcard-rng-tracker</span><span>Cross-checked externally</span></div>
-                        </div>
-                    </a>
-                    <a class="lens reveal" href="https://bitcoindatalabs.github.io/bitcoin-mining-pools/">
-                        <div class="lens-shot"><img src="screenshots/live/mining-pools.jpg" alt="Mining pool centralization dashboard" loading="lazy" width="1440" height="900"></div>
-                        <div class="lens-body">
-                            <div class="lens-top"><span class="lens-key">Mining</span><span class="tag">Dashboard</span></div>
-                            <h3>Mining Pool Profiler</h3>
-                            <p class="lens-d">Every block since genesis attributed to its pool: market share, HHI
-                                concentration and top-3 dominance over time, with 160+ pool profiles.</p>
-                            <div class="lens-foot"><span class="host">bitcoin-mining-pools</span><span>Since 2009</span></div>
-                        </div>
-                    </a>
-                    <a class="lens reveal" href="https://bitcoindatalabs.github.io/oss-app-stats/">
-                        <div class="lens-shot"><img src="screenshots/live/oss-app-stats.jpg" alt="OSS App Stats adoption leaderboard" loading="lazy" width="1440" height="900"></div>
-                        <div class="lens-body">
-                            <div class="lens-top"><span class="lens-key">Open source</span><span class="tag">Leaderboard</span></div>
-                            <h3>OSS App Stats</h3>
-                            <p class="lens-d">Downloads, release cadence and freshness for Bitcoin Core, LND, CLN, Sparrow,
-                                BDK and 30+ other open-source projects.</p>
-                            <div class="lens-foot"><span class="host">oss-app-stats</span><span>33 projects</span></div>
-                        </div>
-                    </a>
-                </div>
-                <div class="more-work reveal">
-                    <b>Also from the lab</b>
-                    <a href="https://bitcoindatalabs.github.io/deep-dives/">Deep Dives</a>
-                    <a href="https://bitcoindatalabs.github.io/Tools/">Lightning routing simulator</a>
-                    <a href="https://bitcoindatalabs.github.io/Tools/">Witness data decoder</a>
-                    <a href="https://bitcoindatalabs.github.io/Tools/">Channel ID decoder</a>
-                    <a href="https://datalabs.orangemetrics.xyz/">Data Platform (SQL &amp; charts)</a>
-                    <a href="https://bitcoindatalabs.github.io/TheBitcoinExpress/">The Bitcoin Express (book)</a>
-                    <a href="https://bitcoindatalabs.github.io/TheCryptographyExpress/">The Cryptography Express (book)</a>
-                    <a class="link-arrow" href="work.html">Full catalog</a>
-                </div>
-            </div>
-        </section>
-
         <!-- ═══ OPEN DATA + PRINCIPLES ═══ -->
-        <section class="band" id="data">
+        <section class="band band-alt" id="data">
             <div class="wrap">
                 <div class="data-split">
                     <div>
                         <div class="band-head reveal">
                             <p class="eyebrow">Open data</p>
                             <h2>Don't trust our charts. Check them.</h2>
-                            <p>Every dashboard reads files that sit in a public repository. Clone them, query them,
-                                cite them.</p>
+                            <p>Every dashboard reads files that sit in a public repository: more than ten datasets
+                                across four repos. Clone them, query them, cite them.</p>
                         </div>
                         <div class="datasets reveal">
                             <a class="dataset" href="https://github.com/bitcoindatalabs/orange-dev-data">
@@ -506,21 +562,29 @@
         </section>
 
         <!-- ═══ ABOUT + GET INVOLVED ═══ -->
-        <section class="band band-alt" id="about">
+        <section class="band" id="about">
             <div class="wrap">
                 <div class="band-head reveal">
                     <p class="eyebrow">Who we are</p>
-                    <h2>A small lab with a lot of automation.</h2>
-                    <p>Bitcoin Data Labs is a non-profit based in Austin, Texas. More than 25 automated jobs collect,
-                        render and publish our work every day, so a small team can keep a large public record
-                        current.</p>
+                    <h2>Big-tech data discipline, run as a public good.</h2>
+                    <p>Bitcoin Data Labs is a non-profit based in Austin, Texas. It brings the standards of an
+                        enterprise data organization (reproducible pipelines, documented methods, fixed publishing
+                        schedules) to a network that has no central owner. More than 25 automated jobs keep the
+                        public record current every day.</p>
                 </div>
                 <div class="about-grid">
                     <div class="panel reveal">
                         <h3>Saurabh Kumar</h3>
-                        <p class="role">Founder · Lead data engineer</p>
-                        <p>Saurabh builds the pipelines, dashboards and reports that power the lab, turning raw
-                            repository, gossip and on-chain data into public goods anyone can use and check.</p>
+                        <p class="role">Founder</p>
+                        <p>15+ years leading data, analytics and experimentation: product optimization at PayPal,
+                            Head of Experimentation at realtor.com (News Corp), credit risk at HSBC, and an own
+                            consultancy that built mortgage and auto-loan risk models for a major US bank. In Bitcoin
+                            since 2017.</p>
+                        <p>Author of two open books:
+                            <a href="https://sorukumar.github.io/TheArtofExperimentation/">The Art of Experimentation</a>,
+                            on testing ideas cheaply and rigorously, and
+                            <a href="https://sorukumar.github.io/No-BS-LightningAnalytics/">No-BS Lightning Analytics</a>,
+                            a hands-on guide to data science on the Lightning Network.</p>
                         <div class="row">
                             <a class="btn btn-quiet" href="https://x.com/sorukumar" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i> @sorukumar</a>
                             <a class="btn btn-quiet" href="https://www.linkedin.com/in/sorukumar/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
@@ -565,7 +629,7 @@
 
     <footer id="site-footer" class="site-footer"></footer>
 
-    <script src="scripts/site.js"></script>
+    <script src="scripts/site.js?v=20261009"></script>
 </body>
 
 </html>
