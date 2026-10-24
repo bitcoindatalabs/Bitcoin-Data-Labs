@@ -48,7 +48,7 @@ window.BDL_PAPERS = [
         },
         cover: 'assets/research/ln-client-diversity-cover.jpg',
         related: [
-            { name: 'The Summer Lightning Broke (a Little)', note: 'plain-language deep dive, TABConf 2026', url: 'https://bitcoindatalabs.github.io/deep-dives/analyses/2026-10-lightning-network-analysis/' },
+            { name: 'The Summer Lightning Broke (a Little)', note: 'plain-language deep dive', url: 'https://bitcoindatalabs.github.io/deep-dives/analyses/2026-10-lightning-network-analysis/' },
             { name: 'Lightning Dashboard', note: 'the live network', url: 'https://lightning.bitcoindatalabs.org/' },
         ],
     },
