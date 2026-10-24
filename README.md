@@ -11,6 +11,11 @@ Live at [bitcoindatalabs.org](https://bitcoindatalabs.org). This repo serves two
    - `scripts/papers.js` is the paper registry behind `research.html`, the brief and the deck. Each new paper also needs
      its cover and key figure in `assets/research/`, a card in `index.html#research` and an entry in `projects.js`.
      Its numbers must match the paper.
+   - **After any change to `papers.js` or `projects.js`, run `python tools/prerender_research.py`.** Most AI crawlers
+     don't run JavaScript, so without it they see an empty research page. It saves the rendered paper list into
+     `research.html` (between the `prerender:` markers), writes the papers' schema.org JSON-LD into its `<head>`, and
+     regenerates `llms.txt`. `robots.txt` welcomes all crawlers and points to `sitemap.xml`; add new top-level pages
+     there.
    - `deck/` is a 6-slide presentation at bitcoindatalabs.org/deck/, unlinked and set to `noindex`. Use the arrow keys or Space to move, F for full screen, and Print → Save as PDF for an offline copy. It shows the same live numbers as the homepage.
    - `brief/` is a two-page lab brief for journalists and funders at bitcoindatalabs.org/brief/, unlinked and set to
      `noindex`. The page is the master copy; `python tools/build_brief_pdf.py` prints it to

@@ -19,6 +19,102 @@
     <link rel="stylesheet" href="styles/bdl.css?v=20261023">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="canonical" href="https://bitcoindatalabs.org/research.html">
+    <!-- prerender:jsonld -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bitcoin Data Labs research papers",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://bitcoindatalabs.org/research.html#ln-client-diversity",
+        "headline": "Does Client Diversity Protect the Lightning Network?",
+        "alternativeHeadline": "Evidence from the 2026 Core Lightning Shutdown",
+        "name": "Does Client Diversity Protect the Lightning Network? Evidence from the 2026 Core Lightning Shutdown",
+        "author": {
+          "@type": "Person",
+          "name": "Saurabh Kumar",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Bitcoin Data Labs",
+            "url": "https://bitcoindatalabs.org/"
+          }
+        },
+        "datePublished": "2026-10-14",
+        "dateModified": "2026-10-21",
+        "description": "The damage from a software failure depends on whether it reaches the network's hubs, not on how many nodes run the failing software.",
+        "abstract": "LND runs 80% of public Lightning nodes and 84% of public channel capacity. When Core Lightning's maintainers told operators who could not upgrade to disconnect on 26 August 2026, 22% of its nodes went dark overnight, yet reachability across the network fell by 7.8 percentage points, half the drop during a Tor denial-of-service wave that July. Diversity statistics that count nodes mislead; the number to track is which software the hubs run.",
+        "url": "https://arxiv.org/abs/2610.20952",
+        "sameAs": [
+          "https://doi.org/10.48550/arXiv.2610.20952"
+        ],
+        "identifier": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "arXiv",
+            "value": "2610.20952"
+          },
+          {
+            "@type": "PropertyValue",
+            "propertyID": "DOI",
+            "value": "10.48550/arXiv.2610.20952"
+          }
+        ],
+        "image": "https://bitcoindatalabs.org/assets/research/ln-client-diversity-fig.png",
+        "isAccessibleForFree": true
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://bitcoindatalabs.org/research.html#ln-upgrade-dynamics",
+        "headline": "Who Patches the Lightning Network?",
+        "alternativeHeadline": "Evidence from Release Lines in Gossip, 2023–2026",
+        "name": "Who Patches the Lightning Network? Evidence from Release Lines in Gossip, 2023–2026",
+        "author": {
+          "@type": "Person",
+          "name": "Saurabh Kumar",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Bitcoin Data Labs",
+            "url": "https://bitcoindatalabs.org/"
+          }
+        },
+        "datePublished": "2026-10-21",
+        "dateModified": "2026-10-21",
+        "description": "Lightning nodes patch on release and platform schedules, not when a security advisory is published.",
+        "abstract": "Gossip carries no software version, so whether operators act on advisories had never been measured. Matching the feature bits each node announces against every LND, Core Lightning, Eclair and LDK release reveals its release line. Across 814 daily snapshots from 2023 to 2026, the three largest LND upgrade waves came about a day after the Umbrel app store shipped a new version. For maintainers, the lever on the nodes that lag is the platforms that package their releases.",
+        "url": "https://arxiv.org/abs/2610.30350",
+        "sameAs": [
+          "https://doi.org/10.48550/arXiv.2610.30350"
+        ],
+        "identifier": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "arXiv",
+            "value": "2610.30350"
+          },
+          {
+            "@type": "PropertyValue",
+            "propertyID": "DOI",
+            "value": "10.48550/arXiv.2610.30350"
+          }
+        ],
+        "image": "https://bitcoindatalabs.org/assets/research/ln-upgrade-dynamics-fig.png",
+        "isAccessibleForFree": true
+      }
+    }
+  ]
+}
+    </script>
+    <!-- /prerender:jsonld -->
 </head>
 
 <body class="bdl-site">
@@ -37,8 +133,85 @@
 
         <section class="band" style="padding-top: 4rem;">
             <div class="wrap">
-                <div class="band-head" id="series-head"></div>
-                <div class="papers" id="papers"></div>
+                <!-- The paper list is rendered from scripts/papers.js; the copy between the prerender markers is for
+                     crawlers that don't run JavaScript. Refresh it with: python tools/prerender_research.py -->
+                <div class="band-head" id="series-head"><!-- prerender:series-head --><p class="eyebrow">Series · Lightning security</p>
+                    <h2>How does the Lightning Network hold up when its software fails?</h2>
+                    <p>Lightning is a payment network built on Bitcoin, run by thousands of independent operators on four open-source implementations. In 2026 every implementation disclosed security vulnerabilities. This series measures, from public gossip and the chain, how the network held up and how operators responded.</p><!-- /prerender:series-head --></div>
+                <div class="papers" id="papers"><!-- prerender:papers --><article class="paper" id="ln-client-diversity">
+                    <div class="paper-main">
+                        <div class="paper-meta">
+                            <span class="lens-key">Paper 01 · Who fails?</span>
+                            <a class="tag tag-accent" href="https://arxiv.org/abs/2610.20952" target="_blank" rel="noopener noreferrer">arXiv:2610.20952 · v2</a>
+                        </div>
+                        <h3>Does Client Diversity Protect the Lightning Network?<span>Evidence from the 2026 Core Lightning Shutdown</span></h3>
+                        <p class="paper-byline">Saurabh Kumar · Bitcoin Data Labs · October 2026 · cs.CR, cs.NI</p>
+                        <p class="paper-finding">The damage from a software failure depends on whether it reaches the network's hubs, not on how many nodes run the failing software.</p>
+                        <p class="paper-summary">LND runs 80% of public Lightning nodes and 84% of public channel capacity. When Core Lightning's maintainers told operators who could not upgrade to disconnect on 26 August 2026, 22% of its nodes went dark overnight, yet reachability across the network fell by 7.8 percentage points, half the drop during a Tor denial-of-service wave that July. Diversity statistics that count nodes mislead; the number to track is which software the hubs run.</p>
+                        <div class="paper-stats"><div><b class="num">84%</b><span>of public channel capacity runs on one implementation, LND</span></div><div><b class="num">22%</b><span>of Core Lightning nodes went dark overnight, ten times the usual rate</span></div><div><b class="num">4×</b><span>more reachability lost if ACINQ's Eclair node fails alone than if all 619 routable CLN nodes do</span></div></div>
+                        <div class="paper-actions">
+                            <a class="btn btn-primary" href="https://arxiv.org/abs/2610.20952" target="_blank" rel="noopener noreferrer">Read on arXiv <i class="fas fa-arrow-up-right-from-square"></i></a>
+                            <a class="btn btn-quiet" href="https://arxiv.org/pdf/2610.20952" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a class="btn btn-quiet" href="https://github.com/bitcoindatalabs/ln-client-diversity" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Code &amp; data</a>
+                            <button class="btn btn-quiet" type="button" data-cite="ln-client-diversity" aria-expanded="false"><i class="fas fa-quote-right"></i> Cite</button>
+                        </div>
+                        <div class="paper-cite" id="cite-ln-client-diversity" hidden="">
+                            <pre>@misc{kumar2026clientdiversity,
+  title         = {Does Client Diversity Protect the Lightning Network? Evidence from the 2026 Core Lightning Shutdown},
+  author        = {Saurabh Kumar},
+  year          = {2026},
+  eprint        = {2610.20952},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CR},
+  doi           = {10.48550/arXiv.2610.20952},
+  url           = {https://arxiv.org/abs/2610.20952}
+}</pre>
+                            <button class="btn btn-quiet" type="button" data-copy="ln-client-diversity"><i class="far fa-copy"></i> Copy BibTeX</button>
+                        </div>
+                        <div class="paper-related"><b>Related</b><a href="https://bitcoindatalabs.github.io/deep-dives/analyses/2026-10-lightning-network-analysis/" target="_blank" rel="noopener noreferrer">The Summer Lightning Broke (a Little)</a><span>plain-language deep dive</span><a href="https://lightning.bitcoindatalabs.org/" target="_blank" rel="noopener noreferrer">Lightning Dashboard</a><span>the live network</span></div>
+                    </div>
+                    <figure class="paper-fig">
+                        <a href="https://arxiv.org/abs/2610.20952" target="_blank" rel="noopener noreferrer"><img src="assets/research/ln-client-diversity-fig.png" alt="Two stacked area charts, 2023 to 2026: LND's share of node capacity stays between 84% and 90%, while its share of public nodes falls from 91.8% to 84.2%." loading="lazy" width="1540" height="572"></a>
+                        <figcaption>Share of public nodes (a) and of node capacity (b) by implementation, 2023–2026. LND's share of capacity has barely moved.</figcaption>
+                    </figure>
+                </article>
+                <article class="paper" id="ln-upgrade-dynamics">
+                    <div class="paper-main">
+                        <div class="paper-meta">
+                            <span class="lens-key">Paper 02 · Who patches?</span>
+                            <a class="tag tag-accent" href="https://arxiv.org/abs/2610.30350" target="_blank" rel="noopener noreferrer">arXiv:2610.30350 · v1</a>
+                        </div>
+                        <h3>Who Patches the Lightning Network?<span>Evidence from Release Lines in Gossip, 2023–2026</span></h3>
+                        <p class="paper-byline">Saurabh Kumar · Bitcoin Data Labs · October 2026 · cs.CR, cs.NI</p>
+                        <p class="paper-finding">Lightning nodes patch on release and platform schedules, not when a security advisory is published.</p>
+                        <p class="paper-summary">Gossip carries no software version, so whether operators act on advisories had never been measured. Matching the feature bits each node announces against every LND, Core Lightning, Eclair and LDK release reveals its release line. Across 814 daily snapshots from 2023 to 2026, the three largest LND upgrade waves came about a day after the Umbrel app store shipped a new version. For maintainers, the lever on the nodes that lag is the platforms that package their releases.</p>
+                        <div class="paper-stats"><div><b class="num">88 days</b><span>for half of LND nodes on an older line to upgrade after a release</span></div><div><b class="num">1 of 12</b><span>security disclosures we could test measurably sped up upgrades</span></div><div><b class="num">71%</b><span>of LND nodes exposed by Lightning Labs' August 2026 disclosures still ran an affected release two months later</span></div></div>
+                        <div class="paper-actions">
+                            <a class="btn btn-primary" href="https://arxiv.org/abs/2610.30350" target="_blank" rel="noopener noreferrer">Read on arXiv <i class="fas fa-arrow-up-right-from-square"></i></a>
+                            <a class="btn btn-quiet" href="https://arxiv.org/pdf/2610.30350" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a class="btn btn-quiet" href="https://github.com/bitcoindatalabs/ln-upgrade-dynamics" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Code &amp; data</a>
+                            <button class="btn btn-quiet" type="button" data-cite="ln-upgrade-dynamics" aria-expanded="false"><i class="fas fa-quote-right"></i> Cite</button>
+                        </div>
+                        <div class="paper-cite" id="cite-ln-upgrade-dynamics" hidden="">
+                            <pre>@misc{kumar2026upgradedynamics,
+  title         = {Who Patches the Lightning Network? Evidence from Release Lines in Gossip, 2023--2026},
+  author        = {Saurabh Kumar},
+  year          = {2026},
+  eprint        = {2610.30350},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CR},
+  doi           = {10.48550/arXiv.2610.30350},
+  url           = {https://arxiv.org/abs/2610.30350}
+}</pre>
+                            <button class="btn btn-quiet" type="button" data-copy="ln-upgrade-dynamics"><i class="far fa-copy"></i> Copy BibTeX</button>
+                        </div>
+                        <div class="paper-related"><b>Related</b><a href="#ln-client-diversity">Does Client Diversity Protect the Lightning Network?</a><span>paper 01, the client labels this paper builds on</span><a href="https://bitcoindatalabs.github.io/oss-app-stats/" target="_blank" rel="noopener noreferrer">OSS App Stats</a><span>release cadence of Lightning implementations</span></div>
+                    </div>
+                    <figure class="paper-fig">
+                        <a href="https://arxiv.org/abs/2610.30350" target="_blank" rel="noopener noreferrer"><img src="assets/research/ln-upgrade-dynamics-fig.png" alt="Daily upgrade counts for LND and Core Lightning nodes, 2024 to 2026, with spikes that follow Umbrel app-store releases." loading="lazy" width="1540" height="704"></a>
+                        <figcaption>Upgrades per day, LND (top) and Core Lightning (bottom). Dashed lines mark upstream releases, triangles Umbrel app-store releases; the largest LND waves follow Umbrel.</figcaption>
+                    </figure>
+                </article><!-- /prerender:papers --></div>
             </div>
         </section>
 

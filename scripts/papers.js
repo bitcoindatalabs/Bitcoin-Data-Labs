@@ -43,8 +43,8 @@ window.BDL_PAPERS = [
         ],
         figure: {
             src: 'assets/research/ln-client-diversity-fig.png', width: 1540, height: 572,
-            alt: 'Two stacked area charts, 2023 to 2026: LND holds about 84% of public nodes and 85% of node capacity throughout.',
-            caption: 'Share of public nodes (a) and of node capacity (b) by implementation, 2023–2026. LND\'s share has barely moved.',
+            alt: 'Two stacked area charts, 2023 to 2026: LND\'s share of node capacity stays between 84% and 90%, while its share of public nodes falls from 91.8% to 84.2%.',
+            caption: 'Share of public nodes (a) and of node capacity (b) by implementation, 2023–2026. LND\'s share of capacity has barely moved.',
         },
         cover: 'assets/research/ln-client-diversity-cover.jpg',
         related: [
@@ -63,8 +63,7 @@ window.BDL_PAPERS = [
         arxiv: '2610.30350', version: 'v1', category: 'cs.CR', cross: 'cs.NI',
         date: '2026-10-21', firstDate: '2026-10-21',
         repo: 'https://github.com/bitcoindatalabs/ln-upgrade-dynamics',
-        finding: 'Lightning operators upgrade when their platforms ship a release, not when a security advisory is '
-            + 'published.',
+        finding: 'Lightning nodes patch on release and platform schedules, not when a security advisory is published.',
         summary: 'Gossip carries no software version, so whether operators act on advisories had never been measured. '
             + 'Matching the feature bits each node announces against every LND, Core Lightning, Eclair and LDK release '
             + 'reveals its release line. Across 814 daily snapshots from 2023 to 2026, the three largest LND upgrade '
@@ -99,6 +98,7 @@ window.BDL_BIBTEX = function (p) {
         `  eprint        = {${p.arxiv}},`,
         `  archivePrefix = {arXiv},`,
         `  primaryClass  = {${p.category}},`,
+        `  doi           = {10.48550/arXiv.${p.arxiv}},`,
         `  url           = {https://arxiv.org/abs/${p.arxiv}}`,
         `}`,
     ].join('\n');

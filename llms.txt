@@ -1,0 +1,38 @@
+# Bitcoin Data Labs
+
+> Bitcoin has no CEO and no annual report. Bitcoin Data Labs is an open-source non-profit that measures Bitcoin Core development, the Lightning Network and on-chain activity, and publishes the results as open dashboards, datasets, reports and research papers.
+
+Every number in our papers is produced by code published with the paper, from a fixed data cutoff. Security results are aggregates only: no individual node is named, ranked or labelled. Data repositories are CC BY 4.0; credit "Source: Bitcoin Data Labs (bitcoindatalabs.org)". Contact: sorukumar@bitcoindatalabs.org.
+
+## Research papers: Lightning security
+
+How does the Lightning Network hold up when its software fails? Lightning is a payment network built on Bitcoin, run by thousands of independent operators on four open-source implementations. In 2026 every implementation disclosed security vulnerabilities. This series measures, from public gossip and the chain, how the network held up and how operators responded.
+
+- [Does Client Diversity Protect the Lightning Network? Evidence from the 2026 Core Lightning Shutdown](https://arxiv.org/abs/2610.20952): Saurabh Kumar, Bitcoin Data Labs, arXiv:2610.20952 (v2). The damage from a software failure depends on whether it reaches the network's hubs, not on how many nodes run the failing software. Code and data: https://github.com/bitcoindatalabs/ln-client-diversity
+- [Who Patches the Lightning Network? Evidence from Release Lines in Gossip, 2023–2026](https://arxiv.org/abs/2610.30350): Saurabh Kumar, Bitcoin Data Labs, arXiv:2610.30350 (v1). Lightning nodes patch on release and platform schedules, not when a security advisory is published. Code and data: https://github.com/bitcoindatalabs/ln-upgrade-dynamics
+
+## Dashboards, reports and data
+
+- [Orange Dev Tracker](https://orange-dev.bitcoindatalabs.org/): What is shipping in Bitcoin Core, and is the project healthy?
+- [State of Bitcoin Core](https://orange-dev.bitcoindatalabs.org/reports.html): How did Bitcoin Core development go this month?
+- [Orange Dev Network](https://network.bitcoindatalabs.org/): Who builds Bitcoin, and how do they work together?
+- [This Week in Bitcoin](https://twib.bitcoindatalabs.org/): What happened in Bitcoin Core this week?
+- [Funding Explorer](https://bitcoindatalabs.github.io/orange-funding-explorer/dashboard.html): Who funds Bitcoin developers, and which work do they fund?
+- [Ecosystem Map](https://bitcoindatalabs.github.io/orange-ecosystem-map/): What else is being built on Bitcoin, and by whom?
+- [Lightning Dashboard](https://lightning.bitcoindatalabs.org/): Which nodes matter, and where is liquidity moving?
+- [LN Graph Viz](https://bitcoindatalabs.github.io/ln-graph-viz/): What does the Lightning Network actually look like?
+- [L2 Watch](https://bitcoindatalabs.github.io/l2-watch/): How much Bitcoin lives on sidechains, and how are they run?
+- [Coldcard RNG Investigation](https://bitcoindatalabs.github.io/coldcard-rng-tracker/): 1,983 BTC swept in 22 hours. What happened on-chain?
+- [Mining Pool Profiler](https://bitcoindatalabs.github.io/bitcoin-mining-pools/): How centralized is Bitcoin mining, and how has that changed?
+- [Deep Dives](https://bitcoindatalabs.github.io/deep-dives/): When something breaks or shifts, what does the data say?
+- [OSS App Stats](https://bitcoindatalabs.github.io/oss-app-stats/): Which Bitcoin open-source apps are people actually using?
+- [Bitcoin & Lightning Tools](https://bitcoindatalabs.github.io/Tools/): How do payments route, and how is a transaction built?
+- [The Bitcoin Express](https://bitcoindatalabs.github.io/TheBitcoinExpress/): New to Bitcoin? Where do I start?
+- [The Cryptography Express](https://bitcoindatalabs.github.io/TheCryptographyExpress/): What cryptography do I need to understand Bitcoin?
+- [No-BS Lightning Analytics](https://sorukumar.github.io/No-BS-LightningAnalytics/): How do I analyze the Lightning Network with code?
+
+## Optional
+
+- [Research](https://bitcoindatalabs.org/research.html): the papers, with BibTeX for each
+- [All work](https://bitcoindatalabs.org/work.html): the full catalog of dashboards, reports, datasets and investigations
+- [GitHub](https://github.com/bitcoindatalabs): code and data for everything above

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The landing site's public pages. brief/ and deck/ are unlisted (noindex) and stay out. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://bitcoindatalabs.org/</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://bitcoindatalabs.org/research.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://bitcoindatalabs.org/work.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://bitcoindatalabs.org/support.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://bitcoindatalabs.org/llms.txt</loc><lastmod>2026-10-23</lastmod></url>
+</urlset>

@@ -1,0 +1,6 @@
+# Bitcoin Data Labs publishes open research and data. Every crawler is welcome, including AI search and
+# training crawlers: we want our papers found, read and cited. The brief and the deck carry their own noindex tags.
+User-agent: *
+Allow: /
+
+Sitemap: https://bitcoindatalabs.org/sitemap.xml
