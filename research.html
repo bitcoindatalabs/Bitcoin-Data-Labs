@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' https:; connect-src 'self' https:;">
+    <script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+    <title>Research — Bitcoin Data Labs</title>
+    <meta name="description" content="Research papers from Bitcoin Data Labs on how the Lightning Network holds up when its software fails and how operators respond to security advisories, with the code and data behind every number.">
+    <meta property="og:title" content="Research — Bitcoin Data Labs">
+    <meta property="og:description" content="Research papers on Lightning security, with the code and data behind every number. Preprints on arXiv.">
+    <meta property="og:image" content="https://bitcoindatalabs.org/screenshots/og-card.png">
+    <meta property="og:url" content="https://bitcoindatalabs.org/research.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@Bitcoindatalabs">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/bdl.css?v=20261023">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+
+<body class="bdl-site">
+    <header id="site-header" class="site-header"></header>
+
+    <main>
+        <section class="page-hero">
+            <div class="wrap">
+                <p class="eyebrow">Research</p>
+                <h1>Research papers, with the code and data behind every number.</h1>
+                <p>Each paper takes one question about how Bitcoin and its payment networks behave and answers it
+                    from public data. The preprints are on arXiv, and every figure, table and number in them is
+                    produced by code published alongside.</p>
+            </div>
+        </section>
+
+        <section class="band" style="padding-top: 4rem;">
+            <div class="wrap">
+                <div class="band-head" id="series-head"></div>
+                <div class="papers" id="papers"></div>
+            </div>
+        </section>
+
+        <section class="band band-alt">
+            <div class="wrap">
+                <div class="data-split">
+                    <div>
+                        <p class="eyebrow">How we do research</p>
+                        <ol class="principles">
+                            <li><div><h3>Every number comes from code</h3><p>Each figure, table and quoted number is
+                                written by the pipeline in the paper's repository, from a fixed data cutoff. Nothing is
+                                typed in by hand.</p></div></li>
+                            <li><div><h3>Aggregates only</h3><p>Security results are published as totals. No list, ranking
+                                or label of individual nodes by software release or exposure appears in a paper or its
+                                data, and we don't provide one on request.</p></div></li>
+                            <li><div><h3>Public inputs</h3><p>The papers read the public Lightning gossip graph and the
+                                Bitcoin blockchain. Our daily snapshots of them are available to researchers on
+                                request.</p></div></li>
+                            <li><div><h3>Measure, don't advocate</h3><p>We report what the record shows about clients,
+                                operators and maintainers, including when it is not what anyone expected.</p></div></li>
+                        </ol>
+                    </div>
+                    <div class="panel">
+                        <h3>Using our research?</h3>
+                        <p class="role">Researchers · Journalists · Maintainers</p>
+                        <p>Cite the arXiv version; each paper's <strong>Cite</strong> button gives the BibTeX. For
+                            questions about the method, a cut of the data the paper doesn't show, or an interview,
+                            write to the author.</p>
+                        <div class="row">
+                            <a class="btn btn-primary" href="mailto:sorukumar@bitcoindatalabs.org?subject=Bitcoin%20Data%20Labs%20research"><i class="fas fa-envelope"></i> sorukumar@bitcoindatalabs.org</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="band">
+            <div class="wrap">
+                <div class="band-head">
+                    <p class="eyebrow">Also from the lab</p>
+                    <h2>Investigations and deep dives.</h2>
+                    <p>Shorter pieces that answer one question with on-chain or network data, with the methodology
+                        published next to the findings.</p>
+                </div>
+                <div class="more-work">
+                    <b>Read</b>
+                    <a href="https://bitcoindatalabs.github.io/deep-dives/">Deep Dives</a>
+                    <a href="https://bitcoindatalabs.github.io/coldcard-rng-tracker/">Coldcard RNG investigation</a>
+                    <a href="https://bitcoindatalabs.github.io/bitcoin-mining-pools/">Mining Pool Profiler</a>
+                    <a class="link-arrow" href="work.html#research">Full catalog</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="site-footer" class="site-footer"></footer>
+
+    <script src="scripts/papers.js?v=20261023"></script>
+    <script src="scripts/site.js?v=20261023"></script>
+    <script>
+        (function () {
+            const papers = window.BDL_PAPERS || [];
+            const series = window.BDL_SERIES || {};
+            const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+            const month = iso => new Date(iso + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });
+
+            // One series today; the head describes the series of the first paper.
+            const s = series[(papers[0] || {}).series];
+            if (s) {
+                document.getElementById('series-head').innerHTML = `
+                    <p class="eyebrow">Series · ${esc(s.label)}</p>
+                    <h2>${esc(s.question)}</h2>
+                    <p>${esc(s.blurb)}</p>`;
+            }
+
+            document.getElementById('papers').innerHTML = papers.map(p => {
+                const abs = `https://arxiv.org/abs/${p.arxiv}`;
+                const related = (p.related || []).map(r =>
+                    `<a href="${esc(r.url)}">${esc(r.name)}</a><span>${esc(r.note)}</span>`).join('');
+                return `
+                <article class="paper" id="${esc(p.id)}">
+                    <div class="paper-main">
+                        <div class="paper-meta">
+                            <span class="lens-key">Paper ${esc(p.num)} · ${esc(p.question)}</span>
+                            <a class="tag tag-accent" href="${abs}">arXiv:${esc(p.arxiv)} · ${esc(p.version)}</a>
+                        </div>
+                        <h3>${esc(p.title)}<span>${esc(p.subtitle)}</span></h3>
+                        <p class="paper-byline">${esc(p.authors)} · Bitcoin Data Labs · ${month(p.date)} · ${esc(p.category)}, ${esc(p.cross)}</p>
+                        <p class="paper-finding">${esc(p.finding)}</p>
+                        <p class="paper-summary">${esc(p.summary)}</p>
+                        <div class="paper-stats">${p.stats.map(x =>
+                            `<div><b class="num">${esc(x.value)}</b><span>${esc(x.label)}</span></div>`).join('')}</div>
+                        <div class="paper-actions">
+                            <a class="btn btn-primary" href="${abs}">Read on arXiv <i class="fas fa-arrow-up-right-from-square"></i></a>
+                            <a class="btn btn-quiet" href="https://arxiv.org/pdf/${esc(p.arxiv)}"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a class="btn btn-quiet" href="${esc(p.repo)}"><i class="fa-brands fa-github"></i> Code &amp; data</a>
+                            <button class="btn btn-quiet" type="button" data-cite="${esc(p.id)}" aria-expanded="false"><i class="fas fa-quote-right"></i> Cite</button>
+                        </div>
+                        <div class="paper-cite" id="cite-${esc(p.id)}" hidden>
+                            <pre>${esc(window.BDL_BIBTEX(p))}</pre>
+                            <button class="btn btn-quiet" type="button" data-copy="${esc(p.id)}"><i class="far fa-copy"></i> Copy BibTeX</button>
+                        </div>
+                        ${related ? `<div class="paper-related"><b>Related</b>${related}</div>` : ''}
+                    </div>
+                    <figure class="paper-fig">
+                        <a href="${abs}"><img src="${esc(p.figure.src)}" alt="${esc(p.figure.alt)}" loading="lazy" width="${p.figure.width}" height="${p.figure.height}"></a>
+                        <figcaption>${esc(p.figure.caption)}</figcaption>
+                    </figure>
+                </article>`;
+            }).join('');
+
+            document.getElementById('papers').addEventListener('click', e => {
+                const cite = e.target.closest('[data-cite]');
+                if (cite) {
+                    const box = document.getElementById(`cite-${cite.dataset.cite}`);
+                    box.hidden = !box.hidden;
+                    cite.setAttribute('aria-expanded', String(!box.hidden));
+                    return;
+                }
+                const copy = e.target.closest('[data-copy]');
+                if (copy) {
+                    const text = document.querySelector(`#cite-${copy.dataset.copy} pre`).textContent;
+                    const done = () => { copy.innerHTML = '<i class="fas fa-check"></i> Copied'; };
+                    (navigator.clipboard ? navigator.clipboard.writeText(text) : Promise.reject())
+                        .then(done)
+                        .catch(() => {
+                            const r = document.createRange();
+                            r.selectNodeContents(document.querySelector(`#cite-${copy.dataset.copy} pre`));
+                            const sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r);
+                        });
+                }
+            });
+
+            // The registry renders after the browser's own jump to #paper, so jump again.
+            if (location.hash) {
+                const target = document.getElementById(location.hash.slice(1));
+                if (target) target.scrollIntoView();
+            }
+        })();
+    </script>
+</body>
+
+</html>

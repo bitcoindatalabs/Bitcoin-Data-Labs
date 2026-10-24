@@ -1,5 +1,5 @@
 /**
- * Bitcoin Data Labs — landing site behaviour (index, work, support).
+ * Bitcoin Data Labs — landing site behaviour (index, work, research, support).
  *  1. Site header, footer and partner strips. The landing site has its own
  *     shell; the shared components/ shell is for the child apps.
  *  2. Scroll reveal
@@ -21,6 +21,7 @@
     // ── 1. Header / footer / partners ───────────────────────────────
     const NAV = [
         { name: 'Work', url: 'work.html', match: 'work.html' },
+        { name: 'Research', url: 'research.html', match: 'research.html' },
         { name: 'Reports', url: 'index.html#reports' },
         { name: 'Open Data', url: 'index.html#data' },
         { name: 'About', url: 'index.html#about' },
@@ -105,12 +106,13 @@
                         <a href="https://orange-dev.bitcoindatalabs.org/">Orange Dev</a>
                         <a href="https://lightning.bitcoindatalabs.org/">Lightning</a>
                         <a href="https://bitcoindatalabs.github.io/l2-watch/">L2 Watch</a>
-                        <a href="index.html#research">Forensics &amp; Research</a>
+                        <a href="index.html#research">Research &amp; Forensics</a>
                         <a href="index.html#learn">Learn</a>
                         <a href="work.html">All work</a>
                     </div>
                     <div class="sf-col">
                         <h4>Read</h4>
+                        <a href="research.html">Research papers</a>
                         <a href="https://orange-dev.bitcoindatalabs.org/reports.html">State of Bitcoin Core</a>
                         <a href="https://twib.bitcoindatalabs.org/">This Week in Bitcoin</a>
                         <a href="https://bitcoindatalabs.github.io/deep-dives/">Deep Dives</a>
@@ -128,7 +130,7 @@
                     <div class="partners partners-sm">${partnerLogos()}</div>
                 </div>
                 <div class="sf-base">
-                    <span>© ${new Date().getFullYear()} Bitcoin Data Labs · Non-profit · Code and data are open source.</span>
+                    <span>© ${new Date().getFullYear()} Bitcoin Data Labs · 501(c)(3) non-profit · Code and data are open source.</span>
                     <span><a href="mailto:${CONTACT}">${CONTACT}</a></span>
                 </div>
             </div>`;

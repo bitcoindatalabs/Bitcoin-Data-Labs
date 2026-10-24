@@ -3,7 +3,8 @@
  * Single source for the catalog on work.html. Add new work here.
  *
  * program: 'orange-dev' | 'lightning' | 'research' | 'tools'
- * status:  'live' (refreshed by automation) | 'published' (finished piece) | 'lab' (experimental)
+ * status:  'live' (refreshed by automation) | 'published' (finished piece) | 'paper' (arXiv preprint) | 'lab' (experimental)
+ * Papers also need an entry in scripts/papers.js, which drives research.html.
  */
 window.BDL_PROJECTS = [
     // ── Orange Dev: Bitcoin Core, measured ───────────────────────────
@@ -81,7 +82,21 @@ window.BDL_PROJECTS = [
         status: 'published',
     },
 
-    // ── Forensics & research ─────────────────────────────────────────
+    // ── Research & forensics ─────────────────────────────────────────
+    {
+        program: 'research', key: 'Who fails?', name: 'Does Client Diversity Protect the Lightning Network?',
+        url: 'research.html#ln-client-diversity', shot: 'assets/research/ln-client-diversity-cover.jpg',
+        question: 'When one Lightning implementation fails, how much of the network goes with it?',
+        desc: 'A natural experiment from the August 2026 call by Core Lightning maintainers to disconnect: the damage depends on whether a failure reaches the hubs, not on how many nodes run the failing software. arXiv:2610.20952.',
+        status: 'paper',
+    },
+    {
+        program: 'research', key: 'Who patches?', name: 'Who Patches the Lightning Network?',
+        url: 'research.html#ln-upgrade-dynamics', shot: 'assets/research/ln-upgrade-dynamics-cover.jpg',
+        question: 'Do Lightning operators upgrade after a security advisory?',
+        desc: 'The release line of every public node, inferred from gossip, 2023–2026: operators upgrade on platform release schedules, not on disclosures. arXiv:2610.30350.',
+        status: 'paper',
+    },
     {
         program: 'research', key: 'Forensics', name: 'Coldcard RNG Investigation',
         url: 'https://bitcoindatalabs.github.io/coldcard-rng-tracker/', shot: 'screenshots/live/coldcard.jpg',
@@ -145,6 +160,6 @@ window.BDL_PROJECTS = [
 window.BDL_PROGRAMS = {
     'orange-dev': { label: 'Orange Dev', blurb: 'Bitcoin Core, measured' },
     lightning: { label: 'Lightning & L2s', blurb: 'Second layers, measured' },
-    research: { label: 'Forensics & Research', blurb: 'One question, answered rigorously' },
+    research: { label: 'Research & Forensics', blurb: 'One question, answered rigorously' },
     tools: { label: 'Learn', blurb: 'Tools and open books' },
 };

@@ -8,7 +8,7 @@
         content="default-src 'self' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' https:; connect-src 'self' https:;">
     <script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
     <title>Bitcoin Data Labs — Bitcoin's open data lab</title>
-    <meta name="description" content="Bitcoin has no CEO and no annual report. Bitcoin Data Labs is an open-source non-profit that measures Bitcoin Core development, the Lightning Network and on-chain activity, and publishes the results as open dashboards, datasets and reports.">
+    <meta name="description" content="Bitcoin has no CEO and no annual report. Bitcoin Data Labs is an open-source non-profit that measures Bitcoin Core development, the Lightning Network and on-chain activity, and publishes the results as open dashboards, datasets, reports and research papers.">
     <meta property="og:title" content="Bitcoin Data Labs — Bitcoin's open data lab">
     <meta property="og:description" content="Open dashboards, datasets and daily, weekly and monthly reports on Bitcoin Core development, the Lightning Network and on-chain activity.">
     <meta property="og:image" content="https://bitcoindatalabs.org/screenshots/og-card.png">
@@ -17,7 +17,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@Bitcoindatalabs">
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/bdl.css?v=20261009">
+    <link rel="stylesheet" href="styles/bdl.css?v=20261023">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="icon" href="favicon.png" type="image/png">
 </head>
@@ -32,6 +32,7 @@
             <div class="wrap">
                 <div class="hero-grid">
                     <div>
+                        <a class="announce" href="research.html"><b>New</b> Two research papers on Lightning security, now on arXiv <i class="fas fa-arrow-right"></i></a>
                         <p class="eyebrow">Non-profit · Open source · Austin, TX</p>
                         <h1>Bitcoin has no annual report.<span class="accent">So we publish one.</span></h1>
                         <p class="hero-lede">Bitcoin Data Labs turns the public record of Bitcoin (every commit,
@@ -134,10 +135,10 @@
                     </a>
                     <a class="gl" href="#research">
                         <span class="gl-num">03</span>
-                        <h3>Forensics &amp; Research</h3>
-                        <p class="gl-q">When something happens on-chain, what actually happened?</p>
-                        <ul><li>Coldcard RNG Investigation</li><li>Mining Pool Profiler</li><li>OSS App Stats</li><li>Deep Dives</li></ul>
-                        <span class="gl-latest"><b>Latest</b> The Summer Lightning Broke (a Little)</span>
+                        <h3>Research &amp; Forensics</h3>
+                        <p class="gl-q">Which claims about Bitcoin hold up when you measure them?</p>
+                        <ul><li>Research papers on arXiv</li><li>Coldcard RNG Investigation</li><li>Mining Pool Profiler</li><li>OSS App Stats</li><li>Deep Dives</li></ul>
+                        <span class="gl-latest"><b>Latest</b> Paper: Who Patches the Lightning Network?</span>
                         <span class="gl-for">For researchers, journalists and policy</span>
                     </a>
                     <a class="gl" href="#learn">
@@ -310,20 +311,48 @@
                         </div>
                     </a>
                 </div>
+                <div class="more-work reveal">
+                    <b>Research from this data</b>
+                    <a href="research.html#ln-client-diversity">Does Client Diversity Protect the Lightning Network?</a>
+                    <a href="research.html#ln-upgrade-dynamics">Who Patches the Lightning Network?</a>
+                    <a class="link-arrow" href="research.html">Research</a>
+                </div>
             </div>
         </section>
 
-        <!-- ═══ FORENSICS & RESEARCH ═══ -->
+        <!-- ═══ RESEARCH & FORENSICS ═══ -->
         <section class="band" id="research">
             <div class="wrap">
                 <div class="program-head reveal">
                     <div class="band-head">
-                        <p class="eyebrow">Program 03 · Forensics &amp; Research</p>
-                        <h2>When something happens on-chain, what really happened?</h2>
-                        <p>Standalone investigations that take one question and answer it with on-chain data, with the
-                            methodology published next to the findings.</p>
+                        <p class="eyebrow">Program 03 · Research &amp; Forensics</p>
+                        <h2>Which claims about Bitcoin hold up when you measure them?</h2>
+                        <p>Research papers and standalone investigations. Each takes one question, answers it from
+                            public data, and publishes the code and the method next to the findings.</p>
                     </div>
-                    <a class="btn btn-quiet" href="work.html">See all work <i class="fas fa-arrow-right"></i></a>
+                    <a class="btn btn-quiet" href="research.html">All research <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="lenses lenses-papers">
+                    <a class="lens reveal" href="research.html#ln-client-diversity">
+                        <div class="lens-shot"><img src="assets/research/ln-client-diversity-cover.jpg" alt="First page of the paper Does Client Diversity Protect the Lightning Network?" loading="lazy" width="1122" height="701"></div>
+                        <div class="lens-body">
+                            <div class="lens-top"><span class="lens-key">Paper 01 · Who fails?</span><span class="tag tag-accent">arXiv · Oct 2026</span></div>
+                            <h3>Does Client Diversity Protect the Lightning Network?</h3>
+                            <p class="lens-q">The damage from a software failure depends on whether it reaches the network's hubs, not on how many nodes run the failing software.</p>
+                            <ul class="lens-learn"><li>A natural experiment: Core Lightning's call to disconnect on 26 August 2026</li><li>Why counting nodes overstates what client diversity buys</li></ul>
+                            <div class="lens-foot"><span class="host">arXiv:2610.20952</span><span class="link-arrow">Read</span></div>
+                        </div>
+                    </a>
+                    <a class="lens reveal" href="research.html#ln-upgrade-dynamics">
+                        <div class="lens-shot"><img src="assets/research/ln-upgrade-dynamics-cover.jpg" alt="First page of the paper Who Patches the Lightning Network?" loading="lazy" width="1122" height="701"></div>
+                        <div class="lens-body">
+                            <div class="lens-top"><span class="lens-key">Paper 02 · Who patches?</span><span class="tag tag-accent">arXiv · Oct 2026</span></div>
+                            <h3>Who Patches the Lightning Network?</h3>
+                            <p class="lens-q">Lightning operators upgrade when their platforms ship a release, not when a security advisory is published.</p>
+                            <ul class="lens-learn"><li>The release line of every public node, inferred from gossip</li><li>Which of 12 security disclosures actually moved operators</li></ul>
+                            <div class="lens-foot"><span class="host">arXiv:2610.30350</span><span class="link-arrow">Read</span></div>
+                        </div>
+                    </a>
                 </div>
                 <div class="lenses">
                     <a class="lens reveal" href="https://bitcoindatalabs.github.io/coldcard-rng-tracker/">
@@ -567,7 +596,7 @@
                 <div class="band-head reveal">
                     <p class="eyebrow">Who we are</p>
                     <h2>Big-tech data discipline, run as a public good.</h2>
-                    <p>Bitcoin Data Labs is a non-profit based in Austin, Texas. It brings the standards of an
+                    <p>Bitcoin Data Labs is a 501(c)(3) non-profit based in Austin, Texas. It brings the standards of an
                         enterprise data organization (reproducible pipelines, documented methods, fixed publishing
                         schedules) to a network that has no central owner. More than 25 automated jobs keep the
                         public record current every day.</p>
@@ -580,7 +609,7 @@
                             Head of Experimentation at realtor.com (News Corp), credit risk at HSBC, and an own
                             consultancy that built mortgage and auto-loan risk models for a major US bank. In Bitcoin
                             since 2017.</p>
-                        <p>Author of two open books:
+                        <p>Author of two <a href="research.html">research papers on Lightning security</a> (arXiv, 2026) and two open books:
                             <a href="https://sorukumar.github.io/TheArtofExperimentation/">The Art of Experimentation</a>,
                             on testing ideas cheaply and rigorously, and
                             <a href="https://sorukumar.github.io/No-BS-LightningAnalytics/">No-BS Lightning Analytics</a>,
@@ -629,7 +658,7 @@
 
     <footer id="site-footer" class="site-footer"></footer>
 
-    <script src="scripts/site.js?v=20261009"></script>
+    <script src="scripts/site.js?v=20261023"></script>
 </body>
 
 </html>

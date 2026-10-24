@@ -13,7 +13,7 @@
     <meta property="og:image" content="https://bitcoindatalabs.org/screenshots/og-card.png">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/bdl.css?v=20261009">
+    <link rel="stylesheet" href="styles/bdl.css?v=20261023">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="icon" href="favicon.png" type="image/png">
 </head>
@@ -59,7 +59,7 @@
     <footer id="site-footer" class="site-footer"></footer>
 
     <script src="scripts/projects.js"></script>
-    <script src="scripts/site.js?v=20261009"></script>
+    <script src="scripts/site.js?v=20261023"></script>
     <script>
         (function () {
             const projects = window.BDL_PROJECTS || [];
@@ -67,6 +67,7 @@
             const statusTag = {
                 live: p => `<span class="tag tag-live">${p.cadence || 'Live'}</span>`,
                 published: () => '<span class="tag">Published</span>',
+                paper: () => '<span class="tag tag-accent">Paper</span>',
                 lab: () => '<span class="tag tag-lab">Experimental</span>',
             };
             const host = url => {

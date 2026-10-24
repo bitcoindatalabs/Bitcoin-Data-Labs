@@ -725,6 +725,104 @@ body.bdl-site {
 .fact b { display: block; font-size: 1.7rem; font-weight: 800; color: var(--secondary); letter-spacing: -0.02em; }
 .fact span { font-size: 0.82rem; color: var(--text-secondary); line-height: 1.45; display: block; margin-top: 0.2rem; }
 
+/* ── Research ─────────────────────────────────────────────────────── */
+/* Homepage: "new research" pill above the hero eyebrow */
+.announce {
+    position: relative; z-index: 1;
+    display: inline-flex; align-items: center; gap: 0.7rem;
+    margin: 0 0 1.4rem; padding: 0.4rem 0.95rem 0.4rem 0.4rem;
+    border: 1px solid var(--bdl-ink-line); border-radius: 999px;
+    background: rgba(253, 246, 227, 0.04);
+    font-size: 0.86rem; font-weight: 550; color: var(--bdl-ink-text);
+    text-decoration: none;
+    transition: border-color 0.2s ease, background 0.2s ease;
+}
+.announce:hover { border-color: rgba(232, 145, 107, 0.55); background: rgba(232, 145, 107, 0.08); color: var(--bdl-ink-text); }
+.announce b {
+    font-size: 0.66rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
+    padding: 0.3rem 0.6rem; border-radius: 999px; background: var(--primary); color: #1A1209;
+}
+.announce i { font-size: 0.75em; color: var(--primary); transition: transform 0.18s ease; }
+.announce:hover i { transform: translateX(3px); }
+
+/* Homepage program 03: paper cards lead, two across */
+.lenses-papers { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-bottom: 1.1rem; }
+.lenses-papers .lens-shot { aspect-ratio: 16 / 7; background: #fff; }
+.lenses-papers .lens-shot img { object-position: top center; }
+.band-dark .more-work { border-color: rgba(244, 239, 230, 0.18); margin-top: 1.1rem; }
+.band-dark .more-work b { color: var(--bdl-ink-muted); }
+.band-dark .more-work a { color: var(--bdl-ink-text); }
+.band-dark .more-work a:hover, .band-dark .more-work .link-arrow { color: var(--primary); }
+
+/* research.html: one full entry per paper */
+.papers { display: grid; gap: 1.6rem; }
+.paper {
+    display: grid;
+    grid-template-columns: minmax(0, 1.08fr) minmax(0, 1fr);
+    gap: 2.4rem;
+    padding: 2.2rem;
+    background: var(--bdl-card);
+    border: 1px solid var(--bdl-line);
+    border-radius: 14px;
+}
+.paper-meta { display: flex; justify-content: space-between; align-items: center; gap: 0.8rem; flex-wrap: wrap; margin-bottom: 0.9rem; }
+.paper-meta .tag { text-decoration: none; font-family: var(--bdl-font-mono); letter-spacing: 0.02em; text-transform: none; font-size: 0.74rem; }
+.paper h3 { margin: 0; font-size: clamp(1.45rem, 2.4vw, 1.85rem); line-height: 1.18; letter-spacing: -0.02em; font-weight: 800; color: var(--secondary); }
+.paper h3 span { display: block; margin-top: 0.35rem; font-size: 0.62em; font-weight: 600; letter-spacing: -0.01em; color: var(--text-secondary); }
+.paper-byline { margin: 0.8rem 0 1.3rem; font-size: 0.82rem; color: var(--text-secondary); }
+.paper-finding {
+    margin: 0 0 0.9rem; padding-left: 1rem; border-left: 3px solid var(--primary);
+    font-size: 1.12rem; line-height: 1.5; font-weight: 650; color: var(--secondary);
+}
+.paper-summary { margin: 0; font-size: 0.95rem; line-height: 1.7; color: var(--text-secondary); }
+.paper-stats {
+    display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin: 1.5rem 0; border-top: 1px solid var(--bdl-line-strong); border-bottom: 1px solid var(--bdl-line);
+}
+.paper-stats > div { padding: 0.95rem 0.9rem 1rem 0; }
+.paper-stats > div + div { padding-left: 0.9rem; border-left: 1px solid var(--bdl-line); }
+.paper-stats b { display: block; font-size: 1.6rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; color: var(--secondary); }
+.paper-stats span { display: block; margin-top: 0.3rem; font-size: 0.78rem; line-height: 1.45; color: var(--text-secondary); }
+.paper-actions { display: flex; flex-wrap: wrap; gap: 0.55rem; }
+.paper-actions .btn { padding: 0.7rem 1.05rem; font-size: 0.88rem; font-family: inherit; }
+.paper-cite { margin-top: 1rem; }
+.paper-cite pre {
+    margin: 0 0 0.6rem; padding: 1rem 1.1rem; overflow-x: auto;
+    background: var(--bg-secondary); border: 1px solid var(--bdl-line); border-radius: 8px;
+    font-family: var(--bdl-font-mono); font-size: 0.78rem; line-height: 1.55; color: var(--secondary);
+}
+.paper-cite .btn { padding: 0.5rem 0.85rem; font-size: 0.8rem; font-family: inherit; }
+.paper-related {
+    display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 0.35rem 0.8rem;
+    margin-top: 1.4rem; padding-top: 1rem; border-top: 1px dashed var(--bdl-line);
+    font-size: 0.85rem;
+}
+.paper-related b { grid-column: 1 / -1; font-size: 0.68rem; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-secondary); }
+.paper-related a { color: var(--secondary); font-weight: 600; text-decoration: none; }
+.paper-related a:hover { color: var(--primary); }
+.paper-related span { color: var(--text-secondary); }
+.paper-fig { margin: 0; align-self: center; }
+.paper-fig a { display: block; padding: 0.9rem; background: #fff; border: 1px solid var(--bdl-line); border-radius: var(--bdl-radius); }
+.paper-fig img { display: block; width: 100%; }
+.paper-fig figcaption { margin-top: 0.7rem; font-size: 0.8rem; line-height: 1.55; color: var(--text-secondary); }
+
+[data-theme="dark"] .paper h3, [data-theme="dark"] .paper-finding, [data-theme="dark"] .paper-stats b,
+[data-theme="dark"] .paper-related a, [data-theme="dark"] .paper-cite pre { color: var(--text-primary) !important; }
+
+@media (max-width: 1080px) {
+    .paper { grid-template-columns: 1fr; }
+    .paper-fig { max-width: 720px; }
+}
+@media (max-width: 640px) {
+    .paper { padding: 1.4rem; gap: 1.6rem; }
+    .lenses-papers { grid-template-columns: 1fr; }
+    .paper-stats { grid-template-columns: 1fr; }
+    .paper-stats > div + div { padding-left: 0; border-left: none; border-top: 1px solid var(--bdl-line); }
+    .paper-related { grid-template-columns: 1fr; }
+    .paper-related span { margin: -0.3rem 0 0.4rem; }
+    .announce { font-size: 0.8rem; }
+}
+
 /* ── Reveal on scroll ─────────────────────────────────────────────── */
 .js .reveal { opacity: 0; transform: translateY(18px); transition: opacity 0.6s ease, transform 0.6s ease; }
 .js .reveal.in { opacity: 1; transform: none; }
