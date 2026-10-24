@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' https:; connect-src 'self' https:;">
+    <title>Bitcoin Data Labs — Lab Brief</title>
+    <meta name="description" content="Bitcoin Data Labs in two pages: what we are, what we have built, our research, the data anyone can use, and where we are going.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <style>
+        /* Unlisted two-page brief for journalists and funders.
+           One source, two outputs: this page on screen, and the PDF that
+           tools/build_brief_pdf.py prints from it (US Letter, 2 pages). */
+        :root {
+            --ink: #2A3342;
+            --muted: #5F6C7E;
+            --line: rgba(42, 51, 66, 0.14);
+            --soft: #F6F2EE;
+            --accent: #E8916B;
+            --accent-text: #B85F38;   /* accent dark enough for small text on white */
+            --paper: #FFFFFF;
+            --desk: #E9E5E0;
+            --sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+        * { box-sizing: border-box; }
+        html { -webkit-text-size-adjust: 100%; }
+        body { margin: 0; background: var(--desk); color: var(--ink); font: 400 12.2px/1.46 var(--sans); -webkit-font-smoothing: antialiased; }
+        a { color: inherit; }
+        .num { font-variant-numeric: tabular-nums; }
+
+        /* ── Screen toolbar (not printed) ── */
+        .bar {
+            position: sticky; top: 0; z-index: 5;
+            display: flex; align-items: center; justify-content: space-between; gap: 12px;
+            padding: 10px 16px; background: #0B0E13; color: #F4EFE6;
+            font-size: 13px;
+        }
+        .bar span { opacity: 0.7; }
+        .bar .actions { display: flex; gap: 8px; }
+        .bar a, .bar button {
+            font: 600 13px/1 var(--sans); color: #F4EFE6; text-decoration: none; cursor: pointer;
+            padding: 9px 14px; border-radius: 6px; border: 1px solid rgba(244, 239, 230, 0.25); background: transparent;
+        }
+        .bar a.primary { background: var(--accent); border-color: var(--accent); color: #1A1209; }
+        @media (max-width: 480px) { .bar span { display: none; } .bar .actions { margin-left: auto; } }
+
+        /* ── Sheets ── */
+        .doc { padding: 28px 16px 48px; display: grid; gap: 28px; justify-content: center; }
+        .sheet {
+            width: 8.5in; min-height: 11in; padding: 0.4in 0.55in 0.35in;
+            background: var(--paper); box-shadow: 0 10px 40px rgba(20, 24, 31, 0.14);
+            display: flex; flex-direction: column;
+        }
+        .sheet > .grow { flex: 1; }
+
+        .mast { display: flex; justify-content: space-between; align-items: center; padding-bottom: 12px; border-bottom: 2px solid var(--ink); }
+        .mast img { height: 26px; width: auto; display: block; }
+        .mast div { text-align: right; font-size: 10.5px; line-height: 1.4; color: var(--muted); }
+        .mast b { color: var(--ink); font-weight: 700; }
+        .mast.small { padding-bottom: 8px; border-bottom-width: 1px; }
+        .mast.small img { height: 20px; }
+
+        .foot { display: flex; justify-content: space-between; margin-top: 10px; padding-top: 7px; border-top: 1px solid var(--line); font-size: 9.5px; color: var(--muted); }
+
+        h1 { margin: 0 0 8px; font-size: 30px; line-height: 1.08; letter-spacing: -0.03em; font-weight: 800; }
+        h1 span { color: var(--accent); }
+        .kicker, h2 {
+            margin: 0; font-size: 9.5px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent-text);
+        }
+        h2 { display: flex; align-items: center; gap: 10px; margin: 13px 0 8px; }
+        h2::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+        h3 { margin: 0; font-size: 13px; line-height: 1.3; font-weight: 750; }
+        p { margin: 0; }
+        .intro { padding: 14px 0 2px; }
+        .intro .kicker { margin-bottom: 8px; }
+        .lede { font-size: 13.4px; line-height: 1.55; color: var(--muted); max-width: 6.6in; }
+
+        .facts { display: grid; grid-template-columns: repeat(5, 1fr); margin-top: 14px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+        .facts div { padding: 8px 10px 8px 0; }
+        .facts div + div { padding-left: 10px; border-left: 1px solid var(--line); }
+        .facts b { display: block; font-size: 20px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; }
+        .facts span { display: block; margin-top: 3px; font-size: 9.8px; line-height: 1.35; color: var(--muted); }
+
+        .two { display: grid; grid-template-columns: 1.15fr 1fr; gap: 22px; }
+        .prose p + p { margin-top: 6px; }
+        .prose p { color: var(--ink); }
+        .serves { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+        .serves li { padding-left: 11px; border-left: 2px solid var(--accent); }
+        .serves b { font-weight: 700; }
+        .serves span { color: var(--muted); }
+
+        .papers { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+        .paper { padding: 11px 13px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--soft); }
+        .paper .meta { display: flex; justify-content: space-between; gap: 8px; font-size: 9.2px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-text); }
+        .paper .meta a { text-decoration: none; letter-spacing: 0; text-transform: none; font-family: Consolas, monospace; font-weight: 600; }
+        .paper h3 { margin: 6px 0 2px; }
+        .paper .finding { margin: 5px 0 7px; font-weight: 650; font-size: 12px; line-height: 1.45; }
+        .paper ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+        .paper li { display: grid; grid-template-columns: 52px 1fr; gap: 8px; font-size: 10.6px; line-height: 1.4; color: var(--muted); }
+        .paper li b { font-size: 13px; font-weight: 800; color: var(--ink); text-align: right; }
+
+        .programs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+        .prog { padding-top: 7px; border-top: 2px solid var(--ink); }
+        .prog .k { display: block; font-size: 9px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-text); }
+        .prog h3 { margin: 3px 0 4px; }
+        .prog p { font-size: 10.6px; line-height: 1.45; color: var(--muted); }
+        .prog .live { margin-top: 6px; font-size: 10.6px; color: var(--ink); }
+        .prog .live b { font-weight: 800; }
+
+        table { width: 100%; border-collapse: collapse; font-size: 10.8px; }
+        th { text-align: left; font-size: 9px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); padding: 0 8px 5px 0; border-bottom: 1px solid var(--ink); }
+        td { padding: 6px 8px 6px 0; border-bottom: 1px solid var(--line); vertical-align: top; line-height: 1.4; }
+        td:first-child { font-family: Consolas, monospace; font-weight: 600; white-space: nowrap; }
+        td:last-child { white-space: nowrap; color: var(--muted); }
+        td a { text-decoration: none; }
+        .terms { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 10px; }
+        .terms div { padding: 8px 10px; background: var(--soft); border-radius: 6px; font-size: 10.6px; line-height: 1.42; color: var(--muted); }
+        .terms b { display: block; color: var(--ink); font-size: 11px; margin-bottom: 1px; }
+
+        .leads { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 7px 20px; counter-reset: lead; }
+        .leads li { counter-increment: lead; display: grid; grid-template-columns: 18px 1fr; gap: 4px; }
+        .leads li::before { content: counter(lead); font-weight: 800; color: var(--accent-text); }
+        .leads b { display: block; font-weight: 700; line-height: 1.35; }
+        .leads span { font-size: 10.6px; color: var(--muted); }
+
+        .principles { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; }
+        .principles div { font-size: 10.4px; line-height: 1.42; color: var(--muted); }
+        .principles b { display: block; color: var(--ink); font-size: 11px; margin-bottom: 2px; }
+
+        .vision p { margin-bottom: 6px; }
+        .vision ul { margin: 0; padding-left: 16px; display: grid; gap: 3px; }
+        .vision li { color: var(--muted); }
+        .vision li b { color: var(--ink); }
+
+        .who { display: grid; grid-template-columns: 1.7fr 1fr; gap: 18px; align-items: start; }
+        .who p + p { margin-top: 6px; }
+        .who .muted { color: var(--muted); }
+        .contact { padding: 12px 14px; border-radius: 8px; background: #0B0E13; color: #F4EFE6; }
+        .contact .kicker { color: var(--accent); margin-bottom: 6px; }
+        .contact b { display: block; font-size: 14px; }
+        .contact a { color: var(--accent); text-decoration: none; font-weight: 600; }
+        .contact p { font-size: 10.8px; line-height: 1.6; color: rgba(244, 239, 230, 0.75); }
+        .contact p + p { margin-top: 6px; }
+
+        /* ── Phones: the sheets become a plain page ── */
+        @media screen and (max-width: 860px) {
+            body { background: var(--paper); font-size: 14px; }
+            .doc { padding: 0; gap: 0; display: block; }
+            .sheet { width: auto; min-height: 0; padding: 22px 16px 26px; box-shadow: none; }
+            .sheet + .sheet { border-top: 8px solid var(--desk); }
+            .mast div { font-size: 11px; }
+            h1 { font-size: 28px; }
+            .lede { font-size: 15px; }
+            .facts { grid-template-columns: 1fr 1fr; }
+            .facts div, .facts div + div { padding: 9px 0; border-left: none; border-top: 1px solid var(--line); }
+            .facts div:nth-child(even) { padding-left: 12px; border-left: 1px solid var(--line); }
+            .facts div:first-child, .facts div:nth-child(2) { border-top: none; }
+            .facts span, .paper li, .prog p, .prog .live, .terms div, .leads span, .principles div, .contact p, table { font-size: 12.5px; }
+            .two, .papers, .who, .terms, .leads { grid-template-columns: 1fr; }
+            .programs, .principles { grid-template-columns: 1fr 1fr; gap: 14px; }
+            table, thead, tbody, tr, td { display: block; }
+            thead { display: none; }
+            tr { padding: 8px 0; border-bottom: 1px solid var(--line); }
+            td { padding: 1px 0; border: none; white-space: normal !important; }
+            .foot { display: none; }
+        }
+
+        /* ── Print / PDF: two US Letter pages ── */
+        @page { size: letter; margin: 0; }
+        @media print {
+            body { background: #fff; }
+            .bar { display: none; }
+            .doc { padding: 0; gap: 0; display: block; }
+            .sheet { width: 8.5in; height: 11in; min-height: 0; box-shadow: none; overflow: hidden; break-after: page; }
+            .sheet:last-child { break-after: auto; }
+            * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bar">
+        <span>Bitcoin Data Labs · Lab brief</span>
+        <div class="actions">
+            <a class="primary" href="bitcoin-data-labs-brief.pdf" download>Download PDF</a>
+            <a href="../">Website</a>
+        </div>
+    </div>
+
+    <main class="doc">
+
+        <!-- ═══ Page 1 · What we are ═══ -->
+        <section class="sheet" aria-label="Page 1">
+            <header class="mast">
+                <img src="../assets/brand/bdl-logo-tight.svg" alt="Bitcoin Data Labs">
+                <div><b>Lab brief</b> · <span class="brief-date">October 2026</span><br>bitcoindatalabs.org</div>
+            </header>
+
+            <div class="intro">
+                <p class="kicker">501(c)(3) non-profit · Open source · Austin, Texas</p>
+                <h1>Bitcoin has no annual report. <span>So we publish one.</span></h1>
+                <p class="lede">Bitcoin Data Labs measures Bitcoin in public. We turn its open record (every commit and
+                    code review, every Lightning channel, every block) into datasets, dashboards, reports and research
+                    papers that anyone can check, on a fixed schedule and with no paywall.</p>
+            </div>
+
+            <div class="facts">
+                <div><b class="num paper-count">2</b><span>research papers on arXiv, October 2026</span></div>
+                <div><b class="num">25+</b><span>automated jobs publishing daily, weekly and monthly</span></div>
+                <div><b class="num">10+</b><span>open datasets in public repositories</span></div>
+                <div><b class="num">17 yrs</b><span>of Bitcoin Core history in one pipeline, since 2009</span></div>
+                <div><b class="num">0</b><span>paywalls, logins or ads</span></div>
+            </div>
+
+            <h2>Why it matters</h2>
+            <div class="two">
+                <div class="prose">
+                    <p>Bitcoin has no company behind it: no CEO, no board, no earnings call. Everything about it is
+                        public, from the code review behind each release to the channels of its Lightning payment
+                        network, but the record is scattered across GitHub, mailing lists, chat logs, network gossip
+                        and the chain itself.</p>
+                    <p>So debates about software clients, centralization and funding run on opinion. We assemble
+                        the numbers once, with published methods, and keep them current for everyone who works on
+                        Bitcoin or reports on it.</p>
+                </div>
+                <ul class="serves">
+                    <li><b>Developers and maintainers:</b> <span>review load, maintainer risk and who contributes to Bitcoin Core.</span></li>
+                    <li><b>Node operators and implementers:</b> <span>which software Lightning runs, and how fast it upgrades.</span></li>
+                    <li><b>Funders:</b> <span>where development effort and grant money go.</span></li>
+                    <li><b>Journalists and researchers:</b> <span>citable numbers with the source, the method and the code.</span></li>
+                </ul>
+            </div>
+
+            <h2>New research · Lightning security</h2>
+            <div class="papers" id="papers">
+                <!-- Rendered from ../scripts/papers.js -->
+            </div>
+
+            <h2>What we run, every day</h2>
+            <div class="programs grow">
+                <div class="prog">
+                    <span class="k">Program 01</span>
+                    <h3>Bitcoin Core, measured</h3>
+                    <p>Who builds Bitcoin Core, who funds it, and whether it is healthy: a tracker, a monthly report,
+                        a weekly digest and a map of 7,790 contributors.</p>
+                    <p class="live"><b class="num"><span data-live="core-merged">144</span></b> PRs merged in <span data-live="core-month">September 2026</span>, <span data-live="core-merged-yoy">+69% YoY</span></p>
+                </div>
+                <div class="prog">
+                    <span class="k">Program 02</span>
+                    <h3>Lightning &amp; layer 2s</h3>
+                    <p>Every public Lightning node ranked and profiled daily since May 2023. L2 Watch audits
+                        sidechains, starting with Liquid.</p>
+                    <p class="live"><b class="num" data-live="ln-nodes">12,536</b> nodes, <b class="num"><span data-live="ln-capacity">3,726</span> BTC</b> public capacity</p>
+                </div>
+                <div class="prog">
+                    <span class="k">Program 03</span>
+                    <h3>Research &amp; forensics</h3>
+                    <p>Papers, and investigations such as the 1,983 BTC swept from weak-RNG addresses in 22 hours.</p>
+                    <p class="live"><b class="paper-count">2</b> papers · <b>160+</b> mining pools profiled</p>
+                </div>
+                <div class="prog">
+                    <span class="k">Program 04</span>
+                    <h3>Learn</h3>
+                    <p>Open books and tools that take a newcomer from first principles to decoding real
+                        transactions.</p>
+                    <p class="live"><b>3</b> open books · <b>5</b> interactive tools</p>
+                </div>
+            </div>
+
+            <footer class="foot"><span>Bitcoin Data Labs · bitcoindatalabs.org</span><span>1 / 2</span></footer>
+        </section>
+
+        <!-- ═══ Page 2 · Working with us ═══ -->
+        <section class="sheet" aria-label="Page 2">
+            <header class="mast small">
+                <img src="../assets/brand/bdl-logo-tight.svg" alt="Bitcoin Data Labs">
+                <div><b>Lab brief</b> · <span class="brief-date">October 2026</span></div>
+            </header>
+
+            <h2>Data you can use</h2>
+            <table>
+                <thead><tr><th>Dataset</th><th>What's in it</th><th>Updated</th></tr></thead>
+                <tbody>
+                    <tr><td><a href="https://github.com/bitcoindatalabs/orange-dev-data">orange-dev-data</a></td><td>Bitcoin Core commits, pull requests, reviews, BIPs, mailing-list and Delving Bitcoin threads, dev meetings, contributor identities</td><td>Weekly, since 2009</td></tr>
+                    <tr><td><a href="https://github.com/bitcoindatalabs/lightning-data">lightning-data</a></td><td>Lightning node ranks and profiles, channels, features, graph exports and weekly snapshots</td><td>Daily</td></tr>
+                    <tr><td><a href="https://github.com/bitcoindatalabs/orange-eco-data">orange-eco-data</a></td><td>955 Bitcoin open-source repositories and the 55,000+ developers behind them</td><td>Periodic</td></tr>
+                    <tr><td><a href="https://github.com/bitcoindatalabs/bdl-report-assets">bdl-report-assets</a></td><td>Every published report slide and PDF, at a stable public URL</td><td>Every report</td></tr>
+                    <tr><td>Paper repositories</td><td>The aggregate data and code behind every figure and number in our papers</td><td>Each version</td></tr>
+                </tbody>
+            </table>
+            <div class="terms">
+                <div><b>Free to reuse</b>Datasets and report charts are CC BY 4.0: use them, including commercially, with credit.</div>
+                <div><b>Credit line</b>"Source: Bitcoin Data Labs" with a link to bitcoindatalabs.org or the dataset.</div>
+                <div><b>Custom cuts</b>Need a number we don't publish? Ask, and we'll send it with the method behind it.</div>
+            </div>
+
+            <h2>Stories the data can support</h2>
+            <ol class="leads">
+                <li><div><b>Is Bitcoin Core development speeding up?</b><span>Monthly merges, review health and new contributors.</span></div></li>
+                <li><div><b>Who pays Bitcoin's developers, and for what?</b><span>Funders, grantees and the projects they support.</span></div></li>
+                <li><div><b>Does Lightning depend on one piece of software?</b><span>Paper 01: what the 2026 Core Lightning shutdown showed.</span></div></li>
+                <li><div><b>Do node operators patch after an advisory?</b><span>Paper 02: the release line of every public node, 2023–2026.</span></div></li>
+                <li><div><b>How concentrated is Bitcoin mining?</b><span>Every block since genesis attributed to its pool.</span></div></li>
+                <li><div><b>What happens when wallet randomness is weak?</b><span>1,983 BTC swept from 4,925 addresses in 22 hours.</span></div></li>
+            </ol>
+
+            <h2>How we work</h2>
+            <div class="principles">
+                <div><b>Open by default</b>Open-source code, public data, no paywall or login.</div>
+                <div><b>Reproducible</b>Every number traces to a public pipeline and a documented method.</div>
+                <div><b>Honest about gaps</b>Missing data shows as "unavailable", never as a guess.</div>
+                <div><b>Responsible</b>Security results are published as totals; we never list vulnerable nodes.</div>
+                <div><b>Independent</b>No token, no sides. We report what the record shows.</div>
+            </div>
+
+            <h2>Where we're going</h2>
+            <div class="vision">
+                <p>Our aim is a public annual report for Bitcoin: the same measured, reproducible record for every major
+                    implementation, every second layer and the chain itself, kept current and free to use.</p>
+                <ul>
+                    <li><b>Research.</b> Next in the series: what a force close costs, and how channels migrate if legacy signatures retire.</li>
+                    <li><b>Coverage.</b> More implementations and Lightning clients, and more layers after Liquid.</li>
+                    <li><b>Reach.</b> Every paper paired with a plain-language write-up for the people who run the software.</li>
+                </ul>
+            </div>
+
+            <h2>Who we are</h2>
+            <div class="who grow">
+                <div>
+                    <p><b>Saurabh Kumar, founder.</b> 15+ years leading data, analytics and experimentation: product
+                        optimization at PayPal, Head of Experimentation at realtor.com (News Corp), credit risk at HSBC.
+                        In Bitcoin since 2017. Author of the papers above and two open books; speaker at TABConf 2026.</p>
+                    <p class="muted">A 501(c)(3) non-profit in Austin, Texas. Community partner: PlebLab. Code and data:
+                        github.com/bitcoindatalabs.</p>
+                </div>
+                <div class="contact">
+                    <p class="kicker">Interviews, data and partnerships</p>
+                    <b>Saurabh Kumar</b>
+                    <p><a href="mailto:sorukumar@bitcoindatalabs.org">sorukumar@bitcoindatalabs.org</a><br>
+                        <a href="https://x.com/sorukumar">x.com/sorukumar</a> · <a href="https://www.linkedin.com/in/sorukumar/">linkedin.com/in/sorukumar</a></p>
+                    <p><a href="https://bitcoindatalabs.org/">bitcoindatalabs.org</a> · <a href="https://x.com/Bitcoindatalabs">@Bitcoindatalabs</a> · <a href="https://bitcoindatalabs.org/research.html">research</a></p>
+                </div>
+            </div>
+
+            <footer class="foot"><span>Data and charts CC BY 4.0 · Live numbers as of <span class="brief-asof">October 2026</span></span><span>2 / 2</span></footer>
+        </section>
+    </main>
+
+    <script src="../scripts/papers.js?v=20261023"></script>
+    <script src="../scripts/site.js?v=20261023"></script>
+    <script>
+        (function () {
+            const papers = window.BDL_PAPERS || [];
+            const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+            document.querySelectorAll('.paper-count').forEach(el => { el.textContent = papers.length; });
+            document.getElementById('papers').innerHTML = papers.map(p => `
+                <article class="paper">
+                    <div class="meta"><span>Paper ${esc(p.num)} · ${esc(p.question)}</span><a href="https://arxiv.org/abs/${esc(p.arxiv)}">arXiv:${esc(p.arxiv)}</a></div>
+                    <h3>${esc(p.title)}</h3>
+                    <p class="finding">${esc(p.finding)}</p>
+                    <ul>${p.stats.map(x => `<li><b class="num">${esc(x.value)}</b><span>${esc(x.label)}</span></li>`).join('')}</ul>
+                </article>`).join('');
+
+            // Date line = the day the page (or the PDF) was rendered.
+            const now = new Date();
+            const month = now.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+            const day = now.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+            document.querySelectorAll('.brief-date').forEach(el => { el.textContent = month; });
+            document.querySelectorAll('.brief-asof').forEach(el => { el.textContent = day; });
+        })();
+    </script>
+</body>
+
+</html>

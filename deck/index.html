@@ -86,17 +86,30 @@
         .pillars span { display: block; margin-top: 6px; font-size: 22px; line-height: 1.45; color: var(--bdl-ink-text); }
 
         /* 3 — what we built */
-        .programs { display: grid; grid-template-columns: 1.25fr 1fr 1fr; gap: 30px; margin-top: 30px; flex: 1; min-height: 0; }
+        .programs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 26px; margin-top: 30px; flex: 1; min-height: 0; }
         .prog { display: flex; flex-direction: column; padding: 0; overflow: hidden; }
-        .prog .shot { height: 270px; flex-shrink: 0; overflow: hidden; border-bottom: 1px solid var(--bdl-ink-line); background: #0D0F14; }
+        .prog .shot { height: 200px; flex-shrink: 0; overflow: hidden; border-bottom: 1px solid var(--bdl-ink-line); background: #0D0F14; }
         .prog .shot img { width: 100%; height: 100%; object-fit: cover; object-position: top center; display: block; }
-        .prog .body { padding: 26px 32px 30px; display: flex; flex-direction: column; gap: 10px; }
-        .prog .body h3 { margin: 0; }
+        .prog .body { padding: 24px 28px 28px; display: flex; flex-direction: column; gap: 10px; }
+        .prog .body h3 { margin: 0; font-size: 30px; }
+        .prog .body p { font-size: 21px; }
         .prog .body .k { margin-bottom: 4px; }
         .prog ul { margin: 6px 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 10px; }
-        .prog li { font-size: 18px; font-weight: 600; padding: 6px 13px; border-radius: 6px; background: rgba(253, 246, 227, 0.06); color: var(--bdl-ink-text); }
+        .prog li { font-size: 16px; font-weight: 600; padding: 6px 13px; border-radius: 6px; background: rgba(253, 246, 227, 0.06); color: var(--bdl-ink-text); }
 
-        /* 4 — proof */
+        /* 4 — research */
+        .papers { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; margin-top: 36px; flex: 1; min-height: 0; }
+        .paper { display: flex; flex-direction: column; padding: 0; overflow: hidden; }
+        .paper .cover { height: 180px; flex-shrink: 0; overflow: hidden; background: #fff; border-bottom: 1px solid var(--bdl-ink-line); }
+        .paper .cover img { width: 100%; height: auto; display: block; }
+        .paper .body { padding: 28px 36px 30px; display: flex; flex-direction: column; gap: 14px; }
+        .paper .body h3 { margin: 0; font-size: 36px; line-height: 1.15; }
+        .paper .finding { font-size: 25px !important; line-height: 1.45 !important; color: var(--bdl-ink-text) !important; font-weight: 600; }
+        .paper .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 6px; border-top: 1px solid var(--bdl-ink-line); padding-top: 18px; }
+        .paper .stats b { display: block; font-size: 44px; font-weight: 800; letter-spacing: -0.02em; color: var(--primary); line-height: 1.05; }
+        .paper .stats span { display: block; margin-top: 6px; font-size: 17px; line-height: 1.4; color: var(--bdl-ink-muted); }
+
+        /* 5 — proof */
         .proof { display: grid; grid-template-columns: 1fr 820px; gap: 50px; margin-top: 30px; flex: 1; min-height: 0; }
         .nums { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 1px solid var(--bdl-ink-line); border-radius: 18px; overflow: hidden; align-self: start; }
         .n { padding: 24px 32px; border-right: 1px solid var(--bdl-ink-line); border-bottom: 1px solid var(--bdl-ink-line); }
@@ -111,7 +124,7 @@
         .cadence-row div { border: 1px solid var(--bdl-ink-line); border-radius: 12px; padding: 16px 18px; font-size: 18px; line-height: 1.45; color: var(--bdl-ink-muted); }
         .cadence-row b { display: block; font-size: 22px; color: var(--bdl-ink-text); margin-bottom: 4px; }
 
-        /* 5 — how we work + ask */
+        /* 6 — how we work + ask */
         .ask { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 50px; }
         .principles-big { list-style: none; margin: 0; padding: 0; display: grid; gap: 26px; }
         .principles-big li { display: grid; grid-template-columns: 56px 1fr; gap: 10px; font-size: 24px; line-height: 1.45; color: var(--bdl-ink-muted); }
@@ -187,13 +200,13 @@
                     <div><b>Accountability</b><span>Show where development effort and funding actually go.</span></div>
                     <div><b>Foresight</b><span>Spot shifts in code, clients and capital before they become debates.</span></div>
                 </div>
-                <div class="s-foot"><img src="../assets/brand/bdl-logo-tight.svg" alt=""><span>2 / 5</span></div>
+                <div class="s-foot"><img src="../assets/brand/bdl-logo-tight.svg" alt=""><span>2 / 6</span></div>
             </section>
 
             <!-- 3 · What we built -->
             <section class="slide" aria-label="Slide 3">
                 <p class="s-eyebrow">What we've built</p>
-                <h2 class="s-title" style="font-size: 72px;">Three programs, one open pipeline.</h2>
+                <h2 class="s-title" style="font-size: 72px;">Four programs, one open pipeline.</h2>
                 <div class="programs">
                     <div class="card prog">
                         <div class="shot"><img src="../screenshots/live/tracker.jpg" alt="Orange Dev Tracker"></div>
@@ -207,7 +220,7 @@
                     <div class="card prog">
                         <div class="shot"><img src="../screenshots/live/lightning.jpg" alt="Lightning Dashboard"></div>
                         <div class="body">
-                            <span class="k">Program 02 · Lightning &amp; L2s</span>
+                            <span class="k">Program 02 · Lightning</span>
                             <h3>Second layers, measured</h3>
                             <p>Daily Lightning intelligence since 2023, and sidechain audits starting with Liquid.</p>
                             <ul><li>Lightning Dashboard</li><li>LN Graph Viz</li><li>L2 Watch</li></ul>
@@ -217,17 +230,34 @@
                         <div class="shot"><img src="../screenshots/live/coldcard.jpg" alt="Coldcard RNG investigation"></div>
                         <div class="body">
                             <span class="k">Program 03 · Research</span>
-                            <h3>Forensics &amp; research</h3>
-                            <p>One question answered rigorously, with the methodology published next to it.</p>
-                            <ul><li>Coldcard RNG sweep</li><li>Mining pools</li><li>Deep Dives</li><li>Open books</li></ul>
+                            <h3>Research &amp; forensics</h3>
+                            <p>One question answered rigorously, with the code and method published next to it.</p>
+                            <ul><li>Papers on arXiv</li><li>Coldcard RNG sweep</li><li>Mining pools</li><li>Deep Dives</li></ul>
+                        </div>
+                    </div>
+                    <div class="card prog">
+                        <div class="shot"><img src="../screenshots/live/bitcoin-express.jpg" alt="The Bitcoin Express open book"></div>
+                        <div class="body">
+                            <span class="k">Program 04 · Learn</span>
+                            <h3>Open books &amp; tools</h3>
+                            <p>From first principles to decoding real transactions, free and in the open.</p>
+                            <ul><li>Bitcoin Express</li><li>Cryptography Express</li><li>No-BS Lightning Analytics</li><li>Simulators</li></ul>
                         </div>
                     </div>
                 </div>
-                <div class="s-foot"><img src="../assets/brand/bdl-logo-tight.svg" alt=""><span>3 / 5</span></div>
+                <div class="s-foot"><img src="../assets/brand/bdl-logo-tight.svg" alt=""><span>3 / 6</span></div>
             </section>
 
-            <!-- 4 · Proof -->
+            <!-- 4 · Research -->
             <section class="slide" aria-label="Slide 4">
+                <p class="s-eyebrow">New research · Lightning security</p>
+                <h2 class="s-title" style="font-size: 72px;">Two papers on arXiv, October 2026.</h2>
+                <div class="papers" id="deck-papers"><!-- Rendered from ../scripts/papers.js --></div>
+                <div class="s-foot"><img src="../assets/brand/bdl-logo-tight.svg" alt=""><span>Code and data for every number: github.com/bitcoindatalabs · 4 / 6</span></div>
+            </section>
+
+            <!-- 5 · Proof -->
+            <section class="slide" aria-label="Slide 5">
                 <p class="s-eyebrow">Proof, live from our pipelines</p>
                 <h2 class="s-title" style="font-size: 72px;">Already running, every day.</h2>
                 <div class="proof">
@@ -252,11 +282,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="s-foot"><img src="../assets/brand/bdl-logo-tight.svg" alt=""><span>Posted to X, LinkedIn and Nostr · 4 / 5</span></div>
+                <div class="s-foot"><img src="../assets/brand/bdl-logo-tight.svg" alt=""><span>Posted to X, LinkedIn and Nostr · 5 / 6</span></div>
             </section>
 
-            <!-- 5 · How we work + ask -->
-            <section class="slide" aria-label="Slide 5">
+            <!-- 6 · How we work + ask -->
+            <section class="slide" aria-label="Slide 6">
                 <p class="s-eyebrow">How we work · How you can help</p>
                 <h2 class="s-title" style="font-size: 72px;">Keep Bitcoin's public record free.</h2>
                 <div class="ask">
@@ -271,13 +301,13 @@
                         <ol>
                             <li>Keep the record running<span>Infrastructure and the engineering behind every scheduled report.</span></li>
                             <li>Measure more of Bitcoin<span>More implementations, more Lightning clients, more layers.</span></li>
-                            <li>Research &amp; contributors<span>Deep dives, papers, and mentoring the people who build with us.</span></li>
+                            <li>Research &amp; contributors<span>The next papers in the series, deep dives, and mentoring the people who build with us.</span></li>
                         </ol>
                         <div class="contact">contact@bitcoindatalabs.org</div>
                         <div class="contact-sub">bitcoindatalabs.org/support.html · @Bitcoindatalabs</div>
                     </div>
                 </div>
-                <div class="s-foot"><img src="../assets/brand/bdl-logo-tight.svg" alt=""><span>Non-profit · Austin, TX · 5 / 5</span></div>
+                <div class="s-foot"><img src="../assets/brand/bdl-logo-tight.svg" alt=""><span>501(c)(3) non-profit · Austin, TX · 6 / 6</span></div>
             </section>
 
         </div>
@@ -286,13 +316,26 @@
     <div class="progress" id="progress"></div>
     <div class="hud" aria-label="Slide controls">
         <button type="button" id="prev" aria-label="Previous slide"><i class="fas fa-chevron-left"></i></button>
-        <span id="counter">1 / 5</span>
+        <span id="counter">1 / 6</span>
         <button type="button" id="next" aria-label="Next slide"><i class="fas fa-chevron-right"></i></button>
         <button type="button" id="fs" aria-label="Full screen"><i class="fas fa-expand"></i></button>
     </div>
 
-    <script src="../scripts/site.js"></script>
+    <script src="../scripts/papers.js?v=20261023"></script>
+    <script src="../scripts/site.js?v=20261023"></script>
     <script>
+        (function () {
+            const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+            document.getElementById('deck-papers').innerHTML = (window.BDL_PAPERS || []).map(p => `
+                <div class="card paper">
+                    <div class="cover"><img src="../${esc(p.cover)}" alt="First page of ${esc(p.title)}"></div>
+                    <div class="body">
+                        <span class="k">Paper ${esc(p.num)} · ${esc(p.question)} · arXiv:${esc(p.arxiv)}</span>
+                        <p class="finding">${esc(p.finding)}</p>
+                        <div class="stats">${p.stats.map(x => `<div><b>${esc(x.value)}</b><span>${esc(x.label)}</span></div>`).join('')}</div>
+                    </div>
+                </div>`).join('');
+        })();
         (function () {
             const stage = document.getElementById('stage');
             const slides = [...document.querySelectorAll('.slide')];
